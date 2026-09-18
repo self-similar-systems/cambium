@@ -25,17 +25,20 @@
   },
   "home": {
     "changed_scope": [
-      "Display now exposes current global occupied rectangles and conservative edge insets through one specimen-agnostic safe-area contract",
-      "the contract is available to every site-holon as neutral render-context data, CSS variables, and generic safe anchors",
-      "global route/status/site-state presentation is consolidated into one Display-owned status rail rather than independent overlapping text surfaces",
-      "Display site-holon RITUAL advanced to v2.3 with the reusable safe-area invariant",
-      "the cooked safe-area nutrient is fully assimilated and retired from Display _stomach",
-      "no Display INDEX/_cambium change; no site identity-specific branching; no Papers-local semantic or renderer mutation"
+      "site-holon manifestation now derives background_drag=true when absent",
+      "background_drag is independent of background_inspect",
+      "shared Display field uses background_drag for global orientation drag while inspection remains separately gated",
+      "custom site renderers receive the same generic backgroundDrag boolean",
+      "Philosophy no longer owns a local CSS drag special-case",
+      "Papers custom recursive renderer now obeys the same backgroundDrag contract for global-field drag while retaining local inquiry-body drag",
+      "Crawlerbait is explicitly background_drag=true for direct experiential testing",
+      "Display organism/site-holon/navigation RITUALS advanced to 3.3 / 2.4 / 2.2",
+      "no Display INDEX/_cambium change and no host-level semantic change"
     ],
     "delivery_state": "HOME_DURABLE_FEED_ASYNC",
-    "outcome": "PASS/EARNED · SPECIMEN-AGNOSTIC GLOBAL OCCUPIED-REGION / SAFE-AREA CONTRACT CLOSED"
+    "outcome": "PASS/EARNED · BACKGROUND DRAG IS DEFAULT-TRUE DISPLAY INVARIANT WITH LOCAL FALSE OPT-OUT"
   },
-  "observed_at_utc": "2026-09-18T21:53:50.146931Z",
+  "observed_at_utc": "2026-09-18T22:24:30.909266Z",
   "owner": "display",
   "phenotype": {
     "w": {
@@ -51,19 +54,19 @@
       "noun": "Orientation"
     }
   },
-  "reflected_home_event": "display-global-safe-area-contract-20260918T215315Z",
+  "reflected_home_event": "display-global-background-drag-default-20260918T223105Z",
   "rituals": [
     {
       "path": "RITUALS/navigation/RITUAL.md",
-      "sha256": "525c350c9ce1e55a3247c0ce5501f902be37422cff03f1560bc709e79613af04"
+      "sha256": "4b60038bf8bc9aa59dc47e648cc92481f6207ae04a45cd7cbf9f8781d68baf02"
     },
     {
       "path": "RITUALS/organism/RITUAL.md",
-      "sha256": "699f9978af62090d87be2cdd2f50ea1b59929284eac409323f3e00e7f9dc96a2"
+      "sha256": "7ee94d43d98db63d01dd6ea8dcfd5339b1bba8f2abdfcc6f7a84eb1fb643754c"
     },
     {
       "path": "RITUALS/site-holon/RITUAL.md",
-      "sha256": "2a0acb06e88d25bdda76b8dd659cdb8ab21f8e3911efab83be3adda8688775d2"
+      "sha256": "89b0abe28b7f9af6e2d406aca3d9e5d9859316365359137ba3a2bff91aac9372"
     }
   ],
   "shell": {
@@ -77,10 +80,10 @@
       "navigation-aperture-browser-witness-20260915.md",
       "observations.md"
     ],
-    "waste_direct_count": 5
+    "waste_direct_count": 6
   },
   "substrate_witness": {
     "kind": "git",
-    "source_revision": "77c7f84463c09c6b38c66ba55e073fea228ac41b"
+    "source_revision": "5342f6d30392a356376be05838dac1862dcdc470"
   }
 }
