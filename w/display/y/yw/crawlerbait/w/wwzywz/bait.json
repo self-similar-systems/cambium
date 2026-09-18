@@ -1,0 +1,21 @@
+{
+  "bait_address": "wzywz",
+  "crawlers": [
+    {
+      "events": 2,
+      "id": "1a3e38f4a76b50490c8ff869"
+    },
+    {
+      "events": 1,
+      "id": "1878998d39fb79ed8be6b8e9"
+    }
+  ],
+  "first_seen": "2026-09-15T22:09:07Z",
+  "id": "2c897236c88b33a0e029",
+  "last_seen": "2026-09-18T14:35:01Z",
+  "legacy_404_observations": 3,
+  "observed_path": "/credentials.json",
+  "public_href": "/crawlerbait/bait/credentials.json/",
+  "raw_requests": 3,
+  "version": 2
+}

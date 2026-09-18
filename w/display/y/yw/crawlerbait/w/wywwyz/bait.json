@@ -1,0 +1,37 @@
+{
+  "bait_address": "ywwyz",
+  "crawlers": [
+    {
+      "events": 2,
+      "id": "5c16e615f6f6cc9dd13529a9"
+    },
+    {
+      "events": 1,
+      "id": "1cb4437f879d518257425c9f"
+    },
+    {
+      "events": 1,
+      "id": "6ee372e89254cf90f7d9bb0e"
+    },
+    {
+      "events": 1,
+      "id": "c1e229fb584a1c0928e2471d"
+    },
+    {
+      "events": 1,
+      "id": "c9e2c463deab079492838534"
+    },
+    {
+      "events": 1,
+      "id": "e4f882c95d5cc8029458e5c0"
+    }
+  ],
+  "first_seen": "2026-09-13T22:09:07Z",
+  "id": "c3b315a75abb1facc4aa",
+  "last_seen": "2026-09-17T21:58:07Z",
+  "legacy_404_observations": 12,
+  "observed_path": "/wp/wp-includes/wlwmanifest.xml",
+  "public_href": "/crawlerbait/bait/wp/wp-includes/wlwmanifest.xml/",
+  "raw_requests": 7,
+  "version": 2
+}

@@ -1,0 +1,17 @@
+{
+  "bait_address": "xwzzxzz",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "0d0cb5f6916abec3f1d1eb1b"
+    }
+  ],
+  "first_seen": "2026-09-17T21:58:07Z",
+  "id": "4a69ef195f4af9d4cffe",
+  "last_seen": "2026-09-18T04:40:48Z",
+  "legacy_404_observations": 6,
+  "observed_path": "/appsettings.Test.json",
+  "public_href": "/crawlerbait/bait/appsettings.Test.json/",
+  "raw_requests": 1,
+  "version": 2
+}

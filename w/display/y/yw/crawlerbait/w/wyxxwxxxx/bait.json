@@ -1,0 +1,17 @@
+{
+  "bait_address": "yxxwxxxx",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "e019286b412c9a77014debaf"
+    }
+  ],
+  "first_seen": "2026-09-18T04:40:48Z",
+  "id": "d4556f7a2795019d1e60",
+  "last_seen": "2026-09-18T11:13:56Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/.docker/config.json",
+  "public_href": "/crawlerbait/receipt/d4556f7a2795019d1e60/",
+  "raw_requests": 1,
+  "version": 2
+}

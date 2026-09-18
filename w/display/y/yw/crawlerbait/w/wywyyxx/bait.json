@@ -1,0 +1,21 @@
+{
+  "bait_address": "ywyyxx",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "854319a811e948eb6526304a"
+    },
+    {
+      "events": 1,
+      "id": "86aff9f491f46896f57e08b1"
+    }
+  ],
+  "first_seen": "2026-09-15T13:38:21Z",
+  "id": "cf5f67b633918a8bfbe3",
+  "last_seen": "2026-09-16T22:09:07Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/.env~",
+  "public_href": "/crawlerbait/receipt/cf5f67b633918a8bfbe3/",
+  "raw_requests": 2,
+  "version": 2
+}

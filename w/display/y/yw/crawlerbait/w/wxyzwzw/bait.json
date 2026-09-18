@@ -1,0 +1,21 @@
+{
+  "bait_address": "xyzwzw",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "1a3e38f4a76b50490c8ff869"
+    },
+    {
+      "events": 1,
+      "id": "f4e6f9376e16550bf32aaa47"
+    }
+  ],
+  "first_seen": "2026-09-18T04:40:48Z",
+  "id": "7888bea0c0d79fc58446",
+  "last_seen": "2026-09-18T14:34:41Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/.prisma/schema.prisma",
+  "public_href": "/crawlerbait/receipt/7888bea0c0d79fc58446/",
+  "raw_requests": 2,
+  "version": 2
+}

@@ -1,0 +1,21 @@
+{
+  "bait_address": "xwywyw",
+  "crawlers": [
+    {
+      "events": 2,
+      "id": "86aff9f491f46896f57e08b1"
+    },
+    {
+      "events": 1,
+      "id": "9caebc8cb7405cb1b57a7cc4"
+    }
+  ],
+  "first_seen": "2026-09-14T22:09:07Z",
+  "id": "4cc1bb080a3d1dd43db6",
+  "last_seen": "2026-09-18T08:07:22Z",
+  "legacy_404_observations": 2,
+  "observed_path": "/_profiler/phpinfo",
+  "public_href": "/crawlerbait/bait/_profiler/phpinfo/",
+  "raw_requests": 3,
+  "version": 2
+}

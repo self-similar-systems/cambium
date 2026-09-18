@@ -1,0 +1,25 @@
+{
+  "bait_address": "yyzwzw",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "4334098c576d39dad9f41ca1"
+    },
+    {
+      "events": 1,
+      "id": "ed67b4e52ea0a45bb9223d4e"
+    },
+    {
+      "events": 1,
+      "id": "f4e19f99714bc3f6185650e9"
+    }
+  ],
+  "first_seen": "2026-09-15T22:09:07Z",
+  "id": "f88fb562815b4e6012c7",
+  "last_seen": "2026-09-17T21:58:07Z",
+  "legacy_404_observations": 14,
+  "observed_path": "/gcp-credentials.json",
+  "public_href": "/crawlerbait/bait/gcp-credentials.json/",
+  "raw_requests": 3,
+  "version": 2
+}

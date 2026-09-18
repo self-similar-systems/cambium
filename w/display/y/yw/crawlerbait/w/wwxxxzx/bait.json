@@ -1,0 +1,17 @@
+{
+  "bait_address": "wxxxzx",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "f14e75e42309aafb16152c79"
+    }
+  ],
+  "first_seen": "2026-09-15T22:09:07Z",
+  "id": "159468828cf8cc39637c",
+  "last_seen": "2026-09-16T22:09:07Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/service_account.json",
+  "public_href": "/crawlerbait/bait/service_account.json/",
+  "raw_requests": 1,
+  "version": 2
+}

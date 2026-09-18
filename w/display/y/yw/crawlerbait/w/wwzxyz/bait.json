@@ -1,0 +1,17 @@
+{
+  "bait_address": "wzxyz",
+  "crawlers": [
+    {
+      "events": 2,
+      "id": "99d294c85a4ae63e4304c41b"
+    }
+  ],
+  "first_seen": "2026-09-15T22:09:07Z",
+  "id": "27bd2a8fcee6a3052135",
+  "last_seen": "2026-09-16T22:09:07Z",
+  "legacy_404_observations": 2,
+  "observed_path": "/js/env.js",
+  "public_href": "/crawlerbait/bait/js/env.js/",
+  "raw_requests": 2,
+  "version": 2
+}
