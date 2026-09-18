@@ -22,5 +22,8 @@ Local opt-out:
 - disabling background drag must not disable global navigator orientation controls or remap site identity/address;
 - central runtime must not branch on named site identities.
 
+## current test choice
+User explicitly wants Crawlerbait locally set to `background_drag = true` for direct experiential testing. Crawlerbait is therefore not used as the opt-out specimen in this pass; explicit-false behavior is witnessed structurally/unit-wise without sacrificing the user's requested live test.
+
 ## exit condition
-The generated Display membrane gives any site-holon background drag by default without requiring local enabling code, while a site-local explicit false disables only that site's background-drag interaction. The contract is structurally tested and browser-witnessed for default-true and explicit-false cases, then closes through Display HOME/_feed.
+The generated Display membrane gives any site-holon background drag by default without requiring local enabling code, while a site-local explicit false disables only that site's background-drag interaction. Default-true is browser-witnessed on current site-holons including Crawlerbait; explicit-false is structurally/unit-witnessed as the available local opt-out. Then the act closes through Display HOME/_feed.
