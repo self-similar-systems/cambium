@@ -177,7 +177,7 @@ void main(){
   if(r>1.0)discard;
   float halo=pow(max(0.0,1.0-r),2.15);
   float core=exp(-12.0*r*r);
-  float body=smoothstep(1.0,.16,r);
+  float body=1.0-smoothstep(.16,1.0,r);
   vec3 warm=vec3(1.0,.93,.72);
   vec3 c=mix(vColor.rgb,warm,core*.58);
   float a=vColor.a*(.18*halo+.78*core+.20*body);
@@ -246,9 +246,9 @@ function childBodies(current){
 }
 function metabolight(id,center,px,entity,selected=false){
   const rank=rankNumber(entity?.rank),source=entity?.kind==='source',wisdom=Boolean(entity?.publicWisdom),pal=PALETTE[entity?.gene]||PALETTE.x;
-  const target=source?[.80,1.0,.90]:[1.0,.86,.55],blend=source?.50:(wisdom?.60:.40),c=mix3(pal,target,blend);
-  const size=source?clamp(4+px*.15,4,9):clamp(10+rank*6+Math.sqrt(Math.max(px,0))*1.1+(wisdom?4:0)+(selected?5:0),10,62);
-  const alpha=source?.22:clamp(.30+rank*.075+(wisdom?.12:0)+(selected?.12:0),.30,.94);
+  const target=source?[.80,1.0,.90]:[1.0,.86,.55],blend=source ? .50 : (wisdom ? .60 : .40),c=mix3(pal,target,blend);
+  const size=source?clamp(4+px*.15,4,9):clamp(10+rank*6+Math.sqrt(Math.max(px,0))*1.1+(wisdom ? 4 : 0)+(selected ? 5 : 0),10,62);
+  const alpha=source ? .22 : clamp(.30+rank*.075+(wisdom ? .12 : 0)+(selected ? .12 : 0),.30,.94);
   return {id,center,size,color:[...c,alpha],phase:random01(id,'metabolight')*Math.PI*2,kind:source?'quantum':'metabolight',rank};
 }
 function collectBody(id,center,scale,cameraZ,height,leaves,lights,depth=0){
@@ -267,7 +267,7 @@ function populationInstances(fade=1){
   const out=[];for(const rec of state.records){if(rec.id===state.current?.id)continue;const p=PALETTE[rec.gene]||PALETTE.x;out.push({center:rec.world,scale:NODE_SCALE,color:[p[0],p[1],p[2],(.12+(rec.kind==='holon'?.055:0))*fade]})}return out;
 }
 function populationLights(fade=1){
-  const out=[];for(const rec of state.records){if(rec.id===state.current?.id)continue;const rank=rankNumber(rec.rank),pal=PALETTE[rec.gene]||PALETTE.x,target=rec.kind==='source'?[.80,1,.90]:[1,.86,.55],c=mix3(pal,target,rec.publicWisdom?.55:.34);out.push({center:rec.world,size:(rec.kind==='source'?3.2:4.4+rank*.7),color:[...c,(rec.kind==='source'?.10:.12+rank*.018+(rec.publicWisdom?.05:0))*fade],phase:random01(rec.id,'fieldlight')*Math.PI*2})}return out;
+  const out=[];for(const rec of state.records){if(rec.id===state.current?.id)continue;const rank=rankNumber(rec.rank),pal=PALETTE[rec.gene]||PALETTE.x,target=rec.kind==='source'?[.80,1,.90]:[1,.86,.55],c=mix3(pal,target,rec.publicWisdom ? .55 : .34);out.push({center:rec.world,size:(rec.kind==='source'?3.2:4.4+rank*.7),color:[...c,(rec.kind==='source' ? .10 : .12+rank*.018+(rec.publicWisdom ? .05 : 0))*fade],phase:random01(rec.id,'fieldlight')*Math.PI*2})}return out;
 }
 
 function setLabel(id){const d=state.identities.get(id);state.label.textContent=`${id} · ${d?.title||id}`;state.label.classList.add('show')}
