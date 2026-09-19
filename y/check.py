@@ -74,6 +74,8 @@ def main():
     check((crawler/'x'/'cursor.json').is_file(),'Crawlerbait capture cursor missing')
     check((crawler/'x'/'captures'/'manifest.json').is_file(),'Crawlerbait capture manifest missing')
     check((crawler/'z'/'policy.json').is_file(),'Crawlerbait membrane policy missing')
+    crawler_style=(crawler/'z'/'style.css').read_text(encoding='utf-8')
+    check('var(--display-safe-top)' in crawler_style,'Crawlerbait local panel does not consume Display safe-area contract')
     policy=json.loads((crawler/'z'/'policy.json').read_text(encoding='utf-8'))
     ip_identity=policy.get('client_ip_identity') or {}
     check(
