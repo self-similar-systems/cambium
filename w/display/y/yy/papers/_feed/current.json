@@ -1,54 +1,40 @@
 {
-  "schema": "display.papers.feed.v1",
-  "organism": "organism:papers",
-  "title": "Papers",
-  "local_scope": "papers",
-  "current_home_event": "display-papers-luminous-metabolight-20260919T022610Z",
-  "reflected_home_event": "display-papers-luminous-metabolight-20260919T022610Z",
-  "home_path": "w/display/y/yy/papers/_root/display-papers-luminous-metabolight-20260919T022610Z.json",
-  "projected_at": "2026-09-19T02:27:43Z",
-  "current_contract": {
-    "geometric_species": "canonical tetrahedral",
-    "source_S": {
-      "body": "internal metabolized source-body 4V / 6E / 4F / 1T",
-      "papers_parents": 0,
-      "point_role": "encounter / LOD proxy only",
-      "provenance": "outward authorship/origin handoff; never a morphology switch"
-    },
-    "holon_nH": {
-      "body": "same canonical tetrahedral species",
-      "direct_papers_parents": 4,
-      "point_role": "encounter / LOD proxy only",
-      "ancestry": "recursive Papers organism lineage"
-    },
-    "selection": "reveals already-earned admitted structure rather than changing body-kind"
+  "boundary": "LOCAL_BODY_ONLY",
+  "constitution": null,
+  "home": {
+    "changed_scope": [
+      "The active Holon's already-public wisdom payload at holon_meta[3] is readable at that Holon's projected central metabolight rather than in a detached metadata panel.",
+      "Selection/scale reveals admitted public wisdom only; it does not create or paraphrase semantic content.",
+      "A Holon without public wisdom renders zero wisdom lines while retaining its normal metabolight and recursive body.",
+      "Text layout is Papers-local: pinned @chenglou/pretext 0.0.9 (MIT) measures/breaks lines; a transparent Papers-local Canvas2D ink plane renders them.",
+      "Pretext receives only text/font/available line geometry; Papers retains authority over identity, truth, rank, navigation, light position and visibility.",
+      "The text exclusion field is centered on the same projected central metabolight and remains attached through body rotation and viewport resize.",
+      "Papers local ritual advanced to v1.4 with the native relation truth → metabolight anchor → spatial layout → readable ink.",
+      "No Display runtime, global geometry/orientation law, Papers genealogy, S-quantum scale, source authority or projection schema changed."
+    ],
+    "delivery_state": "HOME_DURABLE_FEED_ASYNC",
+    "outcome": "PASS/EARNED · ACTIVE METABOLIGHT WISDOM TEXT V1"
   },
-  "current_phenomenology": {
-    "scale": {
-      "minimum_papers_organism_quantum": "S.*",
-      "s_quantum_scale": 0.0045,
-      "holon_linear_scale": "S_QUANTUM_SCALE × 2^rank",
-      "complete_s_quantum_count": "4^rank"
-    },
-    "metabolight": {
-      "holon_center": "recursive center void",
-      "baseline": "rank/selection-driven luminous condensation",
-      "nested": "lower-rank Holons retain their own metabolights when LOD reveals them",
-      "source_ground": "visible S.* emits faint quantum ember",
-      "admitted_public_wisdom": "may boost luminosity when actually present",
-      "missing_wisdom": "projection absence only; never interpreted as zero metabolic yield"
+  "observed_at_utc": "2026-09-19T11:54:28.561753Z",
+  "owner": "organism:papers",
+  "phenotype": null,
+  "reflected_home_event": "display-papers-metabolight-text-20260919T115336Z",
+  "rituals": [
+    {
+      "path": "RITUALS/organism/RITUAL.md",
+      "sha256": "90d3c1e27c9020ce59ee4e279709219f7f8e9a3111c9603163dafb2b3153d07a"
     }
-  },
-  "current_projection_debt": [
-    "The admitted public shadow currently exposes source attribution/metabolism metadata but not a complete public internal S.* inquiry body for every Source.",
-    "That absence is projection debt only; it no longer licenses treating S.* as a terminal non-tetrahedral UI species."
   ],
-  "intake_state": {
+  "shell": {
+    "feed": "_feed/current.json",
+    "root_history": "_root",
     "stomach_direct": [
       "NUTRIENT__event-driven-public-shadow-circulation__20260918.md"
     ],
-    "note": "Cooked event-driven public-shadow circulation pressure is admitted and remains unresolved."
+    "waste_direct_count": 11
   },
-  "structural_growth": false,
-  "parent_uplink_required": false
+  "substrate_witness": {
+    "kind": "git",
+    "source_revision": "2df360effbe566f553fad3d52b5e2ff249feab4a"
+  }
 }
