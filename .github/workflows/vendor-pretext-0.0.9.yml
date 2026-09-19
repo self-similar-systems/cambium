@@ -1,0 +1,24 @@
+name: Vendor Pretext 0.0.9
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/vendor-pretext-0.0.9.yml']
+jobs:
+  vendor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - name: Fetch exact package
+        run: |
+          npm pack @chenglou/pretext@0.0.9
+          mkdir package-out
+          tar -xzf chenglou-pretext-0.0.9.tgz -C package-out
+      - name: Upload exact package carrier
+        uses: actions/upload-artifact@v4
+        with:
+          name: pretext-0.0.9-package
+          path: package-out/package
+          retention-days: 1
