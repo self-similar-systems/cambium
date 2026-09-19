@@ -303,7 +303,7 @@ function preparedWisdom(entity,font){
 }
 function drawWisdom(rect,cam,translate,activeLight){
   const {ctx}=resizeWisdomCanvas(state.textCanvas,rect),canvas=state.textCanvas,entity=state.current?state.identities.get(state.current.id):null;
-  canvas.dataset.pretextStatus=state.pretextStatus;canvas.dataset.wisdomLines='0';canvas.dataset.wisdomId=entity?.id||'';canvas.dataset.wisdomState='hidden';
+  canvas.dataset.pretextStatus=state.pretextStatus;canvas.dataset.wisdomLines='0';canvas.dataset.wisdomId=entity?.id||'';canvas.dataset.wisdomState='hidden';delete canvas.dataset.wisdomComplete;delete canvas.dataset.wisdomAnchorX;delete canvas.dataset.wisdomAnchorY;delete canvas.dataset.wisdomRadius;
   if(!state.current||!entity?.wisdom){canvas.dataset.wisdomState=state.current?'missing':'inactive';return}
   if(state.pretextStatus!=='ready'||!pretextModule){canvas.dataset.wisdomState=state.pretextStatus;return}
   const alpha=smooth(clamp((state.transition-.56)/.34));if(alpha<=.01){canvas.dataset.wisdomState='lod-hidden';return}
