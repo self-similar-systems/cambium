@@ -1,38 +1,40 @@
 {
-  "schema": "display.papers.feed.v1",
-  "organism": "organism:papers",
-  "title": "Papers",
-  "local_scope": "papers",
-  "current_home_event": "display-papers-admit-public-shadow-circulation-20260918T210914Z",
-  "reflected_home_event": "display-papers-admit-public-shadow-circulation-20260918T210914Z",
-  "home_path": "w/display/y/yy/papers/_root/display-papers-admit-public-shadow-circulation-20260918T210914Z.json",
-  "projected_at": "2026-09-18T23:10:31+02:00",
-  "current_contract": {
-    "geometric_species": "canonical tetrahedral",
-    "source_S": {
-      "body": "internal metabolized source-body 4V / 6E / 4F / 1T",
-      "papers_parents": 0,
-      "point_role": "encounter / LOD proxy only",
-      "provenance": "outward authorship/origin handoff; never a morphology switch"
-    },
-    "holon_nH": {
-      "body": "same canonical tetrahedral species",
-      "direct_papers_parents": 4,
-      "point_role": "encounter / LOD proxy only",
-      "ancestry": "recursive Papers organism lineage"
-    },
-    "selection": "reveals already-earned admitted structure rather than changing body-kind"
+  "boundary": "LOCAL_BODY_ONLY",
+  "constitution": null,
+  "home": {
+    "changed_scope": [
+      "S.* is now the fixed minimum Papers-organism rendering quantum at S_QUANTUM_SCALE=0.0045",
+      "rank nH body linear scale is deterministically S_QUANTUM_SCALE × 2^n, preserving 4^n S-organism quanta under complete recursive resolution",
+      "selected higher-rank Holons retain recursively visible lower-rank bodies rather than rescaling S to fit",
+      "every visible Holon rank emits one central metabolight at its recursive center; visible S ground emits faint quantum embers",
+      "metabolight size/intensity grows with rank and selection; already-public wisdom payload may truthfully boost luminosity",
+      "missing public wisdom remains projection absence and is not interpreted as zero metabolites",
+      "Papers local ritual advanced to v1.3 with luminous recursive-scale law",
+      "no Papers ontology, genealogy, navigation, source authority, projection schema, Display runtime or global geometry changed"
+    ],
+    "delivery_state": "HOME_DURABLE_FEED_ASYNC",
+    "outcome": "PASS/EARNED · S-QUANTUM SCALE + RECURSIVE METABOLIGHT V1"
   },
-  "current_projection_debt": [
-    "The admitted public shadow currently exposes source attribution/metabolism metadata but not a complete public internal S.* inquiry body for every Source.",
-    "That absence is projection debt only; it no longer licenses treating S.* as a terminal non-tetrahedral UI species."
+  "observed_at_utc": "2026-09-19T02:26:52.402784Z",
+  "owner": "organism:papers",
+  "phenotype": null,
+  "reflected_home_event": "display-papers-luminous-metabolight-20260919T022610Z",
+  "rituals": [
+    {
+      "path": "RITUALS/organism/RITUAL.md",
+      "sha256": "154cbf63940e753b1c0dec4de023f47352b1210ffeac0d7825de22da8a9d9fde"
+    }
   ],
-  "intake_state": {
+  "shell": {
+    "feed": "_feed/current.json",
+    "root_history": "_root",
     "stomach_direct": [
       "NUTRIENT__event-driven-public-shadow-circulation__20260918.md"
     ],
-    "note": "Cooked event-driven public-shadow circulation pressure is admitted and remains unresolved."
+    "waste_direct_count": 10
   },
-  "structural_growth": false,
-  "parent_uplink_required": false
+  "substrate_witness": {
+    "kind": "git",
+    "source_revision": "580446f84571f6e2cdd590cc2b17a9fe2d609e0a"
+  }
 }
