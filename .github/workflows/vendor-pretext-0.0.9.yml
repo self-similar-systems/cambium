@@ -3,10 +3,15 @@ on:
   push:
     branches: [main]
     paths: ['.github/workflows/vendor-pretext-0.0.9.yml']
+permissions:
+  contents: write
 jobs:
   vendor:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -16,9 +21,25 @@ jobs:
           npm pack @chenglou/pretext@0.0.9
           mkdir package-out
           tar -xzf chenglou-pretext-0.0.9.tgz -C package-out
-      - name: Upload exact package carrier
-        uses: actions/upload-artifact@v4
-        with:
-          name: pretext-0.0.9-package
-          path: package-out/package
-          retention-days: 1
+      - name: Materialize Papers-local static carrier
+        run: |
+          dst=w/display/y/yy/papers/public/papers-pretext-0.0.9
+          rm -rf "$dst"
+          mkdir -p "$dst/generated"
+          cp package-out/package/dist/layout.js "$dst/layout.js"
+          cp package-out/package/dist/analysis.js "$dst/analysis.js"
+          cp package-out/package/dist/bidi.js "$dst/bidi.js"
+          cp package-out/package/dist/measurement.js "$dst/measurement.js"
+          cp package-out/package/dist/line-break.js "$dst/line-break.js"
+          cp package-out/package/dist/line-text.js "$dst/line-text.js"
+          cp package-out/package/dist/generated/bidi-data.js "$dst/generated/bidi-data.js"
+          cp package-out/package/LICENSE "$dst/LICENSE"
+          printf '%s\n' '{"package":"@chenglou/pretext","version":"0.0.9","source":"https://github.com/chenglou/pretext","license":"MIT"}' > "$dst/VERSION.json"
+      - name: Commit pinned carrier
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add w/display/y/yy/papers/public/papers-pretext-0.0.9
+          git diff --cached --quiet && exit 0
+          git commit -m "display.papers: pin Pretext 0.0.9 browser carrier"
+          git push origin HEAD:main
