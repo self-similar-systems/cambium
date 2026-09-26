@@ -798,21 +798,21 @@
     },
     "01b51f423e6c7dab77ea402b": {
       "asns": {
-        "45090": 2
+        "45090": 4
       },
       "baits": {
-        "/": 2
+        "/": 4
       },
       "countries": {
-        "CN": 2
+        "CN": 4
       },
       "devices": {
-        "mobile": 2
+        "mobile": 4
       },
-      "events": 2,
+      "events": 4,
       "first_seen": "2026-09-16T20:52:33Z",
       "id": "01b51f423e6c7dab77ea402b",
-      "last_seen": "2026-09-21T09:27:28Z",
+      "last_seen": "2026-09-26T17:24:22Z",
       "network_identity": "ip:v1:5edef823548de7c027f2d48b664709b3635ee14724ef96eb829e04d45ed7a722",
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
@@ -842,21 +842,21 @@
     },
     "01be2f08378d7bd1a1af68a3": {
       "asns": {
-        "45102": 15
+        "45102": 16
       },
       "baits": {
-        "/": 15
+        "/": 16
       },
       "countries": {
-        "US": 15
+        "US": 16
       },
       "devices": {
-        "mobile": 15
+        "mobile": 16
       },
-      "events": 15,
+      "events": 16,
       "first_seen": "2026-09-20T06:16:05Z",
       "id": "01be2f08378d7bd1a1af68a3",
-      "last_seen": "2026-09-26T13:29:50Z",
+      "last_seen": "2026-09-26T16:38:34Z",
       "network_identity": "ip:v1:8af770583cae92208eae43a5875591b41641d3f27b942148127f6a44377c9df6",
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
@@ -1844,6 +1844,27 @@
       "user_agent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
       "verified_bot_categories": {}
     },
+    "06a975f67633bdcdacf90166": {
+      "asns": {
+        "396982": 1
+      },
+      "baits": {
+        "/xmlrpc.php": 1
+      },
+      "countries": {
+        "BR": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T18:15:52Z",
+      "id": "06a975f67633bdcdacf90166",
+      "last_seen": "2026-09-26T18:15:52Z",
+      "network_identity": "ip:v1:33c0e17642d647c92e6f8588bf7d6d6d66170ed5eac1b43b6dedf97e7e19f40d",
+      "user_agent": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
+      "verified_bot_categories": {}
+    },
     "0712caee5a8a0d5fe9e49e75": {
       "asns": {
         "14061": 2
@@ -2036,27 +2057,27 @@
     },
     "0825a21ca1909dd0d201e4f0": {
       "asns": {
-        "16509": 8
+        "16509": 12
       },
       "baits": {
         "/": 1,
-        "/robots.txt": 4,
-        "/sitemap.xml": 3
+        "/robots.txt": 6,
+        "/sitemap.xml": 5
       },
       "countries": {
-        "US": 8
+        "US": 12
       },
       "devices": {
-        "desktop": 8
+        "desktop": 12
       },
-      "events": 8,
+      "events": 12,
       "first_seen": "2026-09-26T10:49:30Z",
       "id": "0825a21ca1909dd0d201e4f0",
-      "last_seen": "2026-09-26T16:17:12Z",
+      "last_seen": "2026-09-26T20:40:27Z",
       "network_identity": "ip:v1:e2d514ff1d5257af3c3b0a6bf030ce9c9d173c6424e5f0700e745221739e6f94",
       "user_agent": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)",
       "verified_bot_categories": {
-        "AI Crawler": 8
+        "AI Crawler": 12
       }
     },
     "0840eec273c649a1fde7db62": {
@@ -5193,22 +5214,22 @@
     },
     "1a67005a8949eeeabf26a5fb": {
       "asns": {
-        "219502": 2
+        "219502": 3
       },
       "baits": {
-        "/": 1,
+        "/": 2,
         "/.env": 1
       },
       "countries": {
-        "NL": 2
+        "NL": 3
       },
       "devices": {
-        "desktop": 2
+        "desktop": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-24T02:54:34Z",
       "id": "1a67005a8949eeeabf26a5fb",
-      "last_seen": "2026-09-24T21:35:22Z",
+      "last_seen": "2026-09-26T20:53:08Z",
       "network_identity": "ip:v1:c38fccc396e5cfdec02df0bbe8577ec37bbe65a4133b3524e2f3b1ca7aba2e30",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
       "verified_bot_categories": {}
@@ -5365,6 +5386,27 @@
       "last_seen": "2026-09-16T05:00:59Z",
       "network_identity": "ip:v1:16afa6e28dd79150d3db66ff739791f333a19d3fad9629ebbc87f25bb4289ea0",
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/549.43 (KHTML, like Gecko) Chrome/95.0.1969 Safari/537.36",
+      "verified_bot_categories": {}
+    },
+    "1b67ed0243c234e247bd8440": {
+      "asns": {
+        "204997": 1
+      },
+      "baits": {
+        "/": 1
+      },
+      "countries": {
+        "RU": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T20:48:58Z",
+      "id": "1b67ed0243c234e247bd8440",
+      "last_seen": "2026-09-26T20:48:58Z",
+      "network_identity": "ip:v1:e2766232927dc4daca65a18c2aeddc842c5d8f9abf28cbe876582840fdb9fbf4",
+      "user_agent": "",
       "verified_bot_categories": {}
     },
     "1b69d1ca828c59814e89be5b": {
@@ -7262,6 +7304,68 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
       "verified_bot_categories": {}
     },
+    "261f513118444e214f06f493": {
+      "asns": {
+        "3320": 45
+      },
+      "baits": {
+        "/": 2,
+        "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/analysis.js": 1,
+        "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/bidi.js": 1,
+        "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/generated/bidi-data.js": 1,
+        "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/layout.js": 1,
+        "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/line-text.js": 1,
+        "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/measurement.js": 1,
+        "/assets/0168e69eac3e9bf3/display-runtime-v2.js": 1,
+        "/assets/0168e69eac3e9bf3/locus-shader.js": 1,
+        "/assets/0168e69eac3e9bf3/root-view.css": 1,
+        "/assets/0168e69eac3e9bf3/site-fold.js": 1,
+        "/assets/0168e69eac3e9bf3/site-organism-papers.js": 1,
+        "/assets/0168e69eac3e9bf3/site-organism-philosophy.css": 1,
+        "/assets/0168e69eac3e9bf3/site-organism-philosophy.js": 1,
+        "/assets/0168e69eac3e9bf3/site-runtime.css": 1,
+        "/assets/80126aed54a79bdc/dependencies/chenglou-pretext/layout.js": 1,
+        "/assets/80126aed54a79bdc/display-safe-area.css": 1,
+        "/assets/80126aed54a79bdc/interlocutors.css": 1,
+        "/assets/80126aed54a79bdc/navigation-aperture.js": 1,
+        "/assets/80126aed54a79bdc/site-holon.js": 1,
+        "/assets/80126aed54a79bdc/site-organism-crawlerbait.css": 1,
+        "/assets/80126aed54a79bdc/site-organism-papers.css": 1,
+        "/assets/80126aed54a79bdc/site-organism-philosophy.js": 1,
+        "/assets/80126aed54a79bdc/site-runtime.css": 1,
+        "/assets/e45ec6567132bb28/address.js": 1,
+        "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/analysis.js": 1,
+        "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/bidi.js": 1,
+        "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/generated/bidi-data.js": 1,
+        "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/layout.js": 1,
+        "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/line-break.js": 1,
+        "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/measurement.js": 1,
+        "/assets/e45ec6567132bb28/display-safe-area.js": 1,
+        "/assets/e45ec6567132bb28/favicon.svg": 1,
+        "/assets/e45ec6567132bb28/navigation-aperture.css": 1,
+        "/assets/e45ec6567132bb28/navigation-physiology.js": 1,
+        "/assets/e45ec6567132bb28/site-holon.js": 1,
+        "/assets/e45ec6567132bb28/site-organism-crawlerbait.js": 1,
+        "/assets/e45ec6567132bb28/site-organism-papers.css": 1,
+        "/assets/e45ec6567132bb28/site-organism-papers.js": 1,
+        "/assets/e45ec6567132bb28/site-organism-philosophy.js": 1,
+        "/papers-shadow/current.json": 3,
+        "/papers-shadow/genealogy-gap-repair.json": 1
+      },
+      "countries": {
+        "DE": 45
+      },
+      "devices": {
+        "desktop": 45
+      },
+      "events": 45,
+      "first_seen": "2026-09-26T20:01:16Z",
+      "id": "261f513118444e214f06f493",
+      "last_seen": "2026-09-26T20:53:21Z",
+      "network_identity": "ip:v1:22ad942e7ae52428728efa02a19d505c82b1e1ec9950b4b01c3811c6420cf35c",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0",
+      "verified_bot_categories": {}
+    },
     "263f863a96beafea32b2fb4e": {
       "asns": {
         "14618": 2
@@ -7504,6 +7608,27 @@
       "verified_bot_categories": {
         "Search Engine Optimization": 1
       }
+    },
+    "27e445ebd4a1478e545efae2": {
+      "asns": {
+        "396982": 1
+      },
+      "baits": {
+        "/wp-json/wp/v2/users": 1
+      },
+      "countries": {
+        "BE": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T18:16:01Z",
+      "id": "27e445ebd4a1478e545efae2",
+      "last_seen": "2026-09-26T18:16:01Z",
+      "network_identity": "ip:v1:5a913a558bbf0aea011c32a78001b9309e546ea34cb5d6e5a043854277fd2aa3",
+      "user_agent": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
+      "verified_bot_categories": {}
     },
     "2833f7ed9e657ef99312377c": {
       "asns": {
@@ -7972,6 +8097,27 @@
       "last_seen": "2026-09-15T16:57:02Z",
       "network_identity": "ip:v1:900c0dfde3fa00593924126bc887d22470aee48f75856547d68de83fd9d29949",
       "user_agent": "msnbot/0.11 ( http://search.msn.com/msnbot.htm)",
+      "verified_bot_categories": {}
+    },
+    "2a3e7503ca3cc4d141d5ece8": {
+      "asns": {
+        "132203": 2
+      },
+      "baits": {
+        "/": 2
+      },
+      "countries": {
+        "US": 2
+      },
+      "devices": {
+        "mobile": 2
+      },
+      "events": 2,
+      "first_seen": "2026-09-26T20:15:46Z",
+      "id": "2a3e7503ca3cc4d141d5ece8",
+      "last_seen": "2026-09-26T20:15:48Z",
+      "network_identity": "ip:v1:7b705e84cedf79535dca2df81ba0fd96754c809bc8eaeeed951f72041d16fdd1",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
     },
     "2a6a112c0fa6c2a1c33e631a": {
@@ -15899,21 +16045,21 @@
     },
     "5e799495316e57f07453e0e6": {
       "asns": {
-        "13335": 876
+        "13335": 878
       },
       "baits": {
-        "/wp-admin/install.php": 876
+        "/wp-admin/install.php": 878
       },
       "countries": {
-        "RU": 876
+        "RU": 878
       },
       "devices": {
-        "desktop": 876
+        "desktop": 878
       },
-      "events": 876,
+      "events": 878,
       "first_seen": "2026-09-13T20:18:42Z",
       "id": "5e799495316e57f07453e0e6",
-      "last_seen": "2026-09-26T16:17:32Z",
+      "last_seen": "2026-09-26T19:17:17Z",
       "network_identity": "ip:v1:16bb63ce617207dd7f2930ffa030c3f1b7fc017ee1084314b5ce9b5b8af927b8",
       "user_agent": "http://sss.saarland/wp-admin/install.php?step=1",
       "verified_bot_categories": {}
@@ -22278,10 +22424,10 @@
     },
     "85275b1b26264ba9151b50d1": {
       "asns": {
-        "4538": 11
+        "4538": 23
       },
       "baits": {
-        "/": 1,
+        "/": 2,
         "/assets/718fcd7f35875537/address.js": 1,
         "/assets/718fcd7f35875537/display-safe-area.css": 1,
         "/assets/718fcd7f35875537/navigation-physiology.js": 1,
@@ -22291,18 +22437,29 @@
         "/assets/718fcd7f35875537/site-organism-papers.js": 1,
         "/assets/718fcd7f35875537/site-organism-philosophy.css": 1,
         "/assets/718fcd7f35875537/site-runtime.css": 1,
-        "/assets/718fcd7f35875537/world-view.js": 1
+        "/assets/718fcd7f35875537/world-view.js": 1,
+        "/assets/bc0f799c6bbf9cbf/address.js": 1,
+        "/assets/bc0f799c6bbf9cbf/display-runtime-v2.js": 1,
+        "/assets/bc0f799c6bbf9cbf/display-safe-area.css": 1,
+        "/assets/bc0f799c6bbf9cbf/display-safe-area.js": 1,
+        "/assets/bc0f799c6bbf9cbf/locus-shader.js": 1,
+        "/assets/bc0f799c6bbf9cbf/navigation-aperture.css": 1,
+        "/assets/bc0f799c6bbf9cbf/site-holon.js": 1,
+        "/assets/bc0f799c6bbf9cbf/site-organism-crawlerbait.css": 1,
+        "/assets/bc0f799c6bbf9cbf/site-organism-papers.css": 1,
+        "/assets/bc0f799c6bbf9cbf/site-organism-philosophy.css": 1,
+        "/cdn-cgi/rum": 1
       },
       "countries": {
-        "CN": 11
+        "CN": 23
       },
       "devices": {
-        "desktop": 11
+        "desktop": 23
       },
-      "events": 11,
+      "events": 23,
       "first_seen": "2026-09-26T09:44:36Z",
       "id": "85275b1b26264ba9151b50d1",
-      "last_seen": "2026-09-26T09:44:37Z",
+      "last_seen": "2026-09-26T18:54:40Z",
       "network_identity": "ip:v1:e6d1622ecff82239136d3d89f5947a83b3e11d0564935613df88bb41dcddb858",
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/148.0.7778.96 Safari/537.36",
       "verified_bot_categories": {}
@@ -22498,6 +22655,27 @@
       "last_seen": "2026-09-24T19:28:19Z",
       "network_identity": "ip:v1:8e9d72208171864877ed0a044fab62d72e6bb4bb4c98076a2d5d0c9b8efa52a5",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "verified_bot_categories": {}
+    },
+    "86712b834a2420e93c5c2b4f": {
+      "asns": {
+        "14061": 1
+      },
+      "baits": {
+        "/": 1
+      },
+      "countries": {
+        "NL": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T18:00:20Z",
+      "id": "86712b834a2420e93c5c2b4f",
+      "last_seen": "2026-09-26T18:00:20Z",
+      "network_identity": "ip:v1:64e0b2d9cf351d6cec9b6ade886fa8ba5a8acab346553e89b827e8f8b85f2224",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 ForestEngine/1.0 (+https://forestengine.net/#opt-out)",
       "verified_bot_categories": {}
     },
     "86838e73ba76bbcf20cf3c8c": {
@@ -23535,6 +23713,27 @@
       "last_seen": "2026-09-16T08:51:37Z",
       "network_identity": "ip:v1:a7a0a5017dddbd3771821a97f742c0295116ba5b0681c9ebed08d4bae509061c",
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 8_2) AppleWebKit/570.41 (KHTML, like Gecko) Chrome/104.0.582 Safari/537.36",
+      "verified_bot_categories": {}
+    },
+    "8c5d6fa5124adfbd800140ad": {
+      "asns": {
+        "396982": 1
+      },
+      "baits": {
+        "/": 1
+      },
+      "countries": {
+        "US": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T16:23:08Z",
+      "id": "8c5d6fa5124adfbd800140ad",
+      "last_seen": "2026-09-26T16:23:08Z",
+      "network_identity": "ip:v1:976d6f66753d2a0f6a6e5720730c86f038ced83c5b3a7f84133b2b71c9b9c284",
+      "user_agent": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
       "verified_bot_categories": {}
     },
     "8c6f980dbec1493c85926180": {
@@ -24775,6 +24974,27 @@
       "last_seen": "2026-09-14T14:54:02Z",
       "network_identity": "ip:v1:a4b7f8c6c0d9806b2225da1c1cfb91c1f8e6312541015194a83197e3ac1da1d0",
       "user_agent": "Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)",
+      "verified_bot_categories": {}
+    },
+    "92f1d8c4bde0a82c03f9d9ce": {
+      "asns": {
+        "396982": 1
+      },
+      "baits": {
+        "/": 1
+      },
+      "countries": {
+        "BE": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T18:16:31Z",
+      "id": "92f1d8c4bde0a82c03f9d9ce",
+      "last_seen": "2026-09-26T18:16:31Z",
+      "network_identity": "ip:v1:ee728624d800f5807eb7a13642a31bcd241a2bf1fe3dc9b12bed6433ecc67ed3",
+      "user_agent": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
       "verified_bot_categories": {}
     },
     "92f48224e1a99a264d206cad": {
@@ -26775,6 +26995,27 @@
       "user_agent": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20091020 Linux Mint/8 (Helena) Firefox/3.5.3",
       "verified_bot_categories": {}
     },
+    "9e002961b54459fbf1e5f966": {
+      "asns": {
+        "14593": 1
+      },
+      "baits": {
+        "/xmlrpc.php": 1
+      },
+      "countries": {
+        "BW": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T16:31:31Z",
+      "id": "9e002961b54459fbf1e5f966",
+      "last_seen": "2026-09-26T16:31:31Z",
+      "network_identity": "ip:v1:dfbbe9bbbfa6756f53eaeba93f3aa2f4140b2123695afaa4fb8ce0227ee1a1d5",
+      "user_agent": "WordPress.com; https://wordpress.com",
+      "verified_bot_categories": {}
+    },
     "9e27ceb76d3d3899f99e6dbc": {
       "asns": {
         "26347": 1
@@ -28362,6 +28603,27 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188",
       "verified_bot_categories": {}
     },
+    "a63e3121be25a51a406ff96d": {
+      "asns": {
+        "207043": 1
+      },
+      "baits": {
+        "/wp-login.php": 1
+      },
+      "countries": {
+        "NL": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T20:38:47Z",
+      "id": "a63e3121be25a51a406ff96d",
+      "last_seen": "2026-09-26T20:38:47Z",
+      "network_identity": "ip:v1:9e15444d1ded35b092d20c0e03a219b26c7b2ca1015c034776c89d854d042ce1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/17.0 Safari/605.1.15",
+      "verified_bot_categories": {}
+    },
     "a668fc7387c1b0122a0f5ef8": {
       "asns": {
         "396982": 10
@@ -29208,21 +29470,21 @@
     },
     "aaeba177083f48b4aae493a0": {
       "asns": {
-        "132203": 1
+        "132203": 3
       },
       "baits": {
-        "/": 1
+        "/": 3
       },
       "countries": {
-        "US": 1
+        "US": 3
       },
       "devices": {
-        "mobile": 1
+        "mobile": 3
       },
-      "events": 1,
+      "events": 3,
       "first_seen": "2026-09-17T05:06:38Z",
       "id": "aaeba177083f48b4aae493a0",
-      "last_seen": "2026-09-17T05:06:38Z",
+      "last_seen": "2026-09-26T20:58:01Z",
       "network_identity": "ip:v1:586fcb9c85dde7d6bbcd8a1f9a6c84a7c918f96ae656f98477d4994b85504415",
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
@@ -33946,6 +34208,27 @@
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
     },
+    "c3d45e1b1ec7e34985833f39": {
+      "asns": {
+        "396982": 1
+      },
+      "baits": {
+        "/": 1
+      },
+      "countries": {
+        "BR": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T16:24:20Z",
+      "id": "c3d45e1b1ec7e34985833f39",
+      "last_seen": "2026-09-26T16:24:20Z",
+      "network_identity": "ip:v1:8985e67a9bd6e1e1722dc97d0dfb184c3793d2d96af99da546ac4b059296f915",
+      "user_agent": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
+      "verified_bot_categories": {}
+    },
     "c3ec2fcf500d0dac8a195644": {
       "asns": {
         "132203": 3
@@ -34562,21 +34845,21 @@
     },
     "c743bae26091a841e08f424a": {
       "asns": {
-        "132203": 2
+        "132203": 3
       },
       "baits": {
-        "/": 2
+        "/": 3
       },
       "countries": {
-        "US": 2
+        "US": 3
       },
       "devices": {
-        "mobile": 2
+        "mobile": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-14T20:11:11Z",
       "id": "c743bae26091a841e08f424a",
-      "last_seen": "2026-09-16T05:06:25Z",
+      "last_seen": "2026-09-26T20:09:53Z",
       "network_identity": "ip:v1:bf826e54792f89cd67799ca43eb5f33cbdefa32579436ed511a029b210dbee43",
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
@@ -35719,6 +36002,27 @@
       "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
       "verified_bot_categories": {}
     },
+    "cfba753ee7ee1cfa737f020c": {
+      "asns": {
+        "28133": 1
+      },
+      "baits": {
+        "/xmlrpc.php": 1
+      },
+      "countries": {
+        "BR": 1
+      },
+      "devices": {
+        "tablet": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T16:59:03Z",
+      "id": "cfba753ee7ee1cfa737f020c",
+      "last_seen": "2026-09-26T16:59:03Z",
+      "network_identity": "ip:v1:16f191cc6983ed9e662dc83b36451ebc38519c9f99372d3a1c8dd496e93c82f3",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/70.0.0.0 Safari/537.36",
+      "verified_bot_categories": {}
+    },
     "cfc444b0a2dda975e2d8ead8": {
       "asns": {
         "135377": 1
@@ -36476,6 +36780,27 @@
       "last_seen": "2026-09-17T23:06:24Z",
       "network_identity": "ip:v1:9525de062e5d5196273a6ef6405081c93d49a4620439f6229ff06d9f5bd65b11",
       "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.200 Mobile Safari/537.36 OPR/76.2.4027.73374",
+      "verified_bot_categories": {}
+    },
+    "d61239b8f988d892bf2a6009": {
+      "asns": {
+        "396982": 1
+      },
+      "baits": {
+        "/wp-login.php": 1
+      },
+      "countries": {
+        "BE": 1
+      },
+      "devices": {
+        "desktop": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T18:15:49Z",
+      "id": "d61239b8f988d892bf2a6009",
+      "last_seen": "2026-09-26T18:15:49Z",
+      "network_identity": "ip:v1:75202c2cd793b5a9f0226463ddf4682c9b0f95ab24cf344b8410568470518420",
+      "user_agent": "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity",
       "verified_bot_categories": {}
     },
     "d64aa9eb8f4456b8b29aba4e": {
@@ -38913,21 +39238,21 @@
     },
     "e3b8eaf1d514a38ee26094e8": {
       "asns": {
-        "4538": 1
+        "4538": 3
       },
       "baits": {
-        "/": 1
+        "/": 3
       },
       "countries": {
-        "CN": 1
+        "CN": 3
       },
       "devices": {
-        "mobile": 1
+        "mobile": 3
       },
-      "events": 1,
+      "events": 3,
       "first_seen": "2026-09-26T09:44:34Z",
       "id": "e3b8eaf1d514a38ee26094e8",
-      "last_seen": "2026-09-26T09:44:34Z",
+      "last_seen": "2026-09-26T18:54:37Z",
       "network_identity": "ip:v1:e6d1622ecff82239136d3d89f5947a83b3e11d0564935613df88bb41dcddb858",
       "user_agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/5d7.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36",
       "verified_bot_categories": {}
@@ -40636,6 +40961,35 @@
       "last_seen": "2026-09-20T12:30:36Z",
       "network_identity": "ip:v1:6e5c7c50ba3fee5b1ad19a98580f9f883a7ba3f99b49420013376abf4866f737",
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "verified_bot_categories": {}
+    },
+    "ed3da9e849b90984bf422224": {
+      "asns": {
+        "3320": 9
+      },
+      "baits": {
+        "/": 1,
+        "/assets/53bd7467514434a6/address.js": 1,
+        "/assets/53bd7467514434a6/favicon.svg": 1,
+        "/assets/53bd7467514434a6/navigation-physiology.js": 1,
+        "/assets/53bd7467514434a6/root-view.css": 1,
+        "/assets/53bd7467514434a6/site-holon.js": 1,
+        "/assets/53bd7467514434a6/site-runtime.css": 1,
+        "/assets/53bd7467514434a6/world-view.js": 1,
+        "/favicon.ico": 1
+      },
+      "countries": {
+        "DE": 9
+      },
+      "devices": {
+        "desktop": 9
+      },
+      "events": 9,
+      "first_seen": "2026-09-26T19:20:48Z",
+      "id": "ed3da9e849b90984bf422224",
+      "last_seen": "2026-09-26T19:20:53Z",
+      "network_identity": "ip:v1:22ad942e7ae52428728efa02a19d505c82b1e1ec9950b4b01c3811c6420cf35c",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Claude/2.9939.2 Chrome/152.0.7977.130 Safari/537.36 MSIX",
       "verified_bot_categories": {}
     },
     "ed67b4e52ea0a45bb9223d4e": {
@@ -42785,6 +43139,27 @@
       "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "verified_bot_categories": {}
     },
+    "f7c606231509289ac56ce651": {
+      "asns": {
+        "132203": 1
+      },
+      "baits": {
+        "/": 1
+      },
+      "countries": {
+        "US": 1
+      },
+      "devices": {
+        "mobile": 1
+      },
+      "events": 1,
+      "first_seen": "2026-09-26T19:19:01Z",
+      "id": "f7c606231509289ac56ce651",
+      "last_seen": "2026-09-26T19:19:01Z",
+      "network_identity": "ip:v1:9149389aa7f2689372c6866134e3b7ac7dbab0a0180eebfc6aa97ef70526d8de",
+      "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
+      "verified_bot_categories": {}
+    },
     "f7cc727cbfc5ad053375300f": {
       "asns": {
         "13335": 1
@@ -43531,21 +43906,21 @@
     },
     "fc3fd75f9abfa9d612b20c70": {
       "asns": {
-        "45102": 18
+        "45102": 19
       },
       "baits": {
-        "/": 18
+        "/": 19
       },
       "countries": {
-        "US": 18
+        "US": 19
       },
       "devices": {
-        "mobile": 18
+        "mobile": 19
       },
-      "events": 18,
+      "events": 19,
       "first_seen": "2026-09-20T17:14:22Z",
       "id": "fc3fd75f9abfa9d612b20c70",
-      "last_seen": "2026-09-26T04:27:45Z",
+      "last_seen": "2026-09-26T19:31:46Z",
       "network_identity": "ip:v1:600767355f7c942ba2fe4b63b98165127440cd2282ca60a0b439daa1a6b9f79b",
       "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1",
       "verified_bot_categories": {}
@@ -158489,12 +158864,972 @@
       "source_index": 0,
       "status": 404,
       "t": "2026-09-26T16:17:32Z"
+    },
+    {
+      "crawler": "8c5d6fa5124adfbd800140ad",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 66,
+      "status": 401,
+      "t": "2026-09-26T16:23:08Z"
+    },
+    {
+      "crawler": "c3d45e1b1ec7e34985833f39",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 68,
+      "status": 401,
+      "t": "2026-09-26T16:24:20Z"
+    },
+    {
+      "crawler": "9e002961b54459fbf1e5f966",
+      "method": "POST",
+      "path": "/xmlrpc.php",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 81,
+      "status": 405,
+      "t": "2026-09-26T16:31:31Z"
+    },
+    {
+      "crawler": "01be2f08378d7bd1a1af68a3",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 80,
+      "status": 200,
+      "t": "2026-09-26T16:38:34Z"
+    },
+    {
+      "crawler": "cfba753ee7ee1cfa737f020c",
+      "method": "POST",
+      "path": "/xmlrpc.php",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 87,
+      "status": 405,
+      "t": "2026-09-26T16:59:03Z"
+    },
+    {
+      "crawler": "01b51f423e6c7dab77ea402b",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 61,
+      "status": 301,
+      "t": "2026-09-26T17:24:20Z"
+    },
+    {
+      "crawler": "01b51f423e6c7dab77ea402b",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 93,
+      "status": 200,
+      "t": "2026-09-26T17:24:22Z"
+    },
+    {
+      "crawler": "86712b834a2420e93c5c2b4f",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 40,
+      "status": 404,
+      "t": "2026-09-26T18:00:20Z"
+    },
+    {
+      "crawler": "d61239b8f988d892bf2a6009",
+      "method": "GET",
+      "path": "/wp-login.php",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 83,
+      "status": 404,
+      "t": "2026-09-26T18:15:49Z"
+    },
+    {
+      "crawler": "06a975f67633bdcdacf90166",
+      "method": "GET",
+      "path": "/xmlrpc.php",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 67,
+      "status": 404,
+      "t": "2026-09-26T18:15:52Z"
+    },
+    {
+      "crawler": "27e445ebd4a1478e545efae2",
+      "method": "GET",
+      "path": "/wp-json/wp/v2/users",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 71,
+      "status": 404,
+      "t": "2026-09-26T18:16:01Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/wp-admin/install.php",
+      "query": "?step=1",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 94,
+      "status": 404,
+      "t": "2026-09-26T18:16:05Z"
+    },
+    {
+      "crawler": "92f1d8c4bde0a82c03f9d9ce",
+      "method": "GET",
+      "path": "/",
+      "query": "?rest_route=/wp/v2/users",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 74,
+      "status": 200,
+      "t": "2026-09-26T18:16:31Z"
+    },
+    {
+      "crawler": "0825a21ca1909dd0d201e4f0",
+      "method": "GET",
+      "path": "/robots.txt",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 63,
+      "status": 200,
+      "t": "2026-09-26T18:44:22Z"
+    },
+    {
+      "crawler": "0825a21ca1909dd0d201e4f0",
+      "method": "GET",
+      "path": "/sitemap.xml",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 65,
+      "status": 404,
+      "t": "2026-09-26T18:44:22Z"
+    },
+    {
+      "crawler": "e3b8eaf1d514a38ee26094e8",
+      "method": "HEAD",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 64,
+      "status": 301,
+      "t": "2026-09-26T18:54:36Z"
+    },
+    {
+      "crawler": "e3b8eaf1d514a38ee26094e8",
+      "method": "HEAD",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 88,
+      "status": 200,
+      "t": "2026-09-26T18:54:37Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/navigation-aperture.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 75,
+      "status": 200,
+      "t": "2026-09-26T18:54:38Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/site-organism-papers.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 76,
+      "status": 200,
+      "t": "2026-09-26T18:54:38Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/site-organism-philosophy.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 77,
+      "status": 200,
+      "t": "2026-09-26T18:54:38Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/display-safe-area.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 89,
+      "status": 200,
+      "t": "2026-09-26T18:54:38Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/site-organism-crawlerbait.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 90,
+      "status": 200,
+      "t": "2026-09-26T18:54:38Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 91,
+      "status": 301,
+      "t": "2026-09-26T18:54:38Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/display-runtime-v2.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 69,
+      "status": 200,
+      "t": "2026-09-26T18:54:39Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/site-holon.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 70,
+      "status": 200,
+      "t": "2026-09-26T18:54:39Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/locus-shader.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 72,
+      "status": 200,
+      "t": "2026-09-26T18:54:39Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/display-safe-area.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 73,
+      "status": 200,
+      "t": "2026-09-26T18:54:39Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "GET",
+      "path": "/assets/bc0f799c6bbf9cbf/address.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 78,
+      "status": 200,
+      "t": "2026-09-26T18:54:39Z"
+    },
+    {
+      "crawler": "85275b1b26264ba9151b50d1",
+      "method": "POST",
+      "path": "/cdn-cgi/rum",
+      "query": "?",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 79,
+      "status": 204,
+      "t": "2026-09-26T18:54:40Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/wp-admin/install.php",
+      "query": "?step=1",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 82,
+      "status": 404,
+      "t": "2026-09-26T19:17:17Z"
+    },
+    {
+      "crawler": "f7c606231509289ac56ce651",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 62,
+      "status": 200,
+      "t": "2026-09-26T19:19:01Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 85,
+      "status": 200,
+      "t": "2026-09-26T19:20:48Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/world-view.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 47,
+      "status": 200,
+      "t": "2026-09-26T19:20:49Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/navigation-physiology.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 48,
+      "status": 200,
+      "t": "2026-09-26T19:20:49Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/site-holon.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 49,
+      "status": 200,
+      "t": "2026-09-26T19:20:49Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/site-runtime.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 58,
+      "status": 200,
+      "t": "2026-09-26T19:20:49Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/root-view.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 59,
+      "status": 200,
+      "t": "2026-09-26T19:20:49Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/address.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 86,
+      "status": 200,
+      "t": "2026-09-26T19:20:49Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/assets/53bd7467514434a6/favicon.svg",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 84,
+      "status": 200,
+      "t": "2026-09-26T19:20:50Z"
+    },
+    {
+      "crawler": "ed3da9e849b90984bf422224",
+      "method": "GET",
+      "path": "/favicon.ico",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 60,
+      "status": 404,
+      "t": "2026-09-26T19:20:53Z"
+    },
+    {
+      "crawler": "fc3fd75f9abfa9d612b20c70",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 55,
+      "status": 200,
+      "t": "2026-09-26T19:31:46Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 44,
+      "status": 200,
+      "t": "2026-09-26T20:01:16Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/navigation-aperture.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 13,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/interlocutors.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 14,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/site-holon.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 42,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/site-runtime.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 43,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/display-safe-area.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 45,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/site-organism-philosophy.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 46,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/site-organism-papers.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 56,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/site-organism-crawlerbait.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 57,
+      "status": 200,
+      "t": "2026-09-26T20:01:17Z"
+    },
+    {
+      "crawler": "c743bae26091a841e08f424a",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 41,
+      "status": 200,
+      "t": "2026-09-26T20:09:53Z"
+    },
+    {
+      "crawler": "2a3e7503ca3cc4d141d5ece8",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 92,
+      "status": 301,
+      "t": "2026-09-26T20:15:46Z"
+    },
+    {
+      "crawler": "2a3e7503ca3cc4d141d5ece8",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 22,
+      "status": 200,
+      "t": "2026-09-26T20:15:48Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/80126aed54a79bdc/dependencies/chenglou-pretext/layout.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 39,
+      "status": 404,
+      "t": "2026-09-26T20:25:31Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/papers-shadow/current.json",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 95,
+      "status": 200,
+      "t": "2026-09-26T20:25:31Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/papers-shadow/genealogy-gap-repair.json",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 11,
+      "status": 200,
+      "t": "2026-09-26T20:25:32Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 50,
+      "status": 200,
+      "t": "2026-09-26T20:29:28Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/site-runtime.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 3,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/root-view.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 4,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/site-fold.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 31,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/site-organism-philosophy.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 32,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/site-organism-philosophy.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 36,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/locus-shader.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 37,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/display-runtime-v2.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 38,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/site-organism-papers.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 51,
+      "status": 200,
+      "t": "2026-09-26T20:29:29Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/papers-shadow/current.json",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 0,
+      "status": 200,
+      "t": "2026-09-26T20:33:07Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/layout.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 6,
+      "status": 200,
+      "t": "2026-09-26T20:33:07Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/generated/bidi-data.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 1,
+      "status": 200,
+      "t": "2026-09-26T20:33:08Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/line-text.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 7,
+      "status": 200,
+      "t": "2026-09-26T20:33:08Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/bidi.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 52,
+      "status": 200,
+      "t": "2026-09-26T20:33:08Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/analysis.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 53,
+      "status": 200,
+      "t": "2026-09-26T20:33:08Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/measurement.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 54,
+      "status": 200,
+      "t": "2026-09-26T20:33:08Z"
+    },
+    {
+      "crawler": "a63e3121be25a51a406ff96d",
+      "method": "GET",
+      "path": "/wp-login.php",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 12,
+      "status": 404,
+      "t": "2026-09-26T20:38:47Z"
+    },
+    {
+      "crawler": "0825a21ca1909dd0d201e4f0",
+      "method": "GET",
+      "path": "/robots.txt",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 34,
+      "status": 200,
+      "t": "2026-09-26T20:40:27Z"
+    },
+    {
+      "crawler": "0825a21ca1909dd0d201e4f0",
+      "method": "GET",
+      "path": "/sitemap.xml",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 35,
+      "status": 404,
+      "t": "2026-09-26T20:40:27Z"
+    },
+    {
+      "crawler": "1b67ed0243c234e247bd8440",
+      "method": "HEAD",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 33,
+      "status": 200,
+      "t": "2026-09-26T20:48:58Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/navigation-physiology.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 9,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/site-organism-papers.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 10,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/display-safe-area.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 16,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/navigation-aperture.css",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 17,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/site-holon.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 23,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/site-organism-crawlerbait.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 24,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/address.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 25,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/site-organism-philosophy.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 26,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/site-organism-papers.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 27,
+      "status": 200,
+      "t": "2026-09-26T20:51:30Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/favicon.svg",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 18,
+      "status": 200,
+      "t": "2026-09-26T20:51:31Z"
+    },
+    {
+      "crawler": "1a67005a8949eeeabf26a5fb",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 2,
+      "status": 200,
+      "t": "2026-09-26T20:53:08Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/papers-shadow/current.json",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 19,
+      "status": 200,
+      "t": "2026-09-26T20:53:20Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/layout.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 28,
+      "status": 200,
+      "t": "2026-09-26T20:53:20Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/generated/bidi-data.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 8,
+      "status": 200,
+      "t": "2026-09-26T20:53:21Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/measurement.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 20,
+      "status": 200,
+      "t": "2026-09-26T20:53:21Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/analysis.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 21,
+      "status": 200,
+      "t": "2026-09-26T20:53:21Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/bidi.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 29,
+      "status": 200,
+      "t": "2026-09-26T20:53:21Z"
+    },
+    {
+      "crawler": "261f513118444e214f06f493",
+      "method": "GET",
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/line-break.js",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 30,
+      "status": 200,
+      "t": "2026-09-26T20:53:21Z"
+    },
+    {
+      "crawler": "aaeba177083f48b4aae493a0",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 15,
+      "status": 301,
+      "t": "2026-09-26T20:58:00Z"
+    },
+    {
+      "crawler": "aaeba177083f48b4aae493a0",
+      "method": "GET",
+      "path": "/",
+      "query": "",
+      "source_file": "20260926T161841Z--20260926T210525Z.traffic.json",
+      "source_index": 5,
+      "status": 200,
+      "t": "2026-09-26T20:58:01Z"
     }
   ],
   "legacy_404_through": "2026-09-18T11:13:56Z",
-  "raw_capture_end": "2026-09-26T16:18:41Z",
+  "raw_capture_end": "2026-09-26T21:05:25Z",
   "raw_capture_start": "2026-08-18T15:42:27Z",
-  "raw_requests": 11438,
+  "raw_requests": 11534,
   "routes": {
     "/": {
       "crawlers": {
@@ -158511,8 +159846,8 @@
         "016e4095920ebbee635e796e": 1,
         "019c550dca018f5274dab8ba": 1,
         "01a8d6f04215104fdfd02061": 1,
-        "01b51f423e6c7dab77ea402b": 2,
-        "01be2f08378d7bd1a1af68a3": 15,
+        "01b51f423e6c7dab77ea402b": 4,
+        "01be2f08378d7bd1a1af68a3": 16,
         "01d13967e3169d5fab6dc1a5": 1,
         "022b0e049ecaa3c8bccfffd9": 1,
         "026cdfcf7d5ebbc55a22a91b": 2,
@@ -158625,12 +159960,13 @@
         "19be7ec2c12721a12845d6a6": 1,
         "1a3e38f4a76b50490c8ff869": 1,
         "1a5f251ab87f9076b7bb3ddc": 1,
-        "1a67005a8949eeeabf26a5fb": 1,
+        "1a67005a8949eeeabf26a5fb": 2,
         "1a8ef1ee84300162cf0c7174": 2,
         "1a9116f0db012119acfd8b1c": 1,
         "1ab6505bae2394b40fb6a283": 1,
         "1af925395a163ea38d8b654a": 1,
         "1b03a189c112eba12998b729": 1,
+        "1b67ed0243c234e247bd8440": 1,
         "1bbe82959611412f78ebb89b": 1,
         "1bc1b899391b584c1c8c1d39": 3,
         "1be38962ba9bdc62b327a11f": 2,
@@ -158682,6 +160018,7 @@
         "2562dd55185f457fde24e118": 1,
         "25e5b1b6d5544209a2ca2c47": 1,
         "260cc676b7db2d444200399b": 1,
+        "261f513118444e214f06f493": 2,
         "263f863a96beafea32b2fb4e": 1,
         "268ea62c45f7652be08cea9f": 1,
         "26f283d5236c86b8b8f1d132": 1,
@@ -158699,6 +160036,7 @@
         "295211953f077d1a010b6612": 2,
         "2a025221019ad7cdce1905ac": 8,
         "2a1059edc893dc90f09ea032": 1,
+        "2a3e7503ca3cc4d141d5ece8": 2,
         "2a6a112c0fa6c2a1c33e631a": 2,
         "2aa8d15bf0936c47eb4a3969": 1,
         "2aff6b5b7f39eeb89234da14": 1,
@@ -159111,12 +160449,13 @@
         "82fd9385ca2e3ceb3dc7c7c0": 1,
         "833e24666df86ce4b0d0369a": 1,
         "84e24d60db9513ec268622f0": 1,
-        "85275b1b26264ba9151b50d1": 1,
+        "85275b1b26264ba9151b50d1": 2,
         "85cc85f8ad27e80ba50e789b": 1,
         "85d369beb9c97268e83accd6": 1,
         "861064256e2ba16919f6d541": 1,
         "8613b0d9c9cff1778c070867": 1,
         "864b6b00c63e453c1a534422": 1,
+        "86712b834a2420e93c5c2b4f": 1,
         "86838e73ba76bbcf20cf3c8c": 4,
         "86a662d302a829b874976ed7": 2,
         "86aff9f491f46896f57e08b1": 4,
@@ -159147,6 +160486,7 @@
         "8bdfbc5f17bbe1efab9a8775": 1,
         "8bf83fc832127f22b12ec46b": 1,
         "8c467dda5061538f68d585ed": 1,
+        "8c5d6fa5124adfbd800140ad": 1,
         "8c6f980dbec1493c85926180": 1,
         "8ce97ae7558f93ec1c857c41": 2,
         "8d364e7bc218503ea137ed6f": 1,
@@ -159183,6 +160523,7 @@
         "92009eda481e635fcbeceab9": 1,
         "9280a62fed57a43261b2e7ab": 1,
         "929e6952234f22a31d93841b": 1,
+        "92f1d8c4bde0a82c03f9d9ce": 1,
         "92f48224e1a99a264d206cad": 2,
         "92f5586156e71fa6f015af5e": 4,
         "9373d5a1161f58e3b045c06d": 1,
@@ -159309,7 +160650,7 @@
         "aa2cd8d69b4a6e3440368b72": 1,
         "aa7e92f6f1c050ce47eb5f23": 1,
         "aa95a829161fe945737fc4e5": 1,
-        "aaeba177083f48b4aae493a0": 1,
+        "aaeba177083f48b4aae493a0": 3,
         "aaf7a1dc1b9255ac4a654021": 1,
         "ab70705af19603b40d713a7f": 2,
         "aba75d8fcb23b9b0e14236c3": 3,
@@ -159445,6 +160786,7 @@
         "c386f67a7e4d56f7ff914116": 1,
         "c3c2d4c7bfa430345786dd9b": 1,
         "c3c3768bea6944bb21b839fc": 2,
+        "c3d45e1b1ec7e34985833f39": 1,
         "c3ec2fcf500d0dac8a195644": 3,
         "c41056e1924b2eec96223953": 4,
         "c411df12e5ce04fbdbf43729": 1,
@@ -159463,7 +160805,7 @@
         "c6513b22b2d0ff7b1cfd8502": 2,
         "c66d177a5082ce65da34c2dd": 2,
         "c677e73d1d70df32635dedf5": 4,
-        "c743bae26091a841e08f424a": 2,
+        "c743bae26091a841e08f424a": 3,
         "c77d1a570cecea61c0a30496": 1,
         "c86258a2166fec671b763b5e": 1,
         "c86caa393d0f4060a82f8c6e": 1,
@@ -159597,7 +160939,7 @@
         "e311428754b661435f0dc1fc": 1,
         "e3b4376703d6723d7a1ca130": 1,
         "e3b6cac3aad00a7800a83e88": 1,
-        "e3b8eaf1d514a38ee26094e8": 1,
+        "e3b8eaf1d514a38ee26094e8": 3,
         "e4075e1cdb312e75192034f0": 1,
         "e4417546681dce6a571b2612": 1,
         "e471533e9b70090c71179dda": 1,
@@ -159648,6 +160990,7 @@
         "ecbe7099569cda226be9a9e4": 2,
         "ecef692105b84146cef9ddad": 1,
         "ed23f1191ffae2b6a4130f44": 1,
+        "ed3da9e849b90984bf422224": 1,
         "ed765902509f8e96286501dc": 1,
         "edbb5d9575c535383c8b1e09": 1,
         "edc3522dedfc90576b45027b": 10,
@@ -159706,6 +161049,7 @@
         "f747bb39b6dcb84ca325ea6f": 4,
         "f7765d7b1ec13588c420b02a": 1,
         "f77dcea9d7b69af65ae572eb": 1,
+        "f7c606231509289ac56ce651": 1,
         "f821a1fb9d962008e0efc783": 1,
         "f82ea846d5af404859184f84": 1,
         "f85c7f754d0fb5bdbdc0b50b": 2,
@@ -159727,7 +161071,7 @@
         "fb90a5ad0432ef5debba909d": 2,
         "fb9b762437bcc0b26a2df9d7": 1,
         "fbcfdea8e1965e1752528bd3": 1,
-        "fc3fd75f9abfa9d612b20c70": 18,
+        "fc3fd75f9abfa9d612b20c70": 19,
         "fca3edbc6cef27ce12ce3a1a": 1,
         "fd01af961c41938896943d1f": 1,
         "fd6971ad2e6a495c3b6da11a": 1,
@@ -159745,17 +161089,17 @@
         "ffe688a941e6119d64d0fb23": 1
       },
       "first_seen": "2026-09-13T20:02:54Z",
-      "last_seen": "2026-09-26T16:13:56Z",
+      "last_seen": "2026-09-26T20:58:01Z",
       "legacy_404_observations": 0,
       "path": "/",
-      "raw_requests": 2190,
+      "raw_requests": 2212,
       "statuses": {
-        "200": 1428,
-        "301": 279,
+        "200": 1442,
+        "301": 284,
         "304": 8,
-        "401": 155,
+        "401": 157,
         "403": 101,
-        "404": 82,
+        "404": 83,
         "405": 35,
         "499": 83,
         "522": 19
@@ -165500,6 +166844,188 @@
         "200": 1
       }
     },
+    "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/analysis.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:33:08Z",
+      "last_seen": "2026-09-26T20:33:08Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/analysis.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/bidi.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:33:08Z",
+      "last_seen": "2026-09-26T20:33:08Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/bidi.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/generated/bidi-data.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:33:08Z",
+      "last_seen": "2026-09-26T20:33:08Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/generated/bidi-data.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/layout.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:33:07Z",
+      "last_seen": "2026-09-26T20:33:07Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/layout.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/line-text.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:33:08Z",
+      "last_seen": "2026-09-26T20:33:08Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/line-text.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/measurement.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:33:08Z",
+      "last_seen": "2026-09-26T20:33:08Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/dependencies/chenglou-pretext/measurement.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/display-runtime-v2.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/display-runtime-v2.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/locus-shader.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/locus-shader.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/root-view.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/root-view.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/site-fold.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/site-fold.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/site-organism-papers.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/site-organism-papers.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/site-organism-philosophy.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/site-organism-philosophy.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/site-organism-philosophy.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/site-organism-philosophy.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/0168e69eac3e9bf3/site-runtime.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:29:29Z",
+      "last_seen": "2026-09-26T20:29:29Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/0168e69eac3e9bf3/site-runtime.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/assets/1f4e012f6de722bc/address.js": {
       "crawlers": {
         "bfe444f0d5891630599f7b03": 1
@@ -168131,6 +169657,97 @@
       "statuses": {
         "200": 1,
         "404": 1
+      }
+    },
+    "/assets/53bd7467514434a6/address.js": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:49Z",
+      "last_seen": "2026-09-26T19:20:49Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/address.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/53bd7467514434a6/favicon.svg": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:50Z",
+      "last_seen": "2026-09-26T19:20:50Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/favicon.svg",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/53bd7467514434a6/navigation-physiology.js": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:49Z",
+      "last_seen": "2026-09-26T19:20:49Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/navigation-physiology.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/53bd7467514434a6/root-view.css": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:49Z",
+      "last_seen": "2026-09-26T19:20:49Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/root-view.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/53bd7467514434a6/site-holon.js": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:49Z",
+      "last_seen": "2026-09-26T19:20:49Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/site-holon.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/53bd7467514434a6/site-runtime.css": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:49Z",
+      "last_seen": "2026-09-26T19:20:49Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/site-runtime.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/53bd7467514434a6/world-view.js": {
+      "crawlers": {
+        "ed3da9e849b90984bf422224": 1
+      },
+      "first_seen": "2026-09-26T19:20:49Z",
+      "last_seen": "2026-09-26T19:20:49Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/53bd7467514434a6/world-view.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/assets/564a32b6f7c33270/display-runtime-v2.js": {
@@ -170888,6 +172505,123 @@
         "200": 1
       }
     },
+    "/assets/80126aed54a79bdc/dependencies/chenglou-pretext/layout.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:25:31Z",
+      "last_seen": "2026-09-26T20:25:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/dependencies/chenglou-pretext/layout.js",
+      "raw_requests": 1,
+      "statuses": {
+        "404": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/display-safe-area.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/display-safe-area.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/interlocutors.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/interlocutors.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/navigation-aperture.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/navigation-aperture.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/site-holon.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/site-holon.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/site-organism-crawlerbait.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/site-organism-crawlerbait.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/site-organism-papers.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/site-organism-papers.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/site-organism-philosophy.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/site-organism-philosophy.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/80126aed54a79bdc/site-runtime.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:01:17Z",
+      "last_seen": "2026-09-26T20:01:17Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/80126aed54a79bdc/site-runtime.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/assets/8d1eb4b6621447a4/address.js": {
       "crawlers": {
         "290572ee9bbc5761014bad17": 1,
@@ -173511,6 +175245,136 @@
         "200": 2
       }
     },
+    "/assets/bc0f799c6bbf9cbf/address.js": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:39Z",
+      "last_seen": "2026-09-26T18:54:39Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/address.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/display-runtime-v2.js": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:39Z",
+      "last_seen": "2026-09-26T18:54:39Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/display-runtime-v2.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/display-safe-area.css": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:38Z",
+      "last_seen": "2026-09-26T18:54:38Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/display-safe-area.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/display-safe-area.js": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:39Z",
+      "last_seen": "2026-09-26T18:54:39Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/display-safe-area.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/locus-shader.js": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:39Z",
+      "last_seen": "2026-09-26T18:54:39Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/locus-shader.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/navigation-aperture.css": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:38Z",
+      "last_seen": "2026-09-26T18:54:38Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/navigation-aperture.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/site-holon.js": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:39Z",
+      "last_seen": "2026-09-26T18:54:39Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/site-holon.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/site-organism-crawlerbait.css": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:38Z",
+      "last_seen": "2026-09-26T18:54:38Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/site-organism-crawlerbait.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/site-organism-papers.css": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:38Z",
+      "last_seen": "2026-09-26T18:54:38Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/site-organism-papers.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/bc0f799c6bbf9cbf/site-organism-philosophy.css": {
+      "crawlers": {
+        "85275b1b26264ba9151b50d1": 1
+      },
+      "first_seen": "2026-09-26T18:54:38Z",
+      "last_seen": "2026-09-26T18:54:38Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/bc0f799c6bbf9cbf/site-organism-philosophy.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/assets/cafe5a10692d820f/display-runtime-v2.js": {
       "crawlers": {
         "00a497d923e2e771c7b2dd33": 1,
@@ -173871,6 +175735,214 @@
       "statuses": {
         "200": 1,
         "404": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/address.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/address.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/analysis.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:53:21Z",
+      "last_seen": "2026-09-26T20:53:21Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/analysis.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/bidi.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:53:21Z",
+      "last_seen": "2026-09-26T20:53:21Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/bidi.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/generated/bidi-data.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:53:21Z",
+      "last_seen": "2026-09-26T20:53:21Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/generated/bidi-data.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/layout.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:53:20Z",
+      "last_seen": "2026-09-26T20:53:20Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/layout.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/line-break.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:53:21Z",
+      "last_seen": "2026-09-26T20:53:21Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/line-break.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/measurement.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:53:21Z",
+      "last_seen": "2026-09-26T20:53:21Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/dependencies/chenglou-pretext/measurement.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/display-safe-area.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/display-safe-area.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/favicon.svg": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:31Z",
+      "last_seen": "2026-09-26T20:51:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/favicon.svg",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/navigation-aperture.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/navigation-aperture.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/navigation-physiology.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/navigation-physiology.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/site-holon.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/site-holon.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/site-organism-crawlerbait.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/site-organism-crawlerbait.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/site-organism-papers.css": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/site-organism-papers.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/site-organism-papers.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/site-organism-papers.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/e45ec6567132bb28/site-organism-philosophy.js": {
+      "crawlers": {
+        "261f513118444e214f06f493": 1
+      },
+      "first_seen": "2026-09-26T20:51:30Z",
+      "last_seen": "2026-09-26T20:51:30Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/e45ec6567132bb28/site-organism-philosophy.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/assets/e5d2d2bac82f3beb/display-runtime-v2.js": {
@@ -175638,6 +177710,7 @@
         "7a24c4d70242647032940acf": 1,
         "7bd56b48172c7c3ba0bf12b5": 1,
         "833e24666df86ce4b0d0369a": 1,
+        "85275b1b26264ba9151b50d1": 1,
         "906ba1098c360e61767e707b": 2,
         "918b98864e77c2918fb2e162": 2,
         "94032c6bd49e3d88bd233575": 1,
@@ -175664,12 +177737,12 @@
         "fab1a1e43e8b7570fb2f8ddb": 1
       },
       "first_seen": "2026-09-13T20:04:19Z",
-      "last_seen": "2026-09-26T12:56:05Z",
+      "last_seen": "2026-09-26T18:54:40Z",
       "legacy_404_observations": 0,
       "path": "/cdn-cgi/rum",
-      "raw_requests": 80,
+      "raw_requests": 81,
       "statuses": {
-        "204": 80
+        "204": 81
       }
     },
     "/chains/config.json": {
@@ -178378,6 +180451,7 @@
         "d866eb682511363d3737a1c7": 1,
         "dc45d50f4707da16e3aaa5bc": 1,
         "eb8c6fd9d3452ba99970d2e7": 1,
+        "ed3da9e849b90984bf422224": 1,
         "f17fc68e0a42712188a217e4": 1,
         "f82ea846d5af404859184f84": 1,
         "f912cd35e0c56115f14c3771": 1,
@@ -178386,14 +180460,14 @@
         "ffe688a941e6119d64d0fb23": 1
       },
       "first_seen": "2026-09-13T22:09:07Z",
-      "last_seen": "2026-09-26T12:29:11Z",
+      "last_seen": "2026-09-26T19:20:53Z",
       "legacy_404_observations": 44,
       "path": "/favicon.ico",
-      "raw_requests": 106,
+      "raw_requests": 107,
       "statuses": {
         "301": 8,
         "401": 2,
-        "404": 82,
+        "404": 83,
         "499": 14
       }
     },
@@ -180964,6 +183038,7 @@
       "crawlers": {
         "1a8ef1ee84300162cf0c7174": 2,
         "239b64f0fdd4fdb84625f279": 1,
+        "261f513118444e214f06f493": 3,
         "2b38477b696e3c533f8499c6": 1,
         "2c65f4c1977134badabef6b2": 1,
         "35dabd7cd055fbdd3c1bd9fa": 1,
@@ -180981,16 +183056,17 @@
         "e5405bf0de0bd24ae24c20ae": 1
       },
       "first_seen": "2026-09-19T15:35:21Z",
-      "last_seen": "2026-09-26T12:29:11Z",
+      "last_seen": "2026-09-26T20:53:20Z",
       "legacy_404_observations": 0,
       "path": "/papers-shadow/current.json",
-      "raw_requests": 26,
+      "raw_requests": 29,
       "statuses": {
-        "200": 26
+        "200": 29
       }
     },
     "/papers-shadow/genealogy-gap-repair.json": {
       "crawlers": {
+        "261f513118444e214f06f493": 1,
         "2b38477b696e3c533f8499c6": 1,
         "4d3879275d0f77fd0a961bfa": 1,
         "9456e89eb12db278b610779e": 1,
@@ -180998,12 +183074,12 @@
         "bfe444f0d5891630599f7b03": 6
       },
       "first_seen": "2026-09-23T08:17:28Z",
-      "last_seen": "2026-09-26T12:29:11Z",
+      "last_seen": "2026-09-26T20:25:32Z",
       "legacy_404_observations": 0,
       "path": "/papers-shadow/genealogy-gap-repair.json",
-      "raw_requests": 10,
+      "raw_requests": 11,
       "statuses": {
-        "200": 10
+        "200": 11
       }
     },
     "/papers/": {
@@ -182046,7 +184122,7 @@
         "04dc6a8cf386bd0f89c28569": 1,
         "08163a6218f71f72d285b98b": 3,
         "081955fdf9740817d5dc3cc9": 1,
-        "0825a21ca1909dd0d201e4f0": 4,
+        "0825a21ca1909dd0d201e4f0": 6,
         "090299732c8c418591b29e4f": 2,
         "0dbec65be44ebfcaeb28ebaa": 2,
         "10b6fa017b42405c5ac7091f": 1,
@@ -182152,12 +184228,12 @@
         "f9d70b38584e399a7f3338ea": 1
       },
       "first_seen": "2026-09-13T20:38:21Z",
-      "last_seen": "2026-09-26T16:17:12Z",
+      "last_seen": "2026-09-26T20:40:27Z",
       "legacy_404_observations": 0,
       "path": "/robots.txt",
-      "raw_requests": 180,
+      "raw_requests": 182,
       "statuses": {
-        "200": 150,
+        "200": 152,
         "301": 13,
         "401": 17
       }
@@ -183224,7 +185300,7 @@
       "crawlers": {
         "04dc6a8cf386bd0f89c28569": 1,
         "08163a6218f71f72d285b98b": 3,
-        "0825a21ca1909dd0d201e4f0": 3,
+        "0825a21ca1909dd0d201e4f0": 5,
         "090299732c8c418591b29e4f": 2,
         "10b6fa017b42405c5ac7091f": 1,
         "13a458427594be77cb29e9d8": 1,
@@ -183258,14 +185334,14 @@
         "f9d70b38584e399a7f3338ea": 1
       },
       "first_seen": "2026-09-15T22:09:07Z",
-      "last_seen": "2026-09-26T16:17:12Z",
+      "last_seen": "2026-09-26T20:40:27Z",
       "legacy_404_observations": 51,
       "path": "/sitemap.xml",
-      "raw_requests": 64,
+      "raw_requests": 66,
       "statuses": {
         "301": 2,
         "401": 8,
-        "404": 54
+        "404": 56
       }
     },
     "/sitemaps/.env": {
@@ -185277,7 +187353,7 @@
     },
     "/wp-admin/install.php": {
       "crawlers": {
-        "5e799495316e57f07453e0e6": 876,
+        "5e799495316e57f07453e0e6": 878,
         "7cf8582736ea13d43069f941": 1,
         "97536cf3ef827db7d725989a": 1,
         "a1874b40bebb3f8d27c4e353": 1,
@@ -185286,12 +187362,12 @@
         "c8f7755191baf96db8ed861c": 1
       },
       "first_seen": "2026-09-13T20:18:42Z",
-      "last_seen": "2026-09-26T16:17:32Z",
+      "last_seen": "2026-09-26T19:17:17Z",
       "legacy_404_observations": 1,
       "path": "/wp-admin/install.php",
-      "raw_requests": 883,
+      "raw_requests": 885,
       "statuses": {
-        "404": 881,
+        "404": 883,
         "499": 2
       }
     },
@@ -185675,15 +187751,16 @@
     },
     "/wp-json/wp/v2/users": {
       "crawlers": {
+        "27e445ebd4a1478e545efae2": 1,
         "69bd23def27a2ca7350fbf86": 1
       },
       "first_seen": "2026-09-21T08:07:06Z",
-      "last_seen": "2026-09-21T08:07:06Z",
+      "last_seen": "2026-09-26T18:16:01Z",
       "legacy_404_observations": 0,
       "path": "/wp-json/wp/v2/users",
-      "raw_requests": 1,
+      "raw_requests": 2,
       "statuses": {
-        "404": 1
+        "404": 2
       }
     },
     "/wp-json/wp/v2/users/": {
@@ -185764,6 +187841,7 @@
         "97f03e7315e68d1534f12b75": 1,
         "a0a2a5749e8cf32c3360ff64": 1,
         "a440d676dd5cb1d296cde73a": 1,
+        "a63e3121be25a51a406ff96d": 1,
         "acad8cdb318e8b17a7b0592a": 1,
         "ae111e3526272d7db723a485": 1,
         "ae2fbc8803cec545eba2b95b": 1,
@@ -185779,6 +187857,7 @@
         "c30bce78e17e9362be594bc9": 1,
         "c30dbe67ab666a6a35333c36": 1,
         "ca998fa1606aeb1c3ec2582b": 1,
+        "d61239b8f988d892bf2a6009": 1,
         "d6c411007eabeb6b3cb7ecf9": 1,
         "d82887f99bb0b46bacfc49e5": 1,
         "d9296ef9800f59dd79b07836": 1,
@@ -185796,13 +187875,13 @@
         "fc2d3df237c36d32a6461397": 1
       },
       "first_seen": "2026-09-12T22:09:07Z",
-      "last_seen": "2026-09-26T15:16:49Z",
+      "last_seen": "2026-09-26T20:38:47Z",
       "legacy_404_observations": 46,
       "path": "/wp-login.php",
-      "raw_requests": 106,
+      "raw_requests": 108,
       "statuses": {
         "401": 1,
-        "404": 105
+        "404": 107
       }
     },
     "/wp/": {
@@ -186150,6 +188229,7 @@
     "/xmlrpc.php": {
       "crawlers": {
         "022b0e049ecaa3c8bccfffd9": 1,
+        "06a975f67633bdcdacf90166": 1,
         "191568e0b84f33658151bf24": 1,
         "1cb4437f879d518257425c9f": 1,
         "23f012f8f1ff0f60ad170407": 1,
@@ -186165,6 +188245,7 @@
         "69c3c9d96a5cb0fa826a5f6f": 1,
         "8ee5e155b39b139ecf8db0e6": 3,
         "975678bef088125b28d68cf6": 1,
+        "9e002961b54459fbf1e5f966": 1,
         "a123bb7284c053b7b599a3db": 1,
         "a668fc7387c1b0122a0f5ef8": 2,
         "bc932bfd9d5db2171206ca8e": 1,
@@ -186176,6 +188257,7 @@
         "c8e422747d3962db2d822e25": 1,
         "c9e2c463deab079492838534": 1,
         "cf2ae90fac8529d4f21062b9": 2,
+        "cfba753ee7ee1cfa737f020c": 1,
         "d9747732259ae4bdc83aaaf2": 1,
         "dc4ca95a4b66003e9c942700": 2,
         "e187b3ef2f5e2e99bc6bcae6": 3,
@@ -186185,14 +188267,14 @@
         "ebadf3330356a33aa46499d2": 6
       },
       "first_seen": "2026-09-13T22:09:07Z",
-      "last_seen": "2026-09-26T13:42:00Z",
+      "last_seen": "2026-09-26T18:15:52Z",
       "legacy_404_observations": 19,
       "path": "/xmlrpc.php",
-      "raw_requests": 48,
+      "raw_requests": 51,
       "statuses": {
         "401": 1,
-        "404": 29,
-        "405": 18
+        "404": 30,
+        "405": 20
       }
     },
     "/y/papers/current.json": {

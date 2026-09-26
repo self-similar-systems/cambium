@@ -3,15 +3,19 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "27e445ebd4a1478e545efae2"
+    },
+    {
+      "events": 1,
       "id": "69bd23def27a2ca7350fbf86"
     }
   ],
   "first_seen": "2026-09-21T08:07:06Z",
   "id": "329f8372488f568a00a7",
-  "last_seen": "2026-09-21T08:07:06Z",
+  "last_seen": "2026-09-26T18:16:01Z",
   "legacy_404_observations": 0,
   "observed_path": "/wp-json/wp/v2/users",
   "public_href": "/crawlerbait/bait/wp-json/wp/v2/users/",
-  "raw_requests": 1,
+  "raw_requests": 2,
   "version": 2
 }
