@@ -55,6 +55,10 @@ void main(){
   if(vHot>.5)c=mix(c,vec3(1.),.32);
   outColor=vec4(c,alpha);
 }`;
+const ENV_VERTEX=`#version 300 es
+precision highp float;uniform vec4 uQuat;uniform vec3 uCenter;uniform float uSpan;uniform float uEnvRegion;out vec3 vN;out vec3 vW;out float vRegion;
+vec3 qrot(vec4 q,vec3 v){return v+2.0*cross(q.yzw,cross(q.yzw,v)+q.x*v);}
+void main(){vec2 p=gl_VertexID==0?vec2(-1.,-1.):(gl_VertexID==1?vec2(3.,-1.):vec2(-1.,3.));gl_Position=vec4(p,0.,1.);vW=qrot(uQuat,uCenter+vec3(p*.72,-.35)*uSpan);vN=qrot(uQuat,normalize(vec3(-p.x*.18,-p.y*.18,1.)));vRegion=uEnvRegion;}`;
 function program(gl,fragment,vertex=VERTEX){const p=gl.createProgram();gl.attachShader(p,compile(gl,gl.VERTEX_SHADER,vertex));gl.attachShader(p,compile(gl,gl.FRAGMENT_SHADER,fragment));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(p));return p}
 function pointProgram(gl){const p=gl.createProgram();gl.attachShader(p,compile(gl,gl.VERTEX_SHADER,POINT_VERTEX));gl.attachShader(p,compile(gl,gl.FRAGMENT_SHADER,POINT_FRAGMENT));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(p));return p}
 function geometry(cells){const data=[];function tri(a,b,c,region){const no=nrm(cross(sub(b,a),sub(c,a)));for(const v of [a,b,c])data.push(...v,...no,region)}for(const cell of cells){const r=geneIndex[cell.path[0]]??0;for(const f of faceIx)tri(cell.tet[f[0]],cell.tet[f[1]],cell.tet[f[2]],r)}return new Float32Array(data)}
@@ -145,30 +149,26 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     }
   }
   const ctx=!gl?canvas.getContext('2d'):null;
-  /* HOST SEEN FROM INSIDE THE LOCUS — a site floats as content inside its host's
-   * cell. The host's own realized geometry is drawn with the host's own shader,
-   * framed at mount path + local walked path, so both bodies share one frame and
-   * nesting is camera composition, never an extra full-screen layer. A site whose
-   * renderer already embodies its host may refuse with `environment:false`. */
+  /* HOST ENVIRONMENT AT THE LOCUS — inside a site the host's geometry is not seen.
+   * The host's own shader, evaluated at the container the site occupies (its region,
+   * its place and span in host space, the shared orientation), fills the entire space
+   * in which the site is witnessed. One full-screen pass at any depth. Generalizes the
+   * inquiry environment Papers grew locally. A site whose renderer already embodies
+   * its host may refuse with `environment:false`. */
   const hostAllowed=shader.environment!==false&&typeof environment==='function';
   let HOST=null;
   function hostView(){
     if(!gl||!hostAllowed)return null;
-    const e=environment();if(!e?.shader?.fragment||!e.root){HOST=null;return null}
+    const e=environment();if(!e?.shader?.fragment){HOST=null;return null}
     if(!HOST||HOST.key!==e.hostId+'|'+e.shader.id){
       try{
-        const hp=program(gl,e.shader.fragment),hvao=gl.createVertexArray(),hbuf=gl.createBuffer();
-        gl.bindVertexArray(hvao);gl.bindBuffer(gl.ARRAY_BUFFER,hbuf);
-        for(const [name,size,off] of [['aPos',3,0],['aNormal',3,12],['aRegion',1,24]]){const loc=gl.getAttribLocation(hp,name);if(loc<0)continue;gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,size,gl.FLOAT,false,28,off)}
-        HOST={key:e.hostId+'|'+e.shader.id,p:hp,vao:hvao,buf:hbuf,count:0,shownFor:null,structure:N.collectStructure(e.root),colors:paletteSet(e.palette),U:{proj:gl.getUniformLocation(hp,'uProj'),view:gl.getUniformLocation(hp,'uView'),model:gl.getUniformLocation(hp,'uModel'),time:gl.getUniformLocation(hp,'uTime'),focus:gl.getUniformLocation(hp,'uFocus'),resolution:gl.getUniformLocation(hp,'uResolution'),pal:gl.getUniformLocation(hp,'uPalette[0]')}};
-      }catch(err){console.warn('host view unavailable for '+id,err);HOST={key:e.hostId+'|'+e.shader.id,p:null}}
+        const hp=program(gl,e.shader.fragment,ENV_VERTEX);
+        HOST={key:e.hostId+'|'+e.shader.id,p:hp,vao:gl.createVertexArray(),colors:paletteSet(e.palette),U:{quat:gl.getUniformLocation(hp,'uQuat'),center:gl.getUniformLocation(hp,'uCenter'),span:gl.getUniformLocation(hp,'uSpan'),region:gl.getUniformLocation(hp,'uEnvRegion'),time:gl.getUniformLocation(hp,'uTime'),focus:gl.getUniformLocation(hp,'uFocus'),resolution:gl.getUniformLocation(hp,'uResolution'),pal:gl.getUniformLocation(hp,'uPalette[0]')}};
+      }catch(err){console.warn('host environment unavailable for '+id,err);HOST={key:e.hostId+'|'+e.shader.id,p:null}}
     }
     if(!HOST.p)return null;
-    const geo=e.path+container();
-    let hc='';for(const a of HOST.structure.addresses)if(geo.startsWith(a.path)&&a.path.length>hc.length)hc=a.path;
-    if(HOST.shownFor!==hc){const data=geometry(HOST.structure.leaves);gl.bindBuffer(gl.ARRAY_BUFFER,HOST.buf);gl.bufferData(gl.ARRAY_BUFFER,data,gl.DYNAMIC_DRAW);HOST.count=data.length/7;HOST.shownFor=hc}
-    const mount=N.cellForPath(e.path),f=currentFrame(),k=Math.pow(2,-e.path.length)*BODY_FRACTION;
-    return {e,H:HOST,center:mount.center.map((v,i)=>v+f.center[i]*k),scale:f.scale/k,focus:geneIndex[e.path[0]]??-1};
+    const k=Math.pow(2,-e.path.length)*BODY_FRACTION,mount=N.cellForPath(e.path),f=currentFrame();
+    return {e,H:HOST,center:mount.center.map((v,i)=>v+f.center[i]*k),span:k/f.scale,region:geneIndex[e.path[0]]??0};
   }
   /* FLOATING BODIES — organisms whose host is this field float in their mount cell,
    * drawn with their own identity shader at full geometry, entered by selection. */
@@ -353,12 +353,10 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
       const clear=Array.isArray(hostClear)&&hostClear.length===4?hostClear:(Array.isArray(shader.clear)&&shader.clear.length===4?shader.clear:[.014,.019,.027,1]);
       gl.viewport(0,0,w,h);gl.clearColor(...clear);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);
       if(hv){
-        const {H}=hv,hs=hv.e.shader.state||{};
-        if(hs.blend){gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA)}else gl.disable(gl.BLEND);
-        if(hs.depthTest===false)gl.disable(gl.DEPTH_TEST);else gl.enable(gl.DEPTH_TEST);gl.depthMask(hs.depthWrite!==false);
-        gl.useProgram(H.p);gl.uniformMatrix4fv(H.U.proj,false,proj);gl.uniformMatrix4fv(H.U.view,false,view);gl.uniformMatrix4fv(H.U.model,false,model(W.orientation,base*hv.scale,hv.center));
-        if(H.U.time)gl.uniform1f(H.U.time,ms*.001);if(H.U.focus)gl.uniform1f(H.U.focus,hv.focus);if(H.U.resolution)gl.uniform2f(H.U.resolution,w,h);if(H.U.pal)gl.uniform3fv(H.U.pal,new Float32Array(H.colors.flat()));
-        gl.bindVertexArray(H.vao);gl.drawArrays(gl.TRIANGLES,0,H.count);gl.clear(gl.DEPTH_BUFFER_BIT);
+        const {H}=hv;gl.disable(gl.DEPTH_TEST);gl.depthMask(false);gl.disable(gl.BLEND);gl.useProgram(H.p);gl.bindVertexArray(H.vao);
+        gl.uniform4fv(H.U.quat,new Float32Array(W.orientation));gl.uniform3fv(H.U.center,new Float32Array(hv.center));gl.uniform1f(H.U.span,hv.span);gl.uniform1f(H.U.region,hv.region);
+        if(H.U.time)gl.uniform1f(H.U.time,ms*.001);if(H.U.focus)gl.uniform1f(H.U.focus,hv.region);if(H.U.resolution)gl.uniform2f(H.U.resolution,w,h);if(H.U.pal)gl.uniform3fv(H.U.pal,new Float32Array(H.colors.flat()));
+        gl.drawArrays(gl.TRIANGLES,0,3);gl.clear(gl.DEPTH_BUFFER_BIT);
         canvas.dataset.hostView=hv.e.hostId;canvas.dataset.hostPath=hv.e.path;
       }else{delete canvas.dataset.hostView;delete canvas.dataset.hostPath}
       canvas.dataset.container=cur||'ε';canvas.dataset.visibleCells=String(cells.length);canvas.dataset.visibleContent=String(visible.length);

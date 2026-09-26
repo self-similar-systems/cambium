@@ -9,13 +9,14 @@
     "field geometry always at full realized resolution; LOD governs content (pools) only",
     "camera interpolates between containers over 330 ms (smoothstep, log-scale); host view follows the same frame",
     "overview field draws every mounted site-holon as a floating body at its mount cell, with its own identity shader, at one organism size (BODY_FRACTION of the cell)",
-    "selecting a floating body enters it (same membrane gesture); inside, the host frame matches the body size so entry is continuous",
+    "selecting a floating body enters it (same membrane gesture)",
+    "inside a site the host geometry is not drawn: the host shader evaluated at the occupied container fills the whole space (one full-screen pass; generalizes Papers' local inquiry environment)",
     "Display navigation/site-holon RITUALS advanced to 2.4 / 2.6",
     "no Display INDEX/_cambium change"
   ],
   "context": {
     "source_nutrient": "w/display/_stomach/NUTRIENT__floating-bodies-smooth-descent__20260926.md",
-    "browser_witness": "local build, in-app browser: Crawlerbait visible as full-resolution reef body in Philosophy w; camera interpolation sampled mid-move; clicking the body enters Crawlerbait; host cell visible around it inside; 3451 cells drawn, 16 pools; no console errors",
+    "browser_witness": "local build, in-app browser: Crawlerbait visible as full-resolution reef body in Philosophy w; camera interpolation sampled mid-move; clicking the body enters Crawlerbait; whole space filled by Philosophy's environment at w (no host geometry); 3451 cells drawn, 16 pools; no console errors",
     "tests": ["site-holon", "site-fold", "navigation-physiology", "display-safe-area", "crawlerbait render"]
   },
   "open": [
