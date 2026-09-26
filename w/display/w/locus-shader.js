@@ -58,15 +58,18 @@ void main(){
 function program(gl,fragment,vertex=VERTEX){const p=gl.createProgram();gl.attachShader(p,compile(gl,gl.VERTEX_SHADER,vertex));gl.attachShader(p,compile(gl,gl.FRAGMENT_SHADER,fragment));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(p));return p}
 function pointProgram(gl){const p=gl.createProgram();gl.attachShader(p,compile(gl,gl.VERTEX_SHADER,POINT_VERTEX));gl.attachShader(p,compile(gl,gl.FRAGMENT_SHADER,POINT_FRAGMENT));gl.linkProgram(p);if(!gl.getProgramParameter(p,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(p));return p}
 function geometry(cells){const data=[];function tri(a,b,c,region){const no=nrm(cross(sub(b,a),sub(c,a)));for(const v of [a,b,c])data.push(...v,...no,region)}for(const cell of cells){const r=geneIndex[cell.path[0]]??0;for(const f of faceIx)tri(cell.tet[f[0]],cell.tet[f[1]],cell.tet[f[2]],r)}return new Float32Array(data)}
-/* DESCENT LOD — render only the current container's children, plus their realized
- * children as a non-selectable hint. Deeper tissue is never drawn as cells. */
-function visibleCells(structure,container){
-  const d=container.length,byPath=new Map(structure.addresses.map(a=>[a.path,a]));
-  const kids=structure.addresses.filter(a=>a.path.length===d+1&&a.path.startsWith(container));
-  if(!kids.length){const self=container?byPath.get(container):null;return self?[self]:[]}
-  const out=[];
-  for(const k of kids){const g=structure.addresses.filter(a=>a.path.length===d+2&&a.path.startsWith(k.path));if(g.length)out.push(...g);else out.push(k)}
-  return out;
+/* Geometry is always drawn at full realized resolution: a Sierpinski body is cheap.
+ * LOD governs content only (pools), never the shape of a body. */
+const CAMERA_MS=330;
+const smooth01=t=>t<=0?0:t>=1?1:t*t*(3-2*t);
+/* A body floats inside its host cell at one organism size, whatever its own depth:
+ * organisms refine inward, only composed holons grow outward. */
+const BODY_FRACTION=.5;
+function bodyGeometry(structure,path){
+  const cell=N.cellForPath(path),k=Math.pow(2,-path.length)*BODY_FRACTION;
+  const raw=geometry(structure.leaves);
+  for(let i=0;i<raw.length;i+=7){for(let j=0;j<3;j++)raw[i+j]=cell.center[j]+raw[i+j]*k}
+  return {data:raw,tet:N.V0.map(v=>v.map((x,j)=>cell.center[j]+x*k))};
 }
 function nodeAt(root,path){let n=root;for(const g of path){n=n?.children?.[g];if(!n)return null}return n}
 function shaderContract(shader){
@@ -108,7 +111,7 @@ function fieldPointRecords(structure,projection){
   }
   return out;
 }
-function create({id,element,canvas,labelHost,projection,palette,shader,inspectable=false,draggable=true,localScope,environment=null}){
+function create({id,element,canvas,labelHost,projection,palette,shader,inspectable=false,draggable=true,localScope,environment=null,bodies=null}){
   if(!element||!canvas||!projection?.root)throw new Error('interlocutor field surface incomplete: '+id);
   const module=globalThis.SSSInterlocutorModules instanceof Map?globalThis.SSSInterlocutorModules.get(id):null;
   shader=shaderContract(shader||module?.shader);
@@ -125,7 +128,7 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     if(scopeBound()){const v=W.view||'';if((walk.at(-1)||'')!==v)walk=v?[...v].map((_,i)=>v.slice(0,i+1)):[];return v}
     return walk.at(-1)||'';
   }
-  let shownFor=null,cells=[],visible=[];
+  let shownFor=null,cells=[],visible=[],cam=null;
   if(gl){
     const p=program(gl,shader.fragment),vao=gl.createVertexArray(),buf=gl.createBuffer();
     gl.bindVertexArray(vao);gl.bindBuffer(gl.ARRAY_BUFFER,buf);
@@ -163,15 +166,46 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     if(!HOST.p)return null;
     const geo=e.path+container();
     let hc='';for(const a of HOST.structure.addresses)if(geo.startsWith(a.path)&&a.path.length>hc.length)hc=a.path;
-    if(HOST.shownFor!==hc){const data=geometry(visibleCells(HOST.structure,hc).length?visibleCells(HOST.structure,hc):HOST.structure.leaves);gl.bindBuffer(gl.ARRAY_BUFFER,HOST.buf);gl.bufferData(gl.ARRAY_BUFFER,data,gl.DYNAMIC_DRAW);HOST.count=data.length/7;HOST.shownFor=hc}
-    const cell=N.cellForPath(geo);
-    return {e,H:HOST,center:cell.center,scale:1.02*Math.pow(2,geo.length),focus:geneIndex[e.path[0]]??-1};
+    if(HOST.shownFor!==hc){const data=geometry(HOST.structure.leaves);gl.bindBuffer(gl.ARRAY_BUFFER,HOST.buf);gl.bufferData(gl.ARRAY_BUFFER,data,gl.DYNAMIC_DRAW);HOST.count=data.length/7;HOST.shownFor=hc}
+    const mount=N.cellForPath(e.path),f=currentFrame(),k=Math.pow(2,-e.path.length)*BODY_FRACTION;
+    return {e,H:HOST,center:mount.center.map((v,i)=>v+f.center[i]*k),scale:f.scale/k,focus:geneIndex[e.path[0]]??-1};
+  }
+  /* FLOATING BODIES — organisms whose host is this field float in their mount cell,
+   * drawn with their own identity shader at full geometry, entered by selection. */
+  const BODIES=new Map();
+  function floatingBodies(){
+    if(!gl||typeof bodies!=='function')return [];
+    const list=bodies()||[],out=[];
+    for(const b of list){
+      if(!b?.shader?.fragment||!b.root)continue;
+      let B=BODIES.get(b.id);
+      if(!B||B.key!==b.shader.id+'|'+b.path){
+        try{
+          const bp=program(gl,b.shader.fragment),bvao=gl.createVertexArray(),bbuf=gl.createBuffer(),g=bodyGeometry(N.collectStructure(b.root),b.path);
+          gl.bindVertexArray(bvao);gl.bindBuffer(gl.ARRAY_BUFFER,bbuf);gl.bufferData(gl.ARRAY_BUFFER,g.data,gl.STATIC_DRAW);
+          for(const [name,size,off] of [['aPos',3,0],['aNormal',3,12],['aRegion',1,24]]){const loc=gl.getAttribLocation(bp,name);if(loc<0)continue;gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,size,gl.FLOAT,false,28,off)}
+          B={key:b.shader.id+'|'+b.path,id:b.id,p:bp,vao:bvao,count:g.data.length/7,tet:g.tet,state:b.shader.state||{},colors:paletteSet(b.palette),U:{proj:gl.getUniformLocation(bp,'uProj'),view:gl.getUniformLocation(bp,'uView'),model:gl.getUniformLocation(bp,'uModel'),time:gl.getUniformLocation(bp,'uTime'),focus:gl.getUniformLocation(bp,'uFocus'),resolution:gl.getUniformLocation(bp,'uResolution'),pal:gl.getUniformLocation(bp,'uPalette[0]')}};
+        }catch(err){console.warn('floating body unavailable: '+b.id,err);B={key:b.shader.id+'|'+b.path,id:b.id,p:null}}
+        BODIES.set(b.id,B);
+      }
+      if(B.p)out.push(B);
+    }
+    return out;
+  }
+  function hitBody(x,y,rect){
+    let best=null;
+    for(const B of BODIES.values()){
+      if(!B.p)continue;const pts=B.tet.map(p=>project(p,rect));
+      for(const f of faceIx){const tri=[pts[f[0]],pts[f[1]],pts[f[2]]];if(!pointInTriangle(x,y,...tri))continue;const z=(tri[0].z+tri[1].z+tri[2].z)/3;if(!best||z>best.z)best={id:B.id,z}}
+    }
+    return best?.id||'';
   }
   /* LOD + POOLS — cells and content are resolved only around the container.
    * Content deeper than the hint level coalesces into one pool at its hint cell. */
   function refreshVisible(){
     const c=container();if(shownFor===c)return;shownFor=c;
-    cells=visibleCells(structure,c);
+    cells=structure.leaves;
+    cam={from:currentFrame(),to:frameFor(c),start:performance.now()};
     if(gl&&GL){const data=geometry(cells);gl.bindBuffer(gl.ARRAY_BUFFER,GL.buf);gl.bufferData(gl.ARRAY_BUFFER,data,gl.DYNAMIC_DRAW);GL.count=data.length/7}
     const hint=c.length+2,pools=new Map();visible=[];
     for(const rec of pointRecords){
@@ -221,7 +255,13 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     if(next===hoverPointId)return;
     hoverPointId=next;uploadPoints();
   }
-  function target(){const c=container();return c?{center:N.cellForPath(c).center,scale:1.02*Math.pow(2,c.length)}:{center:[0,0,0],scale:1}}
+  function frameFor(c){return c?{center:N.cellForPath(c).center,scale:1.02*Math.pow(2,c.length)}:{center:[0,0,0],scale:1}}
+  function currentFrame(){
+    if(!cam)return frameFor(container());
+    const t=smooth01((performance.now()-cam.start)/CAMERA_MS),ls=Math.log(cam.from.scale)+(Math.log(cam.to.scale)-Math.log(cam.from.scale))*t;
+    return {center:cam.from.center.map((v,i)=>v+(cam.to.center[i]-v)*t),scale:Math.exp(ls)};
+  }
+  function target(){return currentFrame()}
   function project(point,rect){const t=target(),q=qRot(W.orientation,sub(point,t.center)),scale=(rect.width<560?1.42:1.75)*t.scale,camZ=3.2,z=camZ-q[2]*scale,f=(rect.height/2)/Math.tan(Math.PI/6.6);return {x:rect.width/2+q[0]*scale*f/z,y:rect.height/2-q[1]*scale*f/z,z:q[2]}}
   function pointInTriangle(x,y,a,b,c){
     const area=(p,q,r)=>(q.x-p.x)*(r.y-p.y)-(q.y-p.y)*(r.x-p.x);
@@ -327,6 +367,15 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
       gl.uniform1f(GL.U.time,ms*.001);gl.uniform1f(GL.U.focus,focus);if(GL.U.resolution)gl.uniform2f(GL.U.resolution,w,h);gl.uniform3fv(GL.pal,new Float32Array(colors.flat()));
       if(typeof shader.beforeDraw==='function')shader.beforeDraw({gl,program:GL.p,ms,focus,width:w,height:h,orientation:W.orientation});
       gl.bindVertexArray(GL.vao);gl.drawArrays(gl.TRIANGLES,0,GL.count);
+      const fb=floatingBodies();
+      for(const B of fb){
+        const bs=B.state;if(bs.blend){gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA)}else gl.disable(gl.BLEND);
+        if(bs.depthTest===false)gl.disable(gl.DEPTH_TEST);else gl.enable(gl.DEPTH_TEST);gl.depthMask(bs.depthWrite!==false);
+        gl.useProgram(B.p);gl.uniformMatrix4fv(B.U.proj,false,proj);gl.uniformMatrix4fv(B.U.view,false,view);gl.uniformMatrix4fv(B.U.model,false,mdl);
+        if(B.U.time)gl.uniform1f(B.U.time,ms*.001);if(B.U.focus)gl.uniform1f(B.U.focus,-1);if(B.U.resolution)gl.uniform2f(B.U.resolution,w,h);if(B.U.pal)gl.uniform3fv(B.U.pal,new Float32Array(B.colors.flat()));
+        gl.bindVertexArray(B.vao);gl.drawArrays(gl.TRIANGLES,0,B.count);
+      }
+      canvas.dataset.floatingBodies=fb.map(B=>B.id).join(' ');
       drawPointsGL(proj,view,mdl,d);
     }else if(ctx){
       const clear=Array.isArray(shader.clear)&&shader.clear.length>=3?shader.clear:[.014,.019,.027,1],alpha=Number(shader.fallbackAlpha??.12);
@@ -358,7 +407,7 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
       if(!down||down.id!==e.pointerId)return;const wasMoved=down.moved;down=null;try{if(canvas.hasPointerCapture(e.pointerId))canvas.releasePointerCapture(e.pointerId)}catch(_){}
       if(!wasMoved){
         const r=canvas.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,hp=hasPoints?hitPoint(x,y,r):null;
-        if(hp?.rec.pool)descendTo(hp.rec.path,'pool:'+id);else if(hp)selectPoint(hp.rec.spec.id,true);else{const path=hitChild(x,y,r);if(path)descendTo(path,'descent:'+id);else ascend('ascent:'+id)}
+        const body=hp?'':hitBody(x,y,r);if(body)dispatchEvent(new CustomEvent('sss:enter-body',{detail:{from:id,id:body,origin:{x:e.clientX,y:e.clientY}}}));else if(hp?.rec.pool)descendTo(hp.rec.path,'pool:'+id);else if(hp)selectPoint(hp.rec.spec.id,true);else{const path=hitChild(x,y,r);if(path)descendTo(path,'descent:'+id);else ascend('ascent:'+id)}
       }
       canvas.style.cursor=draggable?'grab':'default';e.preventDefault()
     };
