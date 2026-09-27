@@ -623,10 +623,12 @@ function beingLines(key,text,font,rows){
   return out;
 }
 function beingGlyphs(ctx,lines,font,boldUpTo=0){
-  ctx.font=font;const out=[];
-  for(const L of lines){const gs=graphemes(L.text);let prefix='';
-    for(const ch of gs){out.push({ch,tx:L.x+ctx.measureText(prefix).width,ty:L.y,bold:out.length<boldUpTo,x:0,y:0,vx:0,vy:0});prefix+=ch}}
-  return out;
+  // advances are measured in the weight each glyph is drawn in (bold title 600, the rest 400 when a title exists)
+  const fb=font.replace(/^\d+/,'600'),fr=boldUpTo>0?font.replace(/^\d+/,'400'):font,out=[];
+  for(const L of lines){const gs=graphemes(L.text);let pb='',pr='';
+    for(const ch of gs){const bold=out.length<boldUpTo;ctx.font=fb;const wb=pb?ctx.measureText(pb).width:0;ctx.font=fr;const wr=pr?ctx.measureText(pr).width:0;
+      out.push({ch,tx:L.x+wb+wr,ty:L.y,bold,x:0,y:0,vx:0,vy:0});if(bold)pb+=ch;else pr+=ch}}
+  ctx.font=font;return out;
 }
 function beingSpring(g,tx,ty,k=.18,damp=.7){g.vx=(g.vx+(tx-g.x)*k)*damp;g.vy=(g.vy+(ty-g.y)*k)*damp;g.x+=g.vx;g.y+=g.vy}
 function beingSame(a,b){return Boolean(a&&b&&a.kind===b.kind&&a.key===b.key)}
@@ -713,6 +715,46 @@ function beingHit(x,y){
   let hz=-1e9;for(const f of state.being?.faces||[]){if(!G.front[f.key])continue;const [a,b,c]=f.idx.map(i=>G.P[i]);const z=a.vz+b.vz+c.vz;if(pointInTriangle(x,y,a,b,c)&&z>hz){hz=z;hit={kind:'face',key:f.key}}}
   return hit;
 }
+/* ---------- ink membrane: an open sentence finds free space ----------
+ * Open or folding sentences never overlap Papers/Display chrome or one another. Lights and vertices search a ring
+ * of placements around their own anchor; woven edges and faces take the smallest nudge that frees them. A place is
+ * kept while it stays free, and the glyph springs turn every re-placement into a glide. */
+const INK_PAD=8;
+function inkShown(el){let op=1;for(let n=el;n;n=n.parentElement){const s=getComputedStyle(n);if(s.display==='none'||s.visibility==='hidden'||n.dataset?.visible==='false')return false;op*=+s.opacity}return op>.05}
+function inkChrome(rect){
+  const now=performance.now(),c=state.inkChrome;if(c&&now-c.t<250&&c.w===rect.width&&c.h===rect.height)return c.list;
+  const base=state.textCanvas.getBoundingClientRect(),list=[];
+  for(const el of [...state.host.querySelectorAll('.papers-source-original,.papers-sierpinski-hud,.papers-sierpinski-label,.papers-physiology'),...document.querySelectorAll('aside')]){
+    if(el.tagName!=='ASIDE'&&!el.textContent.trim())continue;if(!inkShown(el))continue;const r=el.getBoundingClientRect();if(r.width<2||r.height<2)continue;
+    list.push({x:r.left-base.left-INK_PAD,y:r.top-base.top-INK_PAD,w:r.width+2*INK_PAD,h:r.height+2*INK_PAD})}
+  state.inkChrome={t:now,w:rect.width,h:rect.height,list};return list;
+}
+function inkOverlap(b,list){let a=0;for(const o of list){const w=Math.min(b.x+b.w,o.x+o.w)-Math.max(b.x,o.x),h=Math.min(b.y+b.h,o.y+o.h)-Math.max(b.y,o.y);if(w>0&&h>0)a+=w*h}return a}
+function inkOutside(b,rect){const w=Math.max(0,Math.min(b.x+b.w,rect.width-14)-Math.max(b.x,14)),h=Math.max(0,Math.min(b.y+b.h,rect.height-24)-Math.max(b.y,80));return b.w*b.h-w*h}
+function inkCost(b,rect,taken){return 1000*(inkOverlap(b,taken)+inkOverlap(b,inkChrome(rect))+inkOutside(b,rect))/(b.w*b.h||1)}
+function inkBounds(glyphs,lh,baseline='top'){
+  let x0=1e9,y0=1e9,x1=-1e9,y1=-1e9;const up=baseline==='top'?0:lh*.8,down=baseline==='top'?lh:lh*.25;
+  for(const g of glyphs){x0=Math.min(x0,g.tx);y0=Math.min(y0,g.ty-up);x1=Math.max(x1,g.tx+8);y1=Math.max(y1,g.ty+down)}
+  return glyphs.length?{x0,y0,x1,y1}:{x0:0,y0:0,x1:0,y1:0};
+}
+function inkRing(obj,ax,ay,pref,R0,bounds,rect,taken){
+  const w=bounds.x1-bounds.x0,h=bounds.y1-bounds.y0,pa=Math.atan2(pref[1],pref[0]);
+  const at=(ang,R)=>{const dx=Math.cos(ang),dy=Math.sin(ang),he=Math.abs(dx)*w/2+Math.abs(dy)*h/2;return {x:ax+dx*(R+he)-w/2,y:ay+dy*(R+he)-h/2,w,h,ang,R}};
+  let best=obj.inkAt?at(obj.inkAt.ang,obj.inkAt.R):null;
+  if(!best||inkCost(best,rect,taken)>=.5){let bs=1e18;best=null;
+    for(const R of [R0,R0+36,R0+84,R0+150])for(let k=0;k<16;k++){const b=at(pa+k*Math.PI/8,R);let da=Math.abs(b.ang-pa)%(2*Math.PI);if(da>Math.PI)da=2*Math.PI-da;
+      const s=inkCost(b,rect,taken)+da*6+(R-R0)*.06;if(s<bs){bs=s;best=b}}}
+  obj.inkAt={ang:best.ang,R:best.R};
+  return {ox:best.x-bounds.x0-ax,oy:best.y-bounds.y0-ay};
+}
+function inkNudge(obj,box,rect,taken){
+  const at=(sx,sy)=>({x:box.x+sx,y:box.y+sy,w:box.w,h:box.h,sx,sy});
+  let best=obj.inkShift?at(...obj.inkShift):at(0,0);
+  if(inkCost(best,rect,taken)>=.5){let bs=inkCost(best=at(0,0),rect,taken);
+    if(bs>=.5)for(const R of [24,48,80,120,170,230])for(let k=0;k<16;k++){const a=k*Math.PI/8,b=at(Math.cos(a)*R,Math.sin(a)*R),s=inkCost(b,rect,taken)+R*.02;if(s<bs){bs=s;best=b}}}
+  obj.inkShift=[best.sx,best.sy];return best;
+}
+function inkAabb(corners){const xs=corners.map(p=>p[0]),ys=corners.map(p=>p[1]),x=Math.min(...xs),y=Math.min(...ys);return {x,y,w:Math.max(...xs)-x,h:Math.max(...ys)-y}}
 function drawWisdom(rect,cam,translate,metabolights,now){
   const {ctx,d}=resizeWisdomCanvas(state.textCanvas,rect),canvas=state.textCanvas,entity=state.current?state.identities.get(state.current.id):null,lights=Array.isArray(metabolights)?metabolights:[];
   canvas.dataset.pretextStatus=state.pretextStatus;canvas.dataset.wisdomLines='0';canvas.dataset.wisdomId=entity?.id||'';canvas.dataset.wisdomMetabolites=String(lights.length);canvas.dataset.wisdomSource='metabolites';canvas.dataset.wisdomState='hidden';delete canvas.dataset.wisdomComplete;
@@ -731,6 +773,7 @@ function drawWisdom(rect,cam,translate,metabolights,now){
   state.canvas.style.cursor=peek?'pointer':'';
   state.beingRecede=mix(state.beingRecede||0,open?1:0,Math.min(1,dt*5));
   ctx.textBaseline='top';ctx.shadowBlur=0;
+  const taken=[];
   // faces: back to front, dust → woven disk
   const faces=[...B.faces].sort((a,b)=>a.idx.reduce((s,i)=>s+P[i].vz,0)-b.idx.reduce((s,i)=>s+P[i].vz,0));
   for(const F of faces){
@@ -741,7 +784,11 @@ function drawWisdom(rect,cam,translate,metabolights,now){
     const Px=Bp.x-A.x,Py=Bp.y-A.y,Qx=C.x-A.x,Qy=C.y-A.y;
     const la=(Px*vy-Qx*uy)/det,lc=(-Px*vx+Qx*ux)/det,lb=(Py*vy-Qy*uy)/det,ld=(-Py*vx+Qy*ux)/det,ldet=la*ld-lc*lb;if(Math.abs(ldet)<1e-6)continue;
     let u=[ld/ldet,-lb/ldet];const ul=Math.hypot(...u)||1;u=[u[0]/ul,u[1]/ul];let v=[-u[1],u[0]];if(lb*v[0]+ld*v[1]<0)v=[-v[0],-v[1]];
-    const ox=A.x+la*BEING_CEN[0]+lc*BEING_CEN[1],oy=A.y+lb*BEING_CEN[0]+ld*BEING_CEN[1];
+    let ox=A.x+la*BEING_CEN[0]+lc*BEING_CEN[1],oy=A.y+lb*BEING_CEN[0]+ld*BEING_CEN[1];
+    {const ma=la*u[0]+lc*u[1],mb=lb*u[0]+ld*u[1],mc=la*v[0]+lc*v[1],md=lb*v[0]+ld*v[1],fb=F.bounds||(F.bounds=inkBounds(F.glyphs,FACE_LH));
+      let want=[0,0];
+      if(F.weave>.05){const box=inkAabb([[fb.x0,fb.y0],[fb.x1,fb.y0],[fb.x0,fb.y1],[fb.x1,fb.y1]].map(([x,y])=>[ma*x+mc*y+ox,mb*x+md*y+oy])),b=inkNudge(F,box,rect,taken);want=[b.sx,b.sy];if(F.weave>.2)taken.push(b)}else F.inkShift=null;
+      F.sh=F.sh||[0,0];F.sh=F.sh.map((s,i)=>mix(s,want[i],Math.min(1,dt*6)));const k=clamp(F.weave*1.5);ox+=F.sh[0]*k;oy+=F.sh[1]*k}
     const mcx=(ld*(m[0]-A.x)-lc*(m[1]-A.y))/ldet-BEING_CEN[0],mcy=(-lb*(m[0]-A.x)+la*(m[1]-A.y))/ldet-BEING_CEN[1];
     const mlx=mcx*u[0]+mcy*u[1],mly=mcx*v[0]+mcy*v[1],near=beingSame(peek,{kind:'face',key:F.key})&&!isLock,n=F.glyphs.length,active=F.stir>.01||F.weave>.01;
     const dim=1-.6*state.beingRecede*(isOpen?0:1);
@@ -765,6 +812,9 @@ function drawWisdom(rect,cam,translate,metabolights,now){
     const dim=1-.7*state.beingRecede*(isOpen?0:1);
     if(E.unravel<.02){ctx.strokeStyle='rgba(191,245,220,'+(.42*alpha*dim).toFixed(3)+')';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();continue}
     const [p,q]=a.x<=b.x?[a,b]:[b,a],len=Math.hypot(q.x-p.x,q.y-p.y)||1,ax=[(q.x-p.x)/len,(q.y-p.y)/len],pe=[-ax[1],ax[0]],c=[(p.x+q.x)/2,(p.y+q.y)/2],n=E.glyphs.length;
+    {const eb=E.bounds||(E.bounds=inkBounds(E.glyphs,BEING_LH,'alphabetic'));let want=[0,0];
+      if(E.weave>.05){const box=inkAabb([[eb.x0,eb.y0],[eb.x1,eb.y0],[eb.x0,eb.y1],[eb.x1,eb.y1]].map(([x,y])=>[c[0]+ax[0]*x+pe[0]*y,c[1]+ax[1]*x+pe[1]*y])),s=inkNudge(E,box,rect,taken);want=[s.sx,s.sy];if(E.weave>.2)taken.push(s)}else E.inkShift=null;
+      E.sh=E.sh||[0,0];E.sh=E.sh.map((s,i)=>mix(s,want[i],Math.min(1,dt*6)));const k=clamp(E.weave*1.5);c[0]+=E.sh[0]*k;c[1]+=E.sh[1]*k}
     const um=(m[0]-c[0])*ax[0]+(m[1]-c[1])*ax[1],near=beingSame(peek,{kind:'edge',key:E.key})&&!isLock;
     E.glyphs.forEach((g,j)=>{
       const fu=g.u0*len,taper=Math.sin(Math.PI*(g.u0+.5)),wob=Math.sin(now/500+g.seed)*g.amp,burst=near?.18+1.4*Math.exp(-(((fu-um)/55)**2)):1,loose=E.unravel*burst*taper;g.t=taper;
@@ -780,7 +830,11 @@ function drawWisdom(rect,cam,translate,metabolights,now){
   ctx.textBaseline='top';
   for(const Vt of B.verts){
     const p=P[Vt.i],isOpen=beingSame(open,{kind:'vert',key:Vt.i});Vt.open=mix(Vt.open,isOpen?1:0,Math.min(1,dt*5));
-    const ox=Math.max(16-p.x,Math.min(rect.width-256-p.x,-120)),oy=Math.max(80-p.y,Math.min(rect.height-24-Vt.h-p.y,18)),n=Vt.glyphs.length,g0=Vt.glyphs[0];if(!g0)continue;
+    const n=Vt.glyphs.length,g0=Vt.glyphs[0];if(!g0)continue;
+    let ox=-120,oy=18;
+    if(Vt.open>.02){const vb=Vt.bounds||(Vt.bounds=inkBounds(Vt.glyphs,BEING_LH)),r=inkRing(Vt,p.x,p.y,[0,1],10,vb,rect,taken);
+      ox=Math.max(16-p.x-vb.x0,Math.min(rect.width-16-p.x-vb.x1,r.ox));oy=Math.max(80-p.y-vb.y0,Math.min(rect.height-24-p.y-vb.y1,r.oy));
+      if(Vt.open>.15)taken.push({x:p.x+ox+vb.x0,y:p.y+oy+vb.y0,w:vb.x1-vb.x0,h:vb.y1-vb.y0})}else Vt.inkAt=null;
     Vt.glyphs.forEach((g,j)=>{const sw=j===0?1:clamp(Vt.open*1.6-(j/Math.max(1,n))*.6);
       if(j===0)beingSpring(g,(g0.tx+ox)*Vt.open-4*(1-Vt.open),(g0.ty+oy)*Vt.open-8*(1-Vt.open),.2,.68);else beingSpring(g,sw*(ox+g.tx),sw*(oy+g.ty),.2,.68);g.s=sw});
     const dim=open&&!isOpen?.45:1;
@@ -789,22 +843,25 @@ function drawWisdom(rect,cam,translate,metabolights,now){
       ctx.fillStyle=j===0?'rgba(191,245,220,'+(.95*alpha*dim).toFixed(3)+')':'rgba(223,243,234,'+(clamp((g.s-.35)*2)*alpha).toFixed(3)+')';ctx.fillText(g.ch,p.x+g.x,p.y+g.y)}
   }
   // metabolites: the light is the sentence asleep
-  const cx=rect.width*.5,cy=rect.height*.5;let labelCount=0,lineCount=0;
+  const cx=rect.width*.5,cy=rect.height*.5,metPx=(font.match(/\d+px/)||['12px'])[0];let labelCount=0,lineCount=0;
   for(const L of metGeo){
     const M=metaboliteGlyphs(B,L.light,font);if(!M)continue;labelCount++;lineCount+=Math.round(M.h/BEING_LH);
     const isOpen=beingSame(open,{kind:'met',key:L.id});M.open=mix(M.open,isOpen?1:0,Math.min(1,dt*6));
     let ux=L.x-cx,uy=L.y-cy;const ul=Math.hypot(ux,uy)||1;ux/=ul;uy/=ul;
-    const w=METABOLITE_LABEL_MAX_WIDTH*.8,oxr=ux*60+(ux>=0?0:-w),oyr=uy*50-M.h/2;
-    const ox=Math.max(14-L.x,Math.min(rect.width-w-14-L.x,oxr)),oy=Math.max(80-L.y,Math.min(rect.height-M.h-24-L.y,oyr)),n=M.glyphs.length;
+    let ox=0,oy=0;const n=M.glyphs.length;
+    if(M.open>.02){const mb=M.bounds||(M.bounds=inkBounds(M.glyphs,BEING_LH)),r=inkRing(M,L.x,L.y,[ux,uy],22,mb,rect,taken);
+      ox=Math.max(14-L.x-mb.x0,Math.min(rect.width-14-L.x-mb.x1,r.ox));oy=Math.max(80-L.y-mb.y0,Math.min(rect.height-24-L.y-mb.y1,r.oy));
+      if(M.open>.15)taken.push({x:L.x+ox+mb.x0,y:L.y+oy+mb.y0,w:mb.x1-mb.x0,h:mb.y1-mb.y0})}else M.inkAt=null;
     M.glyphs.forEach((g,j)=>{const sw=clamp(M.open*1.6-(j/Math.max(1,n))*.6);
       beingSpring(g,(1-sw)*(g.ix+Math.sin(now/600+j)*1.2)+sw*(ox+g.tx),(1-sw)*(g.iy+Math.cos(now/700+j)*1.2)+sw*(oy+g.ty));g.s=sw});
     const dim=open&&!isOpen?.25:1;
     for(const g of M.glyphs){
       if(g.s<.35){ctx.fillStyle='rgba(255,244,214,'+(.85*alpha*dim).toFixed(3)+')';ctx.fillRect(L.x+g.x-.8,L.y+g.y-.8,1.6,1.6)}
-      else{ctx.font=(g.bold?'600 ':'400 ')+'12px system-ui, -apple-system, "Segoe UI", sans-serif';ctx.fillStyle='rgba(255,244,214,'+(clamp((g.s-.35)*2)*alpha).toFixed(3)+')';ctx.fillText(g.ch,L.x+g.x,L.y+g.y)}}
+      else{ctx.font=(g.bold?'600 ':'400 ')+metPx+' system-ui, -apple-system, "Segoe UI", sans-serif';ctx.fillStyle='rgba(255,244,214,'+(clamp((g.s-.35)*2)*alpha).toFixed(3)+')';ctx.fillText(g.ch,L.x+g.x,L.y+g.y)}}
   }
   canvas.dataset.wisdomState=labelCount?'visible':(lights.length?'contract-gap':'being');canvas.dataset.wisdomLines=String(lineCount);canvas.dataset.textBeing='true';canvas.dataset.innerPath=beingDescribe(state.inner);
   canvas.dataset.beingEdges=String(B.edges.length);canvas.dataset.beingFaces=String(B.faces.length);
+  canvas.dataset.inkOpen=String(taken.length);canvas.dataset.inkCollisions=String(taken.filter((b,i)=>inkOverlap(b,inkChrome(rect))>1||inkOverlap(b,taken.slice(i+1))>1).length);
 }
 function outerCells(width){
   const focus=inquiryFrameFocus(),scale=rootFieldScale(width)*focus.scale,active=state?.chamberPath||'';
