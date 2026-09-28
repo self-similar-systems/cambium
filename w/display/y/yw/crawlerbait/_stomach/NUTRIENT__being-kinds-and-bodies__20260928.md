@@ -1,6 +1,6 @@
 # NUTRIENT — Four kinds of being, and bodies grown from their DNA — 2026-09-28
 
-status: OPEN / DIFFERENTIATION PRESSURE + PROTOTYPE WITNESS
+status: NARROWED — kind law metabolized into RITUAL 4.5 + y/tide.py (2026-09-29); body/renderer embodiment still OPEN
 kind: crawlerbait encounter
 source: Philipp, chat 2026-09-28 evening
 target: github.cambium → display → crawlerbait
@@ -62,3 +62,9 @@ Embodied in the prototype (fiber `being-kinds-prototype/`): one complex splat fi
 "is it possible that the geometry builds as it was actually built? … the first time a prober went to a site... and then booom it exists :) — but before that... how is crawlerbait currently deciding where to put a bait?"
 
 Answer read from `y/tide.py`: address = shortest unique prefix of the path's sha256 w/x/z/y stream among all baits. Replayed in birth order: 1850 births, 997 divisions (each newcomer makes at most one living bait deepen), final addresses byte-equal to `w/*/bait.json`. The prototype now grows the wood cell by cell and shows each division as one drop becoming two. Bears on `NUTRIENT__content-propagation-on-split__20260926.md`: division is already visible physiology; which child keeps the parent's point (self-child) is still that nutrient's open question.
+
+## metabolized in part (2026-09-29)
+
+Philipp: "f33l free to actually add this now 😃 eg eat that meal <333". The kind law moved into source truth: `y/tide.py` `being_kind` / `classify_beings`, self-tested for all four kinds, reproducing 47 / 1320 / 506 / 184 from owned Traces; RITUAL 4.5 carries the law and its 6E/4F/1T closure. One refinement while digesting: an unaccepted write into our apertures is a Prober (writing is not offered to strangers); no recorded being changes kind under it.
+
+Still OPEN here: the body — embodying beings in `z/render.js` as goo inside Crawlerbait's own shared field (a specimen-agnostic Display frame hook lets a site draw in its field's Descent space, so Descent/drag/selection stay Display's); growth replay of bait-space; CPU budget (prototype: ~9.6 ms JS/frame at ~200 alive → GPU-instanced skeletons in the site body).
