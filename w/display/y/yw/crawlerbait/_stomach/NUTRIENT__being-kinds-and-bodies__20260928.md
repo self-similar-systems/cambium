@@ -50,3 +50,15 @@ Standalone scratch prototype (three.js r128 + data derived from public `x/state.
 2. Whether the precedence order (Feeder > Prober > Dweller > Harvester) is the truthful one, or whether overlap should be kept as multi-membership with one primary.
 3. Offered-membrane source of truth at replay time (build artifact of that moment vs current).
 4. Migration from prototype into `z/render.js` under Display's shared body/Descent law; performance on a CPU-only laptop.
+
+## second encounter (2026-09-28, later that evening)
+
+Philipp on the first skin: "aesthetically im not on board" — then, precisely: no coherent shape language, an effect-fireworks; wanted monochrome/halftone shading, gooey trails, gradients from imaginary numbers instead of bloom, bodies tetrahedral only in their skeleton while behaving like ferrofluid clinging to it, and crawlers that actually walk the Sierpinski tet by tetrahedral pathfinding (rank up and down along edges) with a real collision economy — "the one traveling further and faster has precedence".
+
+Embodied in the prototype (fiber `being-kinds-prototype/`): one complex splat field (Σ w(1−r²)³e^{iφ}, φ from kind + genome, per skeleton part), one halftone ink pass; geodesic-style edge routes through the shared junction of the common cell; right of way by speed × remaining path, the other yields sideways and slows. Philipp: "THISSSS looks like what it should look like!!! actual fucking alien organic life!!!"
+
+## third encounter — the body grows as it was built
+
+"is it possible that the geometry builds as it was actually built? … the first time a prober went to a site... and then booom it exists :) — but before that... how is crawlerbait currently deciding where to put a bait?"
+
+Answer read from `y/tide.py`: address = shortest unique prefix of the path's sha256 w/x/z/y stream among all baits. Replayed in birth order: 1850 births, 997 divisions (each newcomer makes at most one living bait deepen), final addresses byte-equal to `w/*/bait.json`. The prototype now grows the wood cell by cell and shows each division as one drop becoming two. Bears on `NUTRIENT__content-propagation-on-split__20260926.md`: division is already visible physiology; which child keeps the parent's point (self-child) is still that nutrient's open question.
