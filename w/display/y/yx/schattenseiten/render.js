@@ -30,8 +30,9 @@ const childOf=(t,g)=>t.map((q,j)=>j===GI[g]?q:mid(t[GI[g]],q));
 const cellFor=p=>{let t=V0;for(const g of p)t=childOf(t,g);return t};
 const I4=[[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]];
 
-/* the sixteen cells two ranks inside a row, read as the flat picture reads: top to bottom, left to right.
- * Each carries its barycentre in the row's own cell (where Display places the point) and the size of its body. */
+/* the eight slots of a row: the first two lines of the sixteen cells two ranks inside it, read as the flat picture
+ * reads (top to bottom, left to right). Seven hold shadows; the eighth holds the cluster the row was cut from, and stays
+ * free in the first row, which has none. Each carries its barycentre in the row's own cell (where Display places the point) and the size of its body. */
 function rowCells(rowPath){
   const row=cellFor(rowPath),out=[];
   for(const a of GENES)for(const b of GENES){
@@ -42,18 +43,20 @@ function rowCells(rowPath){
     out.push({bary,world,size:edge/(2*Math.SQRT2)*.94});
   }
   out.sort((p,q)=>Math.abs(q.world[1]-p.world[1])>1e-6?q.world[1]-p.world[1]:p.world[0]-q.world[0]);
-  return out;
+  return out.slice(0,8);
 }
 
 function fieldProjection(projection={}){
   P=projection;byId=new Map((projection.works||[]).map(w=>[w.id,w]));
   const points=[],seen=ROWS.map(()=>0),cells=ROWS.map(rowCells);
   BODY.list=[];
+  const clustered=new Set();
   (projection.works||[]).forEach(w=>{
     const r=w.row-1,path=ROWS[r],cell=cells[r][seen[r]++];if(!cell)return;
+    if(w.cluster_positive&&!clustered.has(r)){clustered.add(r);const c=cells[r][7];BODY.list.push({kind:'cluster',row:r,src:w.cluster_positive,world:c.world,size:c.size})}
     const p=Object.freeze({id:'work:'+w.id,gene:path[0],path,kind:'work',label:w.id,bary:cell.bary,meta:`${w.id} · Rang ${w.rank} · ${w.source==='forest'?'Wald':w.source.replace('cluster','Cluster')}`,work:w});
     points.push(p);
-    BODY.list.push({p,work:w,row:r,world:cell.world,size:cell.size});
+    BODY.list.push({p,work:w,row:r,src:w.still,world:cell.world,size:cell.size});
   });
   return Object.freeze({root:freeze(tree()),points});
 }
@@ -86,7 +89,7 @@ const BODY={list:[],gl:null,dim:0,last:0,L:null};
 const SZ=512,LEVELS=10;
 const VS=`#version 300 es
 precision highp float;
-uniform mat4 uProj,uView,uModel;uniform vec4 uB[49];
+uniform mat4 uProj,uView,uModel;uniform vec4 uB[64];
 const vec3 V[4]=vec3[4](vec3(1,1,1),vec3(-1,-1,1),vec3(-1,1,-1),vec3(1,-1,-1));
 const int S[6]=int[6](0,1,2,3,0,1);
 out vec2 vUV;out vec3 vW;flat out int vI;
@@ -95,7 +98,7 @@ void main(){vec4 b=uB[gl_InstanceID];vec3 l=V[S[gl_VertexID]];
   gl_Position=uProj*uView*w;}`;
 const FS=`#version 300 es
 precision highp float;precision highp sampler2DArray;
-uniform sampler2DArray uImg;uniform int uHot;uniform float uDim;uniform float uReady[49];
+uniform sampler2DArray uImg;uniform int uHot;uniform float uDim;uniform float uReady[64];
 in vec2 vUV;in vec3 vW;flat in int vI;out vec4 o;
 void main(){float r=uReady[vI];if(r<.004)discard;
   vec3 c=texture(uImg,vec3(vUV,float(vI))).rgb;
@@ -126,7 +129,7 @@ function startLoading(gl,L){
   const queue=BODY.list.map((b,i)=>i);let running=0;
   const pump=()=>{
     while(running<5&&queue.length&&BODY.gl===gl){
-      const i=queue.shift(),url=(P?.fat||'')+BODY.list[i].work.still;running++;
+      const i=queue.shift(),url=(P?.fat||'')+BODY.list[i].src;running++;
       (typeof createImageBitmap==='function'?fetchBitmap(url):legacyImage(url))
         .then(src=>{if(BODY.gl===gl)upload(gl,L,i,src);if(src.close)src.close()})
         .catch(()=>{}).finally(()=>{running--;pump()});
@@ -136,17 +139,17 @@ function startLoading(gl,L){
 }
 function layer(gl){
   if(BODY.gl===gl)return BODY.L;
-  const L={p:prog(gl,VS,FS),vao:gl.createVertexArray(),tex:gl.createTexture(),ready:new Float32Array(49),target:new Float32Array(49),mipTimer:0};
-  gl.bindTexture(gl.TEXTURE_2D_ARRAY,L.tex);gl.texStorage3D(gl.TEXTURE_2D_ARRAY,LEVELS,gl.RGBA8,SZ,SZ,49);
+  const L={p:prog(gl,VS,FS),vao:gl.createVertexArray(),tex:gl.createTexture(),ready:new Float32Array(64),target:new Float32Array(64),mipTimer:0};
+  gl.bindTexture(gl.TEXTURE_2D_ARRAY,L.tex);gl.texStorage3D(gl.TEXTURE_2D_ARRAY,LEVELS,gl.RGBA8,SZ,SZ,64);
   gl.texParameteri(gl.TEXTURE_2D_ARRAY,gl.TEXTURE_MIN_FILTER,gl.LINEAR_MIPMAP_LINEAR);gl.texParameteri(gl.TEXTURE_2D_ARRAY,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
   BODY.gl=gl;BODY.L=L;startLoading(gl,L);return L;
 }
 function afterDraw({gl,proj,view,model,ms}){
   if(!gl||!BODY.list.length)return;
-  const L=layer(gl),B=new Float32Array(49*4);
+  const L=layer(gl),B=new Float32Array(64*4);
   BODY.list.forEach((b,i)=>B.set([...b.world,b.size],i*4));
   const dt=Math.min(.1,Math.max(0,(ms-BODY.last)*.001));BODY.last=ms;
-  for(let i=0;i<49;i++)L.ready[i]+=(L.target[i]-L.ready[i])*(1-Math.exp(-dt*7));
+  for(let i=0;i<64;i++)L.ready[i]+=(L.target[i]-L.ready[i])*(1-Math.exp(-dt*7));
   /* the entered shadow is its own world: the others recede on a damped ease, and return on ascent */
   BODY.dim+=((selected?1:0)-BODY.dim)*(1-Math.exp(-dt*4));
   gl.enable(gl.DEPTH_TEST);gl.depthMask(true);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.clear(gl.DEPTH_BUFFER_BIT);
@@ -196,6 +199,8 @@ function render({host,content,projection}={}){
   const side=el('div','ss-hud-side');panel=el('div','ss-panel');side.append(panel);
   // bottom — his words
   const bottom=el('div','ss-hud-bottom');
+  const flat=el('button','ss-hud-flat','orthogonal');flat.type='button';flat.title='zurück in die Achse: alles flach';
+  flat.addEventListener('click',()=>globalThis.SSSWorldView?.easeTo?.(shader.view.rest,900));bottom.append(flat);
   if(projection.words?.[2])bottom.append(el('p','ss-word ss-way',projection.words[2]));
   if(projection.words?.[1])bottom.append(el('p','ss-word ss-mirror',projection.words[1]));
   content.append(rail,side,bottom);showWork(selected);return true;

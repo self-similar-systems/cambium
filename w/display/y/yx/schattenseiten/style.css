@@ -28,6 +28,8 @@
   padding-top:.5rem;border-top:1px solid color-mix(in srgb,var(--ink) 16%,transparent);
   display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem 1.4rem;
 }
+.ss-hud-flat{font:inherit;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);background:none;border:0;border-bottom:1px solid var(--faint);padding:0 0 .15rem;cursor:pointer}
+.ss-hud-flat:hover,.ss-hud-flat:focus-visible{border-color:var(--ink);outline:none}
 .ss-hud-block{display:grid;gap:.4rem;pointer-events:auto}
 .ss-hud-label{display:flex;justify-content:space-between;gap:.8rem;color:var(--dim);font-size:.54rem;text-transform:uppercase;letter-spacing:.16em;padding-bottom:.25rem;border-bottom:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}
 .ss-word{margin:0;font:1rem/1.35 ui-serif,Georgia,serif}
