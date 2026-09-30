@@ -202,14 +202,14 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     if(!gl||typeof bodies!=='function')return [];
     const list=bodies()||[],out=[];
     for(const b of list){
-      if(!b?.shader?.fragment||!b.root)continue;
+      if(!(b?.shader?.body?.fragment||b?.shader?.fragment)||!b.root)continue;
       let B=BODIES.get(b.id);
       if(!B||B.key!==b.shader.id+'|'+b.path){
         try{
-          const place=placement(structure,b.path),bp=program(gl,b.shader.fragment),bvao=gl.createVertexArray(),bbuf=gl.createBuffer(),g=bodyGeometry(N.collectStructure(b.root),place);
+          const place=placement(structure,b.path),bp=program(gl,(b.shader.body||b.shader).fragment),bvao=gl.createVertexArray(),bbuf=gl.createBuffer(),g=bodyGeometry(N.collectStructure(b.root),place);
           gl.bindVertexArray(bvao);gl.bindBuffer(gl.ARRAY_BUFFER,bbuf);gl.bufferData(gl.ARRAY_BUFFER,g,gl.STATIC_DRAW);
           for(const [name,size,off] of [['aPos',3,0],['aNormal',3,12],['aRegion',1,24]]){const loc=gl.getAttribLocation(bp,name);if(loc<0)continue;gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,size,gl.FLOAT,false,28,off)}
-          B={key:b.shader.id+'|'+b.path,id:b.id,place,title:b.title||b.id,drift:driftPath(place,b.id),pos:[...place.center],p:bp,vao:bvao,count:g.length/7,state:b.shader.state||{},colors:paletteSet(b.palette),U:{proj:gl.getUniformLocation(bp,'uProj'),view:gl.getUniformLocation(bp,'uView'),model:gl.getUniformLocation(bp,'uModel'),time:gl.getUniformLocation(bp,'uTime'),focus:gl.getUniformLocation(bp,'uFocus'),resolution:gl.getUniformLocation(bp,'uResolution'),pal:gl.getUniformLocation(bp,'uPalette[0]')}};
+          B={key:b.shader.id+'|'+b.path,id:b.id,place,title:b.title||b.id,drift:driftPath(place,b.id),pos:[...place.center],p:bp,vao:bvao,count:g.length/7,state:(b.shader.body||b.shader).state||{},colors:paletteSet(b.palette),U:{proj:gl.getUniformLocation(bp,'uProj'),view:gl.getUniformLocation(bp,'uView'),model:gl.getUniformLocation(bp,'uModel'),time:gl.getUniformLocation(bp,'uTime'),focus:gl.getUniformLocation(bp,'uFocus'),resolution:gl.getUniformLocation(bp,'uResolution'),pal:gl.getUniformLocation(bp,'uPalette[0]')}};
         }catch(err){console.warn('floating body unavailable: '+b.id,err);B={key:b.shader.id+'|'+b.path,id:b.id,p:null}}
         BODIES.set(b.id,B);
       }

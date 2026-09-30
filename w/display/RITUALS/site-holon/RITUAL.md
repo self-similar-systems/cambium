@@ -3,7 +3,7 @@ name: site-holon
 description: "Rank-invariant Display primitive for autonomous page-organism bodies physically addressed inside Population while identity remains independent of placement."
 organism: display
 geometry: tetrahedral
-version: "3.0"
+version: "3.1"
 ---
 
 # SITE-HOLON RITUAL — display local
@@ -191,3 +191,5 @@ Version 2.4 global background-drag correction (2026-09-18): background tetrahedr
 Version 2.9 site-layer correction (2026-09-29): a site-holon whose phenomenology needs more than shaded faces may carry `shader.afterDraw` and draw its own layer in its field's Descent frame (same camera, orientation and container) beneath Display's point layer. The layer owns no pointer: Descent, drag, pools and point selection remain the shared field's.
 
 Version 3.0 rest-view correction (2026-09-30): a site-holon may carry `shader.view = {rest, projection}` (see organism RITUAL 3.9). The site decides what its rest view means; Display only lends the quaternion, the parallel projection and the placement. A site whose meaning is a flat picture seen along an axis (Schattenseiten) uses it so; every other site is unchanged.
+
+Version 3.1 body-material correction (2026-09-30): a site whose field shader draws nothing gives its floating body a material through `shader.body` (see organism RITUAL 3.10); the material is the site's own.

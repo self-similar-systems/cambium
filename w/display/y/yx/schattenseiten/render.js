@@ -32,7 +32,10 @@ const SHEET=(()=>{
   return G;
 })();
 
+let PROJECTED=null,PROJECTED_FOR=null;
 function fieldProjection(projection={}){
+  /* the runtime asks every frame; the answer only changes with the projection */
+  if(PROJECTED&&PROJECTED_FOR===projection)return PROJECTED;
   P=projection;byId=new Map((projection.works||[]).map(w=>[w.id,w]));
   const points=[],seen=[0,0,0,0,0,0,0,0],noun=new Map(),clustered=new Set();
   BODY.list=[];
@@ -51,7 +54,7 @@ function fieldProjection(projection={}){
     if(depth<3)for(const g of GENES)n.children[g]=grow(path+g,depth+1);
     return n;
   };
-  return Object.freeze({root:freeze(grow('',0)),points});
+  PROJECTED_FOR=projection;return (PROJECTED=Object.freeze({root:freeze(grow('',0)),points}));
 }
 const freeze=node=>{for(const g of Object.keys(node.children||{}))freeze(node.children[g]);Object.freeze(node.children);return Object.freeze(node)};
 
@@ -63,6 +66,18 @@ const shader={
   /* the rest view: along the shadow axis, parallel projection — a tetrahedron is then a square and everything is flat */
   view:Object.freeze({rest:Object.freeze([1,0,0,0]),projection:'orthographic'}),
   state:Object.freeze({blend:true,depthTest:true,depthWrite:false}),
+  /* the body seen from a host: shadow ink — a face turned toward the light is paper, a face turned away is black, so turning it
+   * cuts the body into shadows and light without any grey between */
+  body:Object.freeze({
+    state:Object.freeze({blend:true,depthTest:true,depthWrite:true}),
+    fragment:`#version 300 es
+precision highp float;
+in vec3 vN;in vec3 vW;in float vRegion;uniform float uFocus;
+out vec4 outColor;
+void main(){vec3 n=normalize(vN);float lit=step(0.,dot(n,normalize(vec3(-.35,.6,.72))));
+  float sel=(uFocus<-.5||abs(vRegion-uFocus)<.2)?1.:.55;
+  outColor=vec4(mix(vec3(.035),vec3(.955,.95,.935),lit),.96*sel);}`
+  }),
   fragment:`#version 300 es
 precision highp float;
 in vec3 vN;in vec3 vW;in float vRegion;
@@ -194,7 +209,7 @@ function render({host,content,projection}={}){
   P=projection;host.hidden=false;content.className='interlocutor-content schattenseiten-content';content.replaceChildren();
   const t=T[lang()],works=projection.works,ranks=projection.ranks||[],clusters=new Set(works.map(w=>w.cluster_positive).filter(Boolean)).size;
   // left — who this is and how it grew
-  const top=el('div','ss-hud-top');top.append(el('h1','','Schattenseiten'));
+  const top=el('div','ss-hud-top');top.append(el('h1','',tx(projection.title)||'Schattenseiten'),el('span','ss-hud-series','Schattenseiten'));
   for(const [v,l] of [[works.length,t.shadows],[ranks.length,t.ranks],[clusters,t.clusters],[works.filter(w=>w.animation).length,t.moving]])top.append(stat(v,l));
   const rail=el('div','ss-hud-rail');rail.append(top);
   if(projection.words?.[0])rail.append(el('p','ss-word',tx(projection.words[0])));
@@ -206,7 +221,7 @@ function render({host,content,projection}={}){
   const bottom=el('div','ss-hud-bottom');
   const flat=el('button','ss-hud-flat',t.flat);flat.type='button';flat.title=t.flatTip;
   flat.addEventListener('click',()=>globalThis.SSSWorldView?.easeTo?.(shader.view.rest,900));bottom.append(flat);
-  if(projection.words?.[2])bottom.append(el('p','ss-word ss-way',tx(projection.words[2])));
+  if(projection.words?.[2])bottom.append(el('p','ss-word ss-way'+(projection.words[2].placeholder?' ss-placeholder':''),tx(projection.words[2])));
   if(projection.words?.[1])bottom.append(el('p','ss-word ss-mirror',tx(projection.words[1])));
   content.append(rail,side,bottom);showWork(selected);return true;
 }

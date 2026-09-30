@@ -34,6 +34,8 @@
 .ss-hud-label{display:flex;justify-content:space-between;gap:.8rem;color:var(--dim);font-size:.54rem;text-transform:uppercase;letter-spacing:.16em;padding-bottom:.25rem;border-bottom:1px solid color-mix(in srgb,var(--ink) 12%,transparent)}
 .ss-word{margin:0;font:1rem/1.35 ui-serif,Georgia,serif}
 .ss-way{color:var(--dim);font-size:.82rem}
+.ss-placeholder{font-style:italic;letter-spacing:.02em;opacity:.7}
+.ss-hud-series{grid-column:1/-1;color:var(--dim);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;margin-top:-.2rem}
 .ss-op,.ss-rank,.ss-meta{margin:0;font-size:.62rem;line-height:1.5;color:var(--dim)}
 .ss-panel[hidden]{display:none}
 .ss-cluster{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:.35rem}

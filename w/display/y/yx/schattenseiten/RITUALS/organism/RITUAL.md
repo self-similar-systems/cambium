@@ -10,7 +10,13 @@ This body is a **projection**, never a second ontology. The organ lives in Phili
 
 ## Body
 
-Genealogy is address. The first four rows are one tetrahedron at `w` (forest at `ww`, clusters 1–3 at `wx wz wy`); clusters 4–6 are `x z y`. Each row is a container; its seven shadows float in it as bodies, one tetrahedron each, textured with the shadow as seen along the body's own axis. Selecting a shadow is Descent into it: the site offers `focus()` and Display's spring carries the camera until the body fills the view. The side panel shows the cluster (positive and negative) the shadow was cut from, and its animation.
+The work is titled **gefallen, gefunden** (the organ's folder is Schattenseiten). The body is an 8×8 sheet: depth three of the tetrahedron has sixty-four leaves, and along the shadow axis they are exactly an 8×8 grid. Row 1 (the forest, the seven that started everything) is on top, then the rows in order; each row is one line of eight slots: seven shadows and, in the eighth, the cluster the row was cut from (free in row 1). All slots are the same size. Nothing floats: each shadow rests in its leaf. The site declares a rest view (`shader.view`): along the shadow axis, in parallel projection, the whole is one flat picture, and turning it shows the tetrahedra. An `orthogonal` control returns to it. Selecting a shadow is Descent into it (`focus()`); the others recede. The side panel shows the cluster (positive and negative) it was cut from, and its animation.
+
+Seen from the overview, the body is drawn in shadow ink (`shader.body`): a face turned toward the light is paper, a face turned away is black.
+
+## Words
+
+The two German sentences stay German in every language. The work's remaining text is Philipp's, written by hand; until then a marked placeholder stands. Descriptions and interface follow the witness's language (organ sentences arrive as `{de,en}` where they are descriptions).
 
 ## Boundaries
 
