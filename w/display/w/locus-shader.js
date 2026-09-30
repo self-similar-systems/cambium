@@ -11,6 +11,7 @@ const qMul=(a,b)=>{const[w,x,y,z]=a,[v,i,j,k]=b;return [w*v-x*i-y*j-z*k,w*i+x*v+
 const qRot=(q,p)=>{const r=qMul(qMul(q,[0,...p]),[q[0],-q[1],-q[2],-q[3]]);return r.slice(1)};
 const shaders=new Map();
 function paletteSet(base){const b=Array.isArray(base)&&base.length===3?base:[.4,.7,.9],genes=[[1.0,.78,.72],[.72,.86,1.0],[1.0,.70,.86],[.78,1.0,.70]];return genes.map(g=>b.map((v,i)=>clamp(v*g[i]+.055*g[(i+1)%3])))}
+function orthographic(half,aspect,near,far){const nf=1/(near-far);return new Float32Array([1/(half*aspect),0,0,0,0,1/half,0,0,0,0,2*nf,0,0,0,(far+near)*nf,1])}
 function perspective(fovy,aspect,near,far){const f=1/Math.tan(fovy/2),nf=1/(near-far);return new Float32Array([f/aspect,0,0,0,0,f,0,0,0,0,(far+near)*nf,-1,0,0,2*far*near*nf,0])}
 function lookAt(eye,center,up){const z=nrm(sub(eye,center)),x=nrm(cross(up,z)),y=cross(z,x);return new Float32Array([x[0],y[0],z[0],0,x[1],y[1],z[1],0,x[2],y[2],z[2],0,-x.reduce((s,v,i)=>s+v*eye[i],0),-y.reduce((s,v,i)=>s+v*eye[i],0),-z.reduce((s,v,i)=>s+v*eye[i],0),1])}
 function model(q,scale,center){const[w,x,y,z]=q,c=qRot(q,center),o=[-c[0]*scale,-c[1]*scale,-c[2]*scale];return new Float32Array([(1-2*y*y-2*z*z)*scale,(2*x*y+2*w*z)*scale,(2*x*z-2*w*y)*scale,0,(2*x*y-2*w*z)*scale,(1-2*x*x-2*z*z)*scale,(2*y*z+2*w*x)*scale,0,(2*x*z+2*w*y)*scale,(2*y*z-2*w*x)*scale,(1-2*x*x-2*y*y)*scale,0,o[0],o[1],o[2],1])}
@@ -111,6 +112,8 @@ function hash32(text){
 }
 function random01(text,salt){return (hash32(text+'·'+salt)+1)/4294967297}
 function pointInTet(tet,spec){
+  /* a point may state its own barycentric place in its cell (a site laying works out as a tiling) */
+  if(Array.isArray(spec.bary)&&spec.bary.length===4){const t=spec.bary.reduce((a,b)=>a+b,0)||1;return [0,1,2].map(k=>spec.bary.reduce((sum,w,i)=>sum+w/t*tet[i][k],0))}
   let weights=[0,1,2,3].map(i=>-Math.log(Math.max(1e-7,random01(spec.id,i))));
   const s=weights.reduce((a,b)=>a+b,0);weights=weights.map(v=>v/s);
   const inset=spec.kind==='holon'?.40:.22;
@@ -141,6 +144,8 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
   if(!element||!canvas||!projection?.root)throw new Error('interlocutor field surface incomplete: '+id);
   const module=globalThis.SSSInterlocutorModules instanceof Map?globalThis.SSSInterlocutorModules.get(id):null;
   shader=shaderContract(shader||module?.shader);
+  /* optional identity-owned rest view: {rest:[w,x,y,z], projection:'orthographic'} */
+  const VIEW=shader.view&&typeof shader.view==='object'?shader.view:null,ORTHO=VIEW?.projection==='orthographic';let restDone=false;
   const structure=N.collectStructure(projection.root),colors=paletteSet(palette),pointRecords=fieldPointRecords(structure,projection),pointById=new Map(pointRecords.map(p=>[p.spec.id,p]));
   if(typeof shader.decorate==='function')shader.decorate({id,element,canvas,labelHost,projection,localScope});
   const gl=canvas.getContext('webgl2',{antialias:true,alpha:false,premultipliedAlpha:false});
@@ -313,7 +318,7 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     }else if(follow){cam={from:{center:[...follow.c],scale:Math.exp(follow.l)},to:frameFor(container()),start:performance.now()};follow=null}
   }
   function target(){return follow?{center:follow.c,scale:Math.exp(follow.l)}:currentFrame()}
-  function project(point,rect){const t=target(),q=qRot(W.orientation,sub(point,t.center)),scale=(rect.width<560?1.42:1.75)*t.scale,camZ=3.2,z=camZ-q[2]*scale,f=(rect.height/2)/Math.tan(Math.PI/6.6);return {x:rect.width/2+q[0]*scale*f/z,y:rect.height/2-q[1]*scale*f/z,z:q[2]}}
+  function project(point,rect){const t=target(),q=qRot(W.orientation,sub(point,t.center)),scale=(rect.width<560?1.42:1.75)*t.scale,camZ=3.2,z=ORTHO?camZ:camZ-q[2]*scale,f=(rect.height/2)/Math.tan(Math.PI/6.6);return {x:rect.width/2+q[0]*scale*f/z,y:rect.height/2-q[1]*scale*f/z,z:q[2]}}
   function pointInTriangle(x,y,a,b,c){
     const area=(p,q,r)=>(q.x-p.x)*(r.y-p.y)-(q.y-p.y)*(r.x-p.x);
     const p={x,y},s1=area(a,b,p),s2=area(b,c,p),s3=area(c,a,p);
@@ -396,9 +401,10 @@ function create({id,element,canvas,labelHost,projection,palette,shader,inspectab
     }
   }
   function draw(ms){
-    if(element.hidden){requestAnimationFrame(draw);return}
+    if(element.hidden){restDone=false;requestAnimationFrame(draw);return}
+    if(!restDone){restDone=true;if(Array.isArray(VIEW?.rest)&&VIEW.rest.length===4)W.easeTo?.(VIEW.rest);else W.restoreHome?.()}
     refreshVisible();followStep(ms);const {r,d,w,h}=resize(),t=target(),cur=container(),focus=cur?(geneIndex[cur[0]]??-1):-1,base=(r.width<560?1.42:1.75);
-    const proj=perspective(Math.PI/3.3,w/h,.1,20),view=lookAt([0,0,3.2],[0,0,0],[0,1,0]),mdl=model(W.orientation,base*t.scale,t.center);
+    const proj=ORTHO?orthographic(3.2*Math.tan(Math.PI/6.6),w/h,.1,20):perspective(Math.PI/3.3,w/h,.1,20),view=lookAt([0,0,3.2],[0,0,0],[0,1,0]),mdl=model(W.orientation,base*t.scale,t.center);
     if(gl&&GL){
       const hv=hostView(),hostClear=hv?.e.shader.clear;
       const clear=Array.isArray(hostClear)&&hostClear.length===4?hostClear:(Array.isArray(shader.clear)&&shader.clear.length===4?shader.clear:[.014,.019,.027,1]);
