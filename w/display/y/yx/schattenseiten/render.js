@@ -40,7 +40,7 @@ function fieldProjection(projection={}){
     const r=w.row-1,cell=SHEET[r]?.[seen[r]++];if(!cell||seen[r]>7)return;
     if(w.cluster_positive&&!clustered.has(r)){clustered.add(r);const c=SHEET[r][7];noun.set(c.path,'Cluster '+(r));BODY.list.push({kind:'cluster',row:r,src:w.cluster_positive,world:c.world,size:c.size})}
     noun.set(cell.path,w.id);
-    const p=Object.freeze({id:'work:'+w.id,gene:cell.path[0],path:cell.path,kind:'work',label:w.id,meta:`${w.id} · Rang ${w.rank} · ${w.source==='forest'?'Wald':w.source.replace('cluster','Cluster')}`,work:w});
+    const p=Object.freeze({id:'work:'+w.id,gene:cell.path[0],path:cell.path,kind:'work',label:w.id,meta:w.id,work:w});
     points.push(p);
     BODY.list.push({p,work:w,row:r,src:w.still,world:cell.world,size:cell.size});
   });
@@ -167,39 +167,51 @@ shader.afterDraw=afterDraw;shader.focus=focus;Object.freeze(shader);
 
 /* ============ site-owned HUD: every kind of information has a fixed place at the edges ============ */
 const el=(t,c,s)=>{const n=document.createElement(t);if(c)n.className=c;if(s!==undefined)n.textContent=s;return n};
+/* the witness's language decides every word; the organ's own sentences arrive as {de,en} */
+const T={
+  en:{shadows:'shadows',ranks:'ranks',clusters:'clusters',moving:'moving',rank:'rank',row:'row',forest:'from the forest',from:n=>'from cluster '+n,
+      cluster:'the cluster this shadow was cut from',flat:'orthogonal',flatTip:'back to the axis: everything flat'},
+  de:{shadows:'Schatten',ranks:'Ränge',clusters:'Cluster',moving:'bewegt',rank:'Rang',row:'Reihe',forest:'aus dem Wald',from:n=>'aus Cluster '+n,
+      cluster:'das Cluster, aus dem dieser Schatten geschnitten wurde',flat:'orthogonal',flatTip:'zurück in die Achse: alles flach'}
+};
+const lang=()=>globalThis.SSSWorldView?.language==='de'?'de':'en';
+const tx=v=>v&&typeof v==='object'?(v[lang()]??v.en??v.de??''):(v??'');
 const stat=(v,l)=>{const m=el('span','ss-hud-stat');m.append(el('b','',String(v)),el('small','',l));return m};
 function block(label,right){const b=el('section','ss-hud-block'),h=el('div','ss-hud-label');h.append(el('span','',label));if(right)h.append(el('span','',right));b.append(h);return b}
 function showWork(w){
   if(!panel)return;panel.replaceChildren();panel.hidden=!w;if(!w)return;
-  const src=w.source==='forest'?'aus dem Wald':'aus '+w.source.replace('cluster','Cluster');
-  const b=block(w.id,`Rang ${w.rank} · Reihe ${w.row}`);b.append(el('p','ss-meta',src));
+  const t=T[lang()],n=String(w.source||'').replace('cluster','');
+  const b=block(w.id,`${t.rank} ${w.rank} · ${t.row} ${w.row}`);b.append(el('p','ss-meta',w.source==='forest'?t.forest:t.from(n)));
   if(w.cluster_positive){const f=el('figure','ss-cluster');for(const k of ['cluster_positive','cluster_negative']){const i=el('img');i.src=P.fat+w[k];i.alt='';i.decoding='async';f.append(i)}
-    f.append(el('figcaption','','das Cluster, aus dem dieser Schatten geschnitten wurde'));b.append(f)}
+    f.append(el('figcaption','',t.cluster));b.append(f)}
   if(w.animation){const i=el('img','ss-anim');i.src=P.fat+w.animation;i.alt='';i.decoding='async';b.append(i)}
   panel.append(b);
 }
+let LAST=null;
 function render({host,content,projection}={}){
   if(!host||!content||!Array.isArray(projection?.works))return false;
+  LAST={host,content,projection};
   P=projection;host.hidden=false;content.className='interlocutor-content schattenseiten-content';content.replaceChildren();
-  const works=projection.works,ranks=projection.ranks||[],clusters=new Set(works.map(w=>w.cluster_positive).filter(Boolean)).size;
+  const t=T[lang()],works=projection.works,ranks=projection.ranks||[],clusters=new Set(works.map(w=>w.cluster_positive).filter(Boolean)).size;
   // left — who this is and how it grew
   const top=el('div','ss-hud-top');top.append(el('h1','','Schattenseiten'));
-  for(const [v,l] of [[works.length,'shadows'],[ranks.length,'ranks'],[clusters,'clusters'],[works.filter(w=>w.animation).length,'moving']])top.append(stat(v,l));
+  for(const [v,l] of [[works.length,t.shadows],[ranks.length,t.ranks],[clusters,t.clusters],[works.filter(w=>w.animation).length,t.moving]])top.append(stat(v,l));
   const rail=el('div','ss-hud-rail');rail.append(top);
-  if(projection.words?.[0])rail.append(el('p','ss-word',projection.words[0]));
-  if(projection.operation)rail.append(el('p','ss-op',projection.operation));
-  if(ranks.length){const rb=block('rank');for(const r of ranks)rb.append(el('p','ss-rank',`${r.rank} · ${r.ids} · ${r.input}`));rail.append(rb)}
+  if(projection.words?.[0])rail.append(el('p','ss-word',tx(projection.words[0])));
+  if(projection.operation)rail.append(el('p','ss-op',tx(projection.operation)));
+  if(ranks.length){const rb=block(t.rank);for(const r of ranks)rb.append(el('p','ss-rank',`${r.rank} · ${r.ids} · ${tx(r.input)}`));rail.append(rb)}
   // right — the one shadow you are in
   const side=el('div','ss-hud-side');panel=el('div','ss-panel');side.append(panel);
-  // bottom — his words
+  // bottom — the way back to the flat view, and the words
   const bottom=el('div','ss-hud-bottom');
-  const flat=el('button','ss-hud-flat','orthogonal');flat.type='button';flat.title='zurück in die Achse: alles flach';
+  const flat=el('button','ss-hud-flat',t.flat);flat.type='button';flat.title=t.flatTip;
   flat.addEventListener('click',()=>globalThis.SSSWorldView?.easeTo?.(shader.view.rest,900));bottom.append(flat);
-  if(projection.words?.[2])bottom.append(el('p','ss-word ss-way',projection.words[2]));
-  if(projection.words?.[1])bottom.append(el('p','ss-word ss-mirror',projection.words[1]));
+  if(projection.words?.[2])bottom.append(el('p','ss-word ss-way',tx(projection.words[2])));
+  if(projection.words?.[1])bottom.append(el('p','ss-word ss-mirror',tx(projection.words[1])));
   content.append(rail,side,bottom);showWork(selected);return true;
 }
+addEventListener('sss:language',()=>{if(LAST&&LAST.content.isConnected)render(LAST)});
 function activateFieldPoint({point}={}){selected=point?.work||null;showWork(selected)}
-function unmount({host,content}={}){if(host)host.hidden=true;if(content)content.replaceChildren();selected=null;panel=null}
+function unmount({host,content}={}){if(host)host.hidden=true;if(content)content.replaceChildren();selected=null;panel=null;LAST=null}
 modules.set(id,Object.freeze({id,shader,render,unmount,fieldProjection,activateFieldPoint}));
 })();
