@@ -102,7 +102,7 @@ void main(){float r=uReady[vI];if(r<.004)discard;
   vec3 n=normalize(cross(dFdx(vW),dFdy(vW)));
   c*=mix(.62,1.,clamp(abs(n.z)*1.7320508,0.,1.));
   float a=r;
-  if(vI==uHot)c=mix(c,vec3(.95,.55,.35),.14);else a*=1.-.88*uDim;
+  if(vI!=uHot)a*=1.-.88*uDim;
   o=vec4(c,a);}`;
 function prog(gl,vs,fs){const p=gl.createProgram();for(const[t,s]of[[gl.VERTEX_SHADER,vs],[gl.FRAGMENT_SHADER,fs]]){const h=gl.createShader(t);gl.shaderSource(h,s);gl.compileShader(h);
   if(!gl.getShaderParameter(h,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(h));gl.attachShader(p,h)}gl.linkProgram(p);return p}
@@ -157,8 +157,12 @@ function afterDraw({gl,proj,view,model,ms}){
   gl.uniform1i(gl.getUniformLocation(L.p,'uHot'),selected?BODY.list.findIndex(b=>b.work===selected):-1);
   gl.uniform1f(gl.getUniformLocation(L.p,'uDim'),BODY.dim);
   gl.activeTexture(gl.TEXTURE0);gl.bindTexture(gl.TEXTURE_2D_ARRAY,L.tex);gl.uniform1i(gl.getUniformLocation(L.p,'uImg'),0);
+  /* depth first, colour second: one fragment per pixel, so a fading body never blends its own hidden faces */
+  gl.colorMask(false,false,false,false);gl.depthFunc(gl.LESS);
   gl.drawArraysInstanced(gl.TRIANGLE_STRIP,0,6,BODY.list.length);
-  gl.depthMask(false);gl.bindVertexArray(null);
+  gl.colorMask(true,true,true,true);gl.depthFunc(gl.LEQUAL);
+  gl.drawArraysInstanced(gl.TRIANGLE_STRIP,0,6,BODY.list.length);
+  gl.depthFunc(gl.LESS);gl.depthMask(false);gl.bindVertexArray(null);
 }
 /* Descent into one shadow: Display's continuous focus carries the camera until the body fills the view */
 function focus(){if(!selected)return null;const b=BODY.list.find(x=>x.work===selected);return b?{center:b.world,scale:1/(b.size*1.9)}:null}
