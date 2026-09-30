@@ -1,7 +1,7 @@
 ---
 name: display
 description: "Visitor-facing Display organism: an oriented membrane whose Population vertex physically addresses autonomous site-holons; repository anatomy is the global mount truth."
-version: "3.8"
+version: "3.9"
 ---
 
 # DISPLAY ORGAN RITUAL — local root
@@ -201,3 +201,5 @@ Version 3.5 acknowledged-live-circulation correction (2026-09-24): Continuity no
 Version 3.7 site-layer correction (2026-09-29): a site shader may draw its own layer inside its field's Descent frame through optional `afterDraw`; Descent, drag, pools, point selection and body entry stay Display's. First realized by Crawlerbait's beings (goo bodies walking bait-space).
 
 Version 3.8 continuous-focus correction (2026-09-29): a site shader may offer `focus()` → `{center, scale}`; Display eases its own camera toward it with a frame-rate-independent critically damped spring and glides back to the walked container when released. Descent steps are for the witness's own gestures, never for following motion (Philipp: chained steps made him nauseous).
+
+Version 3.9 rest-view correction (2026-09-30): a site shader may declare `view: {rest, projection}`. `rest` is a quaternion the shared orientation eases to when the site is shown (and back to Display's home when another site is shown, unless the witness has turned it since); `projection: 'orthographic'` makes the field and its hit-testing use a parallel projection matched to the perspective at the centre plane. A point spec may state `bary`, its barycentric place in its addressed cell. Absent all of them nothing changes; Display names no site. First realized by Schattenseiten, whose works rest in their row as a flat picture along the shadow axis.
