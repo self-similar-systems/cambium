@@ -3,24 +3,14 @@
 const id='organism:schattenseiten';
 const modules=globalThis.SSSInterlocutorModules||(globalThis.SSSInterlocutorModules=new Map());
 
-/* ============ genealogy as address ============
- * The first four rows are one tetrahedron (four perspectives): w, with the forest at its self-child ww and the
- * three clusterings of the seven at wx wz wy. The three clusterings of those 28 are x z y. Each row is one
- * container. Its seven shadows do not float: each rests in its own cell of the row (two ranks smaller than the
- * row), so that seen along the shadow axis the whole is one flat picture and only turning it shows the tetrahedra. */
-const ROWS=['ww','wx','wz','wy','x','z','y'];
-const ROW_NOUN=['Wald','Cluster 1','Cluster 2','Cluster 3','Cluster 4','Cluster 5','Cluster 6'];
+/* ============ the sheet: an 8×8 grid, each slot a leaf of the tetrahedron ============
+ * Depth three of the tetrahedron has sixty-four leaves, and along the shadow axis they are exactly an 8×8 grid of
+ * squares. The sheet reads as the work does: row 1 (the forest, the seven that started everything) on top, then the
+ * rows in order, each ONE line of eight slots left to right — seven shadows, and in the eighth the cluster the row was
+ * cut from (free in row 1, which has none). The eighth line stays free. All slots are the same size: the seeds are
+ * conceptually the biggest, so the recursion's scale does not rank them. Nothing floats; each shadow rests in its leaf,
+ * so that seen along the axis the whole is one flat picture and only turning it shows the tetrahedra. */
 let P=null,selected=null,panel=null,byId=new Map();
-
-function tree(){
-  const n=(noun,children)=>children?{noun,de:noun,en:noun,children}:{noun,de:noun,en:noun,children:{}};
-  const leaf=r=>n(ROW_NOUN[r]);
-  return n('Schattenseiten',{
-    w:n('Rang 1–2',{w:leaf(0),x:leaf(1),z:leaf(2),y:leaf(3)}),
-    x:leaf(4),z:leaf(5),y:leaf(6)
-  });
-}
-const freeze=node=>{for(const g of Object.keys(node.children||{}))freeze(node.children[g]);Object.freeze(node.children);return Object.freeze(node)};
 
 /* Display's own cell geometry: the four corners of a cell, and the cell toward one corner */
 const V0=[[1,1,1],[-1,-1,1],[-1,1,-1],[1,-1,-1]].map(v=>{const m=Math.hypot(...v);return v.map(x=>x/m)});
@@ -28,38 +18,42 @@ const GI={w:0,x:1,z:2,y:3},GENES=['w','x','z','y'];
 const mid=(a,b)=>a.map((v,i)=>(v+b[i])/2);
 const childOf=(t,g)=>t.map((q,j)=>j===GI[g]?q:mid(t[GI[g]],q));
 const cellFor=p=>{let t=V0;for(const g of p)t=childOf(t,g);return t};
-const I4=[[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]];
 
-/* the eight slots of a row: the first two lines of the sixteen cells two ranks inside it, read as the flat picture
- * reads (top to bottom, left to right). Seven hold shadows; the eighth holds the cluster the row was cut from, and stays
- * free in the first row, which has none. Each carries its barycentre in the row's own cell (where Display places the point) and the size of its body. */
-function rowCells(rowPath){
-  const row=cellFor(rowPath),out=[];
-  for(const a of GENES)for(const b of GENES){
-    const bt=childOf(childOf(I4,a),b),t=childOf(childOf(row,a),b);
-    const bary=[0,1,2,3].map(k=>bt.reduce((s,v)=>s+v[k],0)/4);
-    const world=[0,1,2].map(k=>t.reduce((s,v)=>s+v[k],0)/4);
+/* the sheet as geometry: G[line][column], read top to bottom, left to right */
+const SHEET=(()=>{
+  const leaves=[];
+  for(const a of GENES)for(const b of GENES)for(const c of GENES){
+    const path=a+b+c,t=cellFor(path),world=[0,1,2].map(k=>t.reduce((s,v)=>s+v[k],0)/4);
     const edge=Math.hypot(...[0,1,2].map(k=>t[0][k]-t[1][k]));
-    out.push({bary,world,size:edge/(2*Math.SQRT2)*.94});
+    leaves.push({path,world,size:edge/(2*Math.SQRT2)*.94});
   }
-  out.sort((p,q)=>Math.abs(q.world[1]-p.world[1])>1e-6?q.world[1]-p.world[1]:p.world[0]-q.world[0]);
-  return out.slice(0,8);
-}
+  leaves.sort((p,q)=>q.world[1]-p.world[1]);           // top to bottom
+  const G=[];for(let r=0;r<8;r++)G.push(leaves.slice(r*8,r*8+8).sort((p,q)=>p.world[0]-q.world[0]));
+  return G;
+})();
 
 function fieldProjection(projection={}){
   P=projection;byId=new Map((projection.works||[]).map(w=>[w.id,w]));
-  const points=[],seen=ROWS.map(()=>0),cells=ROWS.map(rowCells);
+  const points=[],seen=[0,0,0,0,0,0,0,0],noun=new Map(),clustered=new Set();
   BODY.list=[];
-  const clustered=new Set();
   (projection.works||[]).forEach(w=>{
-    const r=w.row-1,path=ROWS[r],cell=cells[r][seen[r]++];if(!cell)return;
-    if(w.cluster_positive&&!clustered.has(r)){clustered.add(r);const c=cells[r][7];BODY.list.push({kind:'cluster',row:r,src:w.cluster_positive,world:c.world,size:c.size})}
-    const p=Object.freeze({id:'work:'+w.id,gene:path[0],path,kind:'work',label:w.id,bary:cell.bary,meta:`${w.id} · Rang ${w.rank} · ${w.source==='forest'?'Wald':w.source.replace('cluster','Cluster')}`,work:w});
+    const r=w.row-1,cell=SHEET[r]?.[seen[r]++];if(!cell||seen[r]>7)return;
+    if(w.cluster_positive&&!clustered.has(r)){clustered.add(r);const c=SHEET[r][7];noun.set(c.path,'Cluster '+(r));BODY.list.push({kind:'cluster',row:r,src:w.cluster_positive,world:c.world,size:c.size})}
+    noun.set(cell.path,w.id);
+    const p=Object.freeze({id:'work:'+w.id,gene:cell.path[0],path:cell.path,kind:'work',label:w.id,meta:`${w.id} · Rang ${w.rank} · ${w.source==='forest'?'Wald':w.source.replace('cluster','Cluster')}`,work:w});
     points.push(p);
     BODY.list.push({p,work:w,row:r,src:w.still,world:cell.world,size:cell.size});
   });
-  return Object.freeze({root:freeze(tree()),points});
+  // the tree is the sheet's own address space: a full depth-three split; only the named slots carry a noun
+  const grow=(path,depth)=>{
+    const n={noun:depth===3?(noun.get(path)||''):(depth===0?'Schattenseiten':''),children:{}};
+    n.de=n.en=n.noun;
+    if(depth<3)for(const g of GENES)n.children[g]=grow(path+g,depth+1);
+    return n;
+  };
+  return Object.freeze({root:freeze(grow('',0)),points});
 }
+const freeze=node=>{for(const g of Object.keys(node.children||{}))freeze(node.children[g]);Object.freeze(node.children);return Object.freeze(node)};
 
 /* ============ field: the host's own environment; shadows rest on it ============ */
 const shader={

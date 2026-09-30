@@ -12,9 +12,8 @@ Schattenseiten are shadows. Their whole claim is that a tetrahedron seen along i
 
 - the shared orientation starts at `HOME_ORIENT` (a tilted view, `world-view.js`), which is not any shadow axis;
 - the field camera is always a perspective camera (`perspective(π/3.3,…)`), and `project()` for hit-testing likewise;
-- a point's place inside its cell is pseudo-random from its id, so a site cannot lay works out as a tiling.
 
-The first Schattenseiten skin therefore scattered and drifted the works. Philipp: they should not float; they should rest as a flat picture.
+The first Schattenseiten skin therefore scattered and drifted the works. Philipp: they should not float; they should rest as a flat picture. (A point-placement hook was tried and dropped: a full depth-three address space gives every slot a leaf of its own, so no hook was needed.)
 
 ## what the site cannot do alone
 
@@ -27,9 +26,7 @@ An optional identity-owned `shader.view`:
 - `rest: [w,x,y,z]` — a quaternion the shared orientation eases to when the site is shown; if the witness has not turned it since, it eases back to Display's home when another site is shown. Dragging cancels the ease.
 - `projection: 'orthographic'` — the field and its hit-testing use a parallel projection matched to the perspective at the centre plane (same scale at the centre).
 
-And one optional point-spec field: `bary: [a,b,c,d]` — the point's barycentric place inside its addressed cell, replacing the pseudo-random place.
-
-Absent all three, nothing changes. Display names no site.
+Absent it, nothing changes. Display names no site.
 
 ## open
 

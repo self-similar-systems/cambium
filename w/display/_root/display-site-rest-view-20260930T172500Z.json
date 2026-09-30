@@ -6,13 +6,13 @@
   "operation": "metabolize-site-rest-view",
   "outcome": "PASS/EARNED · A SITE MAY DECLARE ITS REST VIEW: ORIENTATION, PROJECTION AND WHERE ITS POINTS SIT",
   "changed_scope": [
-    "w/locus-shader.js: optional shader.view {rest, projection:'orthographic'}; orthographic proj and project() when declared; point spec `bary` places a point at its barycentre in its addressed cell",
+    "w/locus-shader.js: optional shader.view {rest, projection:'orthographic'}; orthographic proj and project() when declared",
     "z/world-view.js: easeTo / restoreHome; a witness's own turning cancels the ease and the claim",
     "Display organism / site-holon RITUALS advanced to 3.9 / 3.0; no INDEX/_cambium change; central runtime still names no site"
   ],
   "context": {
     "source_nutrient": "w/display/_stomach/NUTRIENT__site-rest-view__20260930.md",
-    "first_realization": "Schattenseiten works rest in their row cells, flat along the shadow axis",
+    "first_realization": "Schattenseiten: an 8×8 sheet of depth-three leaves, flat along the shadow axis",
     "witnesses": [
       "y/check.py full main (30600 checks; only the file-set comparison that needs the bait tree and CI-materialized papers-shadow left to CI)",
       "local browser: entering the site eases the shared orientation to [1,0,0,0]; HUD fixed at the edges; no layerError; 49 stills land in about 1.2 s"

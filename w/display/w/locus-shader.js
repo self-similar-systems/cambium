@@ -112,8 +112,6 @@ function hash32(text){
 }
 function random01(text,salt){return (hash32(text+'·'+salt)+1)/4294967297}
 function pointInTet(tet,spec){
-  /* a point may state its own barycentric place in its cell (a site laying works out as a tiling) */
-  if(Array.isArray(spec.bary)&&spec.bary.length===4){const t=spec.bary.reduce((a,b)=>a+b,0)||1;return [0,1,2].map(k=>spec.bary.reduce((sum,w,i)=>sum+w/t*tet[i][k],0))}
   let weights=[0,1,2,3].map(i=>-Math.log(Math.max(1e-7,random01(spec.id,i))));
   const s=weights.reduce((a,b)=>a+b,0);weights=weights.map(v=>v/s);
   const inset=spec.kind==='holon'?.40:.22;
