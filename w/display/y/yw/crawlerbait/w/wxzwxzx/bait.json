@@ -11,7 +11,15 @@
     },
     {
       "events": 1,
+      "id": "7026ae3a86b206aa74e31154"
+    },
+    {
+      "events": 1,
       "id": "aa2cd8d69b4a6e3440368b72"
+    },
+    {
+      "events": 1,
+      "id": "c61cf69f3128983c69158160"
     },
     {
       "events": 1,
@@ -24,10 +32,10 @@
   ],
   "first_seen": "2026-09-20T04:24:00Z",
   "id": "619f7dca04ccfb0af029",
-  "last_seen": "2026-09-29T01:27:31Z",
+  "last_seen": "2026-10-01T00:57:51Z",
   "legacy_404_observations": 0,
   "observed_path": "/CLAUDE.md",
   "public_href": "/crawlerbait/bait/CLAUDE.md/",
-  "raw_requests": 5,
+  "raw_requests": 7,
   "version": 2
 }

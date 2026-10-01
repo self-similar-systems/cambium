@@ -19,15 +19,19 @@
     },
     {
       "events": 1,
+      "id": "9d3cf003935b8e5c2693d08a"
+    },
+    {
+      "events": 1,
       "id": "aae28839cdd89e1295cb7a53"
     }
   ],
   "first_seen": "2026-09-14T22:09:07Z",
   "id": "a1270007036f5b9497b1",
-  "last_seen": "2026-09-28T12:45:52Z",
+  "last_seen": "2026-09-29T13:24:51Z",
   "legacy_404_observations": 3,
   "observed_path": "/wp-includes/js/jquery/jquery.js",
   "public_href": "/crawlerbait/bait/wp-includes/js/jquery/jquery.js/",
-  "raw_requests": 7,
+  "raw_requests": 8,
   "version": 2
 }

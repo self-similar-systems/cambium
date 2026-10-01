@@ -23,7 +23,15 @@
     },
     {
       "events": 1,
+      "id": "a02597f2d9b0f1f5a9a5b782"
+    },
+    {
+      "events": 1,
       "id": "a8498e09f6ea5d67ff9a9d63"
+    },
+    {
+      "events": 1,
+      "id": "d0e2ab1af68b72fb5170d297"
     },
     {
       "events": 1,
@@ -36,10 +44,10 @@
   ],
   "first_seen": "2026-09-17T21:58:07Z",
   "id": "351a0a21bfd3f3265289",
-  "last_seen": "2026-09-28T17:33:29Z",
+  "last_seen": "2026-09-30T12:20:18Z",
   "legacy_404_observations": 2,
   "observed_path": "/wordpress/",
   "public_href": "/crawlerbait/bait/wordpress/",
-  "raw_requests": 10,
+  "raw_requests": 12,
   "version": 2
 }

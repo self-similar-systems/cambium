@@ -19,15 +19,23 @@
     },
     {
       "events": 1,
+      "id": "92e10565df9cd7a966dae8e2"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
+    },
+    {
+      "events": 1,
       "id": "ebff9e95a7335bd442f71e1e"
     }
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "78397efcae5add045ed2",
-  "last_seen": "2026-09-27T19:36:48Z",
+  "last_seen": "2026-09-30T08:55:45Z",
   "legacy_404_observations": 0,
   "observed_path": "/local_settings.py",
   "public_href": "/crawlerbait/bait/local_settings.py/",
-  "raw_requests": 6,
+  "raw_requests": 8,
   "version": 2
 }

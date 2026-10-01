@@ -19,6 +19,10 @@
     },
     {
       "events": 1,
+      "id": "00303c1d83b6f7975f4d1cc5"
+    },
+    {
+      "events": 1,
       "id": "022b0e049ecaa3c8bccfffd9"
     },
     {
@@ -56,10 +60,10 @@
   ],
   "first_seen": "2026-09-13T22:09:07Z",
   "id": "fc39fd6bcca9f87bfcc4",
-  "last_seen": "2026-09-28T08:18:38Z",
+  "last_seen": "2026-09-30T21:42:34Z",
   "legacy_404_observations": 6,
   "observed_path": "/feed/",
   "public_href": "/crawlerbait/bait/feed/",
-  "raw_requests": 20,
+  "raw_requests": 21,
   "version": 2
 }

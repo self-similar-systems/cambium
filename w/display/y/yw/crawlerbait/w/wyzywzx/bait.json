@@ -11,11 +11,19 @@
     },
     {
       "events": 1,
+      "id": "7aad23e367fa7a678f2e373f"
+    },
+    {
+      "events": 1,
       "id": "86aff9f491f46896f57e08b1"
     },
     {
       "events": 1,
       "id": "9caebc8cb7405cb1b57a7cc4"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
     },
     {
       "events": 1,
@@ -40,10 +48,10 @@
   ],
   "first_seen": "2026-09-15T13:38:51Z",
   "id": "ec9b56da870ff6e0822c",
-  "last_seen": "2026-09-27T19:36:48Z",
+  "last_seen": "2026-09-30T09:12:52Z",
   "legacy_404_observations": 0,
   "observed_path": "/admin/phpinfo.php",
   "public_href": "/crawlerbait/bait/admin/phpinfo.php/",
-  "raw_requests": 9,
+  "raw_requests": 11,
   "version": 2
 }

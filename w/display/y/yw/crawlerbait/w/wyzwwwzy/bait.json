@@ -31,6 +31,10 @@
     },
     {
       "events": 1,
+      "id": "ae4c77c1d632d7dcee7c3e74"
+    },
+    {
+      "events": 1,
       "id": "c187f26238c206db0580174f"
     },
     {
@@ -40,10 +44,10 @@
   ],
   "first_seen": "2026-09-12T22:09:07Z",
   "id": "e02c846c74d3083017a6",
-  "last_seen": "2026-09-19T23:56:44Z",
+  "last_seen": "2026-09-29T13:48:05Z",
   "legacy_404_observations": 12,
   "observed_path": "/news/wp-includes/wlwmanifest.xml",
   "public_href": "/crawlerbait/bait/news/wp-includes/wlwmanifest.xml/",
-  "raw_requests": 10,
+  "raw_requests": 11,
   "version": 2
 }

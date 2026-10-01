@@ -1,0 +1,25 @@
+{
+  "bait_address": "wzzzwy",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "08eb21f48a34bf57a9b9c2df"
+    },
+    {
+      "events": 1,
+      "id": "921033f8d63fdf73ba762b96"
+    },
+    {
+      "events": 1,
+      "id": "c751737766efbfa13489fbed"
+    }
+  ],
+  "first_seen": "2026-09-30T22:11:11Z",
+  "id": "2a3bad3aca2667bb025d",
+  "last_seen": "2026-10-01T09:54:19Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/assets/43f1c315ecd6d2e2/dependencies/chenglou-pretext/layout.js",
+  "public_href": "/crawlerbait/bait/assets/43f1c315ecd6d2e2/dependencies/chenglou-pretext/layout.js/",
+  "raw_requests": 3,
+  "version": 2
+}

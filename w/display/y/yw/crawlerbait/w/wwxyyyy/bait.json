@@ -31,6 +31,10 @@
     },
     {
       "events": 1,
+      "id": "2b0021166ed2c50e55bef0d2"
+    },
+    {
+      "events": 1,
       "id": "2ba10259206cfa8421357e62"
     },
     {
@@ -43,11 +47,19 @@
     },
     {
       "events": 1,
+      "id": "73a941f61e8f9ebd1c3ebaec"
+    },
+    {
+      "events": 1,
       "id": "8281a7189f196227691dec57"
     },
     {
       "events": 1,
       "id": "921416476a5b6f6206dae56d"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
     },
     {
       "events": 1,
@@ -64,6 +76,10 @@
     {
       "events": 1,
       "id": "c56ebfdbbfa4b4b0556c02e3"
+    },
+    {
+      "events": 1,
+      "id": "c7a38eda5c0f077faeb92d1f"
     },
     {
       "events": 1,
@@ -84,10 +100,10 @@
   ],
   "first_seen": "2026-09-15T22:09:07Z",
   "id": "1ffd9afa4ff51d558fbb",
-  "last_seen": "2026-09-27T23:37:02Z",
+  "last_seen": "2026-10-01T00:57:50Z",
   "legacy_404_observations": 7,
   "observed_path": "/backend/.env",
   "public_href": "/crawlerbait/receipt/1ffd9afa4ff51d558fbb/",
-  "raw_requests": 21,
+  "raw_requests": 25,
   "version": 2
 }

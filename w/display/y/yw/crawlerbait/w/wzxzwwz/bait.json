@@ -15,15 +15,23 @@
     },
     {
       "events": 1,
+      "id": "92e10565df9cd7a966dae8e2"
+    },
+    {
+      "events": 1,
+      "id": "b84327ba604eb6e1d3221902"
+    },
+    {
+      "events": 1,
       "id": "e58b3301ec352903f3a1cc25"
     }
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "9823c90115688ca8a60a",
-  "last_seen": "2026-09-27T19:36:48Z",
+  "last_seen": "2026-09-30T08:55:45Z",
   "legacy_404_observations": 0,
   "observed_path": "/bootstrap/cache/config.php",
   "public_href": "/crawlerbait/bait/bootstrap/cache/config.php/",
-  "raw_requests": 6,
+  "raw_requests": 8,
   "version": 2
 }

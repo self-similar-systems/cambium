@@ -1,0 +1,21 @@
+{
+  "bait_address": "zyywxxx",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "dd053a52ab047724c6fda330"
+    },
+    {
+      "events": 1,
+      "id": "e507b0d277e36ef1a47ffef2"
+    }
+  ],
+  "first_seen": "2026-10-01T13:04:58Z",
+  "id": "bc567d933e9b7622999f",
+  "last_seen": "2026-10-01T14:20:42Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/assets/cba41945309f848a/world-view.js",
+  "public_href": "/crawlerbait/bait/assets/cba41945309f848a/world-view.js/",
+  "raw_requests": 2,
+  "version": 2
+}

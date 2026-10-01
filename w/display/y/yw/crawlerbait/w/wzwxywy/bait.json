@@ -19,7 +19,15 @@
     },
     {
       "events": 1,
+      "id": "92e10565df9cd7a966dae8e2"
+    },
+    {
+      "events": 1,
       "id": "b0897692abfd81944dfc2ab7"
+    },
+    {
+      "events": 1,
+      "id": "bbe3f9da609b3c48e9626727"
     },
     {
       "events": 1,
@@ -36,10 +44,10 @@
   ],
   "first_seen": "2026-09-18T04:40:48Z",
   "id": "8730d0bcc46eca0b5bb7",
-  "last_seen": "2026-09-27T19:36:51Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 1,
   "observed_path": "/schema.prisma",
   "public_href": "/crawlerbait/bait/schema.prisma/",
-  "raw_requests": 9,
+  "raw_requests": 11,
   "version": 2
 }

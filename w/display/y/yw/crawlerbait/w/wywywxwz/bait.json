@@ -11,15 +11,23 @@
     },
     {
       "events": 1,
+      "id": "65a0c8101184b237efd13ba3"
+    },
+    {
+      "events": 1,
       "id": "b0897692abfd81944dfc2ab7"
+    },
+    {
+      "events": 1,
+      "id": "fd90bbcc386b74c82edfe0d3"
     }
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "cc4bdf71fc364cb55c31",
-  "last_seen": "2026-09-27T19:36:48Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/firebase-config.js",
   "public_href": "/crawlerbait/bait/firebase-config.js/",
-  "raw_requests": 4,
+  "raw_requests": 6,
   "version": 2
 }

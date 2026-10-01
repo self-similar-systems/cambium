@@ -12,14 +12,18 @@
     {
       "events": 1,
       "id": "002b9d7f56ed121491fdb5d0"
+    },
+    {
+      "events": 1,
+      "id": "66a18bd80c8581a312ac76e3"
     }
   ],
   "first_seen": "2026-09-20T14:35:03Z",
   "id": "79a25f070af956383ce0",
-  "last_seen": "2026-09-29T03:09:12Z",
+  "last_seen": "2026-10-01T15:30:19Z",
   "legacy_404_observations": 0,
   "observed_path": "/_next/static/chunks/pages/index.js.map",
   "public_href": "/crawlerbait/bait/_next/static/chunks/pages/index.js.map/",
-  "raw_requests": 5,
+  "raw_requests": 6,
   "version": 2
 }

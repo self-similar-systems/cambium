@@ -1,0 +1,25 @@
+{
+  "bait_address": "xywwxzx",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "3df869eb4fc82aff0e48adaa"
+    },
+    {
+      "events": 1,
+      "id": "5af4ec9de4b49c3263095343"
+    },
+    {
+      "events": 1,
+      "id": "921033f8d63fdf73ba762b96"
+    }
+  ],
+  "first_seen": "2026-10-01T11:56:28Z",
+  "id": "7065a5e90e3ffddc7f82",
+  "last_seen": "2026-10-01T14:20:42Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/assets/cba41945309f848a/site-fold.js",
+  "public_href": "/crawlerbait/bait/assets/cba41945309f848a/site-fold.js/",
+  "raw_requests": 3,
+  "version": 2
+}

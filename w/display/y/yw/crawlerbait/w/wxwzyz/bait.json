@@ -19,6 +19,10 @@
     },
     {
       "events": 1,
+      "id": "73a941f61e8f9ebd1c3ebaec"
+    },
+    {
+      "events": 1,
       "id": "82e8d0c90bdc5c73db7e0f1a"
     },
     {
@@ -27,15 +31,19 @@
     },
     {
       "events": 1,
+      "id": "b84327ba604eb6e1d3221902"
+    },
+    {
+      "events": 1,
       "id": "ebff9e95a7335bd442f71e1e"
     }
   ],
   "first_seen": "2026-09-21T23:42:39Z",
   "id": "4b80703f9785120667f8",
-  "last_seen": "2026-09-27T23:37:00Z",
+  "last_seen": "2026-09-30T08:55:45Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/aws.yml",
   "public_href": "/crawlerbait/bait/config/aws.yml/",
-  "raw_requests": 8,
+  "raw_requests": 10,
   "version": 2
 }

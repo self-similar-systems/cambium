@@ -15,6 +15,10 @@
     },
     {
       "events": 1,
+      "id": "bbe3f9da609b3c48e9626727"
+    },
+    {
+      "events": 1,
       "id": "def4106d758c5337a1f6c3e6"
     },
     {
@@ -24,14 +28,18 @@
     {
       "events": 1,
       "id": "f4e6f9376e16550bf32aaa47"
+    },
+    {
+      "events": 1,
+      "id": "fd90bbcc386b74c82edfe0d3"
     }
   ],
   "first_seen": "2026-09-18T14:35:13Z",
   "id": "36088d47ac14f9ca6a9b",
-  "last_seen": "2026-09-27T19:36:49Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/prisma/schema.prisma",
   "public_href": "/crawlerbait/bait/prisma/schema.prisma/",
-  "raw_requests": 8,
+  "raw_requests": 10,
   "version": 2
 }

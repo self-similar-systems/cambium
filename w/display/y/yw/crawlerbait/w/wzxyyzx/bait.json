@@ -7,7 +7,15 @@
     },
     {
       "events": 1,
+      "id": "2f4dfbef5a9361a470ebea5d"
+    },
+    {
+      "events": 1,
       "id": "82e8d0c90bdc5c73db7e0f1a"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
     },
     {
       "events": 1,
@@ -32,10 +40,10 @@
   ],
   "first_seen": "2026-09-18T16:54:09Z",
   "id": "9f9ddcc3b2a6db2bc31e",
-  "last_seen": "2026-09-27T19:36:49Z",
+  "last_seen": "2026-09-30T08:55:45Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/mail.php",
   "public_href": "/crawlerbait/bait/config/mail.php/",
-  "raw_requests": 7,
+  "raw_requests": 9,
   "version": 2
 }

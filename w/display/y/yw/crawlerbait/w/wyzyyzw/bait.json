@@ -12,14 +12,18 @@
     {
       "events": 1,
       "id": "002b9d7f56ed121491fdb5d0"
+    },
+    {
+      "events": 1,
+      "id": "66a18bd80c8581a312ac76e3"
     }
   ],
   "first_seen": "2026-09-20T14:35:05Z",
   "id": "ef830e604eca94cdc33f",
-  "last_seen": "2026-09-29T03:09:15Z",
+  "last_seen": "2026-10-01T15:30:20Z",
   "legacy_404_observations": 0,
   "observed_path": "/api/internal",
   "public_href": "/crawlerbait/bait/api/internal/",
-  "raw_requests": 5,
+  "raw_requests": 6,
   "version": 2
 }

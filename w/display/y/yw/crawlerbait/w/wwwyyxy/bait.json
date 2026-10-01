@@ -1,0 +1,21 @@
+{
+  "bait_address": "wwyyxy",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "c914491a2ffea598005f1b5d"
+    },
+    {
+      "events": 1,
+      "id": "e507b0d277e36ef1a47ffef2"
+    }
+  ],
+  "first_seen": "2026-10-01T13:04:58Z",
+  "id": "0f7a35a7b8faaebb3992",
+  "last_seen": "2026-10-01T14:20:42Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/assets/cba41945309f848a/address.js",
+  "public_href": "/crawlerbait/bait/assets/cba41945309f848a/address.js/",
+  "raw_requests": 2,
+  "version": 2
+}

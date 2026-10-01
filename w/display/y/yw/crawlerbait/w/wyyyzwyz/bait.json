@@ -1,0 +1,17 @@
+{
+  "bait_address": "yyyzwyz",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "d11922dbcf11f61d2dbe6143"
+    }
+  ],
+  "first_seen": "2026-09-30T22:57:45Z",
+  "id": "fe3b63c964e7f803faa2",
+  "last_seen": "2026-09-30T22:57:45Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/wp/wp-json/",
+  "public_href": "/crawlerbait/bait/wp/wp-json/",
+  "raw_requests": 1,
+  "version": 2
+}

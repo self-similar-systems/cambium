@@ -3,6 +3,10 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "29bf1ca999cf2f99d13b2d4d"
+    },
+    {
+      "events": 1,
       "id": "7503c6a98efae3b52c48c3ee"
     },
     {
@@ -12,10 +16,10 @@
   ],
   "first_seen": "2026-09-17T21:58:07Z",
   "id": "860a4befb6a2a75aab79",
-  "last_seen": "2026-09-19T13:23:01Z",
+  "last_seen": "2026-09-30T12:20:17Z",
   "legacy_404_observations": 1,
   "observed_path": "/installer-backup.php",
   "public_href": "/crawlerbait/bait/installer-backup.php/",
-  "raw_requests": 2,
+  "raw_requests": 3,
   "version": 2
 }

@@ -3,6 +3,14 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "4462ce8a6cdf1b4e5495514b"
+    },
+    {
+      "events": 1,
+      "id": "65a0c8101184b237efd13ba3"
+    },
+    {
+      "events": 1,
       "id": "6fcca6e0aaa49331f3436a3f"
     },
     {
@@ -20,10 +28,10 @@
   ],
   "first_seen": "2026-09-21T23:42:43Z",
   "id": "cc0ea3c5445c3026e4d5",
-  "last_seen": "2026-09-27T19:36:52Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/database.js",
   "public_href": "/crawlerbait/bait/config/database.js/",
-  "raw_requests": 4,
+  "raw_requests": 6,
   "version": 2
 }

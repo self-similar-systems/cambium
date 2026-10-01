@@ -733,6 +733,36 @@
         "end": "2026-09-29T05:39:44Z",
         "start": "2026-09-28T23:10:25Z"
       }
+    },
+    {
+      "file": "20260929T053944Z--20260930T053944Z.traffic.json",
+      "github": "https://github.com/self-similar-systems/cambium/blob/main/w/display/y/yw/crawlerbait/x/captures/20260929T053944Z--20260930T053944Z.traffic.json",
+      "raw": "https://raw.githubusercontent.com/self-similar-systems/cambium/main/w/display/y/yw/crawlerbait/x/captures/20260929T053944Z--20260930T053944Z.traffic.json",
+      "records": 557,
+      "window": {
+        "end": "2026-09-30T05:39:44Z",
+        "start": "2026-09-29T05:39:44Z"
+      }
+    },
+    {
+      "file": "20260930T053944Z--20261001T053944Z.traffic.json",
+      "github": "https://github.com/self-similar-systems/cambium/blob/main/w/display/y/yw/crawlerbait/x/captures/20260930T053944Z--20261001T053944Z.traffic.json",
+      "raw": "https://raw.githubusercontent.com/self-similar-systems/cambium/main/w/display/y/yw/crawlerbait/x/captures/20260930T053944Z--20261001T053944Z.traffic.json",
+      "records": 541,
+      "window": {
+        "end": "2026-10-01T05:39:44Z",
+        "start": "2026-09-30T05:39:44Z"
+      }
+    },
+    {
+      "file": "20261001T053944Z--20261001T201708Z.traffic.json",
+      "github": "https://github.com/self-similar-systems/cambium/blob/main/w/display/y/yw/crawlerbait/x/captures/20261001T053944Z--20261001T201708Z.traffic.json",
+      "raw": "https://raw.githubusercontent.com/self-similar-systems/cambium/main/w/display/y/yw/crawlerbait/x/captures/20261001T053944Z--20261001T201708Z.traffic.json",
+      "records": 347,
+      "window": {
+        "end": "2026-10-01T20:17:08Z",
+        "start": "2026-10-01T05:39:44Z"
+      }
     }
   ],
   "recognition_publication": {

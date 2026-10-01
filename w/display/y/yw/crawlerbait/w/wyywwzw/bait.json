@@ -27,6 +27,10 @@
     },
     {
       "events": 1,
+      "id": "b84327ba604eb6e1d3221902"
+    },
+    {
+      "events": 1,
       "id": "b8e94502f406c555b279bbcc"
     },
     {
@@ -35,15 +39,19 @@
     },
     {
       "events": 1,
+      "id": "eb0db91938cdaa207ffdfeef"
+    },
+    {
+      "events": 1,
       "id": "ee4ef907877be5b8b8d75e04"
     }
   ],
   "first_seen": "2026-09-14T21:16:29Z",
   "id": "f08a63ae4ed4732ad9b5",
-  "last_seen": "2026-09-27T23:37:02Z",
+  "last_seen": "2026-09-30T09:12:50Z",
   "legacy_404_observations": 16,
   "observed_path": "/phpinfo",
   "public_href": "/crawlerbait/bait/phpinfo/",
-  "raw_requests": 11,
+  "raw_requests": 13,
   "version": 2
 }

@@ -3,15 +3,19 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "2b0021166ed2c50e55bef0d2"
+    },
+    {
+      "events": 1,
       "id": "def1b56382a5d83ccf1c6351"
     }
   ],
   "first_seen": "2026-09-27T19:43:24Z",
   "id": "0946cf978ceb807421be",
-  "last_seen": "2026-09-27T19:43:24Z",
+  "last_seen": "2026-09-29T22:26:07Z",
   "legacy_404_observations": 0,
   "observed_path": "/Dockerfile",
   "public_href": "/crawlerbait/bait/Dockerfile/",
-  "raw_requests": 1,
+  "raw_requests": 2,
   "version": 2
 }

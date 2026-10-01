@@ -15,15 +15,19 @@
     },
     {
       "events": 1,
+      "id": "d0e2ab1af68b72fb5170d297"
+    },
+    {
+      "events": 1,
       "id": "eb069a49b13730ebca2e4c1b"
     }
   ],
   "first_seen": "2026-09-18T04:40:48Z",
   "id": "35187be7c5e0466cd930",
-  "last_seen": "2026-09-22T22:19:28Z",
+  "last_seen": "2026-09-30T07:15:09Z",
   "legacy_404_observations": 1,
   "observed_path": "/wp/",
   "public_href": "/crawlerbait/bait/wp/",
-  "raw_requests": 8,
+  "raw_requests": 9,
   "version": 2
 }

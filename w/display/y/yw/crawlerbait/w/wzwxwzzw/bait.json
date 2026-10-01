@@ -7,6 +7,10 @@
     },
     {
       "events": 6,
+      "id": "14db4676a620ac3abd48baac"
+    },
+    {
+      "events": 6,
       "id": "971a0f96ff3c3ef5b8f5e275"
     },
     {
@@ -23,7 +27,7 @@
     },
     {
       "events": 1,
-      "id": "14db4676a620ac3abd48baac"
+      "id": "66a18bd80c8581a312ac76e3"
     },
     {
       "events": 1,
@@ -36,10 +40,10 @@
   ],
   "first_seen": "2026-09-20T14:35:02Z",
   "id": "84a04c248965d2392b46",
-  "last_seen": "2026-09-29T03:09:12Z",
+  "last_seen": "2026-10-01T15:30:18Z",
   "legacy_404_observations": 0,
   "observed_path": "/admin",
   "public_href": "/crawlerbait/bait/admin/",
-  "raw_requests": 21,
+  "raw_requests": 27,
   "version": 2
 }

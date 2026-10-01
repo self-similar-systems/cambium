@@ -11,7 +11,15 @@
     },
     {
       "events": 1,
+      "id": "2f4dfbef5a9361a470ebea5d"
+    },
+    {
+      "events": 1,
       "id": "6fcca6e0aaa49331f3436a3f"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
     },
     {
       "events": 1,
@@ -20,10 +28,10 @@
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "b2ee289c6fea629dfdb0",
-  "last_seen": "2026-09-27T19:36:48Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/packages/mailer.yml",
   "public_href": "/crawlerbait/bait/config/packages/mailer.yml/",
-  "raw_requests": 5,
+  "raw_requests": 7,
   "version": 2
 }

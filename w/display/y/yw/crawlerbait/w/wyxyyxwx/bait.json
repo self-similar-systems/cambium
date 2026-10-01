@@ -2,7 +2,7 @@
   "bait_address": "yxyyxwx",
   "crawlers": [
     {
-      "events": 8,
+      "events": 11,
       "id": "928948698da5776e40fb47d9"
     },
     {
@@ -16,6 +16,10 @@
     {
       "events": 2,
       "id": "11c1f3648f27c54d1a1b6739"
+    },
+    {
+      "events": 2,
+      "id": "37f4b18b31d6632eeaf768d8"
     },
     {
       "events": 2,
@@ -52,6 +56,14 @@
     {
       "events": 1,
       "id": "0d1a5b1dcad3fe5c536d8622"
+    },
+    {
+      "events": 1,
+      "id": "116709f2fabb4e81b8e958aa"
+    },
+    {
+      "events": 1,
+      "id": "121932576fe6e25520a5f1e5"
     },
     {
       "events": 1,
@@ -127,6 +139,10 @@
     },
     {
       "events": 1,
+      "id": "43d2dc4c063120fb6f398272"
+    },
+    {
+      "events": 1,
       "id": "46611d3feb81422b831cd710"
     },
     {
@@ -168,6 +184,10 @@
     {
       "events": 1,
       "id": "5c5d09411ec8a6859f25c45c"
+    },
+    {
+      "events": 1,
+      "id": "62a54093350bc7d0c6ec5a79"
     },
     {
       "events": 1,
@@ -259,11 +279,19 @@
     },
     {
       "events": 1,
+      "id": "9525cb6d7e298d18b9c3d914"
+    },
+    {
+      "events": 1,
       "id": "97f03e7315e68d1534f12b75"
     },
     {
       "events": 1,
       "id": "a0a2a5749e8cf32c3360ff64"
+    },
+    {
+      "events": 1,
+      "id": "a3536521bdbdbf31cb28fc38"
     },
     {
       "events": 1,
@@ -340,6 +368,10 @@
     {
       "events": 1,
       "id": "ca998fa1606aeb1c3ec2582b"
+    },
+    {
+      "events": 1,
+      "id": "d11922dbcf11f61d2dbe6143"
     },
     {
       "events": 1,
@@ -420,10 +452,10 @@
   ],
   "first_seen": "2026-09-12T22:09:07Z",
   "id": "df475dccbaf248451c5a",
-  "last_seen": "2026-09-28T20:04:55Z",
+  "last_seen": "2026-10-01T14:41:16Z",
   "legacy_404_observations": 46,
   "observed_path": "/wp-login.php",
   "public_href": "/crawlerbait/bait/wp-login.php/",
-  "raw_requests": 122,
+  "raw_requests": 134,
   "version": 2
 }

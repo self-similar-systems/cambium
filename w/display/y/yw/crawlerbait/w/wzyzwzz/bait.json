@@ -23,15 +23,19 @@
     },
     {
       "events": 1,
+      "id": "b4cd9cbe5820712bcaff03c1"
+    },
+    {
+      "events": 1,
       "id": "c9e2c463deab079492838534"
     }
   ],
   "first_seen": "2026-09-13T22:09:07Z",
   "id": "b8a3c574e196566c06a7",
-  "last_seen": "2026-09-28T04:43:53Z",
+  "last_seen": "2026-10-01T14:02:40Z",
   "legacy_404_observations": 10,
   "observed_path": "/blog/wp-includes/wlwmanifest.xml",
   "public_href": "/crawlerbait/bait/blog/wp-includes/wlwmanifest.xml/",
-  "raw_requests": 7,
+  "raw_requests": 8,
   "version": 2
 }

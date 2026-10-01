@@ -23,6 +23,14 @@
     },
     {
       "events": 1,
+      "id": "ae4c77c1d632d7dcee7c3e74"
+    },
+    {
+      "events": 1,
+      "id": "b4cd9cbe5820712bcaff03c1"
+    },
+    {
+      "events": 1,
       "id": "c1e229fb584a1c0928e2471d"
     },
     {
@@ -36,10 +44,10 @@
   ],
   "first_seen": "2026-09-13T22:09:07Z",
   "id": "c3b315a75abb1facc4aa",
-  "last_seen": "2026-09-28T04:43:54Z",
+  "last_seen": "2026-10-01T14:02:40Z",
   "legacy_404_observations": 12,
   "observed_path": "/wp/wp-includes/wlwmanifest.xml",
   "public_href": "/crawlerbait/bait/wp/wp-includes/wlwmanifest.xml/",
-  "raw_requests": 9,
+  "raw_requests": 11,
   "version": 2
 }

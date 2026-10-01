@@ -31,6 +31,10 @@
     },
     {
       "events": 1,
+      "id": "67d1d6dda5940a22f2638a2f"
+    },
+    {
+      "events": 1,
       "id": "7ed447e71301d713acb12714"
     },
     {
@@ -60,10 +64,10 @@
   ],
   "first_seen": "2026-09-13T22:09:07Z",
   "id": "92d7f534a86e177ba53c",
-  "last_seen": "2026-09-28T08:18:38Z",
+  "last_seen": "2026-09-30T22:57:44Z",
   "legacy_404_observations": 6,
   "observed_path": "/wp-json/",
   "public_href": "/crawlerbait/bait/wp-json/",
-  "raw_requests": 19,
+  "raw_requests": 20,
   "version": 2
 }

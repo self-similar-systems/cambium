@@ -11,6 +11,10 @@
     },
     {
       "events": 1,
+      "id": "92e10565df9cd7a966dae8e2"
+    },
+    {
+      "events": 1,
       "id": "a14f7281214bdaebe5d73d9c"
     },
     {
@@ -20,10 +24,10 @@
   ],
   "first_seen": "2026-09-21T23:42:43Z",
   "id": "acd751200ec735c1fb77",
-  "last_seen": "2026-09-27T19:36:51Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/aws/credentials",
   "public_href": "/crawlerbait/bait/config/aws/credentials/",
-  "raw_requests": 5,
+  "raw_requests": 6,
   "version": 2
 }

@@ -1,0 +1,21 @@
+{
+  "bait_address": "wywxyzz",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "4e4d153745975d3d38483d2d"
+    },
+    {
+      "events": 1,
+      "id": "b6b7490ca61531e9c08c08b4"
+    }
+  ],
+  "first_seen": "2026-10-01T16:14:16Z",
+  "id": "31e9c85c814fe94979be",
+  "last_seen": "2026-10-01T19:12:32Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/assets/374ca80bcaa8bde2/dependencies/chenglou-pretext/line-break.js",
+  "public_href": "/crawlerbait/bait/assets/374ca80bcaa8bde2/dependencies/chenglou-pretext/line-break.js/",
+  "raw_requests": 2,
+  "version": 2
+}

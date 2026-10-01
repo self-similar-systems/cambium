@@ -11,6 +11,14 @@
     },
     {
       "events": 1,
+      "id": "2f4dfbef5a9361a470ebea5d"
+    },
+    {
+      "events": 1,
+      "id": "8d4c1db0acb2fc7cd2ca8fc2"
+    },
+    {
+      "events": 1,
       "id": "b0897692abfd81944dfc2ab7"
     },
     {
@@ -32,10 +40,10 @@
   ],
   "first_seen": "2026-09-18T14:35:16Z",
   "id": "11cbdc1d0934c26ecc21",
-  "last_seen": "2026-09-27T19:36:49Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/settings.py",
   "public_href": "/crawlerbait/bait/settings.py/",
-  "raw_requests": 8,
+  "raw_requests": 10,
   "version": 2
 }

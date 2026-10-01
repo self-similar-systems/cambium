@@ -35,6 +35,10 @@
     },
     {
       "events": 1,
+      "id": "66a18bd80c8581a312ac76e3"
+    },
+    {
+      "events": 1,
       "id": "6d945ae1f2be2a07b279d7dd"
     },
     {
@@ -56,10 +60,10 @@
   ],
   "first_seen": "2026-09-13T20:07:11Z",
   "id": "e6862b57c5407b8605e5",
-  "last_seen": "2026-09-29T03:09:13Z",
+  "last_seen": "2026-10-01T15:30:19Z",
   "legacy_404_observations": 0,
   "observed_path": "/graphql",
   "public_href": "/crawlerbait/bait/graphql/",
-  "raw_requests": 19,
+  "raw_requests": 20,
   "version": 2
 }

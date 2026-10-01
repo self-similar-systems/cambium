@@ -3,6 +3,10 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "00303c1d83b6f7975f4d1cc5"
+    },
+    {
+      "events": 1,
       "id": "0294de8ba61abe6d15063f2a"
     },
     {
@@ -35,6 +39,10 @@
     },
     {
       "events": 1,
+      "id": "ae4c77c1d632d7dcee7c3e74"
+    },
+    {
+      "events": 1,
       "id": "c187f26238c206db0580174f"
     },
     {
@@ -48,10 +56,10 @@
   ],
   "first_seen": "2026-09-12T22:09:07Z",
   "id": "a0f4515efbe01c0782e3",
-  "last_seen": "2026-09-28T04:43:54Z",
+  "last_seen": "2026-09-30T21:42:35Z",
   "legacy_404_observations": 17,
   "observed_path": "/wordpress/wp-includes/wlwmanifest.xml",
   "public_href": "/crawlerbait/bait/wordpress/wp-includes/wlwmanifest.xml/",
-  "raw_requests": 11,
+  "raw_requests": 13,
   "version": 2
 }

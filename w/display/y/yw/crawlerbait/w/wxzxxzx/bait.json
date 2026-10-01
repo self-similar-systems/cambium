@@ -2,7 +2,7 @@
   "bait_address": "xzxxzx",
   "crawlers": [
     {
-      "events": 908,
+      "events": 941,
       "id": "5e799495316e57f07453e0e6"
     },
     {
@@ -11,11 +11,19 @@
     },
     {
       "events": 1,
+      "id": "442b2f9dd5d057eb1033c9f1"
+    },
+    {
+      "events": 1,
       "id": "7cf8582736ea13d43069f941"
     },
     {
       "events": 1,
       "id": "97536cf3ef827db7d725989a"
+    },
+    {
+      "events": 1,
+      "id": "9d12d1e3ddc26f51a685f060"
     },
     {
       "events": 1,
@@ -32,10 +40,10 @@
   ],
   "first_seen": "2026-09-13T20:18:42Z",
   "id": "6591c52e94d82241c38a",
-  "last_seen": "2026-09-29T04:35:35Z",
+  "last_seen": "2026-10-01T18:49:25Z",
   "legacy_404_observations": 1,
   "observed_path": "/wp-admin/install.php",
   "public_href": "/crawlerbait/bait/wp-admin/install.php/",
-  "raw_requests": 915,
+  "raw_requests": 950,
   "version": 2
 }

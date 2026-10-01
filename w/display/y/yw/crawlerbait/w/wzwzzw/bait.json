@@ -15,6 +15,14 @@
     },
     {
       "events": 1,
+      "id": "92e10565df9cd7a966dae8e2"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
+    },
+    {
+      "events": 1,
       "id": "def4106d758c5337a1f6c3e6"
     },
     {
@@ -24,10 +32,10 @@
   ],
   "first_seen": "2026-09-15T22:09:07Z",
   "id": "8a0b1852fc2be645a82e",
-  "last_seen": "2026-09-27T19:36:52Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 8,
   "observed_path": "/appsettings.json",
   "public_href": "/crawlerbait/bait/appsettings.json/",
-  "raw_requests": 7,
+  "raw_requests": 9,
   "version": 2
 }

@@ -11,7 +11,15 @@
     },
     {
       "events": 1,
+      "id": "2f4dfbef5a9361a470ebea5d"
+    },
+    {
+      "events": 1,
       "id": "82e8d0c90bdc5c73db7e0f1a"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
     },
     {
       "events": 1,
@@ -28,10 +36,10 @@
   ],
   "first_seen": "2026-09-21T23:42:43Z",
   "id": "041f3870b10694c3eed6",
-  "last_seen": "2026-09-27T19:36:52Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/db.ts",
   "public_href": "/crawlerbait/bait/config/db.ts/",
-  "raw_requests": 6,
+  "raw_requests": 8,
   "version": 2
 }

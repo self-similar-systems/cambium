@@ -15,7 +15,15 @@
     },
     {
       "events": 1,
+      "id": "2b0021166ed2c50e55bef0d2"
+    },
+    {
+      "events": 1,
       "id": "36fd8a32fdc9c57868031f76"
+    },
+    {
+      "events": 1,
+      "id": "4462ce8a6cdf1b4e5495514b"
     },
     {
       "events": 1,
@@ -28,6 +36,10 @@
     {
       "events": 1,
       "id": "82e8d0c90bdc5c73db7e0f1a"
+    },
+    {
+      "events": 1,
+      "id": "b84327ba604eb6e1d3221902"
     },
     {
       "events": 1,
@@ -44,10 +56,10 @@
   ],
   "first_seen": "2026-09-13T22:09:07Z",
   "id": "96d32e90d2f801960759",
-  "last_seen": "2026-09-27T19:36:52Z",
+  "last_seen": "2026-09-30T08:55:46Z",
   "legacy_404_observations": 3,
   "observed_path": "/docker-compose.yml",
   "public_href": "/crawlerbait/bait/docker-compose.yml/",
-  "raw_requests": 12,
+  "raw_requests": 15,
   "version": 2
 }

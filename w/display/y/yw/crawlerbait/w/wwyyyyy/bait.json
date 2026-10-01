@@ -23,15 +23,19 @@
     },
     {
       "events": 1,
+      "id": "66a18bd80c8581a312ac76e3"
+    },
+    {
+      "events": 1,
       "id": "b6a7ef3813ac72c79b4ab409"
     }
   ],
   "first_seen": "2026-09-15T22:09:07Z",
   "id": "3ff24867cd794d601de4",
-  "last_seen": "2026-09-29T03:09:13Z",
+  "last_seen": "2026-10-01T15:30:19Z",
   "legacy_404_observations": 1,
   "observed_path": "/api/config",
   "public_href": "/crawlerbait/bait/api/config/",
-  "raw_requests": 15,
+  "raw_requests": 16,
   "version": 2
 }
