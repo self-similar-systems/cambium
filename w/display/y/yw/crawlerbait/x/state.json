@@ -4732,16 +4732,27 @@
     "1e01fae016b126a865d9e665": {
       "baits": {
         "/": 1,
+        "/assets/dd8c58b963ff926f/address.js": 1,
+        "/assets/dd8c58b963ff926f/dependencies/sss-spritesheet/SpriteSheet-Regular.woff2": 1,
+        "/assets/dd8c58b963ff926f/display-lens.js": 1,
+        "/assets/dd8c58b963ff926f/locus-shader.js": 1,
+        "/assets/dd8c58b963ff926f/navigation-physiology.js": 1,
+        "/assets/dd8c58b963ff926f/root-view.css": 1,
+        "/assets/dd8c58b963ff926f/site-fold.js": 1,
+        "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-papers.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-philosophy.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css": 1,
         "/papers-shadow/current.json": 2,
         "/papers-shadow/genealogy-gap-repair.json": 3
       },
-      "events": 6,
+      "events": 17,
       "first_seen": "2026-10-01T17:57:04Z",
-      "genome": "e68abe49bcd3a3a8fa90e47598ab811bb66bc9e2a9678859b3be2a1eb32ab9b3",
+      "genome": "d2cd2528c359c57e2c8d1c6c80639d10c11380c498c268b2344bfebfba629ea5",
       "id": "1e01fae016b126a865d9e665",
       "kind": "x",
-      "last_seen": "2026-10-01T19:08:08Z",
-      "phenotype_samples": 6
+      "last_seen": "2026-10-01T20:36:55Z",
+      "phenotype_samples": 17
     },
     "1e078994f1966958a0d9d0db": {
       "baits": {
@@ -8582,6 +8593,18 @@
       "kind": "x",
       "last_seen": "2026-09-17T09:39:51Z",
       "phenotype_samples": 1
+    },
+    "38868bedafd74af0dcf309f8": {
+      "baits": {
+        "/": 2
+      },
+      "events": 2,
+      "first_seen": "2026-10-01T20:18:58Z",
+      "genome": "628e8052077b000cb59798157277cdf1ae057787c5694196054540eb83d73f6e",
+      "id": "38868bedafd74af0dcf309f8",
+      "kind": "x",
+      "last_seen": "2026-10-01T20:18:59Z",
+      "phenotype_samples": 2
     },
     "38c72f5dca082b019d82b887": {
       "baits": {
@@ -14944,6 +14967,18 @@
       "last_seen": "2026-09-26T10:01:32Z",
       "phenotype_samples": 16
     },
+    "6d0b433e90a0970a765c86a2": {
+      "baits": {
+        "/robots.txt": 2
+      },
+      "events": 2,
+      "first_seen": "2026-10-01T20:21:05Z",
+      "genome": "23df3f8858f0737b5b70eafb0f2ec681de9567a5f10c9c41632770147688ad6d",
+      "id": "6d0b433e90a0970a765c86a2",
+      "kind": "x",
+      "last_seen": "2026-10-01T20:21:05Z",
+      "phenotype_samples": 2
+    },
     "6d0be4d58fd9176659ff9f88": {
       "baits": {
         "/assets/94aa61658a629a81/display-runtime-v2.js": 1,
@@ -17106,15 +17141,15 @@
     },
     "7ce9575bf7980486074baaf6": {
       "baits": {
-        "/": 3
+        "/": 5
       },
-      "events": 3,
+      "events": 5,
       "first_seen": "2026-09-27T00:35:12Z",
-      "genome": "00462287dcdea5e0e11982bae5070e6291adcc6de63356f0900301f1407e2087",
+      "genome": "3f30ea13e73ed00b12747acb40ffa3d4ef4f5a187755e9e184d714b2e920e674",
       "id": "7ce9575bf7980486074baaf6",
       "kind": "y",
-      "last_seen": "2026-09-29T06:22:57Z",
-      "phenotype_samples": 3
+      "last_seen": "2026-10-01T20:21:02Z",
+      "phenotype_samples": 5
     },
     "7cf8582736ea13d43069f941": {
       "baits": {
@@ -29010,6 +29045,18 @@
       "last_seen": "2026-09-26T16:59:03Z",
       "phenotype_samples": 1
     },
+    "cfc358c593a2cc717c00d4b9": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-01T20:21:14Z",
+      "genome": "b667cf04efe0b870b17a2adc5feab60ed951356570686d8d4dc73fb5fee9583b",
+      "id": "cfc358c593a2cc717c00d4b9",
+      "kind": "x",
+      "last_seen": "2026-10-01T20:21:14Z",
+      "phenotype_samples": 1
+    },
     "cfc444b0a2dda975e2d8ead8": {
       "baits": {
         "/": 1
@@ -31829,16 +31876,16 @@
     },
     "e410e84a25ee3e7cf1af3bb9": {
       "baits": {
-        "/": 1,
+        "/": 2,
         "/.env": 1
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-24T02:31:16Z",
-      "genome": "754e79d5e6ced0755d1916fcc909dfd46f6e3af6892f62a6d7d62af6c7916061",
+      "genome": "0288ac7fb5982dc465b562dcb7f49d1f9d8ea5e92889c386079b30d93cff5786",
       "id": "e410e84a25ee3e7cf1af3bb9",
       "kind": "z",
-      "last_seen": "2026-09-29T08:11:01Z",
-      "phenotype_samples": 2
+      "last_seen": "2026-10-01T20:40:49Z",
+      "phenotype_samples": 3
     },
     "e41dc06016f35814e3e63c79": {
       "baits": {
@@ -167187,12 +167234,183 @@
       "source_index": 33,
       "status": 200,
       "t": "2026-10-01T20:12:12Z"
+    },
+    {
+      "crawler": "38868bedafd74af0dcf309f8",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 5,
+      "status": 301,
+      "t": "2026-10-01T20:18:58Z"
+    },
+    {
+      "crawler": "38868bedafd74af0dcf309f8",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 17,
+      "status": 200,
+      "t": "2026-10-01T20:18:59Z"
+    },
+    {
+      "crawler": "7ce9575bf7980486074baaf6",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 7,
+      "status": 301,
+      "t": "2026-10-01T20:21:01Z"
+    },
+    {
+      "crawler": "7ce9575bf7980486074baaf6",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 16,
+      "status": 200,
+      "t": "2026-10-01T20:21:02Z"
+    },
+    {
+      "crawler": "6d0b433e90a0970a765c86a2",
+      "method": "GET",
+      "path": "/robots.txt",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 0,
+      "status": 200,
+      "t": "2026-10-01T20:21:05Z"
+    },
+    {
+      "crawler": "6d0b433e90a0970a765c86a2",
+      "method": "GET",
+      "path": "/robots.txt",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 6,
+      "status": 301,
+      "t": "2026-10-01T20:21:05Z"
+    },
+    {
+      "crawler": "cfc358c593a2cc717c00d4b9",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 1,
+      "status": 301,
+      "t": "2026-10-01T20:21:14Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 2,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 3,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 4,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-fold.js",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 8,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 9,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/address.js",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 10,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/root-view.css",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 11,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 12,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/locus-shader.js",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 13,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-lens.js",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 14,
+      "status": 200,
+      "t": "2026-10-01T20:36:54Z"
+    },
+    {
+      "crawler": "1e01fae016b126a865d9e665",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/dependencies/sss-spritesheet/SpriteSheet-Regular.woff2",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 15,
+      "status": 200,
+      "t": "2026-10-01T20:36:55Z"
+    },
+    {
+      "crawler": "e410e84a25ee3e7cf1af3bb9",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261001T201708Z--20261001T205246Z.traffic.json",
+      "source_index": 18,
+      "status": 404,
+      "t": "2026-10-01T20:40:49Z"
     }
   ],
   "legacy_404_through": "2026-09-18T11:13:56Z",
-  "raw_capture_end": "2026-10-01T20:17:08Z",
+  "raw_capture_end": "2026-10-01T20:52:46Z",
   "raw_capture_start": "2026-08-18T15:42:27Z",
-  "raw_requests": 14599,
+  "raw_requests": 14618,
   "routes": {
     "/": {
       "crawlers": {
@@ -167541,6 +167759,7 @@
         "382823e4ddc6e1421cb30c6c": 1,
         "3842523985b4cebc6f90aa97": 2,
         "386aeaf0f401e4f375e02cc4": 1,
+        "38868bedafd74af0dcf309f8": 2,
         "38da119a2a02fe2187fad20e": 1,
         "38f802e3093405576d0a880b": 8,
         "396726b2108dd3f09637e574": 2,
@@ -167936,7 +168155,7 @@
         "7ca7214ee463ac2bb215a28a": 8,
         "7cc9f9b98b03182f6aacb3e7": 1,
         "7ce194cec2a0860aa6235aa7": 1,
-        "7ce9575bf7980486074baaf6": 3,
+        "7ce9575bf7980486074baaf6": 5,
         "7cf8582736ea13d43069f941": 2,
         "7d345543f3870cfda270dea7": 1,
         "7d9f81a7db2e5ed2f96984d8": 1,
@@ -168457,6 +168676,7 @@
         "cfa134b3e5eae3f93d3abd36": 1,
         "cfa74b23a2fa3e1415d4184c": 1,
         "cfb10738cbefec74bdd19334": 1,
+        "cfc358c593a2cc717c00d4b9": 1,
         "cfc444b0a2dda975e2d8ead8": 1,
         "cfee2360653aee7393aa8c61": 1,
         "d082e685dbd6772b78c14720": 1,
@@ -168578,7 +168798,7 @@
         "e3e5737f388bd82b158b0554": 3,
         "e401e5cd38ff4ca9073c9c89": 1,
         "e4075e1cdb312e75192034f0": 1,
-        "e410e84a25ee3e7cf1af3bb9": 1,
+        "e410e84a25ee3e7cf1af3bb9": 2,
         "e41dc06016f35814e3e63c79": 2,
         "e43bc2c9567b0b05f00b68f3": 1,
         "e4417546681dce6a571b2612": 1,
@@ -168756,17 +168976,17 @@
         "ffe688a941e6119d64d0fb23": 1
       },
       "first_seen": "2026-09-13T20:02:54Z",
-      "last_seen": "2026-10-01T20:12:12Z",
+      "last_seen": "2026-10-01T20:40:49Z",
       "legacy_404_observations": 0,
       "path": "/",
-      "raw_requests": 2928,
+      "raw_requests": 2934,
       "statuses": {
-        "200": 1861,
-        "301": 371,
+        "200": 1863,
+        "301": 374,
         "304": 17,
         "401": 181,
         "403": 196,
-        "404": 146,
+        "404": 147,
         "405": 46,
         "499": 88,
         "522": 22
@@ -188942,6 +189162,149 @@
         "304": 1
       }
     },
+    "/assets/dd8c58b963ff926f/address.js": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/address.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/dependencies/sss-spritesheet/SpriteSheet-Regular.woff2": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:55Z",
+      "last_seen": "2026-10-01T20:36:55Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/dependencies/sss-spritesheet/SpriteSheet-Regular.woff2",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/display-lens.js": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/display-lens.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/locus-shader.js": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/locus-shader.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/navigation-physiology.js": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/root-view.css": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/root-view.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/site-fold.js": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-fold.js",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/site-organism-papers.css": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/site-organism-philosophy.css": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css": {
+      "crawlers": {
+        "1e01fae016b126a865d9e665": 1
+      },
+      "first_seen": "2026-10-01T20:36:54Z",
+      "last_seen": "2026-10-01T20:36:54Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/assets/display-runtime-v2.js": {
       "crawlers": {
         "00a497d923e2e771c7b2dd33": 1,
@@ -198697,6 +199060,7 @@
         "65e1402bdf08a502bd228fad": 1,
         "68704376303064cf3b73b679": 1,
         "69ddd24b4661344748b1b82c": 2,
+        "6d0b433e90a0970a765c86a2": 2,
         "70e5e81dc9fc2ad9fad689f8": 1,
         "7158df27cbe8ce9f88dd5a7b": 1,
         "7160b9cb613dd3f276e65376": 1,
@@ -198765,13 +199129,13 @@
         "f9d70b38584e399a7f3338ea": 1
       },
       "first_seen": "2026-09-13T20:38:21Z",
-      "last_seen": "2026-10-01T18:02:01Z",
+      "last_seen": "2026-10-01T20:21:05Z",
       "legacy_404_observations": 0,
       "path": "/robots.txt",
-      "raw_requests": 237,
+      "raw_requests": 239,
       "statuses": {
-        "200": 201,
-        "301": 16,
+        "200": 202,
+        "301": 17,
         "401": 20
       }
     },
