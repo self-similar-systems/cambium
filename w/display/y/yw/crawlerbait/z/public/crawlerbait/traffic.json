@@ -1,12 +1,8 @@
 {
-  "client_ip_publication": {
-    "domain": "crawlerbait:clientIP:v1",
-    "equality_preserved": true,
-    "key_epoch": "v1",
-    "literal_ip_persisted": false,
-    "scheme": "hmac-sha256"
-  },
-  "fields": "every field Cloudflare advertised at capture time; literal clientIP is replaced before persistence by stable clientIPIdentity",
+  "capture_versions": [
+    5
+  ],
+  "fields": "public functional encounters plus opaque keyed phenotype; clientRequestQuery is never captured",
   "files": [
     {
       "file": "20260818T154227Z--20260819T154227Z.traffic.json",
@@ -739,6 +735,12 @@
       }
     }
   ],
+  "recognition_publication": {
+    "exact_user_agent": false,
+    "literal_client_ip": false,
+    "network_pseudonym": false,
+    "public_identity": "opaque artwork-local being ID"
+  },
   "semantic_filters": [],
   "source": "crawlerbait/x/captures/*.traffic.json"
 }

@@ -1,14 +1,17 @@
 {
   "identity": {
-    "clientIP": {
-      "domain": "crawlerbait:clientIP:v1",
-      "key_epoch": "v1",
-      "key_fingerprint": "b353473d45ad5614",
-      "published_field": "clientIPIdentity",
-      "scheme": "hmac-sha256"
-    }
+    "exact_user_agent_persisted": false,
+    "key_epoch": "v1",
+    "key_fingerprint": "b353473d45ad5614",
+    "literal_client_ip_persisted": false,
+    "network_pseudonym_persisted": false,
+    "public_identity": "opaque artwork-local beingId only",
+    "scheme": "hmac-sha256"
   },
   "legacy_404_last_capture_end": "2026-09-18T11:13:56Z",
+  "never_captured_fields": [
+    "clientRequestQuery"
+  ],
   "provider_available_fields": [
     "apiGatewayMatchedEndpoint",
     "apiGatewayMatchedHost",
