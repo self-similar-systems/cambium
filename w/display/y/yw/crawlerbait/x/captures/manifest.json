@@ -46,6 +46,8 @@
     "key_epoch": "v1",
     "raw_unoffered_path_persisted": false,
     "own_aperture_prefix_only": true,
-    "foreign_pore_prefix_only": true
+    "foreign_pore_prefix_only": true,
+    "offered_resolution": "exact-generated-public-artifact-v1",
+    "namespace_prefix_alone_offered": false
   }
 }
