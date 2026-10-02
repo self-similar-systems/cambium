@@ -1,7 +1,7 @@
 {
-  "version": 5,
+  "version": 6,
   "canonical_source": "cloudflare:httpRequestsAdaptive",
-  "functional_capture_law": "Persist only exact functional encounter truth: datetime, opaque beingId, path, method and status. clientRequestQuery is never requested.",
+  "functional_capture_law": "Persist exact functional encounter truth only after privacy transforms: datetime, opaque beingId, public-safe Bait path, method and status. clientRequestQuery is never requested.",
   "recognition_law": {
     "input": [
       "canonical clientIP",
@@ -34,9 +34,18 @@
   "bootstrap_law": "When the canonical cursor is uninitialized, capture begins at the live provider retention boundary and advances incrementally.",
   "legacy_404_evidence": {
     "checkpoint": "../checkpoint.json",
-    "captures": "*.capture.json",
-    "retained_bootstrap": "../retained-bootstrap/",
-    "law": "Preserve as partial historical 404 evidence only. Never extend it and never mix its counts with canonical request counts."
+    "retained_bootstrap": "../retained-bootstrap/seal.json",
+    "law": "Current-tree legacy 404 evidence is coalesced into one privacy-migrated aggregate checkpoint: exact User-Agent strings and unoffered raw paths are absent; obsolete raw bootstrap and legacy capture carriers retire after count/window witness."
   },
-  "historical_note": "Pre-v5 Git history already published richer raw traces. On the first authoritative v5 Tide, current-tree v4 auxiliary values are condensed into keyed irreversible per-Being phenotype DNA (query excluded) before readable raw fields retire; earlier Git history is not rewritten."
+  "historical_note": "Earlier Git history published richer legacy/raw traces before the current privacy membrane. Current-tree cleanup does not itself erase historical Git objects; destructive history remediation remains a separate explicit operation.",
+  "path_law": {
+    "input": "provider clientRequestPath",
+    "public_output": "literal path only for already-offered site surface; otherwise stable keyed opaque Bait path",
+    "scheme": "HMAC-SHA256",
+    "domain": "crawlerbait:path:v1",
+    "key_epoch": "v1",
+    "raw_unoffered_path_persisted": false,
+    "own_aperture_prefix_only": true,
+    "foreign_pore_prefix_only": true
+  }
 }
