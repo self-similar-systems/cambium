@@ -1679,6 +1679,18 @@
       "last_seen": "2026-10-01T05:08:05Z",
       "phenotype_samples": 2
     },
+    "07c8e6a2e7fdccb8b601472c": {
+      "baits": {
+        "/~/93ebdf4dd7209b85a4dd4a13": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T10:38:19Z",
+      "genome": "02e3481e444c49def1a5c489844b2a1865cc9cb2851a5be3962ef7a21b761f45",
+      "id": "07c8e6a2e7fdccb8b601472c",
+      "kind": "z",
+      "last_seen": "2026-10-02T10:38:19Z",
+      "phenotype_samples": 1
+    },
     "07e42fdb7244689838a544f0": {
       "baits": {
         "/": 3,
@@ -8224,15 +8236,15 @@
     },
     "3482228b98d4bd1e1b7280f6": {
       "baits": {
-        "/": 2
+        "/": 4
       },
-      "events": 2,
+      "events": 4,
       "first_seen": "2026-10-01T09:26:10Z",
-      "genome": "712f3c18f4ab7949f9fd5b0c8499826be6d36ba74462a92c8daa81be349f7144",
+      "genome": "24595a855ba159d437061dd7e4d549414189e3c334d0e475d39c101444147571",
       "id": "3482228b98d4bd1e1b7280f6",
-      "kind": "x",
-      "last_seen": "2026-10-01T09:26:11Z",
-      "phenotype_samples": 2
+      "kind": "y",
+      "last_seen": "2026-10-02T10:08:48Z",
+      "phenotype_samples": 4
     },
     "34848aa33b08dea54e703d30": {
       "baits": {
@@ -13248,15 +13260,15 @@
     },
     "5e799495316e57f07453e0e6": {
       "baits": {
-        "/~/2567328ee21f2043599ffa53": 948
+        "/~/2567328ee21f2043599ffa53": 950
       },
-      "events": 948,
+      "events": 950,
       "first_seen": "2026-09-13T20:18:42Z",
-      "genome": "f8ba40ec9d3f3e8cec66d1bac9e5694ae83cc3225bef0935c783cf8907073822",
+      "genome": "ded5041e53901aa61718d0d271fa43ba3ec21efe1fa1365e22307cc758197c8d",
       "id": "5e799495316e57f07453e0e6",
       "kind": "z",
-      "last_seen": "2026-10-02T08:09:45Z",
-      "phenotype_samples": 948
+      "last_seen": "2026-10-02T12:00:31Z",
+      "phenotype_samples": 950
     },
     "5e84fa2300641415ae98201d": {
       "baits": {
@@ -15192,6 +15204,18 @@
       "id": "6bf2b300e1818e021cfbc8b8",
       "kind": "x",
       "last_seen": "2026-09-16T05:00:32Z",
+      "phenotype_samples": 1
+    },
+    "6c47dbc286270e717fed2db6": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T10:03:52Z",
+      "genome": "1d6ebd8559d0b6e609a95a8a7b37aceb955eceb395b196bef2fd05f5380b9ee9",
+      "id": "6c47dbc286270e717fed2db6",
+      "kind": "x",
+      "last_seen": "2026-10-02T10:03:52Z",
       "phenotype_samples": 1
     },
     "6c8078055a4be9b6d28099c3": {
@@ -17244,6 +17268,18 @@
       "last_seen": "2026-09-30T09:12:54Z",
       "phenotype_samples": 10
     },
+    "7ad9e42e5c3e1b980a906db8": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T10:11:19Z",
+      "genome": "66ed15b1b9f6d9628457953512f1b7e636afbf5d604db4238cc8268a2923ef24",
+      "id": "7ad9e42e5c3e1b980a906db8",
+      "kind": "x",
+      "last_seen": "2026-10-02T10:11:19Z",
+      "phenotype_samples": 1
+    },
     "7b0b9280d49910c569c251de": {
       "baits": {
         "/": 1
@@ -18481,6 +18517,18 @@
       "kind": "x",
       "last_seen": "2026-09-20T05:25:07Z",
       "phenotype_samples": 22
+    },
+    "83661fd90085988034336f81": {
+      "baits": {
+        "/": 2
+      },
+      "events": 2,
+      "first_seen": "2026-10-02T12:09:48Z",
+      "genome": "e7c6e94b8185885c8a121e2c6e919cb0fd1bba58698bc4d1c637a3dededaecc4",
+      "id": "83661fd90085988034336f81",
+      "kind": "x",
+      "last_seen": "2026-10-02T12:09:49Z",
+      "phenotype_samples": 2
     },
     "83a45e81359e4dd36a2c39f6": {
       "baits": {
@@ -25539,15 +25587,15 @@
     },
     "b4b67eda136c577d12070f41": {
       "baits": {
-        "/": 30
+        "/": 31
       },
-      "events": 30,
+      "events": 31,
       "first_seen": "2026-09-14T06:06:38Z",
-      "genome": "be33a13302bba9bc73caab395a637f985ee47fe4c2cfc73c1f195ef7dc8791c7",
+      "genome": "428ead93726dc3f489336bfff73206160e5b3e50665f8d6b75006546ad9d2461",
       "id": "b4b67eda136c577d12070f41",
       "kind": "y",
-      "last_seen": "2026-10-02T06:27:28Z",
-      "phenotype_samples": 30
+      "last_seen": "2026-10-02T12:28:25Z",
+      "phenotype_samples": 31
     },
     "b4cd9cbe5820712bcaff03c1": {
       "baits": {
@@ -27115,15 +27163,15 @@
     },
     "bdcecf15fdcf921df776d56d": {
       "baits": {
-        "/robots.txt": 2
+        "/robots.txt": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-18T10:02:11Z",
-      "genome": "9c6be8eab4cb1ea3e659fd0d8add9ecb15dfca265b590e90d347c6143423e92f",
+      "genome": "6efd7baf69f43de9e3346e3c5efd38fc8055047f3cb377af45b1c1cb59a91f45",
       "id": "bdcecf15fdcf921df776d56d",
       "kind": "y",
-      "last_seen": "2026-09-28T12:47:50Z",
-      "phenotype_samples": 2
+      "last_seen": "2026-10-02T10:11:55Z",
+      "phenotype_samples": 3
     },
     "bdf834436c372eace29e9394": {
       "baits": {
@@ -27763,15 +27811,15 @@
     },
     "c17b76626ae9ca0eb0a295d1": {
       "baits": {
-        "/": 2
+        "/": 4
       },
-      "events": 2,
+      "events": 4,
       "first_seen": "2026-09-20T11:43:19Z",
-      "genome": "fe4630c95396312d6628384ad226d2ccbff3a5394c250fcc1349aa39cf12fb23",
+      "genome": "8390c1e487cde2eabe8add46d9c79ee065dc2ada6f63f8cbe439992de29792a1",
       "id": "c17b76626ae9ca0eb0a295d1",
-      "kind": "x",
-      "last_seen": "2026-09-20T11:43:20Z",
-      "phenotype_samples": 2
+      "kind": "y",
+      "last_seen": "2026-10-02T10:26:31Z",
+      "phenotype_samples": 4
     },
     "c18080cb71a33fc2b5316ea1": {
       "baits": {
@@ -28829,6 +28877,18 @@
       "id": "c89a38a39d9aeec6cbafc0d1",
       "kind": "x",
       "last_seen": "2026-09-21T07:48:15Z",
+      "phenotype_samples": 1
+    },
+    "c8a57c71ed3f0ac9fbb05136": {
+      "baits": {
+        "/robots.txt": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T10:11:15Z",
+      "genome": "786fdcd2c94b922b88035170b0cba0eb407a25de0ad0294adbbf04018ee83846",
+      "id": "c8a57c71ed3f0ac9fbb05136",
+      "kind": "x",
+      "last_seen": "2026-10-02T10:11:15Z",
       "phenotype_samples": 1
     },
     "c8e1c7548845641bd4790291": {
@@ -35888,16 +35948,16 @@
     },
     "fa9d74fe3413537f966d80c9": {
       "baits": {
-        "/": 4,
-        "/~/2f3ac9f5a06104ae77c93575": 4
+        "/": 5,
+        "/~/2f3ac9f5a06104ae77c93575": 5
       },
-      "events": 8,
+      "events": 10,
       "first_seen": "2026-09-29T10:06:59Z",
-      "genome": "ff7f2f4e97f115f427fe782f21ca693a8f2eb70d9c4dc4b49000e849c458a842",
+      "genome": "4c278650c395144f0e61ad8145a3d48dd13e1eb301dc6e9356eb8e448a260ba2",
       "id": "fa9d74fe3413537f966d80c9",
       "kind": "z",
-      "last_seen": "2026-10-01T12:00:32Z",
-      "phenotype_samples": 8
+      "last_seen": "2026-10-02T11:46:46Z",
+      "phenotype_samples": 10
     },
     "fab1a1e43e8b7570fb2f8ddb": {
       "baits": {
@@ -36211,6 +36271,18 @@
       "id": "fde2f66c77a8fe2c17ad364e",
       "kind": "x",
       "last_seen": "2026-10-02T06:12:08Z",
+      "phenotype_samples": 1
+    },
+    "fdec60e5a6d2457f5dcb8216": {
+      "baits": {
+        "/~/93ebdf4dd7209b85a4dd4a13": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T10:38:19Z",
+      "genome": "facf472e97a794302b9d69b08e428e00d6acb14106d6ac548ea98fb33125f90f",
+      "id": "fdec60e5a6d2457f5dcb8216",
+      "kind": "z",
+      "last_seen": "2026-10-02T10:38:19Z",
       "phenotype_samples": 1
     },
     "fdf1e34c03a220ebb1b5fe76": {
@@ -171389,12 +171461,165 @@
       "source_index": 75,
       "status": 200,
       "t": "2026-10-02T09:22:40Z"
+    },
+    {
+      "crawler": "6c47dbc286270e717fed2db6",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 13,
+      "status": 200,
+      "t": "2026-10-02T10:03:52Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 9,
+      "status": 404,
+      "t": "2026-10-02T10:06:22Z"
+    },
+    {
+      "crawler": "3482228b98d4bd1e1b7280f6",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 5,
+      "status": 301,
+      "t": "2026-10-02T10:08:47Z"
+    },
+    {
+      "crawler": "3482228b98d4bd1e1b7280f6",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 8,
+      "status": 200,
+      "t": "2026-10-02T10:08:48Z"
+    },
+    {
+      "crawler": "c8a57c71ed3f0ac9fbb05136",
+      "method": "GET",
+      "path": "/robots.txt",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 10,
+      "status": 200,
+      "t": "2026-10-02T10:11:15Z"
+    },
+    {
+      "crawler": "7ad9e42e5c3e1b980a906db8",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 6,
+      "status": 200,
+      "t": "2026-10-02T10:11:19Z"
+    },
+    {
+      "crawler": "bdcecf15fdcf921df776d56d",
+      "method": "GET",
+      "path": "/robots.txt",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 14,
+      "status": 200,
+      "t": "2026-10-02T10:11:55Z"
+    },
+    {
+      "crawler": "c17b76626ae9ca0eb0a295d1",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 15,
+      "status": 301,
+      "t": "2026-10-02T10:26:30Z"
+    },
+    {
+      "crawler": "c17b76626ae9ca0eb0a295d1",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 7,
+      "status": 200,
+      "t": "2026-10-02T10:26:31Z"
+    },
+    {
+      "crawler": "07c8e6a2e7fdccb8b601472c",
+      "method": "POST",
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 0,
+      "status": 405,
+      "t": "2026-10-02T10:38:19Z"
+    },
+    {
+      "crawler": "fdec60e5a6d2457f5dcb8216",
+      "method": "POST",
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 12,
+      "status": 405,
+      "t": "2026-10-02T10:38:19Z"
+    },
+    {
+      "crawler": "fa9d74fe3413537f966d80c9",
+      "method": "POST",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 3,
+      "status": 405,
+      "t": "2026-10-02T11:46:46Z"
+    },
+    {
+      "crawler": "fa9d74fe3413537f966d80c9",
+      "method": "POST",
+      "path": "/~/2f3ac9f5a06104ae77c93575",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 4,
+      "status": 405,
+      "t": "2026-10-02T11:46:46Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 1,
+      "status": 404,
+      "t": "2026-10-02T12:00:31Z"
+    },
+    {
+      "crawler": "83661fd90085988034336f81",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 16,
+      "status": 301,
+      "t": "2026-10-02T12:09:48Z"
+    },
+    {
+      "crawler": "83661fd90085988034336f81",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 2,
+      "status": 200,
+      "t": "2026-10-02T12:09:49Z"
+    },
+    {
+      "crawler": "b4b67eda136c577d12070f41",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T100324Z--20261002T123713Z.traffic.json",
+      "source_index": 11,
+      "status": 200,
+      "t": "2026-10-02T12:28:25Z"
     }
   ],
   "legacy_404_through": "2026-09-18T11:13:56Z",
-  "raw_capture_end": "2026-10-02T10:03:24Z",
+  "raw_capture_end": "2026-10-02T12:37:13Z",
   "raw_capture_start": "2026-08-18T15:42:27Z",
-  "raw_requests": 14986,
+  "raw_requests": 15003,
   "routes": {
     "/": {
       "crawlers": {
@@ -171716,7 +171941,7 @@
         "33902824f0b721a7dfb49902": 1,
         "33f3ab7d29a53e9da6addb66": 1,
         "344bc01e49a2592e8183c4a2": 1,
-        "3482228b98d4bd1e1b7280f6": 2,
+        "3482228b98d4bd1e1b7280f6": 4,
         "34848aa33b08dea54e703d30": 1,
         "34a23426546d6f44b9d99d4a": 1,
         "3506537e8659aea5c01114b5": 1,
@@ -172046,6 +172271,7 @@
         "6afedf7bfde4ed1de1cbfe1a": 1,
         "6b079f5a2febc3e0c676e1b4": 2,
         "6bf2b300e1818e021cfbc8b8": 1,
+        "6c47dbc286270e717fed2db6": 1,
         "6c8078055a4be9b6d28099c3": 1,
         "6cd0a26be77c0d1fd2ad15e3": 2,
         "6cf759d113af5086f1e5648e": 2,
@@ -172137,6 +172363,7 @@
         "7a8591fc6d463f329663f4e2": 1,
         "7a9a2dd61fbfef543c6d0782": 1,
         "7aa213f57343cc0027c20331": 1,
+        "7ad9e42e5c3e1b980a906db8": 1,
         "7b0b9280d49910c569c251de": 1,
         "7b2da16908a0bdf4384e6927": 1,
         "7b84ae3cfff13618da9f8011": 1,
@@ -172196,6 +172423,7 @@
         "82c644f1df7ff49b84f075a3": 3,
         "82fd9385ca2e3ceb3dc7c7c0": 1,
         "833e24666df86ce4b0d0369a": 1,
+        "83661fd90085988034336f81": 2,
         "84e24d60db9513ec268622f0": 1,
         "84fd2681f7ef9b9e702020ce": 1,
         "85275b1b26264ba9151b50d1": 2,
@@ -172499,7 +172727,7 @@
         "b43da4ba0dff5b8f52a4e348": 1,
         "b455b3b2f62e8d65a21a6393": 1,
         "b4a2a4267f0648953ab251f5": 1,
-        "b4b67eda136c577d12070f41": 30,
+        "b4b67eda136c577d12070f41": 31,
         "b4cd9cbe5820712bcaff03c1": 2,
         "b4f5cd888f8457ec7fe4d321": 2,
         "b4f6feffc5c88ea4d0c897c4": 2,
@@ -172590,7 +172818,7 @@
         "c14d1ca326c0f81336d80783": 1,
         "c16b78ab41cdb3aec0f445eb": 2,
         "c16fd2ef4b99346c358c6679": 1,
-        "c17b76626ae9ca0eb0a295d1": 2,
+        "c17b76626ae9ca0eb0a295d1": 4,
         "c187f26238c206db0580174f": 1,
         "c1dfe47b99e9eb4c659d137c": 5,
         "c1e229fb584a1c0928e2471d": 1,
@@ -172955,7 +173183,7 @@
         "fa2d83dfe32b0841b8e08765": 1,
         "fa2f6873e9dad72d53ef1b21": 1,
         "fa8181a19b7f26cb1434eeeb": 2,
-        "fa9d74fe3413537f966d80c9": 4,
+        "fa9d74fe3413537f966d80c9": 5,
         "fab1a1e43e8b7570fb2f8ddb": 1,
         "fabe572a20d931229166ff6b": 2,
         "fae3a297bebad8700399d3e3": 1,
@@ -172985,18 +173213,18 @@
         "ffe688a941e6119d64d0fb23": 1
       },
       "first_seen": "2026-09-13T20:02:54Z",
-      "last_seen": "2026-10-02T09:22:40Z",
+      "last_seen": "2026-10-02T12:28:25Z",
       "legacy_404_observations": 0,
       "path": "/",
-      "raw_requests": 2998,
+      "raw_requests": 3008,
       "statuses": {
-        "200": 1910,
-        "301": 381,
+        "200": 1916,
+        "301": 384,
         "304": 17,
         "401": 186,
         "403": 201,
         "404": 147,
-        "405": 46,
+        "405": 47,
         "499": 88,
         "522": 22
       }
@@ -189349,12 +189577,13 @@
         "b8dfb56e4a83389bf8f2aa2f": 5,
         "bb6a011932dbdc39874a103e": 1,
         "bd01d96a3cb93602bf41ac40": 2,
-        "bdcecf15fdcf921df776d56d": 2,
+        "bdcecf15fdcf921df776d56d": 3,
         "bfdf7c34f2edd1653fc64ea6": 4,
         "c1eca374f09e6cf3e76b1780": 1,
         "c6475ece8bc46759be9c7479": 2,
         "c74ca1f4c8a46fc3c82bc059": 1,
         "c76bca2186b874b431f016cd": 2,
+        "c8a57c71ed3f0ac9fbb05136": 1,
         "c9f8cae5b536645dd5260afd": 10,
         "cc611a0a49a127fef21bfe9b": 3,
         "d0fda4d5c1c72ac402fe7b40": 1,
@@ -189386,12 +189615,12 @@
         "f9d70b38584e399a7f3338ea": 1
       },
       "first_seen": "2026-09-13T20:38:21Z",
-      "last_seen": "2026-10-02T06:36:45Z",
+      "last_seen": "2026-10-02T10:11:55Z",
       "legacy_404_observations": 0,
       "path": "/robots.txt",
-      "raw_requests": 241,
+      "raw_requests": 243,
       "statuses": {
-        "200": 204,
+        "200": 206,
         "301": 17,
         "401": 20
       }
@@ -192883,7 +193112,7 @@
     "/~/2567328ee21f2043599ffa53": {
       "crawlers": {
         "442b2f9dd5d057eb1033c9f1": 1,
-        "5e799495316e57f07453e0e6": 948,
+        "5e799495316e57f07453e0e6": 950,
         "7cf8582736ea13d43069f941": 1,
         "97536cf3ef827db7d725989a": 1,
         "9d12d1e3ddc26f51a685f060": 1,
@@ -192893,12 +193122,12 @@
         "c8f7755191baf96db8ed861c": 1
       },
       "first_seen": "2026-09-13T20:18:42Z",
-      "last_seen": "2026-10-02T08:09:45Z",
+      "last_seen": "2026-10-02T12:00:31Z",
       "legacy_404_observations": 0,
       "path": "/~/2567328ee21f2043599ffa53",
-      "raw_requests": 957,
+      "raw_requests": 959,
       "statuses": {
-        "404": 955,
+        "404": 957,
         "499": 2
       }
     },
@@ -193720,18 +193949,18 @@
         "d8d4f7f346f016ad4736e992": 1,
         "d96a58d488671dc67c2cd13f": 9,
         "e6c2c1ed6d26d5dd351c883f": 1,
-        "fa9d74fe3413537f966d80c9": 4
+        "fa9d74fe3413537f966d80c9": 5
       },
       "first_seen": "2026-09-14T15:29:28Z",
-      "last_seen": "2026-10-01T15:59:55Z",
+      "last_seen": "2026-10-02T11:46:46Z",
       "legacy_404_observations": 0,
       "path": "/~/2f3ac9f5a06104ae77c93575",
-      "raw_requests": 61,
+      "raw_requests": 62,
       "statuses": {
         "401": 2,
         "403": 33,
         "404": 1,
-        "405": 25
+        "405": 26
       }
     },
     "/~/2faa81a6e8a8d7a30989383f": {
@@ -203103,6 +203332,7 @@
         "03dd2d3a79a07c41251f32b2": 2,
         "05664347021f798db7770619": 1,
         "06a975f67633bdcdacf90166": 1,
+        "07c8e6a2e7fdccb8b601472c": 1,
         "08aabbd7cc1d46fbbdf32e55": 1,
         "0a40a873254b2613cb424528": 1,
         "0e3b29e2aad17a6fd3f8eed8": 1,
@@ -203163,17 +203393,18 @@
         "e936799c5210fc235eaef864": 2,
         "eb069a49b13730ebca2e4c1b": 1,
         "ebadf3330356a33aa46499d2": 6,
-        "f3cec0969ca83b6c3f8e89df": 2
+        "f3cec0969ca83b6c3f8e89df": 2,
+        "fdec60e5a6d2457f5dcb8216": 1
       },
       "first_seen": "2026-09-14T02:23:58Z",
-      "last_seen": "2026-10-02T01:58:42Z",
+      "last_seen": "2026-10-02T10:38:19Z",
       "legacy_404_observations": 0,
       "path": "/~/93ebdf4dd7209b85a4dd4a13",
-      "raw_requests": 88,
+      "raw_requests": 90,
       "statuses": {
         "401": 1,
         "404": 44,
-        "405": 43
+        "405": 45
       }
     },
     "/~/93f315891e8dad7e9b07bd33": {
