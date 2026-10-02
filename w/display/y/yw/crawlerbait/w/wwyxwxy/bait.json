@@ -2,16 +2,36 @@
   "bait_address": "wyxwxy",
   "crawlers": [
     {
+      "events": 2,
+      "id": "0104e73d30bc89711a380790"
+    },
+    {
       "events": 1,
-      "id": "00396a1556fe95973ebd9a67"
+      "id": "230c6e9ab497a9ae02f20de8"
+    },
+    {
+      "events": 1,
+      "id": "4d88f626bf238bd9d8028449"
+    },
+    {
+      "events": 1,
+      "id": "931f90b1c2bae370c84bebc0"
+    },
+    {
+      "events": 1,
+      "id": "a8064c803911e6d7671a8113"
+    },
+    {
+      "events": 1,
+      "id": "c64d8808da7a3a90132f0c79"
     }
   ],
-  "first_seen": "2026-09-18T16:54:08Z",
-  "id": "3476bfb9e9c312837b2b",
-  "last_seen": "2026-09-18T16:54:08Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/.gitignore",
-  "public_href": "/crawlerbait/receipt/3476bfb9e9c312837b2b/",
-  "raw_requests": 1,
+  "first_seen": "2026-09-13T22:09:07Z",
+  "id": "347ffe5d7d3cf1e33595",
+  "last_seen": "2026-09-29T15:44:22Z",
+  "legacy_404_observations": 3,
+  "observed_path": "/~/a27debcf79f6308d383d6cd4",
+  "public_href": "/crawlerbait/bait/~/a27debcf79f6308d383d6cd4/",
+  "raw_requests": 7,
   "version": 2
 }

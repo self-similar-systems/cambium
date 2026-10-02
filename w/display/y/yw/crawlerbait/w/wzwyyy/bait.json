@@ -3,23 +3,15 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "1a3e38f4a76b50490c8ff869"
-    },
-    {
-      "events": 1,
-      "id": "e019286b412c9a77014debaf"
-    },
-    {
-      "events": 1,
-      "id": "f4e6f9376e16550bf32aaa47"
+      "id": "057a58677faf884a7b3874c9"
     }
   ],
-  "first_seen": "2026-09-18T04:40:48Z",
-  "id": "8ffa8b11393affc2a130",
-  "last_seen": "2026-09-18T17:24:08Z",
-  "legacy_404_observations": 1,
-  "observed_path": "/.gitlab-ci/variables.yml",
-  "public_href": "/crawlerbait/receipt/8ffa8b11393affc2a130/",
-  "raw_requests": 3,
+  "first_seen": "2026-09-26T06:44:50Z",
+  "id": "8ff78797ee1588a34f3d",
+  "last_seen": "2026-09-26T06:44:50Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/~/371e3ae5c8ab9d180b3bcc02",
+  "public_href": "/crawlerbait/bait/~/371e3ae5c8ab9d180b3bcc02/",
+  "raw_requests": 1,
   "version": 2
 }

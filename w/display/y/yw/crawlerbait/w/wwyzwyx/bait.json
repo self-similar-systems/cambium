@@ -1,0 +1,37 @@
+{
+  "bait_address": "wyzwyx",
+  "crawlers": [
+    {
+      "events": 2,
+      "id": "b0897692abfd81944dfc2ab7"
+    },
+    {
+      "events": 1,
+      "id": "1d12fdf96f8cba2a18c720df"
+    },
+    {
+      "events": 1,
+      "id": "2078d4a3496e6eb5c2f21fc7"
+    },
+    {
+      "events": 1,
+      "id": "27e3273f526dbaa1b7f9bf5a"
+    },
+    {
+      "events": 1,
+      "id": "92e10565df9cd7a966dae8e2"
+    },
+    {
+      "events": 1,
+      "id": "9fd96d160cab97ca939e8318"
+    }
+  ],
+  "first_seen": "2026-09-21T23:42:43Z",
+  "id": "38df9eb99bb80bca5f62",
+  "last_seen": "2026-10-02T01:12:09Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/~/2c1998bee59c2f930f0753f0",
+  "public_href": "/crawlerbait/bait/~/2c1998bee59c2f930f0753f0/",
+  "raw_requests": 7,
+  "version": 2
+}

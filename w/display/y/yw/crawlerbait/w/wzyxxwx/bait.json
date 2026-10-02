@@ -2,32 +2,36 @@
   "bait_address": "zyxxwx",
   "crawlers": [
     {
-      "events": 2,
-      "id": "9ab51f20ed5c47667224609c"
-    },
-    {
-      "events": 2,
-      "id": "bc9c1143e799adfc4a6a9b7b"
+      "events": 1,
+      "id": "00a497d923e2e771c7b2dd33"
     },
     {
       "events": 1,
-      "id": "002b9d7f56ed121491fdb5d0"
+      "id": "47398ac85194408f7c62311f"
     },
     {
       "events": 1,
-      "id": "66a18bd80c8581a312ac76e3"
+      "id": "497cbe896f6b67c757b9b76c"
     },
     {
       "events": 1,
-      "id": "b6a7ef3813ac72c79b4ab409"
+      "id": "56b50dcbb75cc3bdc73ee105"
+    },
+    {
+      "events": 1,
+      "id": "5722106dac03deca2bbfca4e"
+    },
+    {
+      "events": 1,
+      "id": "e9c47c4955aaccab912e6823"
     }
   ],
-  "first_seen": "2026-09-20T14:35:05Z",
-  "id": "b51d11d4004704c30077",
-  "last_seen": "2026-10-01T15:30:20Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/socket.io/",
-  "public_href": "/crawlerbait/bait/socket.io/",
-  "raw_requests": 7,
+  "first_seen": "2026-09-13T22:09:07Z",
+  "id": "b51c5b77c85c3e42a1df",
+  "last_seen": "2026-09-18T22:38:45Z",
+  "legacy_404_observations": 4,
+  "observed_path": "/~/ffe79e1a2e892a8e4cba99b8",
+  "public_href": "/crawlerbait/bait/~/ffe79e1a2e892a8e4cba99b8/",
+  "raw_requests": 6,
   "version": 2
 }

@@ -2,32 +2,68 @@
   "bait_address": "xxwwywy",
   "crawlers": [
     {
+      "events": 5,
+      "id": "8ee5e155b39b139ecf8db0e6"
+    },
+    {
       "events": 2,
-      "id": "208effc822c04b02a18ed8bc"
+      "id": "002518398c9edbe4d15313ec"
+    },
+    {
+      "events": 2,
+      "id": "3759506870c0a8a8144bdfb0"
+    },
+    {
+      "events": 2,
+      "id": "5947373753e9ed5a69dbb190"
     },
     {
       "events": 1,
-      "id": "87e0603f8b2207a96e5c9b90"
+      "id": "00303c1d83b6f7975f4d1cc5"
     },
     {
       "events": 1,
-      "id": "921416476a5b6f6206dae56d"
+      "id": "022b0e049ecaa3c8bccfffd9"
     },
     {
       "events": 1,
-      "id": "bef0337da948924da2beb7c0"
+      "id": "08aabbd7cc1d46fbbdf32e55"
     },
     {
       "events": 1,
-      "id": "f4e19f99714bc3f6185650e9"
+      "id": "3baceb926df394a538e0d525"
+    },
+    {
+      "events": 1,
+      "id": "3c6672f2baae7ea27bbd1c8d"
+    },
+    {
+      "events": 1,
+      "id": "7a8591fc6d463f329663f4e2"
+    },
+    {
+      "events": 1,
+      "id": "c1eca374f09e6cf3e76b1780"
+    },
+    {
+      "events": 1,
+      "id": "c20a1e93ddc8b83c5daea76d"
+    },
+    {
+      "events": 1,
+      "id": "c34555af2a76d8a11f623cc0"
+    },
+    {
+      "events": 1,
+      "id": "e4f882c95d5cc8029458e5c0"
     }
   ],
-  "first_seen": "2026-09-16T22:09:07Z",
-  "id": "50cf9b8dd318b0ee2b1c",
-  "last_seen": "2026-09-23T16:51:33Z",
-  "legacy_404_observations": 10,
-  "observed_path": "/terraform/.env",
-  "public_href": "/crawlerbait/receipt/50cf9b8dd318b0ee2b1c/",
-  "raw_requests": 6,
+  "first_seen": "2026-09-13T22:09:07Z",
+  "id": "50cf4b949f964b3b5e3b",
+  "last_seen": "2026-09-30T21:42:34Z",
+  "legacy_404_observations": 6,
+  "observed_path": "/~/e22a9a8f216d9938b3f32441",
+  "public_href": "/crawlerbait/bait/~/e22a9a8f216d9938b3f32441/",
+  "raw_requests": 21,
   "version": 2
 }

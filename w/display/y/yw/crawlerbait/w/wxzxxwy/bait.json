@@ -3,15 +3,19 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "a8498e09f6ea5d67ff9a9d63"
+      "id": "a1874b40bebb3f8d27c4e353"
+    },
+    {
+      "events": 1,
+      "id": "bf41c5ecd7e7a4dd395a6668"
     }
   ],
-  "first_seen": "2026-09-21T12:14:40Z",
-  "id": "65390646e809a593db8e",
-  "last_seen": "2026-09-21T12:14:40Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/wordpress/wp-json/batch/v1/",
-  "public_href": "/crawlerbait/bait/wordpress/wp-json/batch/v1/",
-  "raw_requests": 1,
+  "first_seen": "2026-09-17T21:58:07Z",
+  "id": "6538d624997b4f8fd6dc",
+  "last_seen": "2026-09-19T13:23:01Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/~/db8558cf185ee5ffbb832597",
+  "public_href": "/crawlerbait/bait/~/db8558cf185ee5ffbb832597/",
+  "raw_requests": 2,
   "version": 2
 }

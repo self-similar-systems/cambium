@@ -12,6 +12,13 @@
   "never_captured_fields": [
     "clientRequestQuery"
   ],
+  "path_privacy": {
+    "domain": "crawlerbait:path:v1",
+    "key_epoch": "v1",
+    "key_fingerprint": "b353473d45ad5614",
+    "raw_unoffered_path_persisted": false,
+    "scheme": "offered-literal / otherwise keyed opaque Bait path"
+  },
   "phenotype_shards": [
     [
       "apiGatewayMatchedEndpoint",

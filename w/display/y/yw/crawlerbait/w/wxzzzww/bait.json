@@ -2,16 +2,48 @@
   "bait_address": "xzzzww",
   "crawlers": [
     {
+      "events": 2,
+      "id": "0294de8ba61abe6d15063f2a"
+    },
+    {
       "events": 1,
-      "id": "0d0cb5f6916abec3f1d1eb1b"
+      "id": "07e42fdb7244689838a544f0"
+    },
+    {
+      "events": 1,
+      "id": "1cb4437f879d518257425c9f"
+    },
+    {
+      "events": 1,
+      "id": "5c16e615f6f6cc9dd13529a9"
+    },
+    {
+      "events": 1,
+      "id": "6ee372e89254cf90f7d9bb0e"
+    },
+    {
+      "events": 1,
+      "id": "9d165c4718686ea37c9d0882"
+    },
+    {
+      "events": 1,
+      "id": "ae4c77c1d632d7dcee7c3e74"
+    },
+    {
+      "events": 1,
+      "id": "c1e229fb584a1c0928e2471d"
+    },
+    {
+      "events": 1,
+      "id": "c9e2c463deab079492838534"
     }
   ],
-  "first_seen": "2026-09-17T21:58:07Z",
-  "id": "6a0c03fda2e66b645942",
-  "last_seen": "2026-09-18T04:40:48Z",
-  "legacy_404_observations": 7,
-  "observed_path": "/Vagrantfile",
-  "public_href": "/crawlerbait/bait/Vagrantfile/",
-  "raw_requests": 1,
+  "first_seen": "2026-09-13T22:09:07Z",
+  "id": "6a0dffe8b9f5943b7b2e",
+  "last_seen": "2026-09-29T13:48:05Z",
+  "legacy_404_observations": 9,
+  "observed_path": "/~/49aeb40351a6f3d679fe3df8",
+  "public_href": "/crawlerbait/bait/~/49aeb40351a6f3d679fe3df8/",
+  "raw_requests": 10,
   "version": 2
 }

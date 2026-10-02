@@ -1,0 +1,25 @@
+{
+  "bait_address": "zwyzyx",
+  "crawlers": [
+    {
+      "events": 2,
+      "id": "208effc822c04b02a18ed8bc"
+    },
+    {
+      "events": 1,
+      "id": "bef0337da948924da2beb7c0"
+    },
+    {
+      "events": 1,
+      "id": "ee4ef907877be5b8b8d75e04"
+    }
+  ],
+  "first_seen": "2026-09-14T21:15:57Z",
+  "id": "8ed00008848a1451dacd",
+  "last_seen": "2026-09-23T16:50:31Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/~/d367930ee56eaa625d2f10f6",
+  "public_href": "/crawlerbait/bait/~/d367930ee56eaa625d2f10f6/",
+  "raw_requests": 4,
+  "version": 2
+}

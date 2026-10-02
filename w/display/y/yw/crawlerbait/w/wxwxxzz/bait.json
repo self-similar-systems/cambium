@@ -2,16 +2,12 @@
   "bait_address": "xwxxzz",
   "crawlers": [
     {
-      "events": 2,
-      "id": "208effc822c04b02a18ed8bc"
-    },
-    {
-      "events": 2,
-      "id": "86aff9f491f46896f57e08b1"
+      "events": 1,
+      "id": "4334098c576d39dad9f41ca1"
     },
     {
       "events": 1,
-      "id": "87e0603f8b2207a96e5c9b90"
+      "id": "883817096590bfd300985fde"
     },
     {
       "events": 1,
@@ -19,19 +15,23 @@
     },
     {
       "events": 1,
-      "id": "a8064c803911e6d7671a8113"
+      "id": "a4077b42babd89750f70d996"
     },
     {
       "events": 1,
-      "id": "b8e94502f406c555b279bbcc"
+      "id": "bef0337da948924da2beb7c0"
+    },
+    {
+      "events": 1,
+      "id": "ff1e2786850c452cdc7e2384"
     }
   ],
-  "first_seen": "2026-09-14T22:09:07Z",
-  "id": "45a8106651a0a44c3f11",
-  "last_seen": "2026-09-25T14:37:19Z",
-  "legacy_404_observations": 5,
-  "observed_path": "/api/v2/.env",
-  "public_href": "/crawlerbait/receipt/45a8106651a0a44c3f11/",
-  "raw_requests": 8,
+  "first_seen": "2026-09-15T22:09:07Z",
+  "id": "45a3c682aee082c7a496",
+  "last_seen": "2026-09-27T05:12:38Z",
+  "legacy_404_observations": 10,
+  "observed_path": "/~/1ba74b7df9148d6563a10df9",
+  "public_href": "/crawlerbait/bait/~/1ba74b7df9148d6563a10df9/",
+  "raw_requests": 6,
   "version": 2
 }

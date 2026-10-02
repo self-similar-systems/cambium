@@ -21,6 +21,12 @@
     "readable_auxiliary_values_removed_after_condensation": true,
     "source_version": 4
   },
+  "historical_path_migration": {
+    "migrated_on": "2026-10-02",
+    "offered_public_paths_remain_literal": true,
+    "query_in_path_transform": false,
+    "raw_unoffered_paths_removed": true
+  },
   "never_captured_fields": [],
   "phenotype_by_being": {
     "002518398c9edbe4d15313ec": {
@@ -531,6 +537,13 @@
       "network_pseudonym_persisted": false,
       "scheme": "legacy artwork identity preserved from private-recognition tuple"
     },
+    "clientRequestPath": {
+      "domain": "crawlerbait:path:v1",
+      "key_epoch": "v1",
+      "offered_public_paths_literal": true,
+      "raw_unoffered_path_persisted": false,
+      "scheme": "literal offered path else HMAC-SHA256 opaque Bait path"
+    },
     "phenotype": {
       "domain": "crawlerbait:phenotype:v1",
       "raw_provider_values_persisted": false,
@@ -561,28 +574,28 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T21:15:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:12:56Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "fc66c7011a6f459d2c244d3e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T21:34:23Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "09055ee3bee4781a12f33953",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:03:03Z",
                 "edgeResponseStatus": 200
               },
@@ -603,77 +616,77 @@
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/.env",
+                "clientRequestPath": "/~/375c4f00f4d9b145aac98ceb",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3cc91979803db9ddaf25e0b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-includes/wlwmanifest.xml",
+                "clientRequestPath": "/~/415b054db9ea590222ff8d92",
                 "datetime": "2026-09-21T13:54:06Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3cc91979803db9ddaf25e0b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/xmlrpc.php",
+                "clientRequestPath": "/~/93ebdf4dd7209b85a4dd4a13",
                 "datetime": "2026-09-21T13:54:06Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "11dec3e392487450e39f110a",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T15:22:36Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T17:20:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "1f44787aa63ee649b30a60b6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T20:57:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T21:21:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/.env",
+                "clientRequestPath": "/~/85ea026edffe3e94d295b636",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/dist/.env",
+                "clientRequestPath": "/~/48d81f39dbf1d71d3de463b5",
                 "datetime": "2026-09-21T16:55:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/gateway/.env",
+                "clientRequestPath": "/~/0a6f4049efaf6b06aa3839f3",
                 "datetime": "2026-09-21T16:55:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/portal/.env",
+                "clientRequestPath": "/~/d071674ef9f6e7b2ff7efaa1",
                 "datetime": "2026-09-21T16:55:53Z",
                 "edgeResponseStatus": 404
               },
@@ -687,49 +700,49 @@
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/kafka/.env",
+                "clientRequestPath": "/~/c722a25ccb861c528411f0c4",
                 "datetime": "2026-09-21T16:56:00Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/uat/.env",
+                "clientRequestPath": "/~/24dcad4b7ad9deee7852a7e6",
                 "datetime": "2026-09-21T16:56:00Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/phpinfo.php.save",
+                "clientRequestPath": "/~/8078a088fa50a519ad0f84d8",
                 "datetime": "2026-09-21T16:56:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/preview/phpinfo.php",
+                "clientRequestPath": "/~/d8ebf9c93fcd4a321201fde9",
                 "datetime": "2026-09-21T16:56:04Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/administrator/phpinfo.php",
+                "clientRequestPath": "/~/aedf5a77ad7f1f2ce80d90cc",
                 "datetime": "2026-09-21T16:56:04Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "09055ee3bee4781a12f33953",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:13:37Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "9bbad4d0d618e7f189d590d2",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T20:21:56Z",
                 "edgeResponseStatus": 404
               },
@@ -743,7 +756,7 @@
               {
                 "beingId": "cf2ae90fac8529d4f21062b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp/",
+                "clientRequestPath": "/~/8e870421c35fa9a64284fe96",
                 "datetime": "2026-09-21T14:43:42Z",
                 "edgeResponseStatus": 404
               },
@@ -764,14 +777,14 @@
               {
                 "beingId": "dd01e83b1cd5f7ece7bec48a",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/papers-pretext-0.0.9/generated/bidi-data.js",
+                "clientRequestPath": "/~/543d128cce3858d31a0544e8",
                 "datetime": "2026-09-21T20:55:45Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "a7387dc544a1cea027388231",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:13:38Z",
                 "edgeResponseStatus": 200
               },
@@ -785,49 +798,49 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/mailer/.env",
+                "clientRequestPath": "/~/32fc76cc60045ba5af451e4b",
                 "datetime": "2026-09-21T20:01:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/campaign/.env",
+                "clientRequestPath": "/~/044434326fb606c82f941846",
                 "datetime": "2026-09-21T20:01:04Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.old",
+                "clientRequestPath": "/~/ba7c399ad1206c4a1312fc88",
                 "datetime": "2026-09-21T17:52:02Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.example",
+                "clientRequestPath": "/~/3275c1a702f68dd0a47e340c",
                 "datetime": "2026-09-21T17:52:02Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/vendor/.env",
+                "clientRequestPath": "/~/3dfb7a153d344182fe46d4eb",
                 "datetime": "2026-09-21T17:52:06Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/panel/.env",
+                "clientRequestPath": "/~/c8fa6066fee35e9911dace18",
                 "datetime": "2026-09-21T17:52:07Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/mailing/.env",
+                "clientRequestPath": "/~/d4895facd0497714960ce82e",
                 "datetime": "2026-09-21T17:52:10Z",
                 "edgeResponseStatus": 301
               },
@@ -841,14 +854,14 @@
               {
                 "beingId": "3efb6386bae4a8bb809557b8",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-login.php",
+                "clientRequestPath": "/~/6c798699a179a7f260304bff",
                 "datetime": "2026-09-21T18:19:28Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T21:18:54Z",
                 "edgeResponseStatus": 404
               },
@@ -862,70 +875,70 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/v1/.env",
+                "clientRequestPath": "/~/16a71570236b2d0bb449db73",
                 "datetime": "2026-09-21T20:00:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/v3/.env",
+                "clientRequestPath": "/~/3e217ba826663111aeaba9bf",
                 "datetime": "2026-09-21T20:00:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/ci/.env",
+                "clientRequestPath": "/~/0501d22268b894aa6e66bdac",
                 "datetime": "2026-09-21T20:01:08Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/kubernetes/.env",
+                "clientRequestPath": "/~/6cb3fc6c72716dbf794add93",
                 "datetime": "2026-09-21T20:01:08Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/elasticsearch/.env",
+                "clientRequestPath": "/~/e33fb0b3aa48cc8169a7f493",
                 "datetime": "2026-09-21T20:01:12Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "2470e66aca4669898ab37972",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T13:46:20Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "5c5d09411ec8a6859f25c45c",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-login.php",
+                "clientRequestPath": "/~/6c798699a179a7f260304bff",
                 "datetime": "2026-09-21T13:16:57Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/webmail/phpinfo.php",
+                "clientRequestPath": "/~/f6abdb53e801e0ecca038860",
                 "datetime": "2026-09-21T20:01:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/uat/phpinfo.php",
+                "clientRequestPath": "/~/ccc06a5bc45239b7dc02e051",
                 "datetime": "2026-09-21T20:01:21Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/docker-compose.yml",
+                "clientRequestPath": "/~/afe3364a8e66ea1c04188646",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
@@ -939,14 +952,14 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.json",
+                "clientRequestPath": "/~/0c370e8a501642f5b45118a8",
                 "datetime": "2026-09-21T20:00:39Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/site/.env",
+                "clientRequestPath": "/~/a20891c379a69497f567fa1d",
                 "datetime": "2026-09-21T20:00:41Z",
                 "edgeResponseStatus": 404
               },
@@ -967,70 +980,70 @@
               {
                 "beingId": "a7387dc544a1cea027388231",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T15:23:20Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T14:04:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T20:00:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3efb6386bae4a8bb809557b8",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-login.php",
+                "clientRequestPath": "/~/6c798699a179a7f260304bff",
                 "datetime": "2026-09-21T18:19:28Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.local",
+                "clientRequestPath": "/~/d6d80fc8e72afe634439478b",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/internal",
+                "clientRequestPath": "/~/0e9f2cb2bf7e1d8aa44c5bc0",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/kubernetes/.env",
+                "clientRequestPath": "/~/6cb3fc6c72716dbf794add93",
                 "datetime": "2026-09-21T17:52:11Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/beta/.env",
+                "clientRequestPath": "/~/73c670fc6f007b50d38f9967",
                 "datetime": "2026-09-21T17:52:13Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/i.php",
+                "clientRequestPath": "/~/9737e54354399f7ddac59da9",
                 "datetime": "2026-09-21T17:52:14Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "4b89101dc99b61d1491ab9f5",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T15:47:49Z",
                 "edgeResponseStatus": 200
               },
@@ -1044,49 +1057,49 @@
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config.json",
+                "clientRequestPath": "/~/d00b511624a242c3dcde3b3c",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/settings",
+                "clientRequestPath": "/~/f4fa75bd8f31d4c7caa3707d",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T14:04:56Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/@fs/.env",
+                "clientRequestPath": "/~/ec92040dcd8f0225e632204e",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/vercel.json",
+                "clientRequestPath": "/~/939db002e48e551bd23da191",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.production",
+                "clientRequestPath": "/~/4626a3b6075a1ae2ba67f501",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
@@ -1100,112 +1113,112 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.test",
+                "clientRequestPath": "/~/56cbd8fc3c9dd5cd92280f24",
                 "datetime": "2026-09-21T20:00:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.swp",
+                "clientRequestPath": "/~/4101a7b9b8234fac20c1693c",
                 "datetime": "2026-09-21T20:00:38Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/v3/.env",
+                "clientRequestPath": "/~/10aca3d5e8cb0a6338e19173",
                 "datetime": "2026-09-21T20:00:53Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/local/.env",
+                "clientRequestPath": "/~/d808af2f82738ed1fd98165c",
                 "datetime": "2026-09-21T20:00:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/portal/.env",
+                "clientRequestPath": "/~/d071674ef9f6e7b2ff7efaa1",
                 "datetime": "2026-09-21T20:00:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/infrastructure/.env",
+                "clientRequestPath": "/~/855000e9589f6926548366f0",
                 "datetime": "2026-09-21T20:01:07Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/jenkins/.env",
+                "clientRequestPath": "/~/ab3a0b97c56ea9bc312c632d",
                 "datetime": "2026-09-21T20:01:09Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/mysql/.env",
+                "clientRequestPath": "/~/5c501061035f0382f53a4e78",
                 "datetime": "2026-09-21T20:01:10Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/postman_environment.json",
+                "clientRequestPath": "/~/e00a037bacc8fa4563b91a28",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/backend/.env",
+                "clientRequestPath": "/~/0f8ffb418e16fb5cbc4e1ab5",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/services.php",
+                "clientRequestPath": "/~/6baf62db2637ae21b36293e4",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/s3.yaml",
+                "clientRequestPath": "/~/3f7733ab7120e27f61979db8",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/credentials",
+                "clientRequestPath": "/~/43b6e1b16a51b6eee90cc1c3",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/staging/.env",
+                "clientRequestPath": "/~/07eebd5e1e8bfc9fd685c116",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/payment_gateways/stripe.yaml",
+                "clientRequestPath": "/~/8a9f39ecf50b08a79d741550",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/app/config/parameters.yml.dist",
+                "clientRequestPath": "/~/a1ac7b1da8ad8790c463fad0",
                 "datetime": "2026-09-21T14:54:38Z",
                 "edgeResponseStatus": 301
               },
@@ -1219,7 +1232,7 @@
               {
                 "beingId": "dd01e83b1cd5f7ece7bec48a",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/papers-pretext-0.0.9/line-break.js",
+                "clientRequestPath": "/~/1d0e2cae8c22942c7f0e94b3",
                 "datetime": "2026-09-21T20:55:45Z",
                 "edgeResponseStatus": 200
               },
@@ -1233,7 +1246,7 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.staging",
+                "clientRequestPath": "/~/75ad96c73737bffb778812a0",
                 "datetime": "2026-09-21T20:00:34Z",
                 "edgeResponseStatus": 404
               },
@@ -1247,7 +1260,7 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T18:33:46Z",
                 "edgeResponseStatus": 404
               },
@@ -1261,21 +1274,21 @@
               {
                 "beingId": "66c79be496f372a1d7f6e969",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T17:51:24Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T21:26:12Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "1d77939d4ea58856fb5ec9b4",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/wp-json/batch/v1",
+                "clientRequestPath": "/~/2f3ac9f5a06104ae77c93575",
                 "datetime": "2026-09-21T20:46:20Z",
                 "edgeResponseStatus": 405
               },
@@ -1289,21 +1302,21 @@
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/dashboard",
+                "clientRequestPath": "/~/c400f2f83d5cd8686dd8b631",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/admin",
+                "clientRequestPath": "/~/d218d0c380b5b0d8a44405aa",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/proxy",
+                "clientRequestPath": "/~/bff568cc35f649cafc068a8d",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -1317,7 +1330,7 @@
               {
                 "beingId": "4b89101dc99b61d1491ab9f5",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:03:37Z",
                 "edgeResponseStatus": 200
               },
@@ -1331,7 +1344,7 @@
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T17:43:16Z",
                 "edgeResponseStatus": 200
               },
@@ -1345,140 +1358,140 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T14:49:47Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/laravel/.env",
+                "clientRequestPath": "/~/76e0ef290790f6bcabad1b14",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/vercel.json",
+                "clientRequestPath": "/~/939db002e48e551bd23da191",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-content/debug.log",
+                "clientRequestPath": "/~/66e28c9fbc0bbbfa093f3048",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "0942ab4ae974baa05249f0ec",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-json/",
+                "clientRequestPath": "/~/000e09ebc7c5fcaac2eb4066",
                 "datetime": "2026-09-21T13:50:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T20:16:29Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T16:09:39Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/magento/.env",
+                "clientRequestPath": "/~/1125a23dbefb6ba85c134c8e",
                 "datetime": "2026-09-21T16:55:50Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/microservice/.env",
+                "clientRequestPath": "/~/b9f4fb220806458d1cf889ae",
                 "datetime": "2026-09-21T16:55:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/tools/.env",
+                "clientRequestPath": "/~/d4b13d0bd71bdc735059050f",
                 "datetime": "2026-09-21T16:55:52Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/uploads/.env",
+                "clientRequestPath": "/~/1415ba444468c54e7beb352c",
                 "datetime": "2026-09-21T16:55:52Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/client/.env",
+                "clientRequestPath": "/~/bad9db6c3d8532b1fb0ac56c",
                 "datetime": "2026-09-21T16:55:53Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/dashboard/.env",
+                "clientRequestPath": "/~/d84d0b83e1409d6235453a95",
                 "datetime": "2026-09-21T16:55:53Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/react/.env",
+                "clientRequestPath": "/~/2e4896343be1e082902383d7",
                 "datetime": "2026-09-21T16:55:54Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/gcp/.env",
+                "clientRequestPath": "/~/e7a811fcfc5e7970891b58c5",
                 "datetime": "2026-09-21T20:01:07Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/terraform/.env",
+                "clientRequestPath": "/~/00d4253308e3a2c1f3a4b5e4",
                 "datetime": "2026-09-21T20:01:08Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/circleci/.env",
+                "clientRequestPath": "/~/073361c9084cc140d23c2668",
                 "datetime": "2026-09-21T20:01:10Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/cakephp/.env",
+                "clientRequestPath": "/~/a8b437917f1983af0acbff80",
                 "datetime": "2026-09-21T20:00:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/service/.env",
+                "clientRequestPath": "/~/e8e5e52973c2f7fa9b467b72",
                 "datetime": "2026-09-21T20:00:52Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "09055ee3bee4781a12f33953",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T12:47:40Z",
                 "edgeResponseStatus": 200
               },
@@ -1492,14 +1505,14 @@
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/socket.io/",
+                "clientRequestPath": "/~/36137cae60cf107360551a2f",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "c902c00efcc3ffd9a30119eb",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T18:28:23Z",
                 "edgeResponseStatus": 404
               },
@@ -1513,14 +1526,14 @@
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/core/.env",
+                "clientRequestPath": "/~/e76839e719027f38b0b45ff5",
                 "datetime": "2026-09-21T16:55:47Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "64d498d931b580db99681cc2",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:14:26Z",
                 "edgeResponseStatus": 200
               },
@@ -1534,63 +1547,63 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T17:53:31Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/tools/.env",
+                "clientRequestPath": "/~/d4b13d0bd71bdc735059050f",
                 "datetime": "2026-09-21T20:00:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/shop/.env",
+                "clientRequestPath": "/~/1ba74b7df9148d6563a10df9",
                 "datetime": "2026-09-21T20:00:57Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/uploads/.env",
+                "clientRequestPath": "/~/1415ba444468c54e7beb352c",
                 "datetime": "2026-09-21T20:00:54Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/dashboard/.env",
+                "clientRequestPath": "/~/d84d0b83e1409d6235453a95",
                 "datetime": "2026-09-21T20:00:56Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/project/.env",
+                "clientRequestPath": "/~/03e8485b4a690fe59b352597",
                 "datetime": "2026-09-21T20:00:57Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff28333c5ed1d445c68c6ad7",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T15:56:17Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T15:48:08Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-config.php",
+                "clientRequestPath": "/~/aff2671d90426ad69fecb1b4",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 403
               },
@@ -1604,91 +1617,91 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T13:11:50Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "11dec3e392487450e39f110a",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T14:04:55Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T20:49:14Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/buildkite/.env",
+                "clientRequestPath": "/~/c9c926bee18c8f401aa0b36e",
                 "datetime": "2026-09-21T20:01:10Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/redis/.env",
+                "clientRequestPath": "/~/483eb0cbb7e8ff101c760219",
                 "datetime": "2026-09-21T20:01:11Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T21:40:32Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T20:00:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.local",
+                "clientRequestPath": "/~/d6d80fc8e72afe634439478b",
                 "datetime": "2026-09-21T20:00:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/phpinfo.php",
+                "clientRequestPath": "/~/5b4c39012df2311a88dec4d5",
                 "datetime": "2026-09-21T20:01:14Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/php.php",
+                "clientRequestPath": "/~/a7badebbd04e165fd05f65c6",
                 "datetime": "2026-09-21T20:01:15Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/next.config.mjs",
+                "clientRequestPath": "/~/7f7145dfe71d38610cdd4d1a",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T19:26:05Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "6061a20e86727a38ecc30566",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T14:29:11Z",
                 "edgeResponseStatus": 404
               },
@@ -1702,7 +1715,7 @@
               {
                 "beingId": "e72a659495fa409ec580cdd3",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/xmlrpc.php",
+                "clientRequestPath": "/~/93ebdf4dd7209b85a4dd4a13",
                 "datetime": "2026-09-21T12:48:58Z",
                 "edgeResponseStatus": 405
               },
@@ -1723,21 +1736,21 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/webroot/index.php/_environment",
+                "clientRequestPath": "/~/05920db90d7b4e5ff4254f27",
                 "datetime": "2026-09-21T20:01:19Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/staging/phpinfo.php",
+                "clientRequestPath": "/~/db622714cb27ef0b00203e3f",
                 "datetime": "2026-09-21T20:01:21Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/firebase-adminsdk.json",
+                "clientRequestPath": "/~/345d82367c5cf1f0b16b2f11",
                 "datetime": "2026-09-21T20:01:26Z",
                 "edgeResponseStatus": 404
               },
@@ -1751,14 +1764,14 @@
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/settings",
+                "clientRequestPath": "/~/37031befb764906123038997",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/",
+                "clientRequestPath": "/~/47d13ec3edd44c9eb2b2882a",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -1772,21 +1785,21 @@
               {
                 "beingId": "cf2ae90fac8529d4f21062b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/blog/robots.txt",
+                "clientRequestPath": "/~/63288eaf27699168c3379456",
                 "datetime": "2026-09-21T14:43:41Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T14:16:27Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T17:17:59Z",
                 "edgeResponseStatus": 404
               },
@@ -1800,105 +1813,105 @@
               {
                 "beingId": "e59ef39ba32312639809adba",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T13:16:26Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "57b5ade2324b606a759c4a9c",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/readme.html",
+                "clientRequestPath": "/~/7747b933054be29b40c4f7da",
                 "datetime": "2026-09-21T13:50:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.prod",
+                "clientRequestPath": "/~/b9ccbe6396aef85b79eccc75",
                 "datetime": "2026-09-21T16:55:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.old",
+                "clientRequestPath": "/~/ba7c399ad1206c4a1312fc88",
                 "datetime": "2026-09-21T16:55:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.test",
+                "clientRequestPath": "/~/56cbd8fc3c9dd5cd92280f24",
                 "datetime": "2026-09-21T16:55:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T13:15:07Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_next/static/chunks/main.js.map",
+                "clientRequestPath": "/~/8df899c865dca063aab8a9fc",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/package.json",
+                "clientRequestPath": "/~/9ca8bb5d4a52103324d3dc06",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "6061a20e86727a38ecc30566",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T13:52:12Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/debug.php",
+                "clientRequestPath": "/~/e7372dfe2e8d6f5eac3e4f24",
                 "datetime": "2026-09-21T17:52:15Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/beta/phpinfo.php",
+                "clientRequestPath": "/~/45af8c411b3c6391318a014d",
                 "datetime": "2026-09-21T17:52:16Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/administrator/phpinfo.php",
+                "clientRequestPath": "/~/aedf5a77ad7f1f2ce80d90cc",
                 "datetime": "2026-09-21T17:52:17Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/svelte/.env",
+                "clientRequestPath": "/~/694a32e92549825247773bbb",
                 "datetime": "2026-09-21T16:55:54Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/control-panel/.env",
+                "clientRequestPath": "/~/81e73b0974cf050041838dfe",
                 "datetime": "2026-09-21T16:55:54Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/k8s/.env",
+                "clientRequestPath": "/~/3fe83d2f0bf04b9e1ec18f7e",
                 "datetime": "2026-09-21T16:55:58Z",
                 "edgeResponseStatus": 404
               },
@@ -1926,21 +1939,21 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/administrator/phpinfo.php",
+                "clientRequestPath": "/~/aedf5a77ad7f1f2ce80d90cc",
                 "datetime": "2026-09-21T20:01:23Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/service-account.json",
+                "clientRequestPath": "/~/30c45e0f1cb9240099fd652c",
                 "datetime": "2026-09-21T20:01:24Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "a7387dc544a1cea027388231",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T19:06:33Z",
                 "edgeResponseStatus": 200
               },
@@ -1982,70 +1995,70 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.save",
+                "clientRequestPath": "/~/7f6dae4c861ec65ba68fba96",
                 "datetime": "2026-09-21T20:00:35Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.ci",
+                "clientRequestPath": "/~/42b1d52881922d4434362bd5",
                 "datetime": "2026-09-21T20:00:36Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.example",
+                "clientRequestPath": "/~/3275c1a702f68dd0a47e340c",
                 "datetime": "2026-09-21T20:00:36Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/config",
+                "clientRequestPath": "/~/1684f9ccec0c181c5c0a6bc5",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "de7c803411c8673e34b31136",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T13:05:06Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_environment",
+                "clientRequestPath": "/~/dd18af9928a51642bca0d3ca",
                 "datetime": "2026-09-21T16:56:02Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/cpanel/phpinfo.php",
+                "clientRequestPath": "/~/ec53b64536bbf3f008d90ed9",
                 "datetime": "2026-09-21T16:56:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T19:27:06Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T19:31:36Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "4b690e4ba3d55f0591f4e975",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T19:44:47Z",
                 "edgeResponseStatus": 404
               },
@@ -2059,21 +2072,21 @@
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T14:16:27Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "91a5c9b59b968ad3c9f04479",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-json/gravitysmtp/v1/tests/mock-data",
+                "clientRequestPath": "/~/510fdf3144d91253e302beab",
                 "datetime": "2026-09-21T16:56:05Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "09055ee3bee4781a12f33953",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T13:04:58Z",
                 "edgeResponseStatus": 200
               },
@@ -2101,77 +2114,77 @@
               {
                 "beingId": "09055ee3bee4781a12f33953",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T15:48:10Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "94032c6bd49e3d88bd233575",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/cdn-cgi/rum",
+                "clientRequestPath": "/cdn-cgi/~/61b99efce7d73f5c60f41efe",
                 "datetime": "2026-09-21T15:45:13Z",
                 "edgeResponseStatus": 204
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/kubernetes/.env",
+                "clientRequestPath": "/~/6cb3fc6c72716dbf794add93",
                 "datetime": "2026-09-21T16:55:58Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/github/.env",
+                "clientRequestPath": "/~/52ce7030891158187c9bfbc0",
                 "datetime": "2026-09-21T16:55:59Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/pinfo.php",
+                "clientRequestPath": "/~/914cfb0da4eb342937389906",
                 "datetime": "2026-09-21T16:56:01Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.old",
+                "clientRequestPath": "/~/ba7c399ad1206c4a1312fc88",
                 "datetime": "2026-09-21T20:00:35Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.dev",
+                "clientRequestPath": "/~/6e62432726826607d341b77c",
                 "datetime": "2026-09-21T20:00:36Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env~",
+                "clientRequestPath": "/~/2e45a8ea2bf74a67e7ce6f03",
                 "datetime": "2026-09-21T20:00:38Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/yii/.env",
+                "clientRequestPath": "/~/c1c1f7483ffbf1bff4b9af5c",
                 "datetime": "2026-09-21T20:00:50Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/v1/.env",
+                "clientRequestPath": "/~/4590139964dde064e3b4ab74",
                 "datetime": "2026-09-21T20:00:51Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/gateway/.env",
+                "clientRequestPath": "/~/0a6f4049efaf6b06aa3839f3",
                 "datetime": "2026-09-21T20:00:52Z",
                 "edgeResponseStatus": 404
               },
@@ -2199,28 +2212,28 @@
               {
                 "beingId": "11dec3e392487450e39f110a",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T18:07:31Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env1",
+                "clientRequestPath": "/~/d3b6fb8a583f08bb6a653f87",
                 "datetime": "2026-09-21T17:52:02Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/apps/.env",
+                "clientRequestPath": "/~/ef429849f7de4cf07140b7e4",
                 "datetime": "2026-09-21T17:52:03Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/public_html/.env",
+                "clientRequestPath": "/~/36103285814b26056659039b",
                 "datetime": "2026-09-21T17:52:04Z",
                 "edgeResponseStatus": 301
               },
@@ -2234,21 +2247,21 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T13:43:17Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.backup",
+                "clientRequestPath": "/~/015155742b885e36a5265cfe",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T13:26:49Z",
                 "edgeResponseStatus": 404
               },
@@ -2269,14 +2282,14 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env_copy",
+                "clientRequestPath": "/~/faab7253d27fbbd58835d2bc",
                 "datetime": "2026-09-21T20:00:39Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/private/.env",
+                "clientRequestPath": "/~/8494022b71599000e2df9aaa",
                 "datetime": "2026-09-21T20:00:43Z",
                 "edgeResponseStatus": 404
               },
@@ -2304,28 +2317,28 @@
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.stage",
+                "clientRequestPath": "/~/3904972d77d2b1e0ca0fe268",
                 "datetime": "2026-09-21T16:55:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/apps/.env",
+                "clientRequestPath": "/~/ef429849f7de4cf07140b7e4",
                 "datetime": "2026-09-21T16:55:47Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.yml",
+                "clientRequestPath": "/~/7b6ddb6c00149c7f15f682d3",
                 "datetime": "2026-09-21T16:55:47Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "a7387dc544a1cea027388231",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T21:03:17Z",
                 "edgeResponseStatus": 200
               },
@@ -2346,42 +2359,42 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/phpversion.php",
+                "clientRequestPath": "/~/83c0de15e5b015369a4c106e",
                 "datetime": "2026-09-21T20:01:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_environment",
+                "clientRequestPath": "/~/dd18af9928a51642bca0d3ca",
                 "datetime": "2026-09-21T20:01:19Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "135732cc30d9098d8130022b",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/wp-json/batch/v1",
+                "clientRequestPath": "/~/2f3ac9f5a06104ae77c93575",
                 "datetime": "2026-09-21T19:09:07Z",
                 "edgeResponseStatus": 405
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/sitemaps/.env",
+                "clientRequestPath": "/~/56e0aa616e509dcb9a599901",
                 "datetime": "2026-09-21T17:52:09Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/sender/.env",
+                "clientRequestPath": "/~/c51be2ebcafab99f8d892217",
                 "datetime": "2026-09-21T17:52:10Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/job/.env",
+                "clientRequestPath": "/~/bcdadf69aaffa448dae21fe2",
                 "datetime": "2026-09-21T17:52:13Z",
                 "edgeResponseStatus": 301
               },
@@ -2395,21 +2408,21 @@
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/firebase.json",
+                "clientRequestPath": "/~/44ae9fc97f3e65cb7961b0ad",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T16:42:05Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/config.json",
+                "clientRequestPath": "/~/2d0528f4ec50d048459343b7",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
@@ -2423,168 +2436,168 @@
               {
                 "beingId": "e21c4ec071f8b88b46f980a6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T17:15:26Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.local",
+                "clientRequestPath": "/~/d6d80fc8e72afe634439478b",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T19:03:22Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "4b89101dc99b61d1491ab9f5",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T15:22:51Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.test",
+                "clientRequestPath": "/~/56cbd8fc3c9dd5cd92280f24",
                 "datetime": "2026-09-21T17:52:01Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/site/.env",
+                "clientRequestPath": "/~/a20891c379a69497f567fa1d",
                 "datetime": "2026-09-21T17:52:03Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/application/.env",
+                "clientRequestPath": "/~/f4b07fe895de4ba5cf8a6390",
                 "datetime": "2026-09-21T17:52:04Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/laravel/.env",
+                "clientRequestPath": "/~/76e0ef290790f6bcabad1b14",
                 "datetime": "2026-09-21T17:52:05Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/shop/.env",
+                "clientRequestPath": "/~/1ba74b7df9148d6563a10df9",
                 "datetime": "2026-09-21T17:52:07Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/scripts/.env",
+                "clientRequestPath": "/~/082fc51d4a2f2b9e4946c51b",
                 "datetime": "2026-09-21T17:52:07Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/debug",
+                "clientRequestPath": "/~/e70150235c3ce1cb38b7d0cc",
                 "datetime": "2026-09-21T18:26:21Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/admin/.env",
+                "clientRequestPath": "/~/6b5b0804690615e3f323c34e",
                 "datetime": "2026-09-21T20:00:41Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/core/app/.env",
+                "clientRequestPath": "/~/09b196f3b582c48b2596e4b2",
                 "datetime": "2026-09-21T20:00:42Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/storage/.env",
+                "clientRequestPath": "/~/03f61a74410adabdece178ef",
                 "datetime": "2026-09-21T20:00:43Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/prestashop/.env",
+                "clientRequestPath": "/~/d367930ee56eaa625d2f10f6",
                 "datetime": "2026-09-21T20:00:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/magento/.env",
+                "clientRequestPath": "/~/1125a23dbefb6ba85c134c8e",
                 "datetime": "2026-09-21T20:00:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/next/.env",
+                "clientRequestPath": "/~/bc43f8ebf3597665203944a5",
                 "datetime": "2026-09-21T20:00:58Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/react/.env",
+                "clientRequestPath": "/~/2e4896343be1e082902383d7",
                 "datetime": "2026-09-21T20:00:59Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/backup/.env",
+                "clientRequestPath": "/~/e2c841c42dadaa5f400c9049",
                 "datetime": "2026-09-21T20:01:00Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/cron/.env",
+                "clientRequestPath": "/~/7eef10504647638f1572a6dc",
                 "datetime": "2026-09-21T20:01:01Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/worker/.env",
+                "clientRequestPath": "/~/8436c658ffa99a259f618416",
                 "datetime": "2026-09-21T20:01:12Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/queue/.env",
+                "clientRequestPath": "/~/24377ef12e2c4589d59d7361",
                 "datetime": "2026-09-21T20:01:12Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/production/.env",
+                "clientRequestPath": "/~/12ab23b6dc9025260f49348c",
                 "datetime": "2026-09-21T20:01:14Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T20:23:04Z",
                 "edgeResponseStatus": 404
               },
@@ -2598,14 +2611,14 @@
               {
                 "beingId": "64d498d931b580db99681cc2",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T14:03:41Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "3cc91979803db9ddaf25e0b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-login.php",
+                "clientRequestPath": "/~/6c798699a179a7f260304bff",
                 "datetime": "2026-09-21T13:54:07Z",
                 "edgeResponseStatus": 404
               },
@@ -2633,49 +2646,49 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T16:05:50Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/admin",
+                "clientRequestPath": "/~/8272735fcd08cd78d3971447",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.kube/config",
+                "clientRequestPath": "/~/dde4e78822c5af9882b58026",
                 "datetime": "2026-09-21T14:54:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/app/.env",
+                "clientRequestPath": "/~/3121658cbff95c23a2853d2f",
                 "datetime": "2026-09-21T14:54:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/phpinfo",
+                "clientRequestPath": "/~/1648e6e27b60ff4a00408dc5",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/credentials.js",
+                "clientRequestPath": "/~/8967b429cdc30c810a9f9faa",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T15:13:47Z",
                 "edgeResponseStatus": 404
               },
@@ -2689,14 +2702,14 @@
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/@fs/.env.local",
+                "clientRequestPath": "/~/f27e427added5961d64df4fc",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/settings.json",
+                "clientRequestPath": "/~/df2110dfd1383e36d2cd1e37",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
@@ -2710,49 +2723,49 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.development",
+                "clientRequestPath": "/~/d901b5beeec9ce1e3db8c0ff",
                 "datetime": "2026-09-21T20:00:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.production",
+                "clientRequestPath": "/~/4626a3b6075a1ae2ba67f501",
                 "datetime": "2026-09-21T20:00:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/release/.env",
+                "clientRequestPath": "/~/107190b898beaa182641713c",
                 "datetime": "2026-09-21T20:00:44Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/build/.env",
+                "clientRequestPath": "/~/95da14c05ef2ad10cc15fe55",
                 "datetime": "2026-09-21T20:00:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/public_html/.env",
+                "clientRequestPath": "/~/36103285814b26056659039b",
                 "datetime": "2026-09-21T20:00:46Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/dev/.env",
+                "clientRequestPath": "/~/28f75436ebbe8d50f59c9f3f",
                 "datetime": "2026-09-21T20:00:47Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp/.env",
+                "clientRequestPath": "/~/f26034e4af85758225b8d4bd",
                 "datetime": "2026-09-21T20:00:48Z",
                 "edgeResponseStatus": 404
               },
@@ -2773,56 +2786,56 @@
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/next.config.js",
+                "clientRequestPath": "/~/861c2fb4407c831a9b0f4ba8",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/app.php",
+                "clientRequestPath": "/~/3b410410fe9f934b0ec07145",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3baceb926df394a538e0d525",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/readme.html",
+                "clientRequestPath": "/~/7747b933054be29b40c4f7da",
                 "datetime": "2026-09-21T16:18:14Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/storage/logs/laravel.log",
+                "clientRequestPath": "/~/248b230092ccc7e623d4a1be",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/config.js",
+                "clientRequestPath": "/~/e908badb76f6034f8e9a48d3",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/next.config.js",
+                "clientRequestPath": "/~/861c2fb4407c831a9b0f4ba8",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/graphql",
+                "clientRequestPath": "/~/ebedd325f89a300c3a49feb1",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "a7387dc544a1cea027388231",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T17:43:22Z",
                 "edgeResponseStatus": 200
               },
@@ -2850,35 +2863,35 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T17:49:21Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.staging",
+                "clientRequestPath": "/~/75ad96c73737bffb778812a0",
                 "datetime": "2026-09-21T17:52:01Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.bak",
+                "clientRequestPath": "/~/8835655544115991598cc4fa",
                 "datetime": "2026-09-21T17:52:01Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.preprod",
+                "clientRequestPath": "/~/bbee0d0a341a2123dbb4b1ee",
                 "datetime": "2026-09-21T17:52:02Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/auth/config",
+                "clientRequestPath": "/~/d1822e5ce1cc6a2416b58ccb",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -2892,35 +2905,35 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T14:30:09Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.swp",
+                "clientRequestPath": "/~/4101a7b9b8234fac20c1693c",
                 "datetime": "2026-09-21T14:54:32Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/initializers/secret_token.rb",
+                "clientRequestPath": "/~/e8e674e10d00a6382c7f272e",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/s3.yaml",
+                "clientRequestPath": "/~/3f7733ab7120e27f61979db8",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/serverless.yaml",
+                "clientRequestPath": "/~/4e99d6d92de042893d27eb3b",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
@@ -2934,35 +2947,35 @@
               {
                 "beingId": "e463a7d5a49aa1face04b2fd",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env",
+                "clientRequestPath": "/~/df613faa5c026cb445115537",
                 "datetime": "2026-09-21T15:18:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T17:44:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.development",
+                "clientRequestPath": "/~/d901b5beeec9ce1e3db8c0ff",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/__webpack_hmr",
+                "clientRequestPath": "/~/c8c89fdcdde561fd26a32c52",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_next/static/chunks/pages/_app.js.map",
+                "clientRequestPath": "/~/8fb24605c5cda4b22feb5899",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -2983,7 +2996,7 @@
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.ipynb",
+                "clientRequestPath": "/~/fff1f0004322843bd616993c",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
@@ -3004,28 +3017,28 @@
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.aws/credentials.bak",
+                "clientRequestPath": "/~/dc50e2ee14077c265519198c",
                 "datetime": "2026-09-21T14:54:31Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/index",
+                "clientRequestPath": "/~/2a225336e05b946b8f27d068",
                 "datetime": "2026-09-21T14:54:32Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/backend/.env",
+                "clientRequestPath": "/~/0f8ffb418e16fb5cbc4e1ab5",
                 "datetime": "2026-09-21T14:54:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/terraform.tfstate",
+                "clientRequestPath": "/~/5aa9e16bf0ac559cc54c2f66",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
@@ -3039,56 +3052,56 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T15:17:30Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/stripe-keys.json",
+                "clientRequestPath": "/~/b6bc32a77313a0f0ed4f0c22",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/current/.env",
+                "clientRequestPath": "/~/aeedd76b14a06b4f8c14f05a",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/v2/.env",
+                "clientRequestPath": "/~/d1643b63d9e7903cd3a90d83",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/terraform.tfvars",
+                "clientRequestPath": "/~/66431b7da35aafbf4a73d4c8",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/cypress.env.json",
+                "clientRequestPath": "/~/0feb534c426c4cc34db6f3ff",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/notebooks/config.ipynb",
+                "clientRequestPath": "/~/c615382f4356c506b4de8947",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "7a8591fc6d463f329663f4e2",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/feed/",
+                "clientRequestPath": "/~/e22a9a8f216d9938b3f32441",
                 "datetime": "2026-09-21T13:50:45Z",
                 "edgeResponseStatus": 404
               },
@@ -3102,28 +3115,28 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/shared/.env",
+                "clientRequestPath": "/~/710e1c9fb6396f408ce05a15",
                 "datetime": "2026-09-21T20:00:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/htdocs/.env",
+                "clientRequestPath": "/~/6d7fc4abd72539fb4aeb02fb",
                 "datetime": "2026-09-21T20:00:46Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.production",
+                "clientRequestPath": "/~/4626a3b6075a1ae2ba67f501",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/fetch",
+                "clientRequestPath": "/~/5a62ecb96b788f23ab881e0a",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -3158,14 +3171,14 @@
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.aws/credentials",
+                "clientRequestPath": "/~/21b0fb37c3e6d3629a31e7c9",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/core/phpinfo.php",
+                "clientRequestPath": "/~/9346194074737d4b33fc7bc9",
                 "datetime": "2026-09-21T16:56:04Z",
                 "edgeResponseStatus": 404
               },
@@ -3193,301 +3206,301 @@
               {
                 "beingId": "7ed447e71301d713acb12714",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-json/",
+                "clientRequestPath": "/~/000e09ebc7c5fcaac2eb4066",
                 "datetime": "2026-09-21T16:18:14Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/info.php",
+                "clientRequestPath": "/~/604470a05d3914c400635300",
                 "datetime": "2026-09-21T20:01:14Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/admin/phpinfo.php",
+                "clientRequestPath": "/~/9e09bf8d969520a0975bbdff",
                 "datetime": "2026-09-21T20:01:16Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/dev/phpinfo.php",
+                "clientRequestPath": "/~/44c7d484c340feeb4d71f088",
                 "datetime": "2026-09-21T20:01:17Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/site/phpinfo.php",
+                "clientRequestPath": "/~/372196ccf541394294a91009",
                 "datetime": "2026-09-21T20:01:23Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/google-key.json",
+                "clientRequestPath": "/~/4afc29de989bf36c3e6eaf4c",
                 "datetime": "2026-09-21T20:01:25Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/key.json",
+                "clientRequestPath": "/~/de8cce4bcef7a47b9696dfb9",
                 "datetime": "2026-09-21T20:01:26Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b88d22308221181bcf696948",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T18:07:24Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "36d70da8f6805d96a5489a7d",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T15:14:15Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T12:47:35Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "a27b669b8ef01387155be080",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T16:10:13Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/deploy/.env",
+                "clientRequestPath": "/~/0d5701f9a41624c7d2fae92c",
                 "datetime": "2026-09-21T17:52:04Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/prod/.env",
+                "clientRequestPath": "/~/18f150156f3cedf6638d8af7",
                 "datetime": "2026-09-21T17:52:05Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/microservice/.env",
+                "clientRequestPath": "/~/b9f4fb220806458d1cf889ae",
                 "datetime": "2026-09-21T17:52:06Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/v1/.env",
+                "clientRequestPath": "/~/4590139964dde064e3b4ab74",
                 "datetime": "2026-09-21T17:52:06Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "83a45e81359e4dd36a2c39f6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/config",
+                "clientRequestPath": "/~/ad5bb7b49e0cddee1371235f",
                 "datetime": "2026-09-21T16:39:35Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/var/www/html/.env",
+                "clientRequestPath": "/~/2a1f1ae9e1e057839c58323f",
                 "datetime": "2026-09-21T16:55:48Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/html/.env",
+                "clientRequestPath": "/~/8efad2bc7c44e562c5c064ea",
                 "datetime": "2026-09-21T16:55:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/administrator/.env",
+                "clientRequestPath": "/~/5da96a3c68742f957b211354",
                 "datetime": "2026-09-21T16:55:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/old/.env",
+                "clientRequestPath": "/~/d84cf72ee21852e2ce31feda",
                 "datetime": "2026-09-21T16:55:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/cronlab/.env",
+                "clientRequestPath": "/~/22847c91e754280271190d7c",
                 "datetime": "2026-09-21T16:55:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/notify/.env",
+                "clientRequestPath": "/~/d48ed5575e09be13a7f85312",
                 "datetime": "2026-09-21T16:55:56Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/azure/.env",
+                "clientRequestPath": "/~/465800a6933c942fee8df1ea",
                 "datetime": "2026-09-21T16:55:57Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/transactional/.env",
+                "clientRequestPath": "/~/1148eafa401bcc2246e44027",
                 "datetime": "2026-09-21T16:55:57Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/buildkite/.env",
+                "clientRequestPath": "/~/c9c926bee18c8f401aa0b36e",
                 "datetime": "2026-09-21T16:55:59Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/ci/.env",
+                "clientRequestPath": "/~/0501d22268b894aa6e66bdac",
                 "datetime": "2026-09-21T17:52:12Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.git/.env",
+                "clientRequestPath": "/~/da8637010c4873b6b73f127d",
                 "datetime": "2026-09-21T17:52:12Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/old_phpinfo.php",
+                "clientRequestPath": "/~/2881b2f892bd7b863f36ef77",
                 "datetime": "2026-09-21T17:52:15Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/google-credentials.json",
+                "clientRequestPath": "/~/7aef956d2c70ef7b7e00fb6e",
                 "datetime": "2026-09-21T17:52:18Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/gcp-credentials.json",
+                "clientRequestPath": "/~/e6b231e7c239e63d5dee9832",
                 "datetime": "2026-09-21T17:52:18Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/svelte/.env",
+                "clientRequestPath": "/~/694a32e92549825247773bbb",
                 "datetime": "2026-09-21T20:01:00Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/exapi/.env",
+                "clientRequestPath": "/~/a0b65364baddf2f63cedad98",
                 "datetime": "2026-09-21T20:01:02Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/psnlink/.env",
+                "clientRequestPath": "/~/4565662b4006d7c4a0f171ad",
                 "datetime": "2026-09-21T20:01:02Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/bulk/.env",
+                "clientRequestPath": "/~/2faa81a6e8a8d7a30989383f",
                 "datetime": "2026-09-21T20:01:06Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.config/anthropic/credentials/default.json",
+                "clientRequestPath": "/~/03fd0775665e5d14e479c0f7",
                 "datetime": "2026-09-21T14:54:31Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.config/gcloud/application_default_credentials.json",
+                "clientRequestPath": "/~/75349d59f7c37023f78a3995",
                 "datetime": "2026-09-21T14:54:31Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.boto",
+                "clientRequestPath": "/~/01510a04e70a7922c010e6f5",
                 "datetime": "2026-09-21T14:54:31Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T16:10:15Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/composer.json",
+                "clientRequestPath": "/~/c4b827b1dc2fcf3158aeae24",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env",
+                "clientRequestPath": "/~/df613faa5c026cb445115537",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/database.php",
+                "clientRequestPath": "/~/800cfdcd9219cda60c166c51",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/app/.env",
+                "clientRequestPath": "/~/3121658cbff95c23a2853d2f",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ebff9e95a7335bd442f71e1e",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/netlify.toml",
+                "clientRequestPath": "/~/5feaf3cb3aeb87ee59abbf67",
                 "datetime": "2026-09-21T13:47:03Z",
                 "edgeResponseStatus": 404
               },
@@ -3501,35 +3514,35 @@
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.production",
+                "clientRequestPath": "/~/4626a3b6075a1ae2ba67f501",
                 "datetime": "2026-09-21T14:54:36Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.github/workflows/ci.yml",
+                "clientRequestPath": "/~/0de2d5db56b626d3e9dcaa50",
                 "datetime": "2026-09-21T14:54:36Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.gitconfig",
+                "clientRequestPath": "/~/d9d93d1335826376604c4d84",
                 "datetime": "2026-09-21T14:54:36Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/infos.php",
+                "clientRequestPath": "/~/9fcb11166aac6b42dd416e2b",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_next/static/chunks/pages/index.js.map",
+                "clientRequestPath": "/~/00e5d92ee272c25164520e3c",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -3557,56 +3570,56 @@
               {
                 "beingId": "002518398c9edbe4d15313ec",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/feed/",
+                "clientRequestPath": "/~/e22a9a8f216d9938b3f32441",
                 "datetime": "2026-09-21T16:18:13Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/react/.env",
+                "clientRequestPath": "/~/2e4896343be1e082902383d7",
                 "datetime": "2026-09-21T17:52:08Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/newsletter/.env",
+                "clientRequestPath": "/~/0f2df3247fc2d503cfd1ea4b",
                 "datetime": "2026-09-21T17:52:10Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/gcp/.env",
+                "clientRequestPath": "/~/e7a811fcfc5e7970891b58c5",
                 "datetime": "2026-09-21T17:52:11Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/worker/.env",
+                "clientRequestPath": "/~/8436c658ffa99a259f618416",
                 "datetime": "2026-09-21T17:52:13Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/info",
+                "clientRequestPath": "/~/7c9bdaef40a5ae93c884b71f",
                 "datetime": "2026-09-21T17:52:15Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/tmp/phpinfo.php",
+                "clientRequestPath": "/~/14261a3b32efd44dddfae8cd",
                 "datetime": "2026-09-21T17:52:15Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/qa/phpinfo.php",
+                "clientRequestPath": "/~/74fd099d46c0b1900327d179",
                 "datetime": "2026-09-21T17:52:16Z",
                 "edgeResponseStatus": 301
               },
@@ -3620,35 +3633,35 @@
               {
                 "beingId": "11dec3e392487450e39f110a",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T13:46:27Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/server/.env",
+                "clientRequestPath": "/~/cfd8e25b60ec4ecf2711b96a",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/terraform.tfstate",
+                "clientRequestPath": "/~/5aa9e16bf0ac559cc54c2f66",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.putty/putty.ppk",
+                "clientRequestPath": "/~/3440564ae1f3669d9e7eb4b8",
                 "datetime": "2026-09-21T14:54:37Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/ses/.env",
+                "clientRequestPath": "/~/653aafb33682e599ad6e711f",
                 "datetime": "2026-09-21T14:54:38Z",
                 "edgeResponseStatus": 301
               },
@@ -3662,42 +3675,42 @@
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T15:45:39Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/users.sql",
+                "clientRequestPath": "/~/852d28cc236d50429ab6c68a",
                 "datetime": "2026-09-21T14:54:35Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/secrets.env",
+                "clientRequestPath": "/~/3331914b2e6887cacab254fb",
                 "datetime": "2026-09-21T14:54:35Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "cf2ae90fac8529d4f21062b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wordpress/",
+                "clientRequestPath": "/~/bdd8f03c6e005dba6629c28b",
                 "datetime": "2026-09-21T14:43:41Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "cf2ae90fac8529d4f21062b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/xmlrpc.php",
+                "clientRequestPath": "/~/93ebdf4dd7209b85a4dd4a13",
                 "datetime": "2026-09-21T14:43:41Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "cf2ae90fac8529d4f21062b9",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/blog/",
+                "clientRequestPath": "/~/00c1b2918395f6987914635a",
                 "datetime": "2026-09-21T14:43:41Z",
                 "edgeResponseStatus": 404
               },
@@ -3725,35 +3738,35 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/joomla/.env",
+                "clientRequestPath": "/~/fa213ff79b539e46d90cec00",
                 "datetime": "2026-09-21T20:00:48Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/codeigniter/.env",
+                "clientRequestPath": "/~/cc64091053c5e786d366db56",
                 "datetime": "2026-09-21T20:00:49Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/graphql/.env",
+                "clientRequestPath": "/~/462e215e1f48cb5f8b9c96b8",
                 "datetime": "2026-09-21T20:00:52Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "5e799495316e57f07453e0e6",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/wp-admin/install.php",
+                "clientRequestPath": "/~/2567328ee21f2043599ffa53",
                 "datetime": "2026-09-21T16:32:47Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/lib/.env",
+                "clientRequestPath": "/~/02e884217f4358ec2e29271b",
                 "datetime": "2026-09-21T20:00:53Z",
                 "edgeResponseStatus": 404
               },
@@ -3767,42 +3780,42 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/uat/.env",
+                "clientRequestPath": "/~/24dcad4b7ad9deee7852a7e6",
                 "datetime": "2026-09-21T20:01:13Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/qa/.env",
+                "clientRequestPath": "/~/c49192e2bbf5aec9861f2083",
                 "datetime": "2026-09-21T20:01:13Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/test/.env",
+                "clientRequestPath": "/~/89930d76aee6d3e0ded100cd",
                 "datetime": "2026-09-21T20:01:13Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.development",
+                "clientRequestPath": "/~/d901b5beeec9ce1e3db8c0ff",
                 "datetime": "2026-09-21T16:55:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.save",
+                "clientRequestPath": "/~/7f6dae4c861ec65ba68fba96",
                 "datetime": "2026-09-21T16:55:45Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/app/.env",
+                "clientRequestPath": "/~/3121658cbff95c23a2853d2f",
                 "datetime": "2026-09-21T16:55:47Z",
                 "edgeResponseStatus": 404
               },
@@ -3816,98 +3829,98 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env2",
+                "clientRequestPath": "/~/7128295158ddb8bfdc7e82c3",
                 "datetime": "2026-09-21T20:00:39Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/web/.env",
+                "clientRequestPath": "/~/76d6f2475366832a573aa28a",
                 "datetime": "2026-09-21T20:00:41Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/config/.env",
+                "clientRequestPath": "/~/375c4f00f4d9b145aac98ceb",
                 "datetime": "2026-09-21T20:00:42Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/vue/.env",
+                "clientRequestPath": "/~/66c4786f8efd5f5c4cc52cdf",
                 "datetime": "2026-09-21T20:00:59Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/old/.env",
+                "clientRequestPath": "/~/d84cf72ee21852e2ce31feda",
                 "datetime": "2026-09-21T20:01:00Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/vite/.env",
+                "clientRequestPath": "/~/087381dcf4a373ddb0b0428f",
                 "datetime": "2026-09-21T20:01:00Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env",
+                "clientRequestPath": "/~/df613faa5c026cb445115537",
                 "datetime": "2026-09-21T18:26:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/internal",
+                "clientRequestPath": "/~/f4f4e52e6a2329dbe07370e2",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/graphql",
+                "clientRequestPath": "/~/f3e1e478dd301c9646a9965f",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/drupal/.env",
+                "clientRequestPath": "/~/b181bf1f58c173948b9030d5",
                 "datetime": "2026-09-21T17:52:05Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/erp/.env",
+                "clientRequestPath": "/~/1b1044511c18b1febfc9d7a4",
                 "datetime": "2026-09-21T17:52:07Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/vue/.env",
+                "clientRequestPath": "/~/66c4786f8efd5f5c4cc52cdf",
                 "datetime": "2026-09-21T17:52:08Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_next/static/chunks/webpack.js.map",
+                "clientRequestPath": "/~/4734804dde46d3bab83a875c",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "002b9d7f56ed121491fdb5d0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/api/debug",
+                "clientRequestPath": "/~/4456a898362ac8553f4ddf2d",
                 "datetime": "2026-09-21T18:26:20Z",
                 "edgeResponseStatus": 404
               },
@@ -3921,14 +3934,14 @@
               {
                 "beingId": "b2d0da8ae33ae5f73f597253",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T14:17:00Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "2470e66aca4669898ab37972",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T20:16:18Z",
                 "edgeResponseStatus": 200
               },
@@ -3949,35 +3962,35 @@
               {
                 "beingId": "dd01e83b1cd5f7ece7bec48a",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/papers-pretext-0.0.9/bidi.js",
+                "clientRequestPath": "/~/13418488775c00449fe07dff",
                 "datetime": "2026-09-21T20:55:45Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "dd01e83b1cd5f7ece7bec48a",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/papers-pretext-0.0.9/analysis.js",
+                "clientRequestPath": "/~/0b7d4d9c34070ec6c07a9f51",
                 "datetime": "2026-09-21T20:55:45Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/mailgun/.env",
+                "clientRequestPath": "/~/afc2859d51a1096cff946d08",
                 "datetime": "2026-09-21T20:01:05Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/azure/.env",
+                "clientRequestPath": "/~/465800a6933c942fee8df1ea",
                 "datetime": "2026-09-21T20:01:06Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b88d22308221181bcf696948",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T18:00:31Z",
                 "edgeResponseStatus": 200
               },
@@ -3991,35 +4004,35 @@
               {
                 "beingId": "22dfd90d474ad9642483a1f7",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T20:16:04Z",
                 "edgeResponseStatus": 200
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/_profiler/phpinfo.php",
+                "clientRequestPath": "/~/4bdfe7b282ec40dcebe47377",
                 "datetime": "2026-09-21T14:54:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.terraform/terraform.tfstate",
+                "clientRequestPath": "/~/70d3d8cb56877d78e39c68bd",
                 "datetime": "2026-09-21T14:54:33Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/new/.env",
+                "clientRequestPath": "/~/04181447528ec0b7ea1ee580",
                 "datetime": "2026-09-21T14:54:34Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "3506537e8659aea5c01114b5",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/admin_dev.php",
+                "clientRequestPath": "/~/3856253b4082aa1b2f6f2f45",
                 "datetime": "2026-09-21T14:54:35Z",
                 "edgeResponseStatus": 404
               },
@@ -4033,84 +4046,84 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/public_html/phpinfo.php",
+                "clientRequestPath": "/~/ea335833a71f8b5ae4198c33",
                 "datetime": "2026-09-21T20:01:22Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/credentials.json",
+                "clientRequestPath": "/~/ee8c8a343577d6600cd66d3c",
                 "datetime": "2026-09-21T20:01:25Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/preview/phpinfo.php",
+                "clientRequestPath": "/~/d8ebf9c93fcd4a321201fde9",
                 "datetime": "2026-09-21T20:01:22Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/htdocs/phpinfo.php",
+                "clientRequestPath": "/~/ec1d837a204abab9eb74651e",
                 "datetime": "2026-09-21T20:01:22Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/docs/phpinfo.php",
+                "clientRequestPath": "/~/5e77b3e40a965ee3efe9bd84",
                 "datetime": "2026-09-21T20:01:23Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/postmark/.env",
+                "clientRequestPath": "/~/bba588be7753af47eaf63e3d",
                 "datetime": "2026-09-21T20:01:05Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/docker/.env",
+                "clientRequestPath": "/~/2b08144f09fd79dab4911664",
                 "datetime": "2026-09-21T20:01:07Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/cloud/.env",
+                "clientRequestPath": "/~/d0f68475f407642a7be57df1",
                 "datetime": "2026-09-21T20:01:07Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/php-info.php",
+                "clientRequestPath": "/~/58f16cd7413fe8758eb519f1",
                 "datetime": "2026-09-21T20:01:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/info",
+                "clientRequestPath": "/~/7c9bdaef40a5ae93c884b71f",
                 "datetime": "2026-09-21T20:01:18Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/phpinfo.php.old",
+                "clientRequestPath": "/~/d25b9e666fbdace4e8b8b9eb",
                 "datetime": "2026-09-21T20:01:20Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "4b89101dc99b61d1491ab9f5",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/__live/home",
+                "clientRequestPath": "/__live/~/7d461d62fe01d71bfea9a7d7",
                 "datetime": "2026-09-21T19:06:41Z",
                 "edgeResponseStatus": 200
               },
@@ -4152,7 +4165,7 @@
               {
                 "beingId": "b00e16db0cfeafb9a451c7ed",
                 "clientRequestHTTPMethodName": "POST",
-                "clientRequestPath": "/cdn-cgi/rum",
+                "clientRequestPath": "/cdn-cgi/~/61b99efce7d73f5c60f41efe",
                 "datetime": "2026-09-21T15:47:34Z",
                 "edgeResponseStatus": 204
               },
@@ -4166,63 +4179,63 @@
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.bak",
+                "clientRequestPath": "/~/8835655544115991598cc4fa",
                 "datetime": "2026-09-21T20:00:35Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env.uat",
+                "clientRequestPath": "/~/7eb412d521fb42cd339d90fc",
                 "datetime": "2026-09-21T20:00:37Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "bef0337da948924da2beb7c0",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/.env1",
+                "clientRequestPath": "/~/d3b6fb8a583f08bb6a653f87",
                 "datetime": "2026-09-21T20:00:38Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/psnlink/.env",
+                "clientRequestPath": "/~/4565662b4006d7c4a0f171ad",
                 "datetime": "2026-09-21T16:55:55Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/elasticsearch/.env",
+                "clientRequestPath": "/~/e33fb0b3aa48cc8169a7f493",
                 "datetime": "2026-09-21T16:55:59Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "b6b546a35b3a8503937b7446",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/postgres/.env",
+                "clientRequestPath": "/~/f6bb46960ff33ef0b2473747",
                 "datetime": "2026-09-21T16:55:59Z",
                 "edgeResponseStatus": 404
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/server-info.php",
+                "clientRequestPath": "/~/072cc7ba5dfb2bb8f50adce5",
                 "datetime": "2026-09-21T17:52:15Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/public/phpinfo.php",
+                "clientRequestPath": "/~/e922e9e86912a9d5eb50e64c",
                 "datetime": "2026-09-21T17:52:15Z",
                 "edgeResponseStatus": 301
               },
               {
                 "beingId": "ff1e2786850c452cdc7e2384",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/gcp-key.json",
+                "clientRequestPath": "/~/e857833c0459b806c0fe29c6",
                 "datetime": "2026-09-21T17:52:17Z",
                 "edgeResponseStatus": 301
               }
