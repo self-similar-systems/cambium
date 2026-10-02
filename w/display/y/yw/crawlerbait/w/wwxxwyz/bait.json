@@ -15,6 +15,10 @@
     },
     {
       "events": 1,
+      "id": "27e3273f526dbaa1b7f9bf5a"
+    },
+    {
+      "events": 1,
       "id": "42430e82f65969851f4f0068"
     },
     {
@@ -40,10 +44,10 @@
   ],
   "first_seen": "2026-09-18T04:40:48Z",
   "id": "14e465936c1b9cf9455b",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 1,
   "observed_path": "/app/config/parameters.yml",
   "public_href": "/crawlerbait/bait/app/config/parameters.yml/",
-  "raw_requests": 11,
+  "raw_requests": 12,
   "version": 2
 }

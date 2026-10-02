@@ -15,6 +15,10 @@
     },
     {
       "events": 1,
+      "id": "27e3273f526dbaa1b7f9bf5a"
+    },
+    {
+      "events": 1,
       "id": "6fcca6e0aaa49331f3436a3f"
     },
     {
@@ -48,10 +52,10 @@
   ],
   "first_seen": "2026-09-18T05:56:37Z",
   "id": "c879a1d8584c2c545f6c",
-  "last_seen": "2026-09-30T08:55:45Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 0,
   "observed_path": "/wp-config.php.bak",
   "public_href": "/crawlerbait/bait/wp-config.php.bak/",
-  "raw_requests": 11,
+  "raw_requests": 12,
   "version": 2
 }

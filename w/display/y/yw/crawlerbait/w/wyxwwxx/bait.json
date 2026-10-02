@@ -23,15 +23,19 @@
     },
     {
       "events": 1,
+      "id": "d5783d338cccf44d404663f8"
+    },
+    {
+      "events": 1,
       "id": "ebff9e95a7335bd442f71e1e"
     }
   ],
   "first_seen": "2026-09-21T23:42:39Z",
   "id": "d05e96bdaa0c2585a83c",
-  "last_seen": "2026-09-29T16:57:29Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 0,
   "observed_path": "/aws.yml",
   "public_href": "/crawlerbait/bait/aws.yml/",
-  "raw_requests": 6,
+  "raw_requests": 7,
   "version": 2
 }

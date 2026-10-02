@@ -23,6 +23,10 @@
     },
     {
       "events": 1,
+      "id": "8edf48b3e2ddd4c46d76702e"
+    },
+    {
+      "events": 1,
       "id": "a14f7281214bdaebe5d73d9c"
     },
     {
@@ -36,10 +40,10 @@
   ],
   "first_seen": "2026-09-18T14:35:36Z",
   "id": "0913647d7e838cdd727c",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:09Z",
   "legacy_404_observations": 0,
   "observed_path": "/web.config",
   "public_href": "/crawlerbait/bait/web.config/",
-  "raw_requests": 8,
+  "raw_requests": 9,
   "version": 2
 }

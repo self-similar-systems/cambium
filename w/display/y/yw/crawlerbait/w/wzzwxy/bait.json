@@ -11,6 +11,10 @@
     },
     {
       "events": 1,
+      "id": "27e3273f526dbaa1b7f9bf5a"
+    },
+    {
+      "events": 1,
       "id": "73a941f61e8f9ebd1c3ebaec"
     },
     {
@@ -24,10 +28,10 @@
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "a1d01eaa84f60d433ab0",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:07Z",
   "legacy_404_observations": 0,
   "observed_path": "/config/packages/swiftmailer.yaml",
   "public_href": "/crawlerbait/bait/config/packages/swiftmailer.yaml/",
-  "raw_requests": 6,
+  "raw_requests": 7,
   "version": 2
 }

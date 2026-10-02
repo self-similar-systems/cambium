@@ -19,15 +19,19 @@
     },
     {
       "events": 1,
+      "id": "d5783d338cccf44d404663f8"
+    },
+    {
+      "events": 1,
       "id": "def4106d758c5337a1f6c3e6"
     }
   ],
   "first_seen": "2026-09-21T23:42:43Z",
   "id": "ccee98e10dd3d05231bc",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:09Z",
   "legacy_404_observations": 0,
   "observed_path": "/@fs/wp-config.php",
   "public_href": "/crawlerbait/bait/@fs/wp-config.php/",
-  "raw_requests": 5,
+  "raw_requests": 6,
   "version": 2
 }

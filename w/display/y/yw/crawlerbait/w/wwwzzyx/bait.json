@@ -19,6 +19,10 @@
     },
     {
       "events": 1,
+      "id": "06dea2cadff0781d983427ec"
+    },
+    {
+      "events": 1,
       "id": "2078d4a3496e6eb5c2f21fc7"
     },
     {
@@ -64,10 +68,10 @@
   ],
   "first_seen": "2026-09-15T22:09:07Z",
   "id": "0ad09149f0572f6cdaf5",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 2,
   "observed_path": "/config.js",
   "public_href": "/crawlerbait/bait/config.js/",
-  "raw_requests": 22,
+  "raw_requests": 23,
   "version": 2
 }

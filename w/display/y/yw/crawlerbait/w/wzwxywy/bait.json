@@ -11,6 +11,10 @@
     },
     {
       "events": 1,
+      "id": "06dea2cadff0781d983427ec"
+    },
+    {
+      "events": 1,
       "id": "42430e82f65969851f4f0068"
     },
     {
@@ -44,10 +48,10 @@
   ],
   "first_seen": "2026-09-18T04:40:48Z",
   "id": "8730d0bcc46eca0b5bb7",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 1,
   "observed_path": "/schema.prisma",
   "public_href": "/crawlerbait/bait/schema.prisma/",
-  "raw_requests": 11,
+  "raw_requests": 12,
   "version": 2
 }

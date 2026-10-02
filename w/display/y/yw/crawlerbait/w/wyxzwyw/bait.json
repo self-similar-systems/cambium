@@ -15,6 +15,10 @@
     },
     {
       "events": 1,
+      "id": "06dea2cadff0781d983427ec"
+    },
+    {
+      "events": 1,
       "id": "73a941f61e8f9ebd1c3ebaec"
     },
     {
@@ -52,10 +56,10 @@
   ],
   "first_seen": "2026-09-14T21:16:19Z",
   "id": "d8c5fc01c634b7a145b1",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 8,
   "observed_path": "/docker/.env",
   "public_href": "/crawlerbait/receipt/d8c5fc01c634b7a145b1/",
-  "raw_requests": 14,
+  "raw_requests": 15,
   "version": 2
 }

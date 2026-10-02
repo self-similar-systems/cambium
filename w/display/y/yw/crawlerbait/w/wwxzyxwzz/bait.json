@@ -2,12 +2,12 @@
   "bait_address": "wxzyxwzz",
   "crawlers": [
     {
-      "events": 1,
-      "id": "08a9c2a95b1cd04e9f9b6829"
+      "events": 2,
+      "id": "25f611a8a0cbf2c56771e24f"
     },
     {
       "events": 1,
-      "id": "25f611a8a0cbf2c56771e24f"
+      "id": "08a9c2a95b1cd04e9f9b6829"
     },
     {
       "events": 1,
@@ -32,10 +32,10 @@
   ],
   "first_seen": "2026-09-16T22:09:07Z",
   "id": "1b4a465874da2ef8e513",
-  "last_seen": "2026-09-30T01:00:57Z",
+  "last_seen": "2026-10-02T00:47:09Z",
   "legacy_404_observations": 3,
   "observed_path": "/GEMINI.md",
   "public_href": "/crawlerbait/bait/GEMINI.md/",
-  "raw_requests": 7,
+  "raw_requests": 8,
   "version": 2
 }

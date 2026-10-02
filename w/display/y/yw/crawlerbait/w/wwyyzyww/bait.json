@@ -271,6 +271,10 @@
     },
     {
       "events": 1,
+      "id": "8edf48b3e2ddd4c46d76702e"
+    },
+    {
+      "events": 1,
       "id": "8ee97967a9e2ab0ab208186c"
     },
     {
@@ -432,10 +436,10 @@
   ],
   "first_seen": "2026-09-12T22:09:07Z",
   "id": "3ec26e4f0817b37785cd",
-  "last_seen": "2026-10-01T14:55:05Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 15,
   "observed_path": "/.git/config",
   "public_href": "/crawlerbait/receipt/3ec26e4f0817b37785cd/",
-  "raw_requests": 127,
+  "raw_requests": 128,
   "version": 2
 }

@@ -3,6 +3,10 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "06dea2cadff0781d983427ec"
+    },
+    {
+      "events": 1,
       "id": "2078d4a3496e6eb5c2f21fc7"
     },
     {
@@ -32,10 +36,10 @@
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "baf3b57b14f8813bb02f",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 0,
   "observed_path": "/runtime-env.js",
   "public_href": "/crawlerbait/bait/runtime-env.js/",
-  "raw_requests": 7,
+  "raw_requests": 8,
   "version": 2
 }

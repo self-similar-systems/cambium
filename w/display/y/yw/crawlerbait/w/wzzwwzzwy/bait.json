@@ -15,15 +15,19 @@
     },
     {
       "events": 1,
+      "id": "d5783d338cccf44d404663f8"
+    },
+    {
+      "events": 1,
       "id": "def4106d758c5337a1f6c3e6"
     }
   ],
   "first_seen": "2026-09-21T23:42:40Z",
   "id": "a0a342b9319fca95b911",
-  "last_seen": "2026-09-29T16:57:29Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 0,
   "observed_path": "/.env.production.local",
   "public_href": "/crawlerbait/receipt/a0a342b9319fca95b911/",
-  "raw_requests": 5,
+  "raw_requests": 6,
   "version": 2
 }

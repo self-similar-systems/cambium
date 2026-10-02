@@ -15,6 +15,10 @@
     },
     {
       "events": 1,
+      "id": "06dea2cadff0781d983427ec"
+    },
+    {
+      "events": 1,
       "id": "1a3e38f4a76b50490c8ff869"
     },
     {
@@ -52,10 +56,10 @@
   ],
   "first_seen": "2026-09-15T22:09:07Z",
   "id": "e31c80b0fb8251ad89f6",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:07Z",
   "legacy_404_observations": 9,
   "observed_path": "/env.js",
   "public_href": "/crawlerbait/bait/env.js/",
-  "raw_requests": 13,
+  "raw_requests": 14,
   "version": 2
 }

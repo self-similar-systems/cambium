@@ -51,6 +51,10 @@
     },
     {
       "events": 2,
+      "id": "b800e38eb4186734fe533d6a"
+    },
+    {
+      "events": 2,
       "id": "bfdf7c34f2edd1653fc64ea6"
     },
     {
@@ -428,10 +432,10 @@
   ],
   "first_seen": "2026-09-13T22:09:07Z",
   "id": "b18036488649e7cc8a55",
-  "last_seen": "2026-10-01T13:06:09Z",
+  "last_seen": "2026-10-02T00:36:24Z",
   "legacy_404_observations": 44,
   "observed_path": "/favicon.ico",
   "public_href": "/crawlerbait/bait/favicon.ico/",
-  "raw_requests": 139,
+  "raw_requests": 141,
   "version": 2
 }

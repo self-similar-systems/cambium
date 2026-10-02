@@ -47,6 +47,10 @@
     },
     {
       "events": 1,
+      "id": "2997631f13642dc5dd2c9714"
+    },
+    {
+      "events": 1,
       "id": "2ba10259206cfa8421357e62"
     },
     {
@@ -148,10 +152,10 @@
   ],
   "first_seen": "2026-09-12T22:09:07Z",
   "id": "a397c8c79032c8a19624",
-  "last_seen": "2026-10-01T15:30:18Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 15,
   "observed_path": "/.env.production",
   "public_href": "/crawlerbait/receipt/a397c8c79032c8a19624/",
-  "raw_requests": 45,
+  "raw_requests": 46,
   "version": 2
 }

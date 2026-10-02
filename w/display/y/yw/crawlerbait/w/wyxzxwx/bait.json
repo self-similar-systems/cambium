@@ -23,6 +23,10 @@
     },
     {
       "events": 1,
+      "id": "d5783d338cccf44d404663f8"
+    },
+    {
+      "events": 1,
       "id": "def4106d758c5337a1f6c3e6"
     },
     {
@@ -36,10 +40,10 @@
   ],
   "first_seen": "2026-09-18T04:40:48Z",
   "id": "d91024f4d52a5546d3cd",
-  "last_seen": "2026-09-30T08:55:46Z",
+  "last_seen": "2026-10-02T01:12:08Z",
   "legacy_404_observations": 1,
   "observed_path": "/docker-compose.yaml",
   "public_href": "/crawlerbait/bait/docker-compose.yaml/",
-  "raw_requests": 9,
+  "raw_requests": 10,
   "version": 2
 }
