@@ -1,17 +1,12 @@
 {
   "bait_address": "xwwywx",
-  "crawlers": [
-    {
-      "events": 1,
-      "id": "bfe444f0d5891630599f7b03"
-    }
-  ],
-  "first_seen": "2026-09-24T11:05:03Z",
-  "id": "43167f33b46b3516295d",
-  "last_seen": "2026-09-24T11:05:03Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/assets/31b17dc0770aa960/site-organism-philosophy.css",
-  "public_href": "/crawlerbait/bait/assets/31b17dc0770aa960/site-organism-philosophy.css/",
-  "raw_requests": 1,
+  "crawlers": [],
+  "first_seen": "2026-09-14T22:09:07Z",
+  "id": "431ebf4c79a92d08ab96",
+  "last_seen": "2026-09-15T22:09:07Z",
+  "legacy_404_observations": 2,
+  "observed_path": "/~/a9beb0b13a65a0824601d367",
+  "public_href": "/crawlerbait/bait/~/a9beb0b13a65a0824601d367/",
+  "raw_requests": 0,
   "version": 2
 }

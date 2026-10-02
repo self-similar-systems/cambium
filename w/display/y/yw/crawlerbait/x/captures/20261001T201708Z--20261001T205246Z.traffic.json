@@ -204,6 +204,7 @@
       "domain": "crawlerbait:path:v1",
       "key_epoch": "v1",
       "offered_public_paths_literal": true,
+      "offered_resolution": "exact-source-owned-public-artifact-v1",
       "raw_unoffered_path_persisted": false,
       "scheme": "literal offered path else HMAC-SHA256 opaque Bait path"
     },
@@ -222,7 +223,7 @@
               {
                 "beingId": "6d0b433e90a0970a765c86a2",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/robots.txt",
+                "clientRequestPath": "/~/1c59a749625b9700fc36d048",
                 "datetime": "2026-10-01T20:21:05Z",
                 "edgeResponseStatus": 200
               },
@@ -264,7 +265,7 @@
               {
                 "beingId": "6d0b433e90a0970a765c86a2",
                 "clientRequestHTTPMethodName": "GET",
-                "clientRequestPath": "/robots.txt",
+                "clientRequestPath": "/~/1c59a749625b9700fc36d048",
                 "datetime": "2026-10-01T20:21:05Z",
                 "edgeResponseStatus": 301
               },

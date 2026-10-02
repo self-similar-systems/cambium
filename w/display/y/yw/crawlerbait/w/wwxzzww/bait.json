@@ -3,15 +3,27 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "bfe444f0d5891630599f7b03"
+      "id": "434424de2bc9a5b9fd213bdf"
+    },
+    {
+      "events": 1,
+      "id": "82b6c68c42bfcca4f04e8303"
+    },
+    {
+      "events": 1,
+      "id": "9456e89eb12db278b610779e"
+    },
+    {
+      "events": 1,
+      "id": "eb181149c03d68aef94b779e"
     }
   ],
-  "first_seen": "2026-09-24T11:05:11Z",
-  "id": "1a0d84c0fe27583faa34",
-  "last_seen": "2026-09-24T11:05:11Z",
+  "first_seen": "2026-09-23T01:01:59Z",
+  "id": "1a042a8bc9e5dbb6e083",
+  "last_seen": "2026-09-23T11:29:33Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/31b17dc0770aa960/dependencies/chenglou-pretext/analysis.js",
-  "public_href": "/crawlerbait/bait/assets/31b17dc0770aa960/dependencies/chenglou-pretext/analysis.js/",
-  "raw_requests": 1,
+  "observed_path": "/~/50e59630f0d9e62da76d1c33",
+  "public_href": "/crawlerbait/bait/~/50e59630f0d9e62da76d1c33/",
+  "raw_requests": 4,
   "version": 2
 }

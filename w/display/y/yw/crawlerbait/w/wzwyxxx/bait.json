@@ -1,17 +1,12 @@
 {
   "bait_address": "zwyxxx",
-  "crawlers": [
-    {
-      "events": 1,
-      "id": "002b9d7f56ed121491fdb5d0"
-    }
-  ],
-  "first_seen": "2026-09-21T23:53:06Z",
-  "id": "8d54e2126b93067fae84",
-  "last_seen": "2026-09-21T23:53:06Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/~/c477d1f986a1fd10011d81ff",
-  "public_href": "/crawlerbait/bait/~/c477d1f986a1fd10011d81ff/",
-  "raw_requests": 1,
+  "crawlers": [],
+  "first_seen": "2026-09-18T04:40:48Z",
+  "id": "8d5a4d91c465be1fca70",
+  "last_seen": "2026-09-18T11:13:56Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/~/c274cecabe56a08802c89b2f",
+  "public_href": "/crawlerbait/bait/~/c274cecabe56a08802c89b2f/",
+  "raw_requests": 0,
   "version": 2
 }

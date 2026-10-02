@@ -1,25 +1,12 @@
 {
   "bait_address": "xxwyxy",
-  "crawlers": [
-    {
-      "events": 1,
-      "id": "4e4d153745975d3d38483d2d"
-    },
-    {
-      "events": 1,
-      "id": "de901358b691ef53d915c08c"
-    },
-    {
-      "events": 1,
-      "id": "e507b0d277e36ef1a47ffef2"
-    }
-  ],
-  "first_seen": "2026-10-01T13:04:57Z",
-  "id": "5375c74a1b2ac6172741",
-  "last_seen": "2026-10-01T16:05:08Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/assets/cba41945309f848a/site-runtime.css",
-  "public_href": "/crawlerbait/bait/assets/cba41945309f848a/site-runtime.css/",
-  "raw_requests": 3,
+  "crawlers": [],
+  "first_seen": "2026-09-17T21:58:07Z",
+  "id": "53714130645da54daaf3",
+  "last_seen": "2026-09-18T04:40:48Z",
+  "legacy_404_observations": 24,
+  "observed_path": "/~/017968bf21f0b32e6daddcde",
+  "public_href": "/crawlerbait/bait/~/017968bf21f0b32e6daddcde/",
+  "raw_requests": 0,
   "version": 2
 }

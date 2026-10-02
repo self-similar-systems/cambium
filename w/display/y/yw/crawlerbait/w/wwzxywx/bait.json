@@ -3,15 +3,35 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "08eb21f48a34bf57a9b9c2df"
+      "id": "057a58677faf884a7b3874c9"
+    },
+    {
+      "events": 1,
+      "id": "3506537e8659aea5c01114b5"
+    },
+    {
+      "events": 1,
+      "id": "9caebc8cb7405cb1b57a7cc4"
+    },
+    {
+      "events": 1,
+      "id": "ee4ef907877be5b8b8d75e04"
+    },
+    {
+      "events": 1,
+      "id": "f6a95dbc1fefb82a3c45152b"
+    },
+    {
+      "events": 1,
+      "id": "ff1e2786850c452cdc7e2384"
     }
   ],
-  "first_seen": "2026-09-30T20:28:52Z",
-  "id": "27185d9a5b9411323f99",
-  "last_seen": "2026-09-30T20:28:52Z",
+  "first_seen": "2026-09-14T21:16:40Z",
+  "id": "271a22cddeb91a56be8a",
+  "last_seen": "2026-09-27T23:37:01Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/4c46f08d70c44bde/address.js",
-  "public_href": "/crawlerbait/bait/assets/4c46f08d70c44bde/address.js/",
-  "raw_requests": 1,
+  "observed_path": "/~/2a235ed1eed72f934f7d4011",
+  "public_href": "/crawlerbait/bait/~/2a235ed1eed72f934f7d4011/",
+  "raw_requests": 6,
   "version": 2
 }

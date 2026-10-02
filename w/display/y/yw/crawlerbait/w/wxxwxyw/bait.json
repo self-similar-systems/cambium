@@ -3,19 +3,35 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "042cec9b49e4ed8dbe44a37e"
+      "id": "549c312373d26e26c25db3e9"
     },
     {
       "events": 1,
-      "id": "a5b91ea0d8caaa11b9502859"
+      "id": "5dab2b741aa56d920a212996"
+    },
+    {
+      "events": 1,
+      "id": "76a4525da6bc7d89c339dfba"
+    },
+    {
+      "events": 1,
+      "id": "7e9521bca82b04d542449e0c"
+    },
+    {
+      "events": 1,
+      "id": "d66d3f2be9ce57aee7593e87"
+    },
+    {
+      "events": 1,
+      "id": "dcc6b6c6d07708e42b4c4b81"
     }
   ],
-  "first_seen": "2026-09-19T12:50:38Z",
-  "id": "51ccfab8f4f09ddc65eb",
-  "last_seen": "2026-09-19T14:28:06Z",
+  "first_seen": "2026-09-27T18:36:25Z",
+  "id": "51c846461fc354b8a399",
+  "last_seen": "2026-09-28T08:19:14Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/577b7644e561034c/locus-shader.js",
-  "public_href": "/crawlerbait/bait/assets/577b7644e561034c/locus-shader.js/",
-  "raw_requests": 2,
+  "observed_path": "/~/27e8f2b91b3e97ebceb87369",
+  "public_href": "/crawlerbait/bait/~/27e8f2b91b3e97ebceb87369/",
+  "raw_requests": 6,
   "version": 2
 }

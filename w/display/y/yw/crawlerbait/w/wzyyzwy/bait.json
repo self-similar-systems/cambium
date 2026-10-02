@@ -2,20 +2,20 @@
   "bait_address": "zyyzwy",
   "crawlers": [
     {
-      "events": 1,
-      "id": "a391e21bb84344fccd0df0d5"
+      "events": 3,
+      "id": "883cf15421cb0235e38a4405"
     },
     {
       "events": 1,
-      "id": "f6a95dbc1fefb82a3c45152b"
+      "id": "a8498e09f6ea5d67ff9a9d63"
     }
   ],
-  "first_seen": "2026-09-20T02:17:48Z",
-  "id": "be3de337d66191beea27",
-  "last_seen": "2026-09-25T03:50:33Z",
+  "first_seen": "2026-09-21T12:14:34Z",
+  "id": "be3d8e0fa02a3fb8aa4a",
+  "last_seen": "2026-09-21T12:14:36Z",
   "legacy_404_observations": 0,
-  "observed_path": "/~/a9d3f00c5d60411a542f5e8d",
-  "public_href": "/crawlerbait/bait/~/a9d3f00c5d60411a542f5e8d/",
-  "raw_requests": 2,
+  "observed_path": "/~/ddff620e216ac5ef1b95cbee",
+  "public_href": "/crawlerbait/bait/~/ddff620e216ac5ef1b95cbee/",
+  "raw_requests": 4,
   "version": 2
 }

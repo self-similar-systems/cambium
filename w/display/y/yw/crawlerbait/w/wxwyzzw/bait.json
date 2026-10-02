@@ -3,15 +3,23 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "dd01e83b1cd5f7ece7bec48a"
+      "id": "4e4d153745975d3d38483d2d"
+    },
+    {
+      "events": 1,
+      "id": "7aa213f57343cc0027c20331"
+    },
+    {
+      "events": 1,
+      "id": "b6b7490ca61531e9c08c08b4"
     }
   ],
-  "first_seen": "2026-09-21T21:57:39Z",
-  "id": "4e8f07b0c62625d83ee6",
-  "last_seen": "2026-09-21T21:57:39Z",
+  "first_seen": "2026-10-01T16:11:02Z",
+  "id": "4e88ce8d895799a68365",
+  "last_seen": "2026-10-01T19:05:35Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/6028743bbf865440/site-organism-papers.css",
-  "public_href": "/crawlerbait/bait/assets/6028743bbf865440/site-organism-papers.css/",
-  "raw_requests": 1,
+  "observed_path": "/~/4174f17d000ed08c977f70e5",
+  "public_href": "/crawlerbait/bait/~/4174f17d000ed08c977f70e5/",
+  "raw_requests": 3,
   "version": 2
 }

@@ -3,19 +3,15 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "7c6d9218e149d5594ee05ced"
-    },
-    {
-      "events": 1,
-      "id": "833e24666df86ce4b0d0369a"
+      "id": "00a497d923e2e771c7b2dd33"
     }
   ],
-  "first_seen": "2026-09-20T05:24:55Z",
-  "id": "8dd1861d83ff7831946c",
-  "last_seen": "2026-09-20T05:25:03Z",
+  "first_seen": "2026-09-18T22:38:31Z",
+  "id": "8dd757f809eaa6eed92e",
+  "last_seen": "2026-09-18T22:38:31Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/b770d366221be02b/locus-shader.js",
-  "public_href": "/crawlerbait/bait/assets/b770d366221be02b/locus-shader.js/",
-  "raw_requests": 2,
+  "observed_path": "/~/5e82a6a78ad0d30f8b01001b",
+  "public_href": "/crawlerbait/bait/~/5e82a6a78ad0d30f8b01001b/",
+  "raw_requests": 1,
   "version": 2
 }

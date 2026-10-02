@@ -3,15 +3,23 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "10e1c5d5922eb4e12ead1ab0"
+      "id": "4e4d153745975d3d38483d2d"
+    },
+    {
+      "events": 1,
+      "id": "5af4ec9de4b49c3263095343"
+    },
+    {
+      "events": 1,
+      "id": "e507b0d277e36ef1a47ffef2"
     }
   ],
-  "first_seen": "2026-09-23T21:24:58Z",
-  "id": "a3570a8090ab672c83c0",
-  "last_seen": "2026-09-23T21:24:58Z",
+  "first_seen": "2026-10-01T11:56:28Z",
+  "id": "a35aeec9f5ff93f9f3f4",
+  "last_seen": "2026-10-01T16:05:08Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/7f2e4e127098fd5d/navigation-physiology.js",
-  "public_href": "/crawlerbait/bait/assets/7f2e4e127098fd5d/navigation-physiology.js/",
-  "raw_requests": 1,
+  "observed_path": "/~/e21648c52ad1ed755e3e45fa",
+  "public_href": "/crawlerbait/bait/~/e21648c52ad1ed755e3e45fa/",
+  "raw_requests": 3,
   "version": 2
 }

@@ -1,17 +1,12 @@
 {
   "bait_address": "wzwywx",
-  "crawlers": [
-    {
-      "events": 1,
-      "id": "5e84fa2300641415ae98201d"
-    }
-  ],
-  "first_seen": "2026-09-23T21:24:56Z",
-  "id": "231dd97670df8c76520c",
-  "last_seen": "2026-09-23T21:24:56Z",
-  "legacy_404_observations": 0,
-  "observed_path": "/assets/7f2e4e127098fd5d/site-holon.js",
-  "public_href": "/crawlerbait/bait/assets/7f2e4e127098fd5d/site-holon.js/",
-  "raw_requests": 1,
+  "crawlers": [],
+  "first_seen": "2026-09-18T04:40:48Z",
+  "id": "2318a4a6bd64f5341f2b",
+  "last_seen": "2026-09-18T11:13:56Z",
+  "legacy_404_observations": 1,
+  "observed_path": "/~/4ebc841ec8dbb311e3c56e42",
+  "public_href": "/crawlerbait/bait/~/4ebc841ec8dbb311e3c56e42/",
+  "raw_requests": 0,
   "version": 2
 }

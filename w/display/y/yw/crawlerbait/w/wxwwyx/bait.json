@@ -3,15 +3,23 @@
   "crawlers": [
     {
       "events": 1,
-      "id": "6a896112b7589731d43817a3"
+      "id": "549c312373d26e26c25db3e9"
+    },
+    {
+      "events": 1,
+      "id": "d66d3f2be9ce57aee7593e87"
+    },
+    {
+      "events": 1,
+      "id": "dcc6b6c6d07708e42b4c4b81"
     }
   ],
-  "first_seen": "2026-09-30T19:20:48Z",
-  "id": "4342149ca70d3e9c0ccd",
-  "last_seen": "2026-09-30T19:20:48Z",
+  "first_seen": "2026-09-27T20:16:52Z",
+  "id": "43558fdfc11b0ef1cd05",
+  "last_seen": "2026-09-28T08:19:14Z",
   "legacy_404_observations": 0,
-  "observed_path": "/assets/6e1ae182a63eedde/site-organism-schattenseiten.js",
-  "public_href": "/crawlerbait/bait/assets/6e1ae182a63eedde/site-organism-schattenseiten.js/",
-  "raw_requests": 1,
+  "observed_path": "/~/c89ef292c48ae21203916459",
+  "public_href": "/crawlerbait/bait/~/c89ef292c48ae21203916459/",
+  "raw_requests": 3,
   "version": 2
 }
