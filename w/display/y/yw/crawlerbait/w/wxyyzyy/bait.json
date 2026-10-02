@@ -127,6 +127,10 @@
     },
     {
       "events": 1,
+      "id": "74f6e3235fe873903e7d7382"
+    },
+    {
+      "events": 1,
       "id": "a368131e96ea6467df178016"
     },
     {
@@ -160,10 +164,10 @@
   ],
   "first_seen": "2026-09-15T22:09:07Z",
   "id": "7efd2a819481844ebcfd",
-  "last_seen": "2026-10-01T06:25:11Z",
+  "last_seen": "2026-10-02T06:36:46Z",
   "legacy_404_observations": 51,
   "observed_path": "/sitemap.xml",
   "public_href": "/crawlerbait/bait/sitemap.xml/",
-  "raw_requests": 81,
+  "raw_requests": 82,
   "version": 2
 }

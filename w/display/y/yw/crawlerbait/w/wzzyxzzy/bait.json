@@ -355,6 +355,10 @@
     },
     {
       "events": 1,
+      "id": "74f6e3235fe873903e7d7382"
+    },
+    {
+      "events": 1,
       "id": "77abc6dc349ad0a0ded46aa2"
     },
     {
@@ -504,10 +508,10 @@
   ],
   "first_seen": "2026-09-13T20:38:21Z",
   "id": "adada1317532a28bebf6",
-  "last_seen": "2026-10-01T23:35:02Z",
+  "last_seen": "2026-10-02T06:36:45Z",
   "legacy_404_observations": 0,
   "observed_path": "/robots.txt",
   "public_href": "/crawlerbait/bait/robots.txt/",
-  "raw_requests": 240,
+  "raw_requests": 241,
   "version": 2
 }
