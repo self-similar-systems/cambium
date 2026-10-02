@@ -772,15 +772,15 @@
     },
     "01be2f08378d7bd1a1af68a3": {
       "baits": {
-        "/": 27
+        "/": 28
       },
-      "events": 27,
+      "events": 28,
       "first_seen": "2026-09-20T06:16:05Z",
-      "genome": "591dfe567df941aeb4b33867b49ce6bf04d1bb23298d9a5df02357eae84d599f",
+      "genome": "0b42685ef9783e1f05861893e4bbc645f568b7c4c7d12190d82c8e12f7ff39ba",
       "id": "01be2f08378d7bd1a1af68a3",
       "kind": "y",
-      "last_seen": "2026-10-01T21:32:54Z",
-      "phenotype_samples": 27
+      "last_seen": "2026-10-02T15:31:02Z",
+      "phenotype_samples": 28
     },
     "01d13967e3169d5fab6dc1a5": {
       "baits": {
@@ -938,15 +938,15 @@
     },
     "02b4cbcf2b94b1309554f489": {
       "baits": {
-        "/": 3
+        "/": 5
       },
-      "events": 3,
+      "events": 5,
       "first_seen": "2026-09-15T10:08:06Z",
-      "genome": "b3a038efb04a73e8a898e69212d93ada28f2cc6ac4ae6adce75cb3349ed9e2d7",
+      "genome": "e4bc483383d7bf0b19c451d64584fe300e61955eaf2c44da2670554abe6f505d",
       "id": "02b4cbcf2b94b1309554f489",
       "kind": "y",
-      "last_seen": "2026-10-01T01:11:29Z",
-      "phenotype_samples": 3
+      "last_seen": "2026-10-02T13:08:00Z",
+      "phenotype_samples": 5
     },
     "02d0343e32281a7cd3724706": {
       "baits": {
@@ -2740,15 +2740,16 @@
     },
     "0f497ccd49005a6eeea9ab08": {
       "baits": {
-        "/~/a0b30e417d8b9aa85a499008": 1
+        "/~/a0b30e417d8b9aa85a499008": 1,
+        "/~/ad5bb7b49e0cddee1371235f": 1
       },
-      "events": 1,
+      "events": 2,
       "first_seen": "2026-09-27T13:57:06Z",
-      "genome": "a3c69c85ccd10eb96d1059e79430d8ada6b8b369dfffded6d01ab0aeb55eb40f",
+      "genome": "c53e65fd924daece70eae4bae0dc48aef73177a802836d220006348a0ff625df",
       "id": "0f497ccd49005a6eeea9ab08",
       "kind": "z",
-      "last_seen": "2026-09-27T13:57:06Z",
-      "phenotype_samples": 1
+      "last_seen": "2026-10-02T16:49:01Z",
+      "phenotype_samples": 2
     },
     "0f56e62fcbae32414b88a4d1": {
       "baits": {
@@ -3868,6 +3869,18 @@
       "kind": "x",
       "last_seen": "2026-09-17T09:58:59Z",
       "phenotype_samples": 2
+    },
+    "174f0b1fb26a846b47fc8d2f": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T16:16:09Z",
+      "genome": "bcc6a787f91f009a05bb1ad6299eaddce5ba3440b448f05f89d6bf7e4b807bb6",
+      "id": "174f0b1fb26a846b47fc8d2f",
+      "kind": "x",
+      "last_seen": "2026-10-02T16:16:09Z",
+      "phenotype_samples": 1
     },
     "1755da3a49fe8883ba1d0935": {
       "baits": {
@@ -7036,6 +7049,18 @@
       "last_seen": "2026-09-16T19:19:00Z",
       "phenotype_samples": 28
     },
+    "2ba72032c330dfe6d011bd27": {
+      "baits": {
+        "/": 2
+      },
+      "events": 2,
+      "first_seen": "2026-10-02T15:07:21Z",
+      "genome": "8276f14786364f1e0faa6ec7f0ccc88e813c0a297661a32b8b73d53c1329ecd1",
+      "id": "2ba72032c330dfe6d011bd27",
+      "kind": "x",
+      "last_seen": "2026-10-02T15:07:21Z",
+      "phenotype_samples": 2
+    },
     "2bafb22e84f9b5384ab1456a": {
       "baits": {
         "/": 1
@@ -7768,6 +7793,18 @@
       "last_seen": "2026-09-18T16:54:03Z",
       "phenotype_samples": 1
     },
+    "314afe1d4313a351dc9e2a08": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T16:21:37Z",
+      "genome": "e4c321682c3da1c58eff3a55bae7e7f573be33f75e1b70dd7d7822f62ffaf640",
+      "id": "314afe1d4313a351dc9e2a08",
+      "kind": "x",
+      "last_seen": "2026-10-02T16:21:37Z",
+      "phenotype_samples": 1
+    },
     "31539f9b2d490dab0a9a5e3d": {
       "baits": {
         "/": 1
@@ -8385,15 +8422,16 @@
     },
     "35bd04a13d86d8f1af745f4b": {
       "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1,
         "/__live/~/b079c6591e071894c0861245": 2
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-27T12:40:34Z",
-      "genome": "c3b8737ddd9ff35e1f224351d52da35fa2d8f2fc6a47d9a281f0269589e45bac",
+      "genome": "c6dbdd4d02f1b9c10c2382190e3786d537a7516c9b93b843cb50e94c47f3e487",
       "id": "35bd04a13d86d8f1af745f4b",
       "kind": "w",
-      "last_seen": "2026-09-27T12:40:48Z",
-      "phenotype_samples": 2
+      "last_seen": "2026-10-02T16:43:31Z",
+      "phenotype_samples": 3
     },
     "35c5300da90c92c435769dc0": {
       "baits": {
@@ -11432,6 +11470,18 @@
       "last_seen": "2026-09-25T10:09:32Z",
       "phenotype_samples": 1
     },
+    "4e78b34daeead7fa0e1f4e68": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T16:21:14Z",
+      "genome": "e5924da5b151ca5a57b2603d777377e8bade0dac722b62e871ba581d9d3ea841",
+      "id": "4e78b34daeead7fa0e1f4e68",
+      "kind": "w",
+      "last_seen": "2026-10-02T16:21:14Z",
+      "phenotype_samples": 1
+    },
     "4e7f9ceaf20dc334b5994f8b": {
       "baits": {
         "/": 2
@@ -11581,15 +11631,15 @@
     },
     "4fdd2dab4b89ac19dbb1c9d5": {
       "baits": {
-        "/": 2
+        "/": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-24T13:07:51Z",
-      "genome": "33b1723255824806ee1468be4fae371e54b3d1e5bb1a0aa8f512f2b09ea17422",
+      "genome": "12a79e2f89336d570de8119eca7a3dd23e6c514f323c0dd1a25a73c2a7ad6841",
       "id": "4fdd2dab4b89ac19dbb1c9d5",
-      "kind": "x",
-      "last_seen": "2026-09-24T13:07:52Z",
-      "phenotype_samples": 2
+      "kind": "y",
+      "last_seen": "2026-10-02T13:04:22Z",
+      "phenotype_samples": 3
     },
     "5024c4b4ee68f50375486ac7": {
       "baits": {
@@ -11800,6 +11850,18 @@
       "kind": "y",
       "last_seen": "2026-09-25T10:08:02Z",
       "phenotype_samples": 5
+    },
+    "5206fd29703573bf4e4e5af7": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T13:02:46Z",
+      "genome": "0e74e2d724bf7a69e59343aab5b424be6562a740452704ad00f7c2aed3f2b13a",
+      "id": "5206fd29703573bf4e4e5af7",
+      "kind": "x",
+      "last_seen": "2026-10-02T13:02:46Z",
+      "phenotype_samples": 1
     },
     "522358b25378d042ff61dcb2": {
       "baits": {
@@ -12182,6 +12244,19 @@
       "kind": "z",
       "last_seen": "2026-09-15T17:57:59Z",
       "phenotype_samples": 1
+    },
+    "564df01ebaf447bdf9c223e3": {
+      "baits": {
+        "/": 1,
+        "/~/2f3ac9f5a06104ae77c93575": 1
+      },
+      "events": 2,
+      "first_seen": "2026-10-02T13:00:59Z",
+      "genome": "cff9bd5b3ecb29881e0590b7d06a4c175c5fc7ba3ffbf3d611839b352dfc4ddf",
+      "id": "564df01ebaf447bdf9c223e3",
+      "kind": "z",
+      "last_seen": "2026-10-02T13:01:00Z",
+      "phenotype_samples": 2
     },
     "56785270241a051d0f606469": {
       "baits": {
@@ -12701,6 +12776,18 @@
       "id": "5aa0ba3b8775e81e50c334cd",
       "kind": "x",
       "last_seen": "2026-09-16T01:43:28Z",
+      "phenotype_samples": 1
+    },
+    "5aaaa8b3d9e020a682e2a83d": {
+      "baits": {
+        "/~/93ebdf4dd7209b85a4dd4a13": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T17:54:49Z",
+      "genome": "805d360ab30c0c3515f91ff690cb06cfb80cfb8e115001d24f2e79b87f4270c0",
+      "id": "5aaaa8b3d9e020a682e2a83d",
+      "kind": "z",
+      "last_seen": "2026-10-02T17:54:49Z",
       "phenotype_samples": 1
     },
     "5aba52e8c8866e03fa20fc44": {
@@ -13260,15 +13347,16 @@
     },
     "5e799495316e57f07453e0e6": {
       "baits": {
+        "/~/2567328ee21f2043599ffa53": 4,
         "/~/30fd7bf274865063b48c908c": 950
       },
-      "events": 950,
+      "events": 954,
       "first_seen": "2026-09-13T20:18:42Z",
-      "genome": "ded5041e53901aa61718d0d271fa43ba3ec21efe1fa1365e22307cc758197c8d",
+      "genome": "6882be1397625573cba39492c612eed12983dd166a338c2d558e2a25a91f1cd4",
       "id": "5e799495316e57f07453e0e6",
       "kind": "z",
-      "last_seen": "2026-10-02T12:00:31Z",
-      "phenotype_samples": 950
+      "last_seen": "2026-10-02T17:59:41Z",
+      "phenotype_samples": 954
     },
     "5e84fa2300641415ae98201d": {
       "baits": {
@@ -13378,6 +13466,18 @@
       "kind": "x",
       "last_seen": "2026-09-17T23:27:45Z",
       "phenotype_samples": 2
+    },
+    "5f725b504235af057dd15ea1": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T14:44:10Z",
+      "genome": "71721fd789615f371a3e75cc0da9bfb8ad7faca5f7cf9dd4a86fb404611a40f4",
+      "id": "5f725b504235af057dd15ea1",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:44:10Z",
+      "phenotype_samples": 1
     },
     "5f728c22da112efd1174c2be": {
       "baits": {
@@ -13949,6 +14049,18 @@
       "id": "6345eb3e15a185d11a3fe9d0",
       "kind": "z",
       "last_seen": "2026-09-14T06:57:23Z",
+      "phenotype_samples": 1
+    },
+    "636663e618bfcbbe1d9e93d3": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T13:49:42Z",
+      "genome": "352d1252f6bf16e59c76768e425ea4f5d72899f0f42e8c5ca997429f388e2b5c",
+      "id": "636663e618bfcbbe1d9e93d3",
+      "kind": "x",
+      "last_seen": "2026-10-02T13:49:42Z",
       "phenotype_samples": 1
     },
     "63680f29911fee8d68296705": {
@@ -16959,17 +17071,18 @@
     },
     "77d82ebcde0dd40f22896313": {
       "baits": {
-        "/": 1,
-        "/~/0d99fef165d419e2334ae00c": 1,
+        "/": 3,
+        "/assets/dd8c58b963ff926f/favicon.svg": 1,
+        "/~/0d99fef165d419e2334ae00c": 2,
         "/~/d705dae5eca377d31895cdec": 1
       },
-      "events": 3,
+      "events": 7,
       "first_seen": "2026-09-24T12:43:45Z",
-      "genome": "2a8409ae2012184e8caa7a51d7284971ae4b8106c6288eed3cc1230464238a0d",
+      "genome": "1c21f984317d95cf76de3f8ee6ef630eaf099361919309c3ad75850372fb0f3b",
       "id": "77d82ebcde0dd40f22896313",
       "kind": "z",
-      "last_seen": "2026-09-24T12:43:47Z",
-      "phenotype_samples": 3
+      "last_seen": "2026-10-02T15:29:03Z",
+      "phenotype_samples": 7
     },
     "7820a25b32a9edddd9517853": {
       "baits": {
@@ -17577,6 +17690,18 @@
       "last_seen": "2026-09-19T03:04:19Z",
       "phenotype_samples": 1
     },
+    "7da3338797aca034ede392ae": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T15:44:50Z",
+      "genome": "4a76ead600443a3c181bc11b6be931e5918784d44ce9a823611368660c9e4078",
+      "id": "7da3338797aca034ede392ae",
+      "kind": "x",
+      "last_seen": "2026-10-02T15:44:50Z",
+      "phenotype_samples": 1
+    },
     "7da8d9c69a633d7efb0e3f2e": {
       "baits": {
         "/~/0d99fef165d419e2334ae00c": 1
@@ -17866,6 +17991,18 @@
       "last_seen": "2026-09-18T20:59:49Z",
       "phenotype_samples": 1
     },
+    "7fa1d825808ddfbe98b5a344": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T15:30:26Z",
+      "genome": "2c80969678153bc76d5b247f49133e57a648bead83010ccda03d10efcdf28e7f",
+      "id": "7fa1d825808ddfbe98b5a344",
+      "kind": "x",
+      "last_seen": "2026-10-02T15:30:26Z",
+      "phenotype_samples": 1
+    },
     "7fc3474ebaf29b0c3428969a": {
       "baits": {
         "/": 3,
@@ -18145,6 +18282,18 @@
       "kind": "z",
       "last_seen": "2026-09-17T07:13:40Z",
       "phenotype_samples": 3
+    },
+    "8131c31a9e07bb6fd556d5f7": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 2
+      },
+      "events": 2,
+      "first_seen": "2026-10-02T14:43:41Z",
+      "genome": "eaf896620cff9f7a30f1af14a61d9f1c6f0409bd8129960073b2671c34590673",
+      "id": "8131c31a9e07bb6fd556d5f7",
+      "kind": "w",
+      "last_seen": "2026-10-02T14:47:45Z",
+      "phenotype_samples": 2
     },
     "81366b52f000dbc11c087b51": {
       "baits": {
@@ -19388,15 +19537,15 @@
     },
     "89995cef82c56500b57f4d4f": {
       "baits": {
-        "/~/1c59a749625b9700fc36d048": 2
+        "/~/1c59a749625b9700fc36d048": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-09-13T23:10:12Z",
-      "genome": "c43eb2076421fe7b378ff64cf8c75dc45e5223257d6c55a16c2e4e86484fe696",
+      "genome": "a950f8ab9649240f18d6ea9a9092deb891d641a7de3ab26dbfe9448b90ad36ed",
       "id": "89995cef82c56500b57f4d4f",
       "kind": "z",
-      "last_seen": "2026-09-21T23:20:08Z",
-      "phenotype_samples": 2
+      "last_seen": "2026-10-02T15:36:44Z",
+      "phenotype_samples": 3
     },
     "89ae50e56a4345b3f9eed880": {
       "baits": {
@@ -19763,7 +19912,35 @@
     },
     "8ce97ae7558f93ec1c857c41": {
       "baits": {
-        "/": 2,
+        "/": 4,
+        "/assets/dd8c58b963ff926f/address.js": 1,
+        "/assets/dd8c58b963ff926f/display-glass.js": 1,
+        "/assets/dd8c58b963ff926f/display-label-ink.js": 1,
+        "/assets/dd8c58b963ff926f/display-lens.js": 1,
+        "/assets/dd8c58b963ff926f/display-runtime-v2.js": 1,
+        "/assets/dd8c58b963ff926f/display-safe-area.css": 1,
+        "/assets/dd8c58b963ff926f/display-safe-area.js": 1,
+        "/assets/dd8c58b963ff926f/display-text-tissue.js": 1,
+        "/assets/dd8c58b963ff926f/display-type.js": 1,
+        "/assets/dd8c58b963ff926f/favicon.svg": 1,
+        "/assets/dd8c58b963ff926f/interlocutors.css": 1,
+        "/assets/dd8c58b963ff926f/locus-shader.js": 1,
+        "/assets/dd8c58b963ff926f/navigation-aperture.css": 1,
+        "/assets/dd8c58b963ff926f/navigation-aperture.js": 1,
+        "/assets/dd8c58b963ff926f/navigation-physiology.js": 1,
+        "/assets/dd8c58b963ff926f/root-view.css": 1,
+        "/assets/dd8c58b963ff926f/site-fold.js": 1,
+        "/assets/dd8c58b963ff926f/site-holon.js": 1,
+        "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js": 1,
+        "/assets/dd8c58b963ff926f/site-organism-papers.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-papers.js": 1,
+        "/assets/dd8c58b963ff926f/site-organism-philosophy.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-philosophy.js": 1,
+        "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css": 1,
+        "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js": 1,
+        "/assets/dd8c58b963ff926f/site-runtime.css": 1,
+        "/assets/dd8c58b963ff926f/world-view.js": 1,
         "/~/1e34407a1dd812015b556b0f": 1,
         "/~/234cb604e7048351c11364ab": 1,
         "/~/242ebb60a8f929a13f6a95a9": 1,
@@ -19774,13 +19951,13 @@
         "/~/a787e0b00e40e427f1c546c3": 1,
         "/~/efd31eebf95f64379f838053": 1
       },
-      "events": 11,
+      "events": 41,
       "first_seen": "2026-09-15T03:23:46Z",
-      "genome": "623cab73ae5db9fea8a808cc919947156feb15040c069002fa1e758c511b1e96",
+      "genome": "0bffaf57a746f753d6202d61653d201f4a98953c9dc81145a1c62b2ca4b31a6c",
       "id": "8ce97ae7558f93ec1c857c41",
       "kind": "z",
-      "last_seen": "2026-09-15T03:23:47Z",
-      "phenotype_samples": 11
+      "last_seen": "2026-10-02T14:26:31Z",
+      "phenotype_samples": 41
     },
     "8d00b0be0cfd95bd91815427": {
       "baits": {
@@ -20224,6 +20401,18 @@
       "id": "8f236d324f5788e80ef30005",
       "kind": "z",
       "last_seen": "2026-09-22T00:29:20Z",
+      "phenotype_samples": 1
+    },
+    "8f6c0608de27bd4820b9c578": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T18:08:55Z",
+      "genome": "2a24777b710a34d5ba63fb091f95914f99e35cea4fcdc105cd0dbb889e93c7aa",
+      "id": "8f6c0608de27bd4820b9c578",
+      "kind": "x",
+      "last_seen": "2026-10-02T18:08:55Z",
       "phenotype_samples": 1
     },
     "8fba27aebd05248fcc2ee55f": {
@@ -22688,17 +22877,17 @@
     },
     "9ffe220c93ba7cfe9fa867b7": {
       "baits": {
-        "/": 2,
+        "/": 3,
         "/~/c08af0b2ed4c6cf2dd119472": 1,
         "/~/d2e01127c96a7799b860f5b3": 1
       },
-      "events": 4,
+      "events": 5,
       "first_seen": "2026-09-30T03:50:02Z",
-      "genome": "9f8fd1eed4ae9fd2b7667c70825d935b2adfaf3e66322aa1ec9ee5a707f7bfb7",
+      "genome": "e35a156eece14bdb71e0f2f6f84038efa83c08f4025258ce624af4725d265121",
       "id": "9ffe220c93ba7cfe9fa867b7",
       "kind": "z",
-      "last_seen": "2026-09-30T03:50:02Z",
-      "phenotype_samples": 4
+      "last_seen": "2026-10-02T15:48:28Z",
+      "phenotype_samples": 5
     },
     "a010878b66bfa92c56af9db6": {
       "baits": {
@@ -23194,6 +23383,18 @@
       "id": "a368131e96ea6467df178016",
       "kind": "z",
       "last_seen": "2026-09-23T10:23:19Z",
+      "phenotype_samples": 1
+    },
+    "a37eaa020bc51748ff18c968": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T14:48:14Z",
+      "genome": "7e6a0cdb53dd10fdc21c1d63334c9ada667eab9a1c35466d9849bc39e363a327",
+      "id": "a37eaa020bc51748ff18c968",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:48:14Z",
       "phenotype_samples": 1
     },
     "a391e21bb84344fccd0df0d5": {
@@ -24169,6 +24370,18 @@
       "last_seen": "2026-09-24T14:07:17Z",
       "phenotype_samples": 1
     },
+    "a9c8193271616c7c166cc16c": {
+      "baits": {
+        "/crawlerbait/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T14:55:09Z",
+      "genome": "0c04cccb31cb040163f72709e0b4d68b165b1caf1cebdc122a8292671a7fd6ad",
+      "id": "a9c8193271616c7c166cc16c",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:55:09Z",
+      "phenotype_samples": 1
+    },
     "a9e176b81335768aac73093e": {
       "baits": {
         "/": 1
@@ -24307,15 +24520,16 @@
     },
     "aacac256694240a31616c76d": {
       "baits": {
-        "/repos/self-similar-systems/~/2b27cfaac0f5ff1c8b675a9f": 140
+        "/repos/self-similar-systems/~/2b27cfaac0f5ff1c8b675a9f": 140,
+        "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2": 8
       },
-      "events": 140,
+      "events": 148,
       "first_seen": "2026-09-26T13:09:01Z",
-      "genome": "3681193de9e93c82e8b555cca6fee7eb5f4811df11a9b5b276960f8b8d525983",
+      "genome": "2d768effe0f8aebdba45e887e0e9d805efa530c4850dc00b294758fe894bfa6f",
       "id": "aacac256694240a31616c76d",
       "kind": "w",
-      "last_seen": "2026-09-27T12:40:49Z",
-      "phenotype_samples": 140
+      "last_seen": "2026-10-02T18:08:31Z",
+      "phenotype_samples": 148
     },
     "aad5923476b34643bbd566c1": {
       "baits": {
@@ -25350,15 +25564,15 @@
     },
     "b31e30e0d25f9d163f2ee97c": {
       "baits": {
-        "/": 4
+        "/": 5
       },
-      "events": 4,
+      "events": 5,
       "first_seen": "2026-09-18T01:12:03Z",
-      "genome": "72f15748d21f89a109450ea9f68a85f7047a3bd56e24214e2597c1af619f11e5",
+      "genome": "bc0a8ac0ffe7a056881d23b599372bf1635bda8280cabbd325105b7e482191f6",
       "id": "b31e30e0d25f9d163f2ee97c",
       "kind": "y",
-      "last_seen": "2026-10-02T05:10:55Z",
-      "phenotype_samples": 4
+      "last_seen": "2026-10-02T15:04:39Z",
+      "phenotype_samples": 5
     },
     "b36448a87a3229b44212cb87": {
       "baits": {
@@ -25563,15 +25777,16 @@
     },
     "b48d00869c5861d73630c4b4": {
       "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1,
         "/__live/~/b079c6591e071894c0861245": 11
       },
-      "events": 11,
+      "events": 12,
       "first_seen": "2026-09-17T15:04:47Z",
-      "genome": "e57c8c0d38ae3601d6acfedd3bdf04f2464cbbbf4c21628f831f00c057892227",
+      "genome": "523d8056f846e27f9e2a5cb0e0088efd5c42b485da9925c1a059b54a1a6eb8fa",
       "id": "b48d00869c5861d73630c4b4",
       "kind": "w",
-      "last_seen": "2026-09-24T15:15:38Z",
-      "phenotype_samples": 11
+      "last_seen": "2026-10-02T15:29:58Z",
+      "phenotype_samples": 12
     },
     "b4a2a4267f0648953ab251f5": {
       "baits": {
@@ -26079,6 +26294,18 @@
       "kind": "x",
       "last_seen": "2026-09-27T08:39:27Z",
       "phenotype_samples": 2
+    },
+    "b74820d5bd1a9d0eebc70c02": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T17:26:28Z",
+      "genome": "05f3bb1c5cb5c479fbb92f187c2ff9534930c0278a2e9e959d6ce7ac31143a6d",
+      "id": "b74820d5bd1a9d0eebc70c02",
+      "kind": "x",
+      "last_seen": "2026-10-02T17:26:28Z",
+      "phenotype_samples": 1
     },
     "b7705a668a172f4ce2999b55": {
       "baits": {
@@ -27449,15 +27676,15 @@
     },
     "bf821352060628b8eaf6f516": {
       "baits": {
-        "/": 5
+        "/": 6
       },
-      "events": 5,
+      "events": 6,
       "first_seen": "2026-09-15T07:04:00Z",
-      "genome": "643b0b085f71e15263993d4d846bc0d2b8d4ef4d6793917648eac51822f9f8b1",
+      "genome": "fee73154847ec98d39afca79b0b9b5cd27a6701ec81528c343afc518332af7ce",
       "id": "bf821352060628b8eaf6f516",
       "kind": "y",
-      "last_seen": "2026-09-19T23:49:03Z",
-      "phenotype_samples": 5
+      "last_seen": "2026-10-02T14:28:26Z",
+      "phenotype_samples": 6
     },
     "bf9388567be7a0b0fc1a179a": {
       "baits": {
@@ -28021,6 +28248,18 @@
       "kind": "z",
       "last_seen": "2026-09-17T07:12:51Z",
       "phenotype_samples": 3
+    },
+    "c2c4726f119ff1b9b533949e": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T16:43:57Z",
+      "genome": "7c626c475c0d34b5efcd54d131a3c460b1bd452777b38317d1b52cf2f042f8d8",
+      "id": "c2c4726f119ff1b9b533949e",
+      "kind": "x",
+      "last_seen": "2026-10-02T16:43:57Z",
+      "phenotype_samples": 1
     },
     "c2cc423c41c4a7c1efd2deba": {
       "baits": {
@@ -29996,6 +30235,18 @@
       "last_seen": "2026-09-23T01:21:50Z",
       "phenotype_samples": 34
     },
+    "d2ce81b9cc91da7aac02c379": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T16:15:44Z",
+      "genome": "fb92cabd2cdeaa2ee5ca25f6d2e51dbcd63e6b878acb285f831b7481590b211c",
+      "id": "d2ce81b9cc91da7aac02c379",
+      "kind": "w",
+      "last_seen": "2026-10-02T16:15:44Z",
+      "phenotype_samples": 1
+    },
     "d31a7f41e893f8b1f0366fa7": {
       "baits": {
         "/": 1
@@ -31394,6 +31645,18 @@
       "last_seen": "2026-09-27T02:18:40Z",
       "phenotype_samples": 1
     },
+    "dd7add5949ef209ff5d0529e": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T17:26:03Z",
+      "genome": "d07a2f7b9c5e461c16038f08bf0ab457b890cda0e118a39187923d4356737cc2",
+      "id": "dd7add5949ef209ff5d0529e",
+      "kind": "w",
+      "last_seen": "2026-10-02T17:26:03Z",
+      "phenotype_samples": 1
+    },
     "ddb122a2700c0be153e3765e": {
       "baits": {
         "/": 1
@@ -31575,6 +31838,18 @@
       "kind": "z",
       "last_seen": "2026-09-14T04:42:00Z",
       "phenotype_samples": 2
+    },
+    "ded5889373dc9d87367f72fc": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T14:20:02Z",
+      "genome": "1301bd8bc30af30e9aac570518841cf2945b3f4855b88598831050aab942c5e5",
+      "id": "ded5889373dc9d87367f72fc",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:20:02Z",
+      "phenotype_samples": 1
     },
     "def1b56382a5d83ccf1c6351": {
       "baits": {
@@ -32723,6 +32998,18 @@
       "last_seen": "2026-09-29T21:25:18Z",
       "phenotype_samples": 1
     },
+    "e4d14251c8dcf6801219fa90": {
+      "baits": {
+        "/": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T13:23:04Z",
+      "genome": "bb13c4c69cc692d696e0042d5c881ecde08cd17f19adfdd356c2572133898dbd",
+      "id": "e4d14251c8dcf6801219fa90",
+      "kind": "x",
+      "last_seen": "2026-10-02T13:23:04Z",
+      "phenotype_samples": 1
+    },
     "e4d1c9dd3e438f6200049799": {
       "baits": {
         "/": 1
@@ -33048,15 +33335,15 @@
     },
     "e7082d1412f201fb50259221": {
       "baits": {
-        "/": 4
+        "/": 6
       },
-      "events": 4,
+      "events": 6,
       "first_seen": "2026-09-17T20:11:05Z",
-      "genome": "99c4aa7cdd7f3e0fa8868a94dcfc12aed40fdf863df18cb03b15100dd0f42a89",
+      "genome": "ad993c76616f11f2bc8d96058cef865d684d34b33a09c0b767aebe99a4ab769e",
       "id": "e7082d1412f201fb50259221",
       "kind": "y",
-      "last_seen": "2026-09-22T21:11:41Z",
-      "phenotype_samples": 4
+      "last_seen": "2026-10-02T15:36:45Z",
+      "phenotype_samples": 6
     },
     "e71f5fe77fde9548de2c0b18": {
       "baits": {
@@ -34495,6 +34782,18 @@
       "last_seen": "2026-09-16T08:51:39Z",
       "phenotype_samples": 1
     },
+    "f1c306d50c66f907ca7dc233": {
+      "baits": {
+        "/__live/~/7d461d62fe01d71bfea9a7d7": 1
+      },
+      "events": 1,
+      "first_seen": "2026-10-02T18:08:31Z",
+      "genome": "6e4689a3fb15a4e5875e119c7247e8881a04b3d057de33c533fe342f847ca615",
+      "id": "f1c306d50c66f907ca7dc233",
+      "kind": "w",
+      "last_seen": "2026-10-02T18:08:31Z",
+      "phenotype_samples": 1
+    },
     "f1ef044463fb52579902b740": {
       "baits": {
         "/crawlerbait/": 1
@@ -35605,6 +35904,19 @@
       "kind": "z",
       "last_seen": "2026-09-16T17:12:04Z",
       "phenotype_samples": 19
+    },
+    "f78389926009a9eb25a4dff0": {
+      "baits": {
+        "/assets/dd8c58b963ff926f/favicon.svg": 1,
+        "/~/0d99fef165d419e2334ae00c": 1
+      },
+      "events": 2,
+      "first_seen": "2026-10-02T13:02:48Z",
+      "genome": "b354168ba11cadb9f81c3e95508706c414de84fbbebb55fd9be9904aa3f5bf74",
+      "id": "f78389926009a9eb25a4dff0",
+      "kind": "z",
+      "last_seen": "2026-10-02T13:02:48Z",
+      "phenotype_samples": 2
     },
     "f78799fdd7173f28c57ac0af": {
       "baits": {
@@ -171614,12 +171926,786 @@
       "source_index": 11,
       "status": 200,
       "t": "2026-10-02T12:28:25Z"
+    },
+    {
+      "crawler": "564df01ebaf447bdf9c223e3",
+      "method": "POST",
+      "path": "/~/2f3ac9f5a06104ae77c93575",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 62,
+      "status": 405,
+      "t": "2026-10-02T13:00:59Z"
+    },
+    {
+      "crawler": "564df01ebaf447bdf9c223e3",
+      "method": "POST",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 81,
+      "status": 405,
+      "t": "2026-10-02T13:01:00Z"
+    },
+    {
+      "crawler": "5206fd29703573bf4e4e5af7",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 73,
+      "status": 200,
+      "t": "2026-10-02T13:02:46Z"
+    },
+    {
+      "crawler": "f78389926009a9eb25a4dff0",
+      "method": "GET",
+      "path": "/~/0d99fef165d419e2334ae00c",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 16,
+      "status": 404,
+      "t": "2026-10-02T13:02:48Z"
+    },
+    {
+      "crawler": "f78389926009a9eb25a4dff0",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 80,
+      "status": 200,
+      "t": "2026-10-02T13:02:48Z"
+    },
+    {
+      "crawler": "4fdd2dab4b89ac19dbb1c9d5",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 64,
+      "status": 200,
+      "t": "2026-10-02T13:04:22Z"
+    },
+    {
+      "crawler": "02b4cbcf2b94b1309554f489",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 30,
+      "status": 301,
+      "t": "2026-10-02T13:07:59Z"
+    },
+    {
+      "crawler": "02b4cbcf2b94b1309554f489",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 36,
+      "status": 200,
+      "t": "2026-10-02T13:08:00Z"
+    },
+    {
+      "crawler": "e4d14251c8dcf6801219fa90",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 43,
+      "status": 522,
+      "t": "2026-10-02T13:23:04Z"
+    },
+    {
+      "crawler": "636663e618bfcbbe1d9e93d3",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 20,
+      "status": 404,
+      "t": "2026-10-02T13:49:42Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 54,
+      "status": 404,
+      "t": "2026-10-02T13:55:09Z"
+    },
+    {
+      "crawler": "ded5889373dc9d87367f72fc",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 21,
+      "status": 404,
+      "t": "2026-10-02T14:20:02Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 25,
+      "status": 200,
+      "t": "2026-10-02T14:26:30Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-runtime-v2.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 1,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 2,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/root-view.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 3,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 11,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-text-tissue.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 12,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-label-ink.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 13,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 14,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-holon.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 15,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/address.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 17,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-glass.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 22,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-safe-area.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 23,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 24,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-fold.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 26,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 27,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 33,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/world-view.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 34,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 47,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/interlocutors.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 48,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-runtime.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 50,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 51,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 52,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-type.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 56,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-aperture.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 57,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-safe-area.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 58,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 59,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/locus-shader.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 60,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-aperture.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 61,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-lens.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 78,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 79,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "crawler": "bf821352060628b8eaf6f516",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 63,
+      "status": 200,
+      "t": "2026-10-02T14:28:26Z"
+    },
+    {
+      "crawler": "8131c31a9e07bb6fd556d5f7",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 37,
+      "status": 200,
+      "t": "2026-10-02T14:43:41Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 35,
+      "status": 204,
+      "t": "2026-10-02T14:43:42Z"
+    },
+    {
+      "crawler": "5f725b504235af057dd15ea1",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 29,
+      "status": 200,
+      "t": "2026-10-02T14:44:10Z"
+    },
+    {
+      "crawler": "8131c31a9e07bb6fd556d5f7",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 5,
+      "status": 200,
+      "t": "2026-10-02T14:47:45Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 28,
+      "status": 204,
+      "t": "2026-10-02T14:47:46Z"
+    },
+    {
+      "crawler": "a37eaa020bc51748ff18c968",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 4,
+      "status": 200,
+      "t": "2026-10-02T14:48:14Z"
+    },
+    {
+      "crawler": "a9c8193271616c7c166cc16c",
+      "method": "GET",
+      "path": "/crawlerbait/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 82,
+      "status": 200,
+      "t": "2026-10-02T14:55:09Z"
+    },
+    {
+      "crawler": "b31e30e0d25f9d163f2ee97c",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 39,
+      "status": 200,
+      "t": "2026-10-02T15:04:39Z"
+    },
+    {
+      "crawler": "2ba72032c330dfe6d011bd27",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 6,
+      "status": 200,
+      "t": "2026-10-02T15:07:21Z"
+    },
+    {
+      "crawler": "2ba72032c330dfe6d011bd27",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 69,
+      "status": 301,
+      "t": "2026-10-02T15:07:21Z"
+    },
+    {
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 53,
+      "status": 301,
+      "t": "2026-10-02T15:28:47Z"
+    },
+    {
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 45,
+      "status": 200,
+      "t": "2026-10-02T15:28:54Z"
+    },
+    {
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 44,
+      "status": 200,
+      "t": "2026-10-02T15:29:01Z"
+    },
+    {
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/~/0d99fef165d419e2334ae00c",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 67,
+      "status": 404,
+      "t": "2026-10-02T15:29:03Z"
+    },
+    {
+      "crawler": "b48d00869c5861d73630c4b4",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 32,
+      "status": 200,
+      "t": "2026-10-02T15:29:58Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 65,
+      "status": 204,
+      "t": "2026-10-02T15:29:58Z"
+    },
+    {
+      "crawler": "7fa1d825808ddfbe98b5a344",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 68,
+      "status": 200,
+      "t": "2026-10-02T15:30:26Z"
+    },
+    {
+      "crawler": "01be2f08378d7bd1a1af68a3",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 38,
+      "status": 200,
+      "t": "2026-10-02T15:31:02Z"
+    },
+    {
+      "crawler": "e7082d1412f201fb50259221",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 0,
+      "status": 301,
+      "t": "2026-10-02T15:36:44Z"
+    },
+    {
+      "crawler": "89995cef82c56500b57f4d4f",
+      "method": "GET",
+      "path": "/~/1c59a749625b9700fc36d048",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 66,
+      "status": 200,
+      "t": "2026-10-02T15:36:44Z"
+    },
+    {
+      "crawler": "e7082d1412f201fb50259221",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 83,
+      "status": 200,
+      "t": "2026-10-02T15:36:45Z"
+    },
+    {
+      "crawler": "7da3338797aca034ede392ae",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 41,
+      "status": 200,
+      "t": "2026-10-02T15:44:50Z"
+    },
+    {
+      "crawler": "9ffe220c93ba7cfe9fa867b7",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 76,
+      "status": 401,
+      "t": "2026-10-02T15:48:28Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 49,
+      "status": 404,
+      "t": "2026-10-02T15:51:55Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 46,
+      "status": 404,
+      "t": "2026-10-02T16:03:32Z"
+    },
+    {
+      "crawler": "d2ce81b9cc91da7aac02c379",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 10,
+      "status": 200,
+      "t": "2026-10-02T16:15:44Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 77,
+      "status": 204,
+      "t": "2026-10-02T16:15:45Z"
+    },
+    {
+      "crawler": "174f0b1fb26a846b47fc8d2f",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 71,
+      "status": 200,
+      "t": "2026-10-02T16:16:09Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 8,
+      "status": 204,
+      "t": "2026-10-02T16:21:14Z"
+    },
+    {
+      "crawler": "4e78b34daeead7fa0e1f4e68",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 85,
+      "status": 200,
+      "t": "2026-10-02T16:21:14Z"
+    },
+    {
+      "crawler": "314afe1d4313a351dc9e2a08",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 72,
+      "status": 200,
+      "t": "2026-10-02T16:21:37Z"
+    },
+    {
+      "crawler": "35bd04a13d86d8f1af745f4b",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 40,
+      "status": 200,
+      "t": "2026-10-02T16:43:31Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 74,
+      "status": 204,
+      "t": "2026-10-02T16:43:32Z"
+    },
+    {
+      "crawler": "c2c4726f119ff1b9b533949e",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 31,
+      "status": 200,
+      "t": "2026-10-02T16:43:57Z"
+    },
+    {
+      "crawler": "0f497ccd49005a6eeea9ab08",
+      "method": "GET",
+      "path": "/~/ad5bb7b49e0cddee1371235f",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 70,
+      "status": 404,
+      "t": "2026-10-02T16:49:01Z"
+    },
+    {
+      "crawler": "dd7add5949ef209ff5d0529e",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 7,
+      "status": 200,
+      "t": "2026-10-02T17:26:03Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 84,
+      "status": 204,
+      "t": "2026-10-02T17:26:03Z"
+    },
+    {
+      "crawler": "b74820d5bd1a9d0eebc70c02",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 9,
+      "status": 200,
+      "t": "2026-10-02T17:26:28Z"
+    },
+    {
+      "crawler": "5aaaa8b3d9e020a682e2a83d",
+      "method": "POST",
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 75,
+      "status": 405,
+      "t": "2026-10-02T17:54:49Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 42,
+      "status": 404,
+      "t": "2026-10-02T17:59:41Z"
+    },
+    {
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 18,
+      "status": 204,
+      "t": "2026-10-02T18:08:31Z"
+    },
+    {
+      "crawler": "f1c306d50c66f907ca7dc233",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 55,
+      "status": 200,
+      "t": "2026-10-02T18:08:31Z"
+    },
+    {
+      "crawler": "8f6c0608de27bd4820b9c578",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 19,
+      "status": 200,
+      "t": "2026-10-02T18:08:55Z"
     }
   ],
   "legacy_404_through": "2026-09-18T11:13:56Z",
-  "raw_capture_end": "2026-10-02T12:37:13Z",
+  "raw_capture_end": "2026-10-02T18:13:06Z",
   "raw_capture_start": "2026-08-18T15:42:27Z",
-  "raw_requests": 15003,
+  "raw_requests": 15089,
   "routes": {
     "/": {
       "crawlers": {
@@ -171641,7 +172727,7 @@
         "019c550dca018f5274dab8ba": 1,
         "01a8d6f04215104fdfd02061": 1,
         "01b51f423e6c7dab77ea402b": 4,
-        "01be2f08378d7bd1a1af68a3": 27,
+        "01be2f08378d7bd1a1af68a3": 28,
         "01d13967e3169d5fab6dc1a5": 1,
         "01d3b5e96be3e01b393d6dad": 2,
         "01e2f15b7d326b4470f07dad": 1,
@@ -171650,7 +172736,7 @@
         "0281d3a6ed3a341b7cabae7f": 1,
         "0294de8ba61abe6d15063f2a": 1,
         "029bc08f4b378b9a92984ea1": 3,
-        "02b4cbcf2b94b1309554f489": 3,
+        "02b4cbcf2b94b1309554f489": 5,
         "02d0343e32281a7cd3724706": 1,
         "02d474ec612b2cfa0d074b97": 2,
         "02ea020b830f7af1960b799f": 1,
@@ -171883,6 +172969,7 @@
         "2b36624ab6c7a68b4d40105a": 1,
         "2b73d2a4dc12c55ed712fc42": 2,
         "2b98c5f1493906c2fb40e722": 1,
+        "2ba72032c330dfe6d011bd27": 2,
         "2bafb22e84f9b5384ab1456a": 1,
         "2bbe8a23bf3af19b435b1fa5": 1,
         "2bc707b83f6723093abb0273": 1,
@@ -172097,7 +173184,7 @@
         "4f1f3a5c029a7e3dc0297738": 1,
         "4f944cd0f9f90639043d391b": 1,
         "4fbf01511bbd890b11e62709": 4,
-        "4fdd2dab4b89ac19dbb1c9d5": 2,
+        "4fdd2dab4b89ac19dbb1c9d5": 3,
         "5024c4b4ee68f50375486ac7": 3,
         "502f738cb30918c013c4cf3f": 6,
         "507158faaea74e4ccd4bccec": 1,
@@ -172111,6 +173198,7 @@
         "5136db47c97f8ab761a29594": 1,
         "51aa9dd7067323d7a7caf3e3": 4,
         "51bcd121ecc77a91d9771651": 5,
+        "5206fd29703573bf4e4e5af7": 1,
         "52755b15ab82acc83c462799": 1,
         "5295d4d259dda158d3da77af": 1,
         "533019194e14e12a34d797d4": 1,
@@ -172132,6 +173220,7 @@
         "562256f5fb967ed257479082": 1,
         "5624c8f7e0b23766ac811e05": 1,
         "563d182ec011ad894d9ba75d": 1,
+        "564df01ebaf447bdf9c223e3": 1,
         "56785270241a051d0f606469": 1,
         "5685d8c27518bd13f9632cf2": 1,
         "569d369db42ea441d5224d8c": 1,
@@ -172210,6 +173299,7 @@
         "62ea0fa6e155a20c0c27e7d3": 1,
         "633688dfda6aa0ef3fb9b79b": 2,
         "633e651454a379da13cc4b76": 1,
+        "636663e618bfcbbe1d9e93d3": 1,
         "63680f29911fee8d68296705": 1,
         "636c1ae9179cf7f241b90131": 2,
         "63859779b88e9ac464dbe5ed": 3,
@@ -172352,7 +173442,7 @@
         "7735ff5b134706ebf2eab802": 1,
         "774e744cd4c444b744064c26": 4,
         "77513b062ba2fdf1030c6b01": 1,
-        "77d82ebcde0dd40f22896313": 1,
+        "77d82ebcde0dd40f22896313": 3,
         "7820a25b32a9edddd9517853": 1,
         "78802395b2b7d38d05dff552": 1,
         "7965a06a5b6986a50c9b2503": 2,
@@ -172385,6 +173475,7 @@
         "7cf8582736ea13d43069f941": 2,
         "7d345543f3870cfda270dea7": 1,
         "7d9f81a7db2e5ed2f96984d8": 1,
+        "7da3338797aca034ede392ae": 1,
         "7da9b6d96a582bd5090c1aeb": 1,
         "7e2012b4ca267d9e35d9095e": 5,
         "7e270aa3ad817a017258f3df": 1,
@@ -172476,7 +173567,7 @@
         "8c5d6fa5124adfbd800140ad": 1,
         "8c6f980dbec1493c85926180": 1,
         "8cb8ca07cc52e1b1dadbf5e4": 1,
-        "8ce97ae7558f93ec1c857c41": 2,
+        "8ce97ae7558f93ec1c857c41": 4,
         "8d364e7bc218503ea137ed6f": 1,
         "8d3a26c79372428ef757d65a": 1,
         "8d63d22598df2b11e9668143": 3,
@@ -172606,7 +173697,7 @@
         "9fbd66fdba0909a2bb27db7d": 12,
         "9fbff6b728fb8aa8657cfe21": 4,
         "9fe5147dcb69c74e16dd0190": 1,
-        "9ffe220c93ba7cfe9fa867b7": 2,
+        "9ffe220c93ba7cfe9fa867b7": 3,
         "a0817cbce0f289508e04f601": 1,
         "a0aa05068fa2d5293a692b1c": 5,
         "a139a8eaa30be6a70657d135": 1,
@@ -172717,7 +173808,7 @@
         "b2684ea2bc39f5c69f7a2e91": 2,
         "b280ee37431d0e2ed402e1a8": 1,
         "b30f5441300939e77aad941b": 1,
-        "b31e30e0d25f9d163f2ee97c": 4,
+        "b31e30e0d25f9d163f2ee97c": 5,
         "b36a5bd11c1385d4a9bf5073": 1,
         "b384703770ec98d2ddd7b87e": 1,
         "b3b0e7a5eb6947f26f9c2f55": 1,
@@ -172803,7 +173894,7 @@
         "bef0337da948924da2beb7c0": 4,
         "bf1fff2548050d785a24b695": 2,
         "bf41c5ecd7e7a4dd395a6668": 1,
-        "bf821352060628b8eaf6f516": 5,
+        "bf821352060628b8eaf6f516": 6,
         "bfc580bff9cfb894b2006b5a": 1,
         "bfe444f0d5891630599f7b03": 7,
         "c03313c23675b14db34ef0bd": 1,
@@ -172999,6 +174090,7 @@
         "de8c9662b237b8d3c640f461": 1,
         "dea0b821f265063b1f6c3e04": 1,
         "deb05c3abe06d47fc3408d3c": 1,
+        "ded5889373dc9d87367f72fc": 1,
         "def1b56382a5d83ccf1c6351": 8,
         "def9618cb0fcee0852b20ca7": 2,
         "df3be68ec07487cef04ca21d": 1,
@@ -173042,6 +174134,7 @@
         "e49a18e7f532046c32df3eda": 2,
         "e4a0ad2c85dd7c826dccfc98": 1,
         "e4aa013a74c94c3f11c5ea9b": 1,
+        "e4d14251c8dcf6801219fa90": 1,
         "e4d1c9dd3e438f6200049799": 1,
         "e4dbd3470031dfd255d7478b": 3,
         "e4e13449f513b7d91e882743": 1,
@@ -173060,7 +174153,7 @@
         "e6a25334b2cc47f5b26e217a": 4,
         "e6c2c1ed6d26d5dd351c883f": 4,
         "e6f5fa6a569b3855d493af12": 1,
-        "e7082d1412f201fb50259221": 4,
+        "e7082d1412f201fb50259221": 6,
         "e7886554f2fa718f57ec0ab0": 2,
         "e7d3e611e63daf5e9f7bd2b4": 1,
         "e7e62e23cb563390f4e633fd": 1,
@@ -173213,20 +174306,47 @@
         "ffe688a941e6119d64d0fb23": 1
       },
       "first_seen": "2026-09-13T20:02:54Z",
-      "last_seen": "2026-10-02T12:28:25Z",
+      "last_seen": "2026-10-02T15:48:28Z",
       "legacy_404_observations": 0,
       "path": "/",
-      "raw_requests": 3008,
+      "raw_requests": 3029,
       "statuses": {
-        "200": 1916,
-        "301": 384,
+        "200": 1928,
+        "301": 388,
         "304": 17,
-        "401": 186,
+        "401": 187,
         "403": 201,
-        "404": 147,
-        "405": 47,
+        "404": 149,
+        "405": 48,
         "499": 88,
-        "522": 22
+        "522": 23
+      }
+    },
+    "/__live/~/7d461d62fe01d71bfea9a7d7": {
+      "crawlers": {
+        "174f0b1fb26a846b47fc8d2f": 1,
+        "314afe1d4313a351dc9e2a08": 1,
+        "35bd04a13d86d8f1af745f4b": 1,
+        "4e78b34daeead7fa0e1f4e68": 1,
+        "5f725b504235af057dd15ea1": 1,
+        "7fa1d825808ddfbe98b5a344": 1,
+        "8131c31a9e07bb6fd556d5f7": 2,
+        "8f6c0608de27bd4820b9c578": 1,
+        "a37eaa020bc51748ff18c968": 1,
+        "b48d00869c5861d73630c4b4": 1,
+        "b74820d5bd1a9d0eebc70c02": 1,
+        "c2c4726f119ff1b9b533949e": 1,
+        "d2ce81b9cc91da7aac02c379": 1,
+        "dd7add5949ef209ff5d0529e": 1,
+        "f1c306d50c66f907ca7dc233": 1
+      },
+      "first_seen": "2026-10-02T14:43:41Z",
+      "last_seen": "2026-10-02T18:08:55Z",
+      "legacy_404_observations": 0,
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "raw_requests": 16,
+      "statuses": {
+        "200": 16
       }
     },
     "/__live/~/b079c6591e071894c0861245": {
@@ -173338,15 +174458,16 @@
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/address.js",
-      "raw_requests": 5,
+      "raw_requests": 6,
       "statuses": {
-        "200": 5
+        "200": 6
       }
     },
     "/assets/dd8c58b963ff926f/dependencies/chenglou-pretext/analysis.js": {
@@ -173443,379 +174564,408 @@
     },
     "/assets/dd8c58b963ff926f/display-glass.js": {
       "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 2
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T00:35:30Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-glass.js",
-      "raw_requests": 2,
+      "raw_requests": 3,
       "statuses": {
-        "200": 2
+        "200": 3
       }
     },
     "/assets/dd8c58b963ff926f/display-label-ink.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 4
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-label-ink.js",
-      "raw_requests": 5,
+      "raw_requests": 6,
       "statuses": {
-        "200": 5
+        "200": 6
       }
     },
     "/assets/dd8c58b963ff926f/display-lens.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-lens.js",
-      "raw_requests": 5,
+      "raw_requests": 6,
       "statuses": {
-        "200": 5
+        "200": 6
       }
     },
     "/assets/dd8c58b963ff926f/display-runtime-v2.js": {
       "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T00:35:30Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-runtime-v2.js",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/display-safe-area.css": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 4
       },
       "first_seen": "2026-10-02T00:35:26Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-safe-area.css",
-      "raw_requests": 5,
+      "raw_requests": 6,
       "statuses": {
-        "200": 5
+        "200": 6
       }
     },
     "/assets/dd8c58b963ff926f/display-safe-area.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-safe-area.js",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/display-text-tissue.js": {
       "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T00:35:30Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-text-tissue.js",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/display-type.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/display-type.js",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/favicon.svg": {
       "crawlers": {
-        "b800e38eb4186734fe533d6a": 4
+        "77d82ebcde0dd40f22896313": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
+        "b800e38eb4186734fe533d6a": 4,
+        "f78389926009a9eb25a4dff0": 1
       },
       "first_seen": "2026-10-02T00:35:37Z",
-      "last_seen": "2026-10-02T00:36:24Z",
+      "last_seen": "2026-10-02T15:29:01Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/favicon.svg",
-      "raw_requests": 4,
+      "raw_requests": 7,
       "statuses": {
-        "200": 4
+        "200": 7
       }
     },
     "/assets/dd8c58b963ff926f/interlocutors.css": {
       "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:26Z",
-      "last_seen": "2026-10-02T00:35:27Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/interlocutors.css",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/locus-shader.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/locus-shader.js",
-      "raw_requests": 5,
+      "raw_requests": 6,
       "statuses": {
-        "200": 5
+        "200": 6
       }
     },
     "/assets/dd8c58b963ff926f/navigation-aperture.css": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 2
       },
       "first_seen": "2026-10-02T00:35:27Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/navigation-aperture.css",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/navigation-aperture.js": {
       "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T00:35:30Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/navigation-aperture.js",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/navigation-physiology.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 4
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
-      "raw_requests": 6,
+      "raw_requests": 7,
       "statuses": {
-        "200": 6
+        "200": 7
       }
     },
     "/assets/dd8c58b963ff926f/root-view.css": {
       "crawlers": {
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T00:35:27Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/root-view.css",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/site-fold.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 2
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-fold.js",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/site-holon.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 2
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-holon.js",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 4
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
-      "raw_requests": 6,
+      "raw_requests": 7,
       "statuses": {
-        "200": 6
+        "200": 7
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-papers.css": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
-      "raw_requests": 5,
+      "raw_requests": 6,
       "statuses": {
-        "200": 5
+        "200": 6
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-papers.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-papers.js",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-philosophy.css": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 4
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
-      "raw_requests": 6,
+      "raw_requests": 7,
       "statuses": {
-        "200": 6
+        "200": 7
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-philosophy.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.js",
-      "raw_requests": 4,
+      "raw_requests": 5,
       "statuses": {
-        "200": 4
+        "200": 5
       }
     },
     "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css": {
       "crawlers": {
         "1e01fae016b126a865d9e665": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-01T20:36:54Z",
-      "last_seen": "2026-10-02T00:35:27Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
+      "raw_requests": 5,
+      "statuses": {
+        "200": 5
+      }
+    },
+    "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js": {
+      "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
+        "b800e38eb4186734fe533d6a": 3
+      },
+      "first_seen": "2026-10-02T00:35:28Z",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js",
       "raw_requests": 4,
       "statuses": {
         "200": 4
       }
     },
-    "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js": {
-      "crawlers": {
-        "b800e38eb4186734fe533d6a": 3
-      },
-      "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T00:35:30Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js",
-      "raw_requests": 3,
-      "statuses": {
-        "200": 3
-      }
-    },
     "/assets/dd8c58b963ff926f/site-runtime.css": {
       "crawlers": {
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 3
       },
       "first_seen": "2026-10-02T00:35:26Z",
-      "last_seen": "2026-10-02T00:35:27Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/site-runtime.css",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/assets/dd8c58b963ff926f/world-view.js": {
       "crawlers": {
         "0520fdc3568e0b7a1b591698": 1,
+        "8ce97ae7558f93ec1c857c41": 1,
         "b800e38eb4186734fe533d6a": 2
       },
       "first_seen": "2026-10-02T00:35:28Z",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/world-view.js",
-      "raw_requests": 3,
+      "raw_requests": 4,
       "statuses": {
-        "200": 3
+        "200": 4
       }
     },
     "/cdn-cgi/~/b284aee5aec3eb353c177cf2": {
@@ -173898,16 +175048,17 @@
         "30d83338243645fa1797c4b6": 2,
         "6a896112b7589731d43817a3": 1,
         "7a2e8ac6474422c3ae842d7f": 1,
+        "a9c8193271616c7c166cc16c": 1,
         "f1ef044463fb52579902b740": 1,
         "f912cd35e0c56115f14c3771": 1
       },
       "first_seen": "2026-09-17T17:52:39Z",
-      "last_seen": "2026-09-30T21:36:43Z",
+      "last_seen": "2026-10-02T14:55:09Z",
       "legacy_404_observations": 0,
       "path": "/crawlerbait/",
-      "raw_requests": 6,
+      "raw_requests": 7,
       "statuses": {
-        "200": 5,
+        "200": 6,
         "304": 1
       }
     },
@@ -174043,6 +175194,19 @@
       "raw_requests": 140,
       "statuses": {
         "204": 140
+      }
+    },
+    "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2": {
+      "crawlers": {
+        "aacac256694240a31616c76d": 8
+      },
+      "first_seen": "2026-10-02T14:43:42Z",
+      "last_seen": "2026-10-02T18:08:31Z",
+      "legacy_404_observations": 0,
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "raw_requests": 8,
+      "statuses": {
+        "204": 8
       }
     },
     "/~/000c2929c371b9e2cec9afe3": {
@@ -176314,7 +177478,7 @@
         "73d629a232a705e973d0a477": 17,
         "740fdf48916e03f5e4127143": 1,
         "75918e0a3a961989c2f11162": 1,
-        "77d82ebcde0dd40f22896313": 1,
+        "77d82ebcde0dd40f22896313": 2,
         "7a2e8ac6474422c3ae842d7f": 1,
         "7bbc30860f6485647193605d": 1,
         "7da8d9c69a633d7efb0e3f2e": 1,
@@ -176358,6 +177522,7 @@
         "eb8c6fd9d3452ba99970d2e7": 1,
         "ed3da9e849b90984bf422224": 1,
         "f17fc68e0a42712188a217e4": 1,
+        "f78389926009a9eb25a4dff0": 1,
         "f82ea846d5af404859184f84": 1,
         "f912cd35e0c56115f14c3771": 1,
         "fd6971ad2e6a495c3b6da11a": 1,
@@ -176365,14 +177530,14 @@
         "ffe688a941e6119d64d0fb23": 1
       },
       "first_seen": "2026-09-13T22:09:07Z",
-      "last_seen": "2026-10-02T00:36:24Z",
+      "last_seen": "2026-10-02T15:29:03Z",
       "legacy_404_observations": 44,
       "path": "/~/0d99fef165d419e2334ae00c",
-      "raw_requests": 141,
+      "raw_requests": 143,
       "statuses": {
         "301": 8,
         "401": 2,
-        "404": 117,
+        "404": 119,
         "499": 14
       }
     },
@@ -178460,7 +179625,7 @@
         "77abc6dc349ad0a0ded46aa2": 1,
         "82b7385ad2a0a868a8347622": 4,
         "88aab12727ce87274ec7bfd7": 1,
-        "89995cef82c56500b57f4d4f": 2,
+        "89995cef82c56500b57f4d4f": 3,
         "89ef30b185362992e52cdec0": 1,
         "8e5b069b6f9a062ed1fa257c": 1,
         "8ee5e155b39b139ecf8db0e6": 5,
@@ -178522,12 +179687,12 @@
         "f9d70b38584e399a7f3338ea": 1
       },
       "first_seen": "2026-09-13T20:38:21Z",
-      "last_seen": "2026-10-02T10:11:55Z",
+      "last_seen": "2026-10-02T15:36:44Z",
       "legacy_404_observations": 0,
       "path": "/~/1c59a749625b9700fc36d048",
-      "raw_requests": 243,
+      "raw_requests": 244,
       "statuses": {
-        "200": 206,
+        "200": 207,
         "301": 17,
         "401": 20
       }
@@ -180032,6 +181197,19 @@
       "statuses": {
         "301": 3,
         "404": 3
+      }
+    },
+    "/~/2567328ee21f2043599ffa53": {
+      "crawlers": {
+        "5e799495316e57f07453e0e6": 4
+      },
+      "first_seen": "2026-10-02T13:55:09Z",
+      "last_seen": "2026-10-02T17:59:41Z",
+      "legacy_404_observations": 0,
+      "path": "/~/2567328ee21f2043599ffa53",
+      "raw_requests": 4,
+      "statuses": {
+        "404": 4
       }
     },
     "/~/25c5006ba150c78c3ec77ffb": {
@@ -181558,6 +182736,19 @@
       "raw_requests": 1,
       "statuses": {
         "200": 1
+      }
+    },
+    "/~/2f3ac9f5a06104ae77c93575": {
+      "crawlers": {
+        "564df01ebaf447bdf9c223e3": 1
+      },
+      "first_seen": "2026-10-02T13:00:59Z",
+      "last_seen": "2026-10-02T13:00:59Z",
+      "legacy_404_observations": 0,
+      "path": "/~/2f3ac9f5a06104ae77c93575",
+      "raw_requests": 1,
+      "statuses": {
+        "405": 1
       }
     },
     "/~/2f4b1c17760b7f76590fb82d": {
@@ -197004,6 +198195,19 @@
         "200": 4
       }
     },
+    "/~/93ebdf4dd7209b85a4dd4a13": {
+      "crawlers": {
+        "5aaaa8b3d9e020a682e2a83d": 1
+      },
+      "first_seen": "2026-10-02T17:54:49Z",
+      "last_seen": "2026-10-02T17:54:49Z",
+      "legacy_404_observations": 0,
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "raw_requests": 1,
+      "statuses": {
+        "405": 1
+      }
+    },
     "/~/93f315891e8dad7e9b07bd33": {
       "crawlers": {
         "002518398c9edbe4d15313ec": 2,
@@ -200849,6 +202053,19 @@
       "raw_requests": 2,
       "statuses": {
         "200": 2
+      }
+    },
+    "/~/ad5bb7b49e0cddee1371235f": {
+      "crawlers": {
+        "0f497ccd49005a6eeea9ab08": 1
+      },
+      "first_seen": "2026-10-02T16:49:01Z",
+      "last_seen": "2026-10-02T16:49:01Z",
+      "legacy_404_observations": 0,
+      "path": "/~/ad5bb7b49e0cddee1371235f",
+      "raw_requests": 1,
+      "statuses": {
+        "404": 1
       }
     },
     "/~/ad61b0c950ffddc6b69b4d8e": {

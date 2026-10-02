@@ -7,15 +7,20 @@
           "address": "wxzwz",
           "events": 950,
           "path": "/~/30fd7bf274865063b48c908c"
+        },
+        {
+          "address": "xywywxwyx",
+          "events": 4,
+          "path": "/~/2567328ee21f2043599ffa53"
         }
       ],
-      "events": 950,
+      "events": 954,
       "first_seen": "2026-09-13T20:18:42Z",
-      "genome": "ded5041e53901aa61718d0d271fa43ba3ec21efe1fa1365e22307cc758197c8d",
+      "genome": "6882be1397625573cba39492c612eed12983dd166a338c2d558e2a25a91f1cd4",
       "id": "5e799495316e57f07453e0e6",
       "kind": "z",
-      "last_seen": "2026-10-02T12:00:31Z",
-      "phenotype_samples": 950
+      "last_seen": "2026-10-02T17:59:41Z",
+      "phenotype_samples": 954
     },
     {
       "baits": [
@@ -4620,7 +4625,7 @@
           "path": "/~/705f36535a4eaf3efc0caacb"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -6854,6 +6859,27 @@
     {
       "baits": [
         {
+          "address": "yyxyzy",
+          "events": 140,
+          "path": "/repos/self-similar-systems/~/2b27cfaac0f5ff1c8b675a9f"
+        },
+        {
+          "address": "zxywxw",
+          "events": 8,
+          "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2"
+        }
+      ],
+      "events": 148,
+      "first_seen": "2026-09-26T13:09:01Z",
+      "genome": "2d768effe0f8aebdba45e887e0e9d805efa530c4850dc00b294758fe894bfa6f",
+      "id": "aacac256694240a31616c76d",
+      "kind": "w",
+      "last_seen": "2026-10-02T18:08:31Z",
+      "phenotype_samples": 148
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 4,
           "path": "/"
@@ -7391,22 +7417,6 @@
       "kind": "z",
       "last_seen": "2026-09-15T13:38:56Z",
       "phenotype_samples": 141
-    },
-    {
-      "baits": [
-        {
-          "address": "yyxyzy",
-          "events": 140,
-          "path": "/repos/self-similar-systems/~/2b27cfaac0f5ff1c8b675a9f"
-        }
-      ],
-      "events": 140,
-      "first_seen": "2026-09-26T13:09:01Z",
-      "genome": "3681193de9e93c82e8b555cca6fee7eb5f4811df11a9b5b276960f8b8d525983",
-      "id": "aacac256694240a31616c76d",
-      "kind": "w",
-      "last_seen": "2026-09-27T12:40:49Z",
-      "phenotype_samples": 140
     },
     {
       "baits": [
@@ -9650,7 +9660,7 @@
           "path": "/~/5c3b2327e12a50018faca123"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 2,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -16345,6 +16355,207 @@
       "baits": [
         {
           "address": "zwzzxxyz",
+          "events": 4,
+          "path": "/"
+        },
+        {
+          "address": "zwwwyy",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/address.js"
+        },
+        {
+          "address": "yyywxxyz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-glass.js"
+        },
+        {
+          "address": "zzyyxzw",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-label-ink.js"
+        },
+        {
+          "address": "xzwwxy",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-lens.js"
+        },
+        {
+          "address": "yxwyyz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-runtime-v2.js"
+        },
+        {
+          "address": "zzyxyyx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-safe-area.css"
+        },
+        {
+          "address": "ywxxzx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-safe-area.js"
+        },
+        {
+          "address": "xyxzww",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-text-tissue.js"
+        },
+        {
+          "address": "yxxyzwz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/display-type.js"
+        },
+        {
+          "address": "xxwwwz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/favicon.svg"
+        },
+        {
+          "address": "wyzxzyx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/interlocutors.css"
+        },
+        {
+          "address": "xwxwwyx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/locus-shader.js"
+        },
+        {
+          "address": "xyyyw",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/navigation-aperture.css"
+        },
+        {
+          "address": "xywyxxz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/navigation-aperture.js"
+        },
+        {
+          "address": "zyzxyx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/navigation-physiology.js"
+        },
+        {
+          "address": "xxwwxxwx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/root-view.css"
+        },
+        {
+          "address": "xyzzx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-fold.js"
+        },
+        {
+          "address": "wwwwwyy",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-holon.js"
+        },
+        {
+          "address": "wzzzzzyz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css"
+        },
+        {
+          "address": "zzyxwz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js"
+        },
+        {
+          "address": "yzzzxz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-papers.css"
+        },
+        {
+          "address": "zzwxzy",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-papers.js"
+        },
+        {
+          "address": "wyyyxwz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css"
+        },
+        {
+          "address": "wyywyx",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.js"
+        },
+        {
+          "address": "yxxzww",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css"
+        },
+        {
+          "address": "zzxxzzz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js"
+        },
+        {
+          "address": "zzxywwy",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/site-runtime.css"
+        },
+        {
+          "address": "yxwwyyz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/world-view.js"
+        },
+        {
+          "address": "zyzxwzx",
+          "events": 1,
+          "path": "/~/1e34407a1dd812015b556b0f"
+        },
+        {
+          "address": "zwyzzw",
+          "events": 1,
+          "path": "/~/234cb604e7048351c11364ab"
+        },
+        {
+          "address": "wyzwzz",
+          "events": 1,
+          "path": "/~/242ebb60a8f929a13f6a95a9"
+        },
+        {
+          "address": "ywxyzxzx",
+          "events": 1,
+          "path": "/~/2705381a8a865ce96617ff4c"
+        },
+        {
+          "address": "xyyxwwx",
+          "events": 1,
+          "path": "/~/5e74c549c5c340aba80fbdf6"
+        },
+        {
+          "address": "wwyww",
+          "events": 1,
+          "path": "/~/64c74b73fa0c65d9407197fa"
+        },
+        {
+          "address": "yxywwz",
+          "events": 1,
+          "path": "/~/66c84806a2cd7986a08a9723"
+        },
+        {
+          "address": "xxxyy",
+          "events": 1,
+          "path": "/~/a787e0b00e40e427f1c546c3"
+        },
+        {
+          "address": "ywzzzzx",
+          "events": 1,
+          "path": "/~/efd31eebf95f64379f838053"
+        }
+      ],
+      "events": 41,
+      "first_seen": "2026-09-15T03:23:46Z",
+      "genome": "0bffaf57a746f753d6202d61653d201f4a98953c9dc81145a1c62b2ca4b31a6c",
+      "id": "8ce97ae7558f93ec1c857c41",
+      "kind": "z",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "phenotype_samples": 41
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
           "events": 3,
           "path": "/"
         },
@@ -16555,7 +16766,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 2,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -17155,7 +17366,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 3,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -19675,7 +19886,7 @@
           "path": "/~/6876687ad1faa00df6b15cf9"
         },
         {
-          "address": "xywywxw",
+          "address": "xywywxwyw",
           "events": 1,
           "path": "/~/6bd525e801040132ecae0d04"
         },
@@ -20865,7 +21076,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 2,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -20941,7 +21152,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 2,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -21601,6 +21812,22 @@
     {
       "baits": [
         {
+          "address": "zwzzxxyz",
+          "events": 28,
+          "path": "/"
+        }
+      ],
+      "events": 28,
+      "first_seen": "2026-09-20T06:16:05Z",
+      "genome": "0b42685ef9783e1f05861893e4bbc645f568b7c4c7d12190d82c8e12f7ff39ba",
+      "id": "01be2f08378d7bd1a1af68a3",
+      "kind": "y",
+      "last_seen": "2026-10-02T15:31:02Z",
+      "phenotype_samples": 28
+    },
+    {
+      "baits": [
+        {
           "address": "wwzwww",
           "events": 1,
           "path": "/~/05abe53a62890644b387323f"
@@ -21903,22 +22130,6 @@
     {
       "baits": [
         {
-          "address": "zwzzxxyz",
-          "events": 27,
-          "path": "/"
-        }
-      ],
-      "events": 27,
-      "first_seen": "2026-09-20T06:16:05Z",
-      "genome": "591dfe567df941aeb4b33867b49ce6bf04d1bb23298d9a5df02357eae84d599f",
-      "id": "01be2f08378d7bd1a1af68a3",
-      "kind": "y",
-      "last_seen": "2026-10-01T21:32:54Z",
-      "phenotype_samples": 27
-    },
-    {
-      "baits": [
-        {
           "address": "xxxxxx",
           "events": 3,
           "path": "/~/1c59a749625b9700fc36d048"
@@ -21934,7 +22145,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 2,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -23079,7 +23290,7 @@
           "path": "/~/5c3b2327e12a50018faca123"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -23427,7 +23638,7 @@
           "path": "/~/5c3b2327e12a50018faca123"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -24133,7 +24344,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 2,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -24612,7 +24823,7 @@
           "path": "/~/3d6f8223e9a071279e0ecc2d"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -24738,7 +24949,7 @@
           "path": "/~/5c3b2327e12a50018faca123"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -28443,7 +28654,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -29500,7 +29711,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -29778,7 +29989,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -31316,7 +31527,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -31554,7 +31765,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -31802,7 +32013,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -31878,7 +32089,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -32843,7 +33054,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -34008,7 +34219,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -34192,7 +34403,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -34816,7 +35027,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -34970,6 +35181,27 @@
     {
       "baits": [
         {
+          "address": "wxzzxw",
+          "events": 11,
+          "path": "/__live/~/b079c6591e071894c0861245"
+        },
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 12,
+      "first_seen": "2026-09-17T15:04:47Z",
+      "genome": "523d8056f846e27f9e2a5cb0e0088efd5c42b485da9925c1a059b54a1a6eb8fa",
+      "id": "b48d00869c5861d73630c4b4",
+      "kind": "w",
+      "last_seen": "2026-10-02T15:29:58Z",
+      "phenotype_samples": 12
+    },
+    {
+      "baits": [
+        {
           "address": "xxxxxx",
           "events": 1,
           "path": "/~/1c59a749625b9700fc36d048"
@@ -34980,7 +35212,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -35163,7 +35395,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -35442,7 +35674,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -36012,67 +36244,6 @@
     {
       "baits": [
         {
-          "address": "zwzzxxyz",
-          "events": 2,
-          "path": "/"
-        },
-        {
-          "address": "zyzxwzx",
-          "events": 1,
-          "path": "/~/1e34407a1dd812015b556b0f"
-        },
-        {
-          "address": "zwyzzw",
-          "events": 1,
-          "path": "/~/234cb604e7048351c11364ab"
-        },
-        {
-          "address": "wyzwzz",
-          "events": 1,
-          "path": "/~/242ebb60a8f929a13f6a95a9"
-        },
-        {
-          "address": "ywxyzxzx",
-          "events": 1,
-          "path": "/~/2705381a8a865ce96617ff4c"
-        },
-        {
-          "address": "xyyxwwx",
-          "events": 1,
-          "path": "/~/5e74c549c5c340aba80fbdf6"
-        },
-        {
-          "address": "wwyww",
-          "events": 1,
-          "path": "/~/64c74b73fa0c65d9407197fa"
-        },
-        {
-          "address": "yxywwz",
-          "events": 1,
-          "path": "/~/66c84806a2cd7986a08a9723"
-        },
-        {
-          "address": "xxxyy",
-          "events": 1,
-          "path": "/~/a787e0b00e40e427f1c546c3"
-        },
-        {
-          "address": "ywzzzzx",
-          "events": 1,
-          "path": "/~/efd31eebf95f64379f838053"
-        }
-      ],
-      "events": 11,
-      "first_seen": "2026-09-15T03:23:46Z",
-      "genome": "623cab73ae5db9fea8a808cc919947156feb15040c069002fa1e758c511b1e96",
-      "id": "8ce97ae7558f93ec1c857c41",
-      "kind": "z",
-      "last_seen": "2026-09-15T03:23:47Z",
-      "phenotype_samples": 11
-    },
-    {
-      "baits": [
-        {
           "address": "yywxyxw",
           "events": 11,
           "path": "/~/1f11d07f9839a969308c0451"
@@ -36399,22 +36570,6 @@
       "id": "ae4c77c1d632d7dcee7c3e74",
       "kind": "z",
       "last_seen": "2026-09-29T13:48:05Z",
-      "phenotype_samples": 11
-    },
-    {
-      "baits": [
-        {
-          "address": "wxzzxw",
-          "events": 11,
-          "path": "/__live/~/b079c6591e071894c0861245"
-        }
-      ],
-      "events": 11,
-      "first_seen": "2026-09-17T15:04:47Z",
-      "genome": "e57c8c0d38ae3601d6acfedd3bdf04f2464cbbbf4c21628f831f00c057892227",
-      "id": "b48d00869c5861d73630c4b4",
-      "kind": "w",
-      "last_seen": "2026-09-24T15:15:38Z",
       "phenotype_samples": 11
     },
     {
@@ -37954,7 +38109,7 @@
           "path": "/"
         },
         {
-          "address": "zyyww",
+          "address": "zyywwyw",
           "events": 1,
           "path": "/~/3237722cbcaf1d21dd643f79"
         },
@@ -37964,7 +38119,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -39826,7 +39981,7 @@
           "path": "/~/3b95421795b3b2cba7b2ebca"
         },
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -40917,6 +41072,37 @@
       "id": "6f1776eb959c5ec6cea152ef",
       "kind": "w",
       "last_seen": "2026-09-24T15:45:32Z",
+      "phenotype_samples": 7
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 3,
+          "path": "/"
+        },
+        {
+          "address": "xxyzwz",
+          "events": 2,
+          "path": "/~/0d99fef165d419e2334ae00c"
+        },
+        {
+          "address": "xxwwwz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/favicon.svg"
+        },
+        {
+          "address": "xxwwyz",
+          "events": 1,
+          "path": "/~/d705dae5eca377d31895cdec"
+        }
+      ],
+      "events": 7,
+      "first_seen": "2026-09-24T12:43:45Z",
+      "genome": "1c21f984317d95cf76de3f8ee6ef630eaf099361919309c3ad75850372fb0f3b",
+      "id": "77d82ebcde0dd40f22896313",
+      "kind": "z",
+      "last_seen": "2026-10-02T15:29:03Z",
       "phenotype_samples": 7
     },
     {
@@ -42372,7 +42558,7 @@
           "path": "/"
         },
         {
-          "address": "zyyww",
+          "address": "zyywwyw",
           "events": 1,
           "path": "/~/3237722cbcaf1d21dd643f79"
         },
@@ -42450,6 +42636,22 @@
       "id": "bc932bfd9d5db2171206ca8e",
       "kind": "z",
       "last_seen": "2026-09-21T23:58:54Z",
+      "phenotype_samples": 6
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 6,
+          "path": "/"
+        }
+      ],
+      "events": 6,
+      "first_seen": "2026-09-15T07:04:00Z",
+      "genome": "fee73154847ec98d39afca79b0b9b5cd27a6701ec81528c343afc518332af7ce",
+      "id": "bf821352060628b8eaf6f516",
+      "kind": "y",
+      "last_seen": "2026-10-02T14:28:26Z",
       "phenotype_samples": 6
     },
     {
@@ -42662,6 +42864,22 @@
         }
       ],
       "events": 6,
+      "first_seen": "2026-09-17T20:11:05Z",
+      "genome": "ad993c76616f11f2bc8d96058cef865d684d34b33a09c0b767aebe99a4ab769e",
+      "id": "e7082d1412f201fb50259221",
+      "kind": "y",
+      "last_seen": "2026-10-02T15:36:45Z",
+      "phenotype_samples": 6
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 6,
+          "path": "/"
+        }
+      ],
+      "events": 6,
       "first_seen": "2026-09-15T18:39:32Z",
       "genome": "0898e0335d99a37ecaf212091bcebae7e1fb5d8da76d164d9b5aa540da6678dd",
       "id": "e877d850fce15adfe6e7fe86",
@@ -42797,6 +43015,22 @@
       "id": "016e4095920ebbee635e796e",
       "kind": "y",
       "last_seen": "2026-09-30T20:11:09Z",
+      "phenotype_samples": 5
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 5,
+          "path": "/"
+        }
+      ],
+      "events": 5,
+      "first_seen": "2026-09-15T10:08:06Z",
+      "genome": "e4bc483383d7bf0b19c451d64584fe300e61955eaf2c44da2670554abe6f505d",
+      "id": "02b4cbcf2b94b1309554f489",
+      "kind": "y",
+      "last_seen": "2026-10-02T13:08:00Z",
       "phenotype_samples": 5
     },
     {
@@ -43280,6 +43514,32 @@
       "baits": [
         {
           "address": "zwzzxxyz",
+          "events": 3,
+          "path": "/"
+        },
+        {
+          "address": "wwwzzz",
+          "events": 1,
+          "path": "/~/c08af0b2ed4c6cf2dd119472"
+        },
+        {
+          "address": "zyxywx",
+          "events": 1,
+          "path": "/~/d2e01127c96a7799b860f5b3"
+        }
+      ],
+      "events": 5,
+      "first_seen": "2026-09-30T03:50:02Z",
+      "genome": "e35a156eece14bdb71e0f2f6f84038efa83c08f4025258ce624af4725d265121",
+      "id": "9ffe220c93ba7cfe9fa867b7",
+      "kind": "z",
+      "last_seen": "2026-10-02T15:48:28Z",
+      "phenotype_samples": 5
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
           "events": 2,
           "path": "/"
         },
@@ -43398,6 +43658,22 @@
     {
       "baits": [
         {
+          "address": "zwzzxxyz",
+          "events": 5,
+          "path": "/"
+        }
+      ],
+      "events": 5,
+      "first_seen": "2026-09-18T01:12:03Z",
+      "genome": "bc0a8ac0ffe7a056881d23b599372bf1635bda8280cabbd325105b7e482191f6",
+      "id": "b31e30e0d25f9d163f2ee97c",
+      "kind": "y",
+      "last_seen": "2026-10-02T15:04:39Z",
+      "phenotype_samples": 5
+    },
+    {
+      "baits": [
+        {
           "address": "xxxxxx",
           "events": 5,
           "path": "/~/1c59a749625b9700fc36d048"
@@ -43430,7 +43706,7 @@
     {
       "baits": [
         {
-          "address": "zyyww",
+          "address": "zyywwyw",
           "events": 1,
           "path": "/~/3237722cbcaf1d21dd643f79"
         },
@@ -43477,22 +43753,6 @@
       "id": "bafbac07948aff39475efb40",
       "kind": "y",
       "last_seen": "2026-09-28T15:10:10Z",
-      "phenotype_samples": 5
-    },
-    {
-      "baits": [
-        {
-          "address": "zwzzxxyz",
-          "events": 5,
-          "path": "/"
-        }
-      ],
-      "events": 5,
-      "first_seen": "2026-09-15T07:04:00Z",
-      "genome": "643b0b085f71e15263993d4d846bc0d2b8d4ef4d6793917648eac51822f9f8b1",
-      "id": "bf821352060628b8eaf6f516",
-      "kind": "y",
-      "last_seen": "2026-09-19T23:49:03Z",
       "phenotype_samples": 5
     },
     {
@@ -44777,32 +45037,6 @@
       "baits": [
         {
           "address": "zwzzxxyz",
-          "events": 2,
-          "path": "/"
-        },
-        {
-          "address": "wwwzzz",
-          "events": 1,
-          "path": "/~/c08af0b2ed4c6cf2dd119472"
-        },
-        {
-          "address": "zyxywx",
-          "events": 1,
-          "path": "/~/d2e01127c96a7799b860f5b3"
-        }
-      ],
-      "events": 4,
-      "first_seen": "2026-09-30T03:50:02Z",
-      "genome": "9f8fd1eed4ae9fd2b7667c70825d935b2adfaf3e66322aa1ec9ee5a707f7bfb7",
-      "id": "9ffe220c93ba7cfe9fa867b7",
-      "kind": "z",
-      "last_seen": "2026-09-30T03:50:02Z",
-      "phenotype_samples": 4
-    },
-    {
-      "baits": [
-        {
-          "address": "zwzzxxyz",
           "events": 4,
           "path": "/"
         }
@@ -44960,22 +45194,6 @@
       "id": "b25f4195e22f151f0c31632e",
       "kind": "z",
       "last_seen": "2026-09-17T21:10:33Z",
-      "phenotype_samples": 4
-    },
-    {
-      "baits": [
-        {
-          "address": "zwzzxxyz",
-          "events": 4,
-          "path": "/"
-        }
-      ],
-      "events": 4,
-      "first_seen": "2026-09-18T01:12:03Z",
-      "genome": "72f15748d21f89a109450ea9f68a85f7047a3bd56e24214e2597c1af619f11e5",
-      "id": "b31e30e0d25f9d163f2ee97c",
-      "kind": "y",
-      "last_seen": "2026-10-02T05:10:55Z",
       "phenotype_samples": 4
     },
     {
@@ -45320,22 +45538,6 @@
     {
       "baits": [
         {
-          "address": "zwzzxxyz",
-          "events": 4,
-          "path": "/"
-        }
-      ],
-      "events": 4,
-      "first_seen": "2026-09-17T20:11:05Z",
-      "genome": "99c4aa7cdd7f3e0fa8868a94dcfc12aed40fdf863df18cb03b15100dd0f42a89",
-      "id": "e7082d1412f201fb50259221",
-      "kind": "y",
-      "last_seen": "2026-09-22T21:11:41Z",
-      "phenotype_samples": 4
-    },
-    {
-      "baits": [
-        {
           "address": "xxxxxx",
           "events": 4,
           "path": "/~/1c59a749625b9700fc36d048"
@@ -45368,7 +45570,7 @@
     {
       "baits": [
         {
-          "address": "yzzyzxyx",
+          "address": "yzzyzxyxxz",
           "events": 1,
           "path": "/~/70d8a4b1f228187a9bfd26db"
         },
@@ -45527,22 +45729,6 @@
       "id": "029bc08f4b378b9a92984ea1",
       "kind": "y",
       "last_seen": "2026-09-27T23:55:46Z",
-      "phenotype_samples": 3
-    },
-    {
-      "baits": [
-        {
-          "address": "zwzzxxyz",
-          "events": 3,
-          "path": "/"
-        }
-      ],
-      "events": 3,
-      "first_seen": "2026-09-15T10:08:06Z",
-      "genome": "b3a038efb04a73e8a898e69212d93ada28f2cc6ac4ae6adce75cb3349ed9e2d7",
-      "id": "02b4cbcf2b94b1309554f489",
-      "kind": "y",
-      "last_seen": "2026-10-01T01:11:29Z",
       "phenotype_samples": 3
     },
     {
@@ -46115,6 +46301,27 @@
     {
       "baits": [
         {
+          "address": "wxzzxw",
+          "events": 2,
+          "path": "/__live/~/b079c6591e071894c0861245"
+        },
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 3,
+      "first_seen": "2026-09-27T12:40:34Z",
+      "genome": "c6dbdd4d02f1b9c10c2382190e3786d537a7516c9b93b843cb50e94c47f3e487",
+      "id": "35bd04a13d86d8f1af745f4b",
+      "kind": "w",
+      "last_seen": "2026-10-02T16:43:31Z",
+      "phenotype_samples": 3
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -46393,6 +46600,22 @@
       "id": "4f327197cfb9d63d45ec27e3",
       "kind": "z",
       "last_seen": "2026-09-18T12:12:06Z",
+      "phenotype_samples": 3
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 3,
+          "path": "/"
+        }
+      ],
+      "events": 3,
+      "first_seen": "2026-09-24T13:07:51Z",
+      "genome": "12a79e2f89336d570de8119eca7a3dd23e6c514f323c0dd1a25a73c2a7ad6841",
+      "id": "4fdd2dab4b89ac19dbb1c9d5",
+      "kind": "y",
+      "last_seen": "2026-10-02T13:04:22Z",
       "phenotype_samples": 3
     },
     {
@@ -46710,32 +46933,6 @@
       "baits": [
         {
           "address": "zwzzxxyz",
-          "events": 1,
-          "path": "/"
-        },
-        {
-          "address": "xxyzwz",
-          "events": 1,
-          "path": "/~/0d99fef165d419e2334ae00c"
-        },
-        {
-          "address": "xxwwyz",
-          "events": 1,
-          "path": "/~/d705dae5eca377d31895cdec"
-        }
-      ],
-      "events": 3,
-      "first_seen": "2026-09-24T12:43:45Z",
-      "genome": "2a8409ae2012184e8caa7a51d7284971ae4b8106c6288eed3cc1230464238a0d",
-      "id": "77d82ebcde0dd40f22896313",
-      "kind": "z",
-      "last_seen": "2026-09-24T12:43:47Z",
-      "phenotype_samples": 3
-    },
-    {
-      "baits": [
-        {
-          "address": "zwzzxxyz",
           "events": 3,
           "path": "/"
         }
@@ -46835,6 +47032,22 @@
       "id": "8669ae7a8626d4468b84ae93",
       "kind": "z",
       "last_seen": "2026-09-24T19:28:19Z",
+      "phenotype_samples": 3
+    },
+    {
+      "baits": [
+        {
+          "address": "xxxxxx",
+          "events": 3,
+          "path": "/~/1c59a749625b9700fc36d048"
+        }
+      ],
+      "events": 3,
+      "first_seen": "2026-09-13T23:10:12Z",
+      "genome": "a950f8ab9649240f18d6ea9a9092deb891d641a7de3ab26dbfe9448b90ad36ed",
+      "id": "89995cef82c56500b57f4d4f",
+      "kind": "z",
+      "last_seen": "2026-10-02T15:36:44Z",
       "phenotype_samples": 3
     },
     {
@@ -48622,6 +48835,27 @@
     {
       "baits": [
         {
+          "address": "zzyxyzx",
+          "events": 1,
+          "path": "/~/a0b30e417d8b9aa85a499008"
+        },
+        {
+          "address": "zyywwyz",
+          "events": 1,
+          "path": "/~/ad5bb7b49e0cddee1371235f"
+        }
+      ],
+      "events": 2,
+      "first_seen": "2026-09-27T13:57:06Z",
+      "genome": "c53e65fd924daece70eae4bae0dc48aef73177a802836d220006348a0ff625df",
+      "id": "0f497ccd49005a6eeea9ab08",
+      "kind": "z",
+      "last_seen": "2026-10-02T16:49:01Z",
+      "phenotype_samples": 2
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -49263,6 +49497,22 @@
     {
       "baits": [
         {
+          "address": "zwzzxxyz",
+          "events": 2,
+          "path": "/"
+        }
+      ],
+      "events": 2,
+      "first_seen": "2026-10-02T15:07:21Z",
+      "genome": "8276f14786364f1e0faa6ec7f0ccc88e813c0a297661a32b8b73d53c1329ecd1",
+      "id": "2ba72032c330dfe6d011bd27",
+      "kind": "x",
+      "last_seen": "2026-10-02T15:07:21Z",
+      "phenotype_samples": 2
+    },
+    {
+      "baits": [
+        {
           "address": "xxxxxx",
           "events": 2,
           "path": "/~/1c59a749625b9700fc36d048"
@@ -49433,22 +49683,6 @@
       "id": "3571704bd5894edfc2311f36",
       "kind": "x",
       "last_seen": "2026-09-17T11:02:34Z",
-      "phenotype_samples": 2
-    },
-    {
-      "baits": [
-        {
-          "address": "wxzzxw",
-          "events": 2,
-          "path": "/__live/~/b079c6591e071894c0861245"
-        }
-      ],
-      "events": 2,
-      "first_seen": "2026-09-27T12:40:34Z",
-      "genome": "c3b8737ddd9ff35e1f224351d52da35fa2d8f2fc6a47d9a281f0269589e45bac",
-      "id": "35bd04a13d86d8f1af745f4b",
-      "kind": "w",
-      "last_seen": "2026-09-27T12:40:48Z",
       "phenotype_samples": 2
     },
     {
@@ -50160,22 +50394,6 @@
     {
       "baits": [
         {
-          "address": "zwzzxxyz",
-          "events": 2,
-          "path": "/"
-        }
-      ],
-      "events": 2,
-      "first_seen": "2026-09-24T13:07:51Z",
-      "genome": "33b1723255824806ee1468be4fae371e54b3d1e5bb1a0aa8f512f2b09ea17422",
-      "id": "4fdd2dab4b89ac19dbb1c9d5",
-      "kind": "x",
-      "last_seen": "2026-09-24T13:07:52Z",
-      "phenotype_samples": 2
-    },
-    {
-      "baits": [
-        {
           "address": "zyzwzwy",
           "events": 1,
           "path": "/~/b369ce0c8f0a3e1ce68510a2"
@@ -50334,6 +50552,27 @@
       "id": "556036cb981acda29a208917",
       "kind": "z",
       "last_seen": "2026-10-02T06:12:14Z",
+      "phenotype_samples": 2
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 1,
+          "path": "/"
+        },
+        {
+          "address": "wxwyw",
+          "events": 1,
+          "path": "/~/2f3ac9f5a06104ae77c93575"
+        }
+      ],
+      "events": 2,
+      "first_seen": "2026-10-02T13:00:59Z",
+      "genome": "cff9bd5b3ecb29881e0590b7d06a4c175c5fc7ba3ffbf3d611839b352dfc4ddf",
+      "id": "564df01ebaf447bdf9c223e3",
+      "kind": "z",
+      "last_seen": "2026-10-02T13:01:00Z",
       "phenotype_samples": 2
     },
     {
@@ -51445,6 +51684,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 2,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 2,
+      "first_seen": "2026-10-02T14:43:41Z",
+      "genome": "eaf896620cff9f7a30f1af14a61d9f1c6f0409bd8129960073b2671c34590673",
+      "id": "8131c31a9e07bb6fd556d5f7",
+      "kind": "w",
+      "last_seen": "2026-10-02T14:47:45Z",
+      "phenotype_samples": 2
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 2,
           "path": "/"
@@ -51626,22 +51881,6 @@
       "id": "88aab12727ce87274ec7bfd7",
       "kind": "z",
       "last_seen": "2026-09-17T14:15:41Z",
-      "phenotype_samples": 2
-    },
-    {
-      "baits": [
-        {
-          "address": "xxxxxx",
-          "events": 2,
-          "path": "/~/1c59a749625b9700fc36d048"
-        }
-      ],
-      "events": 2,
-      "first_seen": "2026-09-13T23:10:12Z",
-      "genome": "c43eb2076421fe7b378ff64cf8c75dc45e5223257d6c55a16c2e4e86484fe696",
-      "id": "89995cef82c56500b57f4d4f",
-      "kind": "z",
-      "last_seen": "2026-09-21T23:20:08Z",
       "phenotype_samples": 2
     },
     {
@@ -53872,6 +54111,27 @@
     {
       "baits": [
         {
+          "address": "xxwwwz",
+          "events": 1,
+          "path": "/assets/dd8c58b963ff926f/favicon.svg"
+        },
+        {
+          "address": "xxyzwz",
+          "events": 1,
+          "path": "/~/0d99fef165d419e2334ae00c"
+        }
+      ],
+      "events": 2,
+      "first_seen": "2026-10-02T13:02:48Z",
+      "genome": "b354168ba11cadb9f81c3e95508706c414de84fbbebb55fd9be9904aa3f5bf74",
+      "id": "f78389926009a9eb25a4dff0",
+      "kind": "z",
+      "last_seen": "2026-10-02T13:02:48Z",
+      "phenotype_samples": 2
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 2,
           "path": "/"
@@ -55290,22 +55550,6 @@
     {
       "baits": [
         {
-          "address": "zzyxyzx",
-          "events": 1,
-          "path": "/~/a0b30e417d8b9aa85a499008"
-        }
-      ],
-      "events": 1,
-      "first_seen": "2026-09-27T13:57:06Z",
-      "genome": "a3c69c85ccd10eb96d1059e79430d8ada6b8b369dfffded6d01ab0aeb55eb40f",
-      "id": "0f497ccd49005a6eeea9ab08",
-      "kind": "z",
-      "last_seen": "2026-09-27T13:57:06Z",
-      "phenotype_samples": 1
-    },
-    {
-      "baits": [
-        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -56181,6 +56425,22 @@
       "id": "17366afec3b1cb869f1415e1",
       "kind": "x",
       "last_seen": "2026-09-16T07:56:29Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T16:16:09Z",
+      "genome": "bcc6a787f91f009a05bb1ad6299eaddce5ba3440b448f05f89d6bf7e4b807bb6",
+      "id": "174f0b1fb26a846b47fc8d2f",
+      "kind": "x",
+      "last_seen": "2026-10-02T16:16:09Z",
       "phenotype_samples": 1
     },
     {
@@ -58437,6 +58697,22 @@
       "id": "313c5962650837861daad7a9",
       "kind": "x",
       "last_seen": "2026-09-18T16:54:03Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T16:21:37Z",
+      "genome": "e4c321682c3da1c58eff3a55bae7e7f573be33f75e1b70dd7d7822f62ffaf640",
+      "id": "314afe1d4313a351dc9e2a08",
+      "kind": "x",
+      "last_seen": "2026-10-02T16:21:37Z",
       "phenotype_samples": 1
     },
     {
@@ -60730,6 +61006,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T16:21:14Z",
+      "genome": "e5924da5b151ca5a57b2603d777377e8bade0dac722b62e871ba581d9d3ea841",
+      "id": "4e78b34daeead7fa0e1f4e68",
+      "kind": "w",
+      "last_seen": "2026-10-02T16:21:14Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "zzyyxx",
           "events": 1,
           "path": "/~/000c2929c371b9e2cec9afe3"
@@ -60981,6 +61273,22 @@
       "id": "5136db47c97f8ab761a29594",
       "kind": "x",
       "last_seen": "2026-10-01T06:23:52Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 1,
+          "path": "/"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T13:02:46Z",
+      "genome": "0e74e2d724bf7a69e59343aab5b424be6562a740452704ad00f7c2aed3f2b13a",
+      "id": "5206fd29703573bf4e4e5af7",
+      "kind": "x",
+      "last_seen": "2026-10-02T13:02:46Z",
       "phenotype_samples": 1
     },
     {
@@ -61642,6 +61950,22 @@
     {
       "baits": [
         {
+          "address": "yzzyzxyxxx",
+          "events": 1,
+          "path": "/~/93ebdf4dd7209b85a4dd4a13"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T17:54:49Z",
+      "genome": "805d360ab30c0c3515f91ff690cb06cfb80cfb8e115001d24f2e79b87f4270c0",
+      "id": "5aaaa8b3d9e020a682e2a83d",
+      "kind": "z",
+      "last_seen": "2026-10-02T17:54:49Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "yywxyxw",
           "events": 1,
           "path": "/~/1f11d07f9839a969308c0451"
@@ -62138,6 +62462,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T14:44:10Z",
+      "genome": "71721fd789615f371a3e75cc0da9bfb8ad7faca5f7cf9dd4a86fb404611a40f4",
+      "id": "5f725b504235af057dd15ea1",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:44:10Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -62581,6 +62921,22 @@
       "id": "6345eb3e15a185d11a3fe9d0",
       "kind": "z",
       "last_seen": "2026-09-14T06:57:23Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 1,
+          "path": "/"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T13:49:42Z",
+      "genome": "352d1252f6bf16e59c76768e425ea4f5d72899f0f42e8c5ca997429f388e2b5c",
+      "id": "636663e618bfcbbe1d9e93d3",
+      "kind": "x",
+      "last_seen": "2026-10-02T13:49:42Z",
       "phenotype_samples": 1
     },
     {
@@ -65002,6 +65358,22 @@
     {
       "baits": [
         {
+          "address": "zwzzxxyz",
+          "events": 1,
+          "path": "/"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T15:44:50Z",
+      "genome": "4a76ead600443a3c181bc11b6be931e5918784d44ce9a823611368660c9e4078",
+      "id": "7da3338797aca034ede392ae",
+      "kind": "x",
+      "last_seen": "2026-10-02T15:44:50Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "xxyzwz",
           "events": 1,
           "path": "/~/0d99fef165d419e2334ae00c"
@@ -65253,6 +65625,22 @@
       "id": "7f8d8cfb6953b8462e08fc21",
       "kind": "z",
       "last_seen": "2026-09-18T20:59:49Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T15:30:26Z",
+      "genome": "2c80969678153bc76d5b247f49133e57a648bead83010ccda03d10efcdf28e7f",
+      "id": "7fa1d825808ddfbe98b5a344",
+      "kind": "x",
+      "last_seen": "2026-10-02T15:30:26Z",
       "phenotype_samples": 1
     },
     {
@@ -66661,6 +67049,22 @@
       "id": "8f236d324f5788e80ef30005",
       "kind": "z",
       "last_seen": "2026-09-22T00:29:20Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T18:08:55Z",
+      "genome": "2a24777b710a34d5ba63fb091f95914f99e35cea4fcdc105cd0dbb889e93c7aa",
+      "id": "8f6c0608de27bd4820b9c578",
+      "kind": "x",
+      "last_seen": "2026-10-02T18:08:55Z",
       "phenotype_samples": 1
     },
     {
@@ -68346,6 +68750,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T14:48:14Z",
+      "genome": "7e6a0cdb53dd10fdc21c1d63334c9ada667eab9a1c35466d9849bc39e363a327",
+      "id": "a37eaa020bc51748ff18c968",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:48:14Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -68949,6 +69369,22 @@
       "id": "a9bf6f1fda1688f845013738",
       "kind": "x",
       "last_seen": "2026-09-24T14:07:17Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "wwwzxzz",
+          "events": 1,
+          "path": "/crawlerbait/"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T14:55:09Z",
+      "genome": "0c04cccb31cb040163f72709e0b4d68b165b1caf1cebdc122a8292671a7fd6ad",
+      "id": "a9c8193271616c7c166cc16c",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:55:09Z",
       "phenotype_samples": 1
     },
     {
@@ -70138,6 +70574,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T17:26:28Z",
+      "genome": "05f3bb1c5cb5c479fbb92f187c2ff9534930c0278a2e9e959d6ce7ac31143a6d",
+      "id": "b74820d5bd1a9d0eebc70c02",
+      "kind": "x",
+      "last_seen": "2026-10-02T17:26:28Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -71173,6 +71625,22 @@
       "id": "c285ce135b66b49a7afcb534",
       "kind": "x",
       "last_seen": "2026-09-21T20:11:54Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T16:43:57Z",
+      "genome": "7c626c475c0d34b5efcd54d131a3c460b1bd452777b38317d1b52cf2f042f8d8",
+      "id": "c2c4726f119ff1b9b533949e",
+      "kind": "x",
+      "last_seen": "2026-10-02T16:43:57Z",
       "phenotype_samples": 1
     },
     {
@@ -72410,6 +72878,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T16:15:44Z",
+      "genome": "fb92cabd2cdeaa2ee5ca25f6d2e51dbcd63e6b878acb285f831b7481590b211c",
+      "id": "d2ce81b9cc91da7aac02c379",
+      "kind": "w",
+      "last_seen": "2026-10-02T16:15:44Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -73306,6 +73790,22 @@
     {
       "baits": [
         {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T17:26:03Z",
+      "genome": "d07a2f7b9c5e461c16038f08bf0ab457b890cda0e118a39187923d4356737cc2",
+      "id": "dd7add5949ef209ff5d0529e",
+      "kind": "w",
+      "last_seen": "2026-10-02T17:26:03Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
           "address": "zwzzxxyz",
           "events": 1,
           "path": "/"
@@ -73429,6 +73929,22 @@
       "id": "deb05c3abe06d47fc3408d3c",
       "kind": "x",
       "last_seen": "2026-09-16T01:43:16Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 1,
+          "path": "/"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T14:20:02Z",
+      "genome": "1301bd8bc30af30e9aac570518841cf2945b3f4855b88598831050aab942c5e5",
+      "id": "ded5889373dc9d87367f72fc",
+      "kind": "x",
+      "last_seen": "2026-10-02T14:20:02Z",
       "phenotype_samples": 1
     },
     {
@@ -73925,6 +74441,22 @@
       "id": "e4ab15724fa129674d52846c",
       "kind": "z",
       "last_seen": "2026-09-29T21:25:18Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "zwzzxxyz",
+          "events": 1,
+          "path": "/"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T13:23:04Z",
+      "genome": "bb13c4c69cc692d696e0042d5c881ecde08cd17f19adfdd356c2572133898dbd",
+      "id": "e4d14251c8dcf6801219fa90",
+      "kind": "x",
+      "last_seen": "2026-10-02T13:23:04Z",
       "phenotype_samples": 1
     },
     {
@@ -74885,6 +75417,22 @@
       "id": "f1ae46bec1251e4ea390c6cb",
       "kind": "x",
       "last_seen": "2026-09-16T08:51:39Z",
+      "phenotype_samples": 1
+    },
+    {
+      "baits": [
+        {
+          "address": "xzywy",
+          "events": 1,
+          "path": "/__live/~/7d461d62fe01d71bfea9a7d7"
+        }
+      ],
+      "events": 1,
+      "first_seen": "2026-10-02T18:08:31Z",
+      "genome": "6e4689a3fb15a4e5875e119c7247e8881a04b3d057de33c533fe342f847ca615",
+      "id": "f1c306d50c66f907ca7dc233",
+      "kind": "w",
+      "last_seen": "2026-10-02T18:08:31Z",
       "phenotype_samples": 1
     },
     {
@@ -88728,7 +89276,7 @@
       "t": "2026-09-15T22:36:28Z"
     },
     {
-      "bait_address": "zyyww",
+      "bait_address": "zyywwyw",
       "crawler": "a98e5fda0fb10e77ae93e335",
       "method": "GET",
       "path": "/~/3237722cbcaf1d21dd643f79",
@@ -89328,7 +89876,7 @@
       "t": "2026-09-16T01:43:00Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "2840bb508166150ff372103f",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -89338,7 +89886,7 @@
       "t": "2026-09-16T01:43:01Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "2840bb508166150ff372103f",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -89768,7 +90316,7 @@
       "t": "2026-09-16T01:43:22Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "656be15b3092a874b40baf2e",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -89788,7 +90336,7 @@
       "t": "2026-09-16T01:43:22Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "905f88a973865b59382bc58f",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90218,7 +90766,7 @@
       "t": "2026-09-16T05:00:39Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "3ce240c7de4b20a512f352ed",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90288,7 +90836,7 @@
       "t": "2026-09-16T05:00:57Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "08163a6218f71f72d285b98b",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90448,7 +90996,7 @@
       "t": "2026-09-16T05:01:01Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "3433fb7ea6beb1dcaa9b8113",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90698,7 +91246,7 @@
       "t": "2026-09-16T05:01:17Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "f33b7d78e8c776abaed86138",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90718,7 +91266,7 @@
       "t": "2026-09-16T05:01:17Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "a210911865d6467d065f525f",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90898,7 +91446,7 @@
       "t": "2026-09-16T05:01:22Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "5c98b2bb49a483fb7a078938",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -90988,7 +91536,7 @@
       "t": "2026-09-16T05:01:30Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "aa4b7046670dccf6f953040d",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91048,7 +91596,7 @@
       "t": "2026-09-16T05:01:30Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "38c72f5dca082b019d82b887",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91248,7 +91796,7 @@
       "t": "2026-09-16T05:01:32Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "38c72f5dca082b019d82b887",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91358,7 +91906,7 @@
       "t": "2026-09-16T05:01:33Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "3433fb7ea6beb1dcaa9b8113",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91538,7 +92086,7 @@
       "t": "2026-09-16T05:01:36Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "b65c85c263e09c7d2ea1003e",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91658,7 +92206,7 @@
       "t": "2026-09-16T05:01:40Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "38c72f5dca082b019d82b887",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91738,7 +92286,7 @@
       "t": "2026-09-16T05:01:47Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "d5b9900b38ecc43606c3c49b",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -91948,7 +92496,7 @@
       "t": "2026-09-16T05:01:51Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "c76bca2186b874b431f016cd",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -92048,7 +92596,7 @@
       "t": "2026-09-16T05:01:52Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "656be15b3092a874b40baf2e",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -92158,7 +92706,7 @@
       "t": "2026-09-16T05:02:53Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "48d7bee39df474fa2351e8ec",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -92418,7 +92966,7 @@
       "t": "2026-09-16T06:33:09Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "4849e4a191da034b98cf1534",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -92678,7 +93226,7 @@
       "t": "2026-09-16T07:55:51Z"
     },
     {
-      "bait_address": "zyyww",
+      "bait_address": "zyywwyw",
       "crawler": "35c5300da90c92c435769dc0",
       "method": "GET",
       "path": "/~/3237722cbcaf1d21dd643f79",
@@ -92708,7 +93256,7 @@
       "t": "2026-09-16T07:55:53Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "35c5300da90c92c435769dc0",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -93768,7 +94316,7 @@
       "t": "2026-09-16T07:57:54Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "e8dedd08e7e246fe93abe807",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -93878,7 +94426,7 @@
       "t": "2026-09-16T07:57:58Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "3316d79c345de02791a36216",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -94058,7 +94606,7 @@
       "t": "2026-09-16T07:58:32Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "99d294c85a4ae63e4304c41b",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -94158,7 +94706,7 @@
       "t": "2026-09-16T07:58:33Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "99d294c85a4ae63e4304c41b",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -94268,7 +94816,7 @@
       "t": "2026-09-16T08:00:23Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "d3ea62009e5b206e333d4da9",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -94668,7 +95216,7 @@
       "t": "2026-09-16T08:09:56Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "18fee8f033e6a0d8c50649f2",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -94778,7 +95326,7 @@
       "t": "2026-09-16T08:09:58Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "08163a6218f71f72d285b98b",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -94798,7 +95346,7 @@
       "t": "2026-09-16T08:09:58Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "090299732c8c418591b29e4f",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -95108,7 +95656,7 @@
       "t": "2026-09-16T08:10:02Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "60d398137e24c60969ba4456",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -95388,7 +95936,7 @@
       "t": "2026-09-16T08:51:32Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "cc611a0a49a127fef21bfe9b",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -95658,7 +96206,7 @@
       "t": "2026-09-16T08:51:39Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "bfdf7c34f2edd1653fc64ea6",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -95688,7 +96236,7 @@
       "t": "2026-09-16T08:51:39Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "bfdf7c34f2edd1653fc64ea6",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -95958,7 +96506,7 @@
       "t": "2026-09-16T08:51:46Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "eb8c6fd9d3452ba99970d2e7",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -96418,7 +96966,7 @@
       "t": "2026-09-16T09:27:11Z"
     },
     {
-      "bait_address": "zyyww",
+      "bait_address": "zyywwyw",
       "crawler": "ba469a46b30c4eebb8ab0023",
       "method": "GET",
       "path": "/~/3237722cbcaf1d21dd643f79",
@@ -96458,7 +97006,7 @@
       "t": "2026-09-16T09:43:56Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "f14e75e42309aafb16152c79",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -129818,7 +130366,7 @@
       "t": "2026-09-18T22:38:45Z"
     },
     {
-      "bait_address": "yzzyzxyx",
+      "bait_address": "yzzyzxyxxz",
       "crawler": "00a497d923e2e771c7b2dd33",
       "method": "GET",
       "path": "/~/70d8a4b1f228187a9bfd26db",
@@ -209358,7 +209906,7 @@
       "t": "2026-09-29T12:49:23Z"
     },
     {
-      "bait_address": "xywywxw",
+      "bait_address": "xywywxwyw",
       "crawler": "49afbc37d5e39ee64323ea92",
       "method": "GET",
       "path": "/~/6bd525e801040132ecae0d04",
@@ -226086,6 +226634,866 @@
       "source_index": 11,
       "status": 200,
       "t": "2026-10-02T12:28:25Z"
+    },
+    {
+      "bait_address": "wxwyw",
+      "crawler": "564df01ebaf447bdf9c223e3",
+      "method": "POST",
+      "path": "/~/2f3ac9f5a06104ae77c93575",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 62,
+      "status": 405,
+      "t": "2026-10-02T13:00:59Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "564df01ebaf447bdf9c223e3",
+      "method": "POST",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 81,
+      "status": 405,
+      "t": "2026-10-02T13:01:00Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "5206fd29703573bf4e4e5af7",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 73,
+      "status": 200,
+      "t": "2026-10-02T13:02:46Z"
+    },
+    {
+      "bait_address": "xxyzwz",
+      "crawler": "f78389926009a9eb25a4dff0",
+      "method": "GET",
+      "path": "/~/0d99fef165d419e2334ae00c",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 16,
+      "status": 404,
+      "t": "2026-10-02T13:02:48Z"
+    },
+    {
+      "bait_address": "xxwwwz",
+      "crawler": "f78389926009a9eb25a4dff0",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 80,
+      "status": 200,
+      "t": "2026-10-02T13:02:48Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "4fdd2dab4b89ac19dbb1c9d5",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 64,
+      "status": 200,
+      "t": "2026-10-02T13:04:22Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "02b4cbcf2b94b1309554f489",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 30,
+      "status": 301,
+      "t": "2026-10-02T13:07:59Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "02b4cbcf2b94b1309554f489",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 36,
+      "status": 200,
+      "t": "2026-10-02T13:08:00Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "e4d14251c8dcf6801219fa90",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 43,
+      "status": 522,
+      "t": "2026-10-02T13:23:04Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "636663e618bfcbbe1d9e93d3",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 20,
+      "status": 404,
+      "t": "2026-10-02T13:49:42Z"
+    },
+    {
+      "bait_address": "xywywxwyx",
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 54,
+      "status": 404,
+      "t": "2026-10-02T13:55:09Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "ded5889373dc9d87367f72fc",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 21,
+      "status": 404,
+      "t": "2026-10-02T14:20:02Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 25,
+      "status": 200,
+      "t": "2026-10-02T14:26:30Z"
+    },
+    {
+      "bait_address": "yxwyyz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-runtime-v2.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 1,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zzwxzy",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 2,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xxwwxxwx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/root-view.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 3,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zyzxyx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 11,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xyxzww",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-text-tissue.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 12,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zzyyxzw",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-label-ink.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 13,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 14,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "wwwwwyy",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-holon.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 15,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zwwwyy",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/address.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 17,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "yyywxxyz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-glass.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 22,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "ywxxzx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-safe-area.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 23,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zzyxwz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 24,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xyzzx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-fold.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 26,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "wzzzzzyz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 27,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "wyyyxwz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 33,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "yxwwyyz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/world-view.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 34,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zzxxzzz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 47,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "wyzxzyx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/interlocutors.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 48,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zzxywwy",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-runtime.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 50,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "yzzzxz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 51,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "yxxzww",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 52,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "yxxyzwz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-type.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 56,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xyyyw",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-aperture.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 57,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zzyxyyx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-safe-area.css",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 58,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xxwwwz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 59,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xwxwwyx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/locus-shader.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 60,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xywyxxz",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/navigation-aperture.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 61,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "xzwwxy",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/display-lens.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 78,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "wyywyx",
+      "crawler": "8ce97ae7558f93ec1c857c41",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.js",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 79,
+      "status": 200,
+      "t": "2026-10-02T14:26:31Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "bf821352060628b8eaf6f516",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 63,
+      "status": 200,
+      "t": "2026-10-02T14:28:26Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "8131c31a9e07bb6fd556d5f7",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 37,
+      "status": 200,
+      "t": "2026-10-02T14:43:41Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 35,
+      "status": 204,
+      "t": "2026-10-02T14:43:42Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "5f725b504235af057dd15ea1",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 29,
+      "status": 200,
+      "t": "2026-10-02T14:44:10Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "8131c31a9e07bb6fd556d5f7",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 5,
+      "status": 200,
+      "t": "2026-10-02T14:47:45Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 28,
+      "status": 204,
+      "t": "2026-10-02T14:47:46Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "a37eaa020bc51748ff18c968",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 4,
+      "status": 200,
+      "t": "2026-10-02T14:48:14Z"
+    },
+    {
+      "bait_address": "wwwzxzz",
+      "crawler": "a9c8193271616c7c166cc16c",
+      "method": "GET",
+      "path": "/crawlerbait/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 82,
+      "status": 200,
+      "t": "2026-10-02T14:55:09Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "b31e30e0d25f9d163f2ee97c",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 39,
+      "status": 200,
+      "t": "2026-10-02T15:04:39Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "2ba72032c330dfe6d011bd27",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 6,
+      "status": 200,
+      "t": "2026-10-02T15:07:21Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "2ba72032c330dfe6d011bd27",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 69,
+      "status": 301,
+      "t": "2026-10-02T15:07:21Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 53,
+      "status": 301,
+      "t": "2026-10-02T15:28:47Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 45,
+      "status": 200,
+      "t": "2026-10-02T15:28:54Z"
+    },
+    {
+      "bait_address": "xxwwwz",
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 44,
+      "status": 200,
+      "t": "2026-10-02T15:29:01Z"
+    },
+    {
+      "bait_address": "xxyzwz",
+      "crawler": "77d82ebcde0dd40f22896313",
+      "method": "GET",
+      "path": "/~/0d99fef165d419e2334ae00c",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 67,
+      "status": 404,
+      "t": "2026-10-02T15:29:03Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "b48d00869c5861d73630c4b4",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 32,
+      "status": 200,
+      "t": "2026-10-02T15:29:58Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 65,
+      "status": 204,
+      "t": "2026-10-02T15:29:58Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "7fa1d825808ddfbe98b5a344",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 68,
+      "status": 200,
+      "t": "2026-10-02T15:30:26Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "01be2f08378d7bd1a1af68a3",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 38,
+      "status": 200,
+      "t": "2026-10-02T15:31:02Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "e7082d1412f201fb50259221",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 0,
+      "status": 301,
+      "t": "2026-10-02T15:36:44Z"
+    },
+    {
+      "bait_address": "xxxxxx",
+      "crawler": "89995cef82c56500b57f4d4f",
+      "method": "GET",
+      "path": "/~/1c59a749625b9700fc36d048",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 66,
+      "status": 200,
+      "t": "2026-10-02T15:36:44Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "e7082d1412f201fb50259221",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 83,
+      "status": 200,
+      "t": "2026-10-02T15:36:45Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "7da3338797aca034ede392ae",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 41,
+      "status": 200,
+      "t": "2026-10-02T15:44:50Z"
+    },
+    {
+      "bait_address": "zwzzxxyz",
+      "crawler": "9ffe220c93ba7cfe9fa867b7",
+      "method": "GET",
+      "path": "/",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 76,
+      "status": 401,
+      "t": "2026-10-02T15:48:28Z"
+    },
+    {
+      "bait_address": "xywywxwyx",
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 49,
+      "status": 404,
+      "t": "2026-10-02T15:51:55Z"
+    },
+    {
+      "bait_address": "xywywxwyx",
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 46,
+      "status": 404,
+      "t": "2026-10-02T16:03:32Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "d2ce81b9cc91da7aac02c379",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 10,
+      "status": 200,
+      "t": "2026-10-02T16:15:44Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 77,
+      "status": 204,
+      "t": "2026-10-02T16:15:45Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "174f0b1fb26a846b47fc8d2f",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 71,
+      "status": 200,
+      "t": "2026-10-02T16:16:09Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 8,
+      "status": 204,
+      "t": "2026-10-02T16:21:14Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "4e78b34daeead7fa0e1f4e68",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 85,
+      "status": 200,
+      "t": "2026-10-02T16:21:14Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "314afe1d4313a351dc9e2a08",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 72,
+      "status": 200,
+      "t": "2026-10-02T16:21:37Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "35bd04a13d86d8f1af745f4b",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 40,
+      "status": 200,
+      "t": "2026-10-02T16:43:31Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 74,
+      "status": 204,
+      "t": "2026-10-02T16:43:32Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "c2c4726f119ff1b9b533949e",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 31,
+      "status": 200,
+      "t": "2026-10-02T16:43:57Z"
+    },
+    {
+      "bait_address": "zyywwyz",
+      "crawler": "0f497ccd49005a6eeea9ab08",
+      "method": "GET",
+      "path": "/~/ad5bb7b49e0cddee1371235f",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 70,
+      "status": 404,
+      "t": "2026-10-02T16:49:01Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "dd7add5949ef209ff5d0529e",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 7,
+      "status": 200,
+      "t": "2026-10-02T17:26:03Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 84,
+      "status": 204,
+      "t": "2026-10-02T17:26:03Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "b74820d5bd1a9d0eebc70c02",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 9,
+      "status": 200,
+      "t": "2026-10-02T17:26:28Z"
+    },
+    {
+      "bait_address": "yzzyzxyxxx",
+      "crawler": "5aaaa8b3d9e020a682e2a83d",
+      "method": "POST",
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 75,
+      "status": 405,
+      "t": "2026-10-02T17:54:49Z"
+    },
+    {
+      "bait_address": "xywywxwyx",
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 42,
+      "status": 404,
+      "t": "2026-10-02T17:59:41Z"
+    },
+    {
+      "bait_address": "zxywxw",
+      "crawler": "aacac256694240a31616c76d",
+      "method": "POST",
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 18,
+      "status": 204,
+      "t": "2026-10-02T18:08:31Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "f1c306d50c66f907ca7dc233",
+      "method": "POST",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 55,
+      "status": 200,
+      "t": "2026-10-02T18:08:31Z"
+    },
+    {
+      "bait_address": "xzywy",
+      "crawler": "8f6c0608de27bd4820b9c578",
+      "method": "GET",
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "source_file": "20261002T123713Z--20261002T181306Z.traffic.json",
+      "source_index": 19,
+      "status": 200,
+      "t": "2026-10-02T18:08:55Z"
     }
   ],
   "policy": {
@@ -226102,7 +227510,7 @@
     "semantic_filters": [],
     "traffic_identity": "opaque artwork-local being ID derived transiently from private network recognition + exact User-Agent"
   },
-  "raw_capture_end": "2026-10-02T12:37:13Z",
+  "raw_capture_end": "2026-10-02T18:13:06Z",
   "raw_capture_start": "2026-08-18T15:42:27Z",
   "routes": [
     {
@@ -226125,7 +227533,7 @@
           "id": "b4b67eda136c577d12070f41"
         },
         {
-          "events": 27,
+          "events": 28,
           "id": "01be2f08378d7bd1a1af68a3"
         },
         {
@@ -226326,6 +227734,14 @@
         },
         {
           "events": 6,
+          "id": "bf821352060628b8eaf6f516"
+        },
+        {
+          "events": 6,
+          "id": "e7082d1412f201fb50259221"
+        },
+        {
+          "events": 6,
           "id": "e877d850fce15adfe6e7fe86"
         },
         {
@@ -226335,6 +227751,10 @@
         {
           "events": 5,
           "id": "016e4095920ebbee635e796e"
+        },
+        {
+          "events": 5,
+          "id": "02b4cbcf2b94b1309554f489"
         },
         {
           "events": 5,
@@ -226414,6 +227834,10 @@
         },
         {
           "events": 5,
+          "id": "b31e30e0d25f9d163f2ee97c"
+        },
+        {
+          "events": 5,
           "id": "b9fede13616e85d11b03de24"
         },
         {
@@ -226423,10 +227847,6 @@
         {
           "events": 5,
           "id": "bc1f35930bfe4dadb5c8585c"
-        },
-        {
-          "events": 5,
-          "id": "bf821352060628b8eaf6f516"
         },
         {
           "events": 5,
@@ -226626,6 +228046,10 @@
         },
         {
           "events": 4,
+          "id": "8ce97ae7558f93ec1c857c41"
+        },
+        {
+          "events": 4,
           "id": "8da1b7571f38a87ca057b0b7"
         },
         {
@@ -226671,10 +228095,6 @@
         {
           "events": 4,
           "id": "ad2a6a99874b45b5f3d6548f"
-        },
-        {
-          "events": 4,
-          "id": "b31e30e0d25f9d163f2ee97c"
         },
         {
           "events": 4,
@@ -226734,10 +228154,6 @@
         },
         {
           "events": 4,
-          "id": "e7082d1412f201fb50259221"
-        },
-        {
-          "events": 4,
           "id": "e8dedd08e7e246fe93abe807"
         },
         {
@@ -226767,10 +228183,6 @@
         {
           "events": 3,
           "id": "029bc08f4b378b9a92984ea1"
-        },
-        {
-          "events": 3,
-          "id": "02b4cbcf2b94b1309554f489"
         },
         {
           "events": 3,
@@ -226858,6 +228270,10 @@
         },
         {
           "events": 3,
+          "id": "4fdd2dab4b89ac19dbb1c9d5"
+        },
+        {
+          "events": 3,
           "id": "5024c4b4ee68f50375486ac7"
         },
         {
@@ -226906,6 +228322,10 @@
         },
         {
           "events": 3,
+          "id": "77d82ebcde0dd40f22896313"
+        },
+        {
+          "events": 3,
           "id": "7bf0cd1327141d1d618a4e00"
         },
         {
@@ -226947,6 +228367,10 @@
         {
           "events": 3,
           "id": "9f787f9b6a3e529d633da7a2"
+        },
+        {
+          "events": 3,
+          "id": "9ffe220c93ba7cfe9fa867b7"
         },
         {
           "events": 3,
@@ -227290,6 +228714,10 @@
         },
         {
           "events": 2,
+          "id": "2ba72032c330dfe6d011bd27"
+        },
+        {
+          "events": 2,
           "id": "2d8e6926a5e3d82100e07d05"
         },
         {
@@ -227439,10 +228867,6 @@
         {
           "events": 2,
           "id": "4e7f9ceaf20dc334b5994f8b"
-        },
-        {
-          "events": 2,
-          "id": "4fdd2dab4b89ac19dbb1c9d5"
         },
         {
           "events": 2,
@@ -227690,10 +229114,6 @@
         },
         {
           "events": 2,
-          "id": "8ce97ae7558f93ec1c857c41"
-        },
-        {
-          "events": 2,
           "id": "8da955189d12066bcfb75620"
         },
         {
@@ -227807,10 +229227,6 @@
         {
           "events": 2,
           "id": "9ef7bc3cb200eb21c51b6aa7"
-        },
-        {
-          "events": 2,
-          "id": "9ffe220c93ba7cfe9fa867b7"
         },
         {
           "events": 2,
@@ -229546,6 +230962,10 @@
         },
         {
           "events": 1,
+          "id": "5206fd29703573bf4e4e5af7"
+        },
+        {
+          "events": 1,
           "id": "52755b15ab82acc83c462799"
         },
         {
@@ -229615,6 +231035,10 @@
         {
           "events": 1,
           "id": "563d182ec011ad894d9ba75d"
+        },
+        {
+          "events": 1,
+          "id": "564df01ebaf447bdf9c223e3"
         },
         {
           "events": 1,
@@ -229823,6 +231247,10 @@
         {
           "events": 1,
           "id": "633e651454a379da13cc4b76"
+        },
+        {
+          "events": 1,
+          "id": "636663e618bfcbbe1d9e93d3"
         },
         {
           "events": 1,
@@ -230202,10 +231630,6 @@
         },
         {
           "events": 1,
-          "id": "77d82ebcde0dd40f22896313"
-        },
-        {
-          "events": 1,
           "id": "7820a25b32a9edddd9517853"
         },
         {
@@ -230307,6 +231731,10 @@
         {
           "events": 1,
           "id": "7d9f81a7db2e5ed2f96984d8"
+        },
+        {
+          "events": 1,
+          "id": "7da3338797aca034ede392ae"
         },
         {
           "events": 1,
@@ -231910,6 +233338,10 @@
         },
         {
           "events": 1,
+          "id": "ded5889373dc9d87367f72fc"
+        },
+        {
+          "events": 1,
           "id": "df3be68ec07487cef04ca21d"
         },
         {
@@ -232003,6 +233435,10 @@
         {
           "events": 1,
           "id": "e4aa013a74c94c3f11c5ea9b"
+        },
+        {
+          "events": 1,
+          "id": "e4d14251c8dcf6801219fa90"
         },
         {
           "events": 1,
@@ -232463,11 +233899,11 @@
       ],
       "first_seen": "2026-09-13T20:02:54Z",
       "href": "/crawlerbait/receipt/8a5edab282632443219e/",
-      "last_seen": "2026-10-02T12:28:25Z",
+      "last_seen": "2026-10-02T15:48:28Z",
       "legacy_404_observations": 0,
       "path": "/",
       "path_shape_preserved": false,
-      "raw_requests": 3008
+      "raw_requests": 3029
     },
     {
       "address": "wxzzxw",
@@ -232978,6 +234414,10 @@
         },
         {
           "events": 3,
+          "id": "89995cef82c56500b57f4d4f"
+        },
+        {
+          "events": 3,
           "id": "9d324ee8dc52299635fba81d"
         },
         {
@@ -233067,10 +234507,6 @@
         {
           "events": 2,
           "id": "6d0b433e90a0970a765c86a2"
-        },
-        {
-          "events": 2,
-          "id": "89995cef82c56500b57f4d4f"
         },
         {
           "events": 2,
@@ -233403,11 +234839,11 @@
       ],
       "first_seen": "2026-09-13T20:38:21Z",
       "href": "/crawlerbait/bait/~/1c59a749625b9700fc36d048/",
-      "last_seen": "2026-10-02T10:11:55Z",
+      "last_seen": "2026-10-02T15:36:44Z",
       "legacy_404_observations": 0,
       "path": "/~/1c59a749625b9700fc36d048",
       "path_shape_preserved": true,
-      "raw_requests": 243
+      "raw_requests": 244
     },
     {
       "address": "xxyzwz",
@@ -233455,6 +234891,10 @@
         {
           "events": 2,
           "id": "6a896112b7589731d43817a3"
+        },
+        {
+          "events": 2,
+          "id": "77d82ebcde0dd40f22896313"
         },
         {
           "events": 2,
@@ -233674,10 +235114,6 @@
         },
         {
           "events": 1,
-          "id": "77d82ebcde0dd40f22896313"
-        },
-        {
-          "events": 1,
           "id": "7a2e8ac6474422c3ae842d7f"
         },
         {
@@ -233822,6 +235258,10 @@
         },
         {
           "events": 1,
+          "id": "f78389926009a9eb25a4dff0"
+        },
+        {
+          "events": 1,
           "id": "f82ea846d5af404859184f84"
         },
         {
@@ -233843,11 +235283,11 @@
       ],
       "first_seen": "2026-09-13T22:09:07Z",
       "href": "/crawlerbait/bait/~/0d99fef165d419e2334ae00c/",
-      "last_seen": "2026-10-02T00:36:24Z",
+      "last_seen": "2026-10-02T15:29:03Z",
       "legacy_404_observations": 44,
       "path": "/~/0d99fef165d419e2334ae00c",
       "path_shape_preserved": true,
-      "raw_requests": 141
+      "raw_requests": 143
     },
     {
       "address": "yyxyzy",
@@ -236836,7 +238276,7 @@
       "raw_requests": 37
     },
     {
-      "address": "yzzyzxyx",
+      "address": "yzzyzxyxxz",
       "crawlers": [
         {
           "events": 3,
@@ -242741,6 +244181,78 @@
       "path": "/~/f1f862b121f1a1a9a7ebaaa6",
       "path_shape_preserved": true,
       "raw_requests": 0
+    },
+    {
+      "address": "xzywy",
+      "crawlers": [
+        {
+          "events": 2,
+          "id": "8131c31a9e07bb6fd556d5f7"
+        },
+        {
+          "events": 1,
+          "id": "174f0b1fb26a846b47fc8d2f"
+        },
+        {
+          "events": 1,
+          "id": "314afe1d4313a351dc9e2a08"
+        },
+        {
+          "events": 1,
+          "id": "35bd04a13d86d8f1af745f4b"
+        },
+        {
+          "events": 1,
+          "id": "4e78b34daeead7fa0e1f4e68"
+        },
+        {
+          "events": 1,
+          "id": "5f725b504235af057dd15ea1"
+        },
+        {
+          "events": 1,
+          "id": "7fa1d825808ddfbe98b5a344"
+        },
+        {
+          "events": 1,
+          "id": "8f6c0608de27bd4820b9c578"
+        },
+        {
+          "events": 1,
+          "id": "a37eaa020bc51748ff18c968"
+        },
+        {
+          "events": 1,
+          "id": "b48d00869c5861d73630c4b4"
+        },
+        {
+          "events": 1,
+          "id": "b74820d5bd1a9d0eebc70c02"
+        },
+        {
+          "events": 1,
+          "id": "c2c4726f119ff1b9b533949e"
+        },
+        {
+          "events": 1,
+          "id": "d2ce81b9cc91da7aac02c379"
+        },
+        {
+          "events": 1,
+          "id": "dd7add5949ef209ff5d0529e"
+        },
+        {
+          "events": 1,
+          "id": "f1c306d50c66f907ca7dc233"
+        }
+      ],
+      "first_seen": "2026-10-02T14:43:41Z",
+      "href": "/crawlerbait/bait/__live/~/7d461d62fe01d71bfea9a7d7/",
+      "last_seen": "2026-10-02T18:08:55Z",
+      "legacy_404_observations": 0,
+      "path": "/__live/~/7d461d62fe01d71bfea9a7d7",
+      "path_shape_preserved": true,
+      "raw_requests": 16
     },
     {
       "address": "wyyzxzy",
@@ -250051,6 +251563,22 @@
       "raw_requests": 9
     },
     {
+      "address": "zxywxw",
+      "crawlers": [
+        {
+          "events": 8,
+          "id": "aacac256694240a31616c76d"
+        }
+      ],
+      "first_seen": "2026-10-02T14:43:42Z",
+      "href": "/crawlerbait/bait/repos/self-similar-systems/~/570aa3d3872dc00f877499d2/",
+      "last_seen": "2026-10-02T18:08:31Z",
+      "legacy_404_observations": 0,
+      "path": "/repos/self-similar-systems/~/570aa3d3872dc00f877499d2",
+      "path_shape_preserved": true,
+      "raw_requests": 8
+    },
+    {
       "address": "xxxxxzy",
       "crawlers": [],
       "first_seen": "2026-09-15T22:09:07Z",
@@ -252187,6 +253715,154 @@
       "path": "/~/ffbf63f9f3bbc89f86253b49",
       "path_shape_preserved": true,
       "raw_requests": 8
+    },
+    {
+      "address": "xxwwwz",
+      "crawlers": [
+        {
+          "events": 4,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "77d82ebcde0dd40f22896313"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        },
+        {
+          "events": 1,
+          "id": "f78389926009a9eb25a4dff0"
+        }
+      ],
+      "first_seen": "2026-10-02T00:35:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/favicon.svg/",
+      "last_seen": "2026-10-02T15:29:01Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/favicon.svg",
+      "path_shape_preserved": true,
+      "raw_requests": 7
+    },
+    {
+      "address": "zyzxyx",
+      "crawlers": [
+        {
+          "events": 4,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/navigation-physiology.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
+      "path_shape_preserved": true,
+      "raw_requests": 7
+    },
+    {
+      "address": "wzzzzzyz",
+      "crawlers": [
+        {
+          "events": 4,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-crawlerbait.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
+      "path_shape_preserved": true,
+      "raw_requests": 7
+    },
+    {
+      "address": "wyyyxwz",
+      "crawlers": [
+        {
+          "events": 4,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-philosophy.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
+      "path_shape_preserved": true,
+      "raw_requests": 7
+    },
+    {
+      "address": "wwwzxzz",
+      "crawlers": [
+        {
+          "events": 2,
+          "id": "30d83338243645fa1797c4b6"
+        },
+        {
+          "events": 1,
+          "id": "6a896112b7589731d43817a3"
+        },
+        {
+          "events": 1,
+          "id": "7a2e8ac6474422c3ae842d7f"
+        },
+        {
+          "events": 1,
+          "id": "a9c8193271616c7c166cc16c"
+        },
+        {
+          "events": 1,
+          "id": "f1ef044463fb52579902b740"
+        },
+        {
+          "events": 1,
+          "id": "f912cd35e0c56115f14c3771"
+        }
+      ],
+      "first_seen": "2026-09-17T17:52:39Z",
+      "href": "/crawlerbait/bait/crawlerbait/",
+      "last_seen": "2026-10-02T14:55:09Z",
+      "legacy_404_observations": 0,
+      "path": "/crawlerbait/",
+      "path_shape_preserved": true,
+      "raw_requests": 7
     },
     {
       "address": "yxzwz",
@@ -255031,7 +256707,35 @@
       "raw_requests": 7
     },
     {
-      "address": "zyzxyx",
+      "address": "zwwwyy",
+      "crawlers": [
+        {
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/address.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/address.js",
+      "path_shape_preserved": true,
+      "raw_requests": 6
+    },
+    {
+      "address": "zzyyxzw",
       "crawlers": [
         {
           "events": 4,
@@ -255043,19 +256747,47 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/navigation-physiology.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-label-ink.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/navigation-physiology.js",
+      "path": "/assets/dd8c58b963ff926f/display-label-ink.js",
       "path_shape_preserved": true,
       "raw_requests": 6
     },
     {
-      "address": "wzzzzzyz",
+      "address": "xzwwxy",
+      "crawlers": [
+        {
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-lens.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/display-lens.js",
+      "path_shape_preserved": true,
+      "raw_requests": 6
+    },
+    {
+      "address": "zzyxyyx",
       "crawlers": [
         {
           "events": 4,
@@ -255067,22 +256799,22 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-crawlerbait.css/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "first_seen": "2026-10-02T00:35:26Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-safe-area.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.css",
+      "path": "/assets/dd8c58b963ff926f/display-safe-area.css",
       "path_shape_preserved": true,
       "raw_requests": 6
     },
     {
-      "address": "wyyyxwz",
+      "address": "xwxwwyx",
       "crawlers": [
         {
-          "events": 4,
+          "events": 3,
           "id": "b800e38eb4186734fe533d6a"
         },
         {
@@ -255092,45 +256824,45 @@
         {
           "events": 1,
           "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-philosophy.css/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/locus-shader.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.css",
+      "path": "/assets/dd8c58b963ff926f/locus-shader.js",
       "path_shape_preserved": true,
       "raw_requests": 6
     },
     {
-      "address": "wwwzxzz",
+      "address": "yzzzxz",
       "crawlers": [
         {
-          "events": 2,
-          "id": "30d83338243645fa1797c4b6"
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
         },
         {
           "events": 1,
-          "id": "6a896112b7589731d43817a3"
+          "id": "0520fdc3568e0b7a1b591698"
         },
         {
           "events": 1,
-          "id": "7a2e8ac6474422c3ae842d7f"
+          "id": "1e01fae016b126a865d9e665"
         },
         {
           "events": 1,
-          "id": "f1ef044463fb52579902b740"
-        },
-        {
-          "events": 1,
-          "id": "f912cd35e0c56115f14c3771"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-09-17T17:52:39Z",
-      "href": "/crawlerbait/bait/crawlerbait/",
-      "last_seen": "2026-09-30T21:36:43Z",
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-papers.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/crawlerbait/",
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
       "path_shape_preserved": true,
       "raw_requests": 6
     },
@@ -258523,7 +260255,7 @@
       "raw_requests": 6
     },
     {
-      "address": "zwwwyy",
+      "address": "ywxxzx",
       "crawlers": [
         {
           "events": 3,
@@ -258535,39 +260267,19 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
-        }
-      ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/address.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/address.js",
-      "path_shape_preserved": true,
-      "raw_requests": 5
-    },
-    {
-      "address": "zzyyxzw",
-      "crawlers": [
-        {
-          "events": 4,
-          "id": "b800e38eb4186734fe533d6a"
-        },
-        {
-          "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-label-ink.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-safe-area.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-label-ink.js",
+      "path": "/assets/dd8c58b963ff926f/display-safe-area.js",
       "path_shape_preserved": true,
       "raw_requests": 5
     },
     {
-      "address": "xzwwxy",
+      "address": "yxxyzwz",
       "crawlers": [
         {
           "events": 3,
@@ -258579,39 +260291,71 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-lens.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-type.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-lens.js",
+      "path": "/assets/dd8c58b963ff926f/display-type.js",
       "path_shape_preserved": true,
       "raw_requests": 5
     },
     {
-      "address": "zzyxyyx",
+      "address": "xxwwxxwx",
       "crawlers": [
         {
-          "events": 4,
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/root-view.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/root-view.css",
+      "path_shape_preserved": true,
+      "raw_requests": 5
+    },
+    {
+      "address": "xyzzx",
+      "crawlers": [
+        {
+          "events": 2,
           "id": "b800e38eb4186734fe533d6a"
         },
         {
           "events": 1,
           "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-02T00:35:26Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-safe-area.css/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "first_seen": "2026-10-01T20:36:54Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-fold.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-safe-area.css",
+      "path": "/assets/dd8c58b963ff926f/site-fold.js",
       "path_shape_preserved": true,
       "raw_requests": 5
     },
     {
-      "address": "xwxwwyx",
+      "address": "zzyxwz",
       "crawlers": [
         {
           "events": 3,
@@ -258623,19 +260367,19 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/locus-shader.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-crawlerbait.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/locus-shader.js",
+      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js",
       "path_shape_preserved": true,
       "raw_requests": 5
     },
     {
-      "address": "yzzzxz",
+      "address": "zzwxzy",
       "crawlers": [
         {
           "events": 3,
@@ -258647,14 +260391,62 @@
         },
         {
           "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-papers.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-papers.js",
+      "path_shape_preserved": true,
+      "raw_requests": 5
+    },
+    {
+      "address": "wyywyx",
+      "crawlers": [
+        {
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-philosophy.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.js",
+      "path_shape_preserved": true,
+      "raw_requests": 5
+    },
+    {
+      "address": "yxxzww",
+      "crawlers": [
+        {
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
           "id": "1e01fae016b126a865d9e665"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-papers.css/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-schattenseiten.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-papers.css",
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
       "path_shape_preserved": true,
       "raw_requests": 5
     },
@@ -262183,7 +263975,7 @@
       "raw_requests": 4
     },
     {
-      "address": "ywxxzx",
+      "address": "yxwyyz",
       "crawlers": [
         {
           "events": 3,
@@ -262191,19 +263983,19 @@
         },
         {
           "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-safe-area.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-runtime-v2.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-safe-area.js",
+      "path": "/assets/dd8c58b963ff926f/display-runtime-v2.js",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
     {
-      "address": "yxxyzwz",
+      "address": "xyxzww",
       "crawlers": [
         {
           "events": 3,
@@ -262211,35 +264003,19 @@
         },
         {
           "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-type.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-text-tissue.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-type.js",
+      "path": "/assets/dd8c58b963ff926f/display-text-tissue.js",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
     {
-      "address": "xxwwwz",
-      "crawlers": [
-        {
-          "events": 4,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:37Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/favicon.svg/",
-      "last_seen": "2026-10-02T00:36:24Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/favicon.svg",
-      "path_shape_preserved": true,
-      "raw_requests": 4
-    },
-    {
-      "address": "xxwwxxwx",
+      "address": "wyzxzyx",
       "crawlers": [
         {
           "events": 3,
@@ -262247,19 +264023,19 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/root-view.css/",
-      "last_seen": "2026-10-02T00:35:27Z",
+      "first_seen": "2026-10-02T00:35:26Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/interlocutors.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/root-view.css",
+      "path": "/assets/dd8c58b963ff926f/interlocutors.css",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
     {
-      "address": "xyzzx",
+      "address": "xyyyw",
       "crawlers": [
         {
           "events": 2,
@@ -262271,94 +264047,122 @@
         },
         {
           "events": 1,
-          "id": "1e01fae016b126a865d9e665"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-fold.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "first_seen": "2026-10-02T00:35:27Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/navigation-aperture.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-fold.js",
+      "path": "/assets/dd8c58b963ff926f/navigation-aperture.css",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
     {
-      "address": "zzyxwz",
+      "address": "xywyxxz",
       "crawlers": [
         {
           "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/navigation-aperture.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/navigation-aperture.js",
+      "path_shape_preserved": true,
+      "raw_requests": 4
+    },
+    {
+      "address": "wwwwwyy",
+      "crawlers": [
+        {
+          "events": 2,
           "id": "b800e38eb4186734fe533d6a"
         },
         {
           "events": 1,
           "id": "0520fdc3568e0b7a1b591698"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-crawlerbait.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-holon.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-crawlerbait.js",
+      "path": "/assets/dd8c58b963ff926f/site-holon.js",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
     {
-      "address": "zzwxzy",
+      "address": "zzxxzzz",
       "crawlers": [
         {
           "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-02T00:35:28Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-schattenseiten.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js",
+      "path_shape_preserved": true,
+      "raw_requests": 4
+    },
+    {
+      "address": "zzxywwy",
+      "crawlers": [
+        {
+          "events": 3,
+          "id": "b800e38eb4186734fe533d6a"
+        },
+        {
+          "events": 1,
+          "id": "8ce97ae7558f93ec1c857c41"
+        }
+      ],
+      "first_seen": "2026-10-02T00:35:26Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-runtime.css/",
+      "last_seen": "2026-10-02T14:26:31Z",
+      "legacy_404_observations": 0,
+      "path": "/assets/dd8c58b963ff926f/site-runtime.css",
+      "path_shape_preserved": true,
+      "raw_requests": 4
+    },
+    {
+      "address": "yxwwyyz",
+      "crawlers": [
+        {
+          "events": 2,
           "id": "b800e38eb4186734fe533d6a"
         },
         {
           "events": 1,
           "id": "0520fdc3568e0b7a1b591698"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-papers.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-papers.js",
-      "path_shape_preserved": true,
-      "raw_requests": 4
-    },
-    {
-      "address": "wyywyx",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
         },
         {
           "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-philosophy.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/world-view.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-philosophy.js",
-      "path_shape_preserved": true,
-      "raw_requests": 4
-    },
-    {
-      "address": "yxxzww",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
-        },
-        {
-          "events": 1,
-          "id": "1e01fae016b126a865d9e665"
-        }
-      ],
-      "first_seen": "2026-10-01T20:36:54Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-schattenseiten.css/",
-      "last_seen": "2026-10-02T00:35:27Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.css",
+      "path": "/assets/dd8c58b963ff926f/world-view.js",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
@@ -263006,6 +264810,22 @@
       "last_seen": "2026-09-30T07:15:08Z",
       "legacy_404_observations": 0,
       "path": "/~/24c597690215fb28e8d34846",
+      "path_shape_preserved": true,
+      "raw_requests": 4
+    },
+    {
+      "address": "xywywxwyx",
+      "crawlers": [
+        {
+          "events": 4,
+          "id": "5e799495316e57f07453e0e6"
+        }
+      ],
+      "first_seen": "2026-10-02T13:55:09Z",
+      "href": "/crawlerbait/bait/~/2567328ee21f2043599ffa53/",
+      "last_seen": "2026-10-02T17:59:41Z",
+      "legacy_404_observations": 0,
+      "path": "/~/2567328ee21f2043599ffa53",
       "path_shape_preserved": true,
       "raw_requests": 4
     },
@@ -265274,7 +267094,7 @@
       "raw_requests": 4
     },
     {
-      "address": "zxywx",
+      "address": "zxywxx",
       "crawlers": [],
       "first_seen": "2026-09-13T22:09:07Z",
       "href": "/crawlerbait/bait/~/a6ef5f0a6328a82d3b755a19/",
@@ -266617,55 +268437,7 @@
       "raw_requests": 0
     },
     {
-      "address": "yxwyyz",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-runtime-v2.js/",
-      "last_seen": "2026-10-02T00:35:30Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-runtime-v2.js",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "xyxzww",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-text-tissue.js/",
-      "last_seen": "2026-10-02T00:35:30Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-text-tissue.js",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "wyzxzyx",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:26Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/interlocutors.css/",
-      "last_seen": "2026-10-02T00:35:27Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/interlocutors.css",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "xyyyw",
+      "address": "yyywxxyz",
       "crawlers": [
         {
           "events": 2,
@@ -266673,102 +268445,14 @@
         },
         {
           "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:27Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/navigation-aperture.css/",
-      "last_seen": "2026-10-02T05:40:37Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/navigation-aperture.css",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "xywyxxz",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
+          "id": "8ce97ae7558f93ec1c857c41"
         }
       ],
       "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/navigation-aperture.js/",
-      "last_seen": "2026-10-02T00:35:30Z",
+      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-glass.js/",
+      "last_seen": "2026-10-02T14:26:31Z",
       "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/navigation-aperture.js",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "wwwwwyy",
-      "crawlers": [
-        {
-          "events": 2,
-          "id": "b800e38eb4186734fe533d6a"
-        },
-        {
-          "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-holon.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-holon.js",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "zzxxzzz",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-organism-schattenseiten.js/",
-      "last_seen": "2026-10-02T00:35:30Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-organism-schattenseiten.js",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "zzxywwy",
-      "crawlers": [
-        {
-          "events": 3,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:26Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/site-runtime.css/",
-      "last_seen": "2026-10-02T00:35:27Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/site-runtime.css",
-      "path_shape_preserved": true,
-      "raw_requests": 3
-    },
-    {
-      "address": "yxwwyyz",
-      "crawlers": [
-        {
-          "events": 2,
-          "id": "b800e38eb4186734fe533d6a"
-        },
-        {
-          "events": 1,
-          "id": "0520fdc3568e0b7a1b591698"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/world-view.js/",
-      "last_seen": "2026-10-02T05:40:37Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/world-view.js",
+      "path": "/assets/dd8c58b963ff926f/display-glass.js",
       "path_shape_preserved": true,
       "raw_requests": 3
     },
@@ -268593,7 +270277,7 @@
       "raw_requests": 3
     },
     {
-      "address": "zyyww",
+      "address": "zyywwyw",
       "crawlers": [
         {
           "events": 1,
@@ -274981,22 +276665,6 @@
       "last_seen": "2026-10-02T00:35:29Z",
       "legacy_404_observations": 0,
       "path": "/assets/dd8c58b963ff926f/dependencies/sss-spritesheet/SpriteSheet-Mono.woff2",
-      "path_shape_preserved": true,
-      "raw_requests": 2
-    },
-    {
-      "address": "yyywxxyz",
-      "crawlers": [
-        {
-          "events": 2,
-          "id": "b800e38eb4186734fe533d6a"
-        }
-      ],
-      "first_seen": "2026-10-02T00:35:28Z",
-      "href": "/crawlerbait/bait/assets/dd8c58b963ff926f/display-glass.js/",
-      "last_seen": "2026-10-02T00:35:30Z",
-      "legacy_404_observations": 0,
-      "path": "/assets/dd8c58b963ff926f/display-glass.js",
       "path_shape_preserved": true,
       "raw_requests": 2
     },
@@ -286357,6 +288025,22 @@
       "raw_requests": 1
     },
     {
+      "address": "wxwyw",
+      "crawlers": [
+        {
+          "events": 1,
+          "id": "564df01ebaf447bdf9c223e3"
+        }
+      ],
+      "first_seen": "2026-10-02T13:00:59Z",
+      "href": "/crawlerbait/bait/~/2f3ac9f5a06104ae77c93575/",
+      "last_seen": "2026-10-02T13:00:59Z",
+      "legacy_404_observations": 0,
+      "path": "/~/2f3ac9f5a06104ae77c93575",
+      "path_shape_preserved": true,
+      "raw_requests": 1
+    },
+    {
       "address": "xxwzzxy",
       "crawlers": [
         {
@@ -289729,7 +291413,7 @@
       "raw_requests": 1
     },
     {
-      "address": "xywywxw",
+      "address": "xywywxwyw",
       "crawlers": [
         {
           "events": 1,
@@ -292054,6 +293738,22 @@
       "raw_requests": 1
     },
     {
+      "address": "yzzyzxyxxx",
+      "crawlers": [
+        {
+          "events": 1,
+          "id": "5aaaa8b3d9e020a682e2a83d"
+        }
+      ],
+      "first_seen": "2026-10-02T17:54:49Z",
+      "href": "/crawlerbait/bait/~/93ebdf4dd7209b85a4dd4a13/",
+      "last_seen": "2026-10-02T17:54:49Z",
+      "legacy_404_observations": 0,
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "path_shape_preserved": true,
+      "raw_requests": 1
+    },
+    {
       "address": "xxwyzx",
       "crawlers": [
         {
@@ -293258,6 +294958,22 @@
       "last_seen": "2026-09-26T06:44:50Z",
       "legacy_404_observations": 0,
       "path": "/~/ad082d80475a4f00730ecbd7",
+      "path_shape_preserved": true,
+      "raw_requests": 1
+    },
+    {
+      "address": "zyywwyz",
+      "crawlers": [
+        {
+          "events": 1,
+          "id": "0f497ccd49005a6eeea9ab08"
+        }
+      ],
+      "first_seen": "2026-10-02T16:49:01Z",
+      "href": "/crawlerbait/bait/~/ad5bb7b49e0cddee1371235f/",
+      "last_seen": "2026-10-02T16:49:01Z",
+      "legacy_404_observations": 0,
+      "path": "/~/ad5bb7b49e0cddee1371235f",
       "path_shape_preserved": true,
       "raw_requests": 1
     },
@@ -297589,11 +299305,11 @@
   ],
   "source": "crawlerbait/x/state.json",
   "summary": {
-    "baits": 2711,
-    "crawlers": 2429,
+    "baits": 2717,
+    "crawlers": 2452,
     "legacy_404_observations": 2475,
-    "web_requests": 15003
+    "web_requests": 15089
   },
   "trace_source": "crawlerbait/x/captures/*.traffic.json (+ preserved legacy 404 evidence)",
-  "updated_at": "2026-10-02T12:37:13Z"
+  "updated_at": "2026-10-02T18:13:06Z"
 }
