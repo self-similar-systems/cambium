@@ -15,7 +15,6 @@
   "path_privacy": {
     "domain": "crawlerbait:path:v1",
     "key_epoch": "v1",
-    "key_fingerprint": "b353473d45ad5614",
     "raw_unoffered_path_persisted": false,
     "scheme": "offered-literal / otherwise keyed opaque Bait path"
   },
@@ -162,7 +161,7 @@
     "maxPageSize": 10000,
     "notOlderThan": 2678400
   },
-  "raw_last_capture_end": "2026-10-02T05:37:39Z",
+  "raw_last_capture_end": "2026-10-02T10:03:24Z",
   "source": "cloudflare:httpRequestsAdaptive",
   "unrecoverable_gap": null,
   "version": 2
