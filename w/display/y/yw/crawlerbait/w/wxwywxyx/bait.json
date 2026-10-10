@@ -3,6 +3,10 @@
   "crawlers": [
     {
       "events": 1,
+      "id": "0a3140896de9d7d411fc4044"
+    },
+    {
+      "events": 1,
       "id": "207fc4a950cf70eee7f9b75c"
     },
     {
@@ -12,10 +16,10 @@
   ],
   "first_seen": "2026-10-08T19:13:50Z",
   "id": "4c7603726879d33823c6",
-  "last_seen": "2026-10-08T20:21:56Z",
+  "last_seen": "2026-10-10T12:43:45Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/46b1835f0ac0e708d75ee3fa",
   "public_href": "/crawlerbait/bait/~/46b1835f0ac0e708d75ee3fa/",
-  "raw_requests": 2,
+  "raw_requests": 3,
   "version": 2
 }
