@@ -151,15 +151,19 @@
     },
     {
       "events": 1,
+      "id": "e183f344fd385211d934d224"
+    },
+    {
+      "events": 1,
       "id": "fdf1e34c03a220ebb1b5fe76"
     }
   ],
   "first_seen": "2026-09-23T08:17:28Z",
   "id": "cffe9eb51b9a1aad168f",
-  "last_seen": "2026-10-10T12:12:27Z",
+  "last_seen": "2026-10-10T18:43:55Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/d4911f05fa5a5778bc089711",
   "public_href": "/crawlerbait/bait/~/d4911f05fa5a5778bc089711/",
-  "raw_requests": 72,
+  "raw_requests": 73,
   "version": 2
 }
