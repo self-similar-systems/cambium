@@ -1,0 +1,21 @@
+{
+  "bait_address": "zxwzxyzz",
+  "crawlers": [
+    {
+      "events": 1,
+      "id": "60f5ef5317820451f8e7192b"
+    },
+    {
+      "events": 1,
+      "id": "b08afe13fcf0c6e483568cb7"
+    }
+  ],
+  "first_seen": "2026-11-09T23:03:43Z",
+  "id": "927af1ce858bc7f1ab0b",
+  "last_seen": "2026-11-10T01:17:08Z",
+  "legacy_404_observations": 0,
+  "observed_path": "/~/17a1ecbe49c4a509398b46d7",
+  "public_href": "/crawlerbait/bait/~/17a1ecbe49c4a509398b46d7/",
+  "raw_requests": 2,
+  "version": 2
+}
