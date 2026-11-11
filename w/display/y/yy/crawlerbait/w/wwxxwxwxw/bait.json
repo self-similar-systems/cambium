@@ -3,6 +3,10 @@
   "crawlers": [
     {
       "events": 3,
+      "id": "005df3b0dbc7fcfcd08e0b46"
+    },
+    {
+      "events": 3,
       "id": "2b0021166ed2c50e55bef0d2"
     },
     {
@@ -15,10 +19,6 @@
     },
     {
       "events": 2,
-      "id": "005df3b0dbc7fcfcd08e0b46"
-    },
-    {
-      "events": 2,
       "id": "1043a4177142ff7a8eb40b17"
     },
     {
@@ -28,6 +28,14 @@
     {
       "events": 2,
       "id": "47fa27f45d523036ce15c5fb"
+    },
+    {
+      "events": 2,
+      "id": "6e47749413469ab1350270c5"
+    },
+    {
+      "events": 2,
+      "id": "6fa2d4364838f5fbc66fa5f1"
     },
     {
       "events": 2,
@@ -67,10 +75,6 @@
     },
     {
       "events": 1,
-      "id": "6e47749413469ab1350270c5"
-    },
-    {
-      "events": 1,
       "id": "7aa9ed79a901e076ea3ed52d"
     },
     {
@@ -92,10 +96,10 @@
   ],
   "first_seen": "2026-10-07T10:04:14Z",
   "id": "14448328392ed028b4c6",
-  "last_seen": "2026-11-10T14:30:18Z",
+  "last_seen": "2026-11-11T11:32:52Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/dc8a1858f3b6e305564b5f6d",
   "public_href": "/crawlerbait/bait/~/dc8a1858f3b6e305564b5f6d/",
-  "raw_requests": 33,
+  "raw_requests": 37,
   "version": 2
 }
