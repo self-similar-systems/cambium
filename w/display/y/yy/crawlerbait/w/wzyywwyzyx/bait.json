@@ -10,11 +10,11 @@
       "id": "91a403c7d6e1ad778a6f4bbb"
     },
     {
-      "events": 6,
+      "events": 8,
       "id": "73029b6674e3edf7498e4e20"
     },
     {
-      "events": 4,
+      "events": 5,
       "id": "005df3b0dbc7fcfcd08e0b46"
     },
     {
@@ -40,6 +40,10 @@
     {
       "events": 3,
       "id": "6d945ae1f2be2a07b279d7dd"
+    },
+    {
+      "events": 3,
+      "id": "7e47cc784612eeec2da681dc"
     },
     {
       "events": 3,
@@ -111,10 +115,6 @@
     },
     {
       "events": 2,
-      "id": "7e47cc784612eeec2da681dc"
-    },
-    {
-      "events": 2,
       "id": "88d8ff9769fa5ff4eaf0caf3"
     },
     {
@@ -146,6 +146,10 @@
       "id": "db7cfa1cd21d33095e34692e"
     },
     {
+      "events": 2,
+      "id": "ffa849c261daf744b858ac0e"
+    },
+    {
       "events": 1,
       "id": "00396a1556fe95973ebd9a67"
     },
@@ -164,6 +168,10 @@
     {
       "events": 1,
       "id": "08b241850fb30aa44774cf76"
+    },
+    {
+      "events": 1,
+      "id": "0ce18be6e9ca9f0c0df201cc"
     },
     {
       "events": 1,
@@ -207,6 +215,10 @@
     },
     {
       "events": 1,
+      "id": "2aaaf955533612a9046806c3"
+    },
+    {
+      "events": 1,
       "id": "2eb20216a953c9beb2a7d4c0"
     },
     {
@@ -247,7 +259,15 @@
     },
     {
       "events": 1,
+      "id": "46bc7fd8662f33241bdc8798"
+    },
+    {
+      "events": 1,
       "id": "47fa27f45d523036ce15c5fb"
+    },
+    {
+      "events": 1,
+      "id": "4a2b849a392999e82cda1732"
     },
     {
       "events": 1,
@@ -300,6 +320,10 @@
     {
       "events": 1,
       "id": "62aa537c68edb9cf884e25ad"
+    },
+    {
+      "events": 1,
+      "id": "62b265bcebdc859eae7f8048"
     },
     {
       "events": 1,
@@ -411,6 +435,10 @@
     },
     {
       "events": 1,
+      "id": "b519ed881f7ea156e77773a4"
+    },
+    {
+      "events": 1,
       "id": "b72201465cc2983425af418a"
     },
     {
@@ -475,6 +503,10 @@
     },
     {
       "events": 1,
+      "id": "d8b84a1417d15939b8c94850"
+    },
+    {
+      "events": 1,
       "id": "dfc40515f74dfbe3ba52ab53"
     },
     {
@@ -484,6 +516,10 @@
     {
       "events": 1,
       "id": "e672773fa7dc9f20a3d3ac04"
+    },
+    {
+      "events": 1,
+      "id": "ea79a1831b1a8b38d885b8eb"
     },
     {
       "events": 1,
@@ -532,10 +568,10 @@
   ],
   "first_seen": "2026-10-02T16:49:01Z",
   "id": "bc3b69f302846745a736",
-  "last_seen": "2026-11-11T11:32:52Z",
+  "last_seen": "2026-11-12T06:54:01Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/ad5bb7b49e0cddee1371235f",
   "public_href": "/crawlerbait/bait/~/ad5bb7b49e0cddee1371235f/",
-  "raw_requests": 225,
+  "raw_requests": 239,
   "version": 2
 }
