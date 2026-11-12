@@ -6,7 +6,7 @@
       "id": "4cf089ab81293d7edc1e1068"
     },
     {
-      "events": 5,
+      "events": 7,
       "id": "005df3b0dbc7fcfcd08e0b46"
     },
     {
@@ -91,15 +91,19 @@
     },
     {
       "events": 1,
+      "id": "c5dd0d3e987fc00e15100671"
+    },
+    {
+      "events": 1,
       "id": "d99ac2d7630ee4495dc3f1f9"
     }
   ],
   "first_seen": "2026-10-17T00:36:39Z",
   "id": "5f2d84422d3123cad47d",
-  "last_seen": "2026-11-12T03:49:36Z",
+  "last_seen": "2026-11-12T10:53:06Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/70aee574eef13e5bc5986657",
   "public_href": "/crawlerbait/bait/~/70aee574eef13e5bc5986657/",
-  "raw_requests": 55,
+  "raw_requests": 58,
   "version": 2
 }
