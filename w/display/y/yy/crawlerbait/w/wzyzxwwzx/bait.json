@@ -2,16 +2,20 @@
   "bait_address": "zyzxwwzx",
   "crawlers": [
     {
+      "events": 2,
+      "id": "005df3b0dbc7fcfcd08e0b46"
+    },
+    {
       "events": 1,
       "id": "d61e1612c590afc9c0d09570"
     }
   ],
   "first_seen": "2026-11-06T05:11:35Z",
   "id": "b909155a9051f15a3a97",
-  "last_seen": "2026-11-06T05:11:35Z",
+  "last_seen": "2026-11-13T05:53:25Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/232cd774c37f05e43d0ea5dc",
   "public_href": "/crawlerbait/bait/~/232cd774c37f05e43d0ea5dc/",
-  "raw_requests": 1,
+  "raw_requests": 3,
   "version": 2
 }

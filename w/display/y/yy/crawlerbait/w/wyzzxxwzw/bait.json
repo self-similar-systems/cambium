@@ -67,15 +67,23 @@
     },
     {
       "events": 1,
+      "id": "d33e66296d4b7c9b90410e92"
+    },
+    {
+      "events": 1,
+      "id": "d7aec40657f20f5ff076cb47"
+    },
+    {
+      "events": 1,
       "id": "ed0473a2799e82978a19f27c"
     }
   ],
   "first_seen": "2026-10-07T19:13:05Z",
   "id": "e94861760bc6b5ba0960",
-  "last_seen": "2026-11-12T13:54:59Z",
+  "last_seen": "2026-11-12T23:31:38Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/d071674ef9f6e7b2ff7efaa1",
   "public_href": "/crawlerbait/bait/~/d071674ef9f6e7b2ff7efaa1/",
-  "raw_requests": 18,
+  "raw_requests": 20,
   "version": 2
 }
