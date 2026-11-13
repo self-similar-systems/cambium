@@ -31,19 +31,27 @@
     },
     {
       "events": 1,
+      "id": "5c2bf1dc2af13de3407ee397"
+    },
+    {
+      "events": 1,
       "id": "7fe7e6713a933bdfb85744b0"
     },
     {
       "events": 1,
       "id": "be6837cd2411c81223f2a533"
+    },
+    {
+      "events": 1,
+      "id": "f8963952fdd77045e69fdf5c"
     }
   ],
   "first_seen": "2026-10-17T17:02:59Z",
   "id": "d88fb4fa6399c5649fa6",
-  "last_seen": "2026-11-12T13:55:53Z",
+  "last_seen": "2026-11-13T17:29:42Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/db622714cb27ef0b00203e3f",
   "public_href": "/crawlerbait/bait/~/db622714cb27ef0b00203e3f/",
-  "raw_requests": 10,
+  "raw_requests": 12,
   "version": 2
 }

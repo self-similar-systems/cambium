@@ -79,6 +79,10 @@
     },
     {
       "events": 1,
+      "id": "28863b681df2de7942eca32d"
+    },
+    {
+      "events": 1,
       "id": "331a82d4167f89d41cfd3c48"
     },
     {
@@ -139,6 +143,10 @@
     },
     {
       "events": 1,
+      "id": "5c2bf1dc2af13de3407ee397"
+    },
+    {
+      "events": 1,
       "id": "658503ef078581eefe2a4eb8"
     },
     {
@@ -156,6 +164,10 @@
     {
       "events": 1,
       "id": "7fe7e6713a933bdfb85744b0"
+    },
+    {
+      "events": 1,
+      "id": "934acd6a8166db9fff178881"
     },
     {
       "events": 1,
@@ -196,14 +208,18 @@
     {
       "events": 1,
       "id": "db7cfa1cd21d33095e34692e"
+    },
+    {
+      "events": 1,
+      "id": "f8963952fdd77045e69fdf5c"
     }
   ],
   "first_seen": "2026-10-05T14:21:40Z",
   "id": "d85807e53a0ea760ce0e",
-  "last_seen": "2026-11-12T21:00:23Z",
+  "last_seen": "2026-11-13T17:28:56Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/2e45a8ea2bf74a67e7ce6f03",
   "public_href": "/crawlerbait/bait/~/2e45a8ea2bf74a67e7ce6f03/",
-  "raw_requests": 79,
+  "raw_requests": 83,
   "version": 2
 }

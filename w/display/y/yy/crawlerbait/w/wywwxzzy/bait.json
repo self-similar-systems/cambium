@@ -31,11 +31,19 @@
     },
     {
       "events": 1,
+      "id": "28863b681df2de7942eca32d"
+    },
+    {
+      "events": 1,
       "id": "330a2081dd436d5dd78a53d4"
     },
     {
       "events": 1,
       "id": "66a18bd80c8581a312ac76e3"
+    },
+    {
+      "events": 1,
+      "id": "934acd6a8166db9fff178881"
     },
     {
       "events": 1,
@@ -60,10 +68,10 @@
   ],
   "first_seen": "2026-10-09T18:33:39Z",
   "id": "c1aedc4aa62adf0af64a",
-  "last_seen": "2026-11-12T21:13:28Z",
+  "last_seen": "2026-11-13T14:28:35Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/2d0528f4ec50d048459343b7",
   "public_href": "/crawlerbait/bait/~/2d0528f4ec50d048459343b7/",
-  "raw_requests": 24,
+  "raw_requests": 26,
   "version": 2
 }

@@ -43,19 +43,27 @@
     },
     {
       "events": 1,
+      "id": "5c2bf1dc2af13de3407ee397"
+    },
+    {
+      "events": 1,
       "id": "7fe7e6713a933bdfb85744b0"
     },
     {
       "events": 1,
       "id": "be6837cd2411c81223f2a533"
+    },
+    {
+      "events": 1,
+      "id": "f8963952fdd77045e69fdf5c"
     }
   ],
   "first_seen": "2026-10-07T18:09:08Z",
   "id": "23d26f9d4a78dcdf28d4",
-  "last_seen": "2026-11-12T13:55:33Z",
+  "last_seen": "2026-11-13T17:29:32Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/483eb0cbb7e8ff101c760219",
   "public_href": "/crawlerbait/bait/~/483eb0cbb7e8ff101c760219/",
-  "raw_requests": 13,
+  "raw_requests": 15,
   "version": 2
 }
