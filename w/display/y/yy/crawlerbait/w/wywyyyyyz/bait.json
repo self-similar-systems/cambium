@@ -23,6 +23,10 @@
     },
     {
       "events": 4,
+      "id": "0b7bea3fbc48439083384853"
+    },
+    {
+      "events": 4,
       "id": "1e01fae016b126a865d9e665"
     },
     {
@@ -60,6 +64,10 @@
     {
       "events": 2,
       "id": "261f513118444e214f06f493"
+    },
+    {
+      "events": 2,
+      "id": "26d6055b02c42dbf198e3b01"
     },
     {
       "events": 2,
@@ -147,11 +155,19 @@
     },
     {
       "events": 1,
+      "id": "2e96610fbc5b85e590008b76"
+    },
+    {
+      "events": 1,
       "id": "30d83338243645fa1797c4b6"
     },
     {
       "events": 1,
       "id": "4282a2506bc9f08a374a834f"
+    },
+    {
+      "events": 1,
+      "id": "44a965653357b6cc59d84cc9"
     },
     {
       "events": 1,
@@ -271,15 +287,23 @@
     },
     {
       "events": 1,
+      "id": "e57a2130f4b74e4952c673cc"
+    },
+    {
+      "events": 1,
       "id": "fdf1e34c03a220ebb1b5fe76"
+    },
+    {
+      "events": 1,
+      "id": "ff0a030df3554350d2a6ce77"
     }
   ],
   "first_seen": "2026-09-23T08:17:28Z",
   "id": "cffe9eb51b9a1aad168f",
-  "last_seen": "2026-11-23T20:39:22Z",
+  "last_seen": "2026-11-27T18:35:48Z",
   "legacy_404_observations": 0,
   "observed_path": "/~/d4911f05fa5a5778bc089711",
   "public_href": "/crawlerbait/bait/~/d4911f05fa5a5778bc089711/",
-  "raw_requests": 127,
+  "raw_requests": 137,
   "version": 2
 }
