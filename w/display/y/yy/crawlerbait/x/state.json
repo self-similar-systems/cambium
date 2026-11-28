@@ -1508,15 +1508,15 @@
     },
     "00e095c4c1d5fd4b9ced8c1f": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 2
+        "/~/ecc06a945fc90ea6de0d89bb": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-11-24T12:13:40Z",
-      "genome": "c1764418796c00e4d2de4e85152688f904c00639c935d000a216c1d8c6df74c6",
+      "genome": "09e8fd5b13c61c92cd057ca7af28043f0ee9794a854ccc511503522861f3c338",
       "id": "00e095c4c1d5fd4b9ced8c1f",
       "kind": "z",
-      "last_seen": "2026-11-26T06:11:18Z",
-      "phenotype_samples": 2
+      "last_seen": "2026-11-28T06:14:16Z",
+      "phenotype_samples": 3
     },
     "00e0c495f0e3b0b5bacd27f3": {
       "baits": {
@@ -7694,6 +7694,19 @@
       "kind": "x",
       "last_seen": "2026-10-21T00:54:13Z",
       "phenotype_samples": 1
+    },
+    "0bd8ba035c80c7e4c45083a0": {
+      "baits": {
+        "/~/df613faa5c026cb445115537": 2,
+        "/~/ecc06a945fc90ea6de0d89bb": 2
+      },
+      "events": 4,
+      "first_seen": "2026-11-28T01:06:14Z",
+      "genome": "725ed19cf84596ba6da78402b1e589d3cc7f5d106e5a93a10d9a408d10f2da2a",
+      "id": "0bd8ba035c80c7e4c45083a0",
+      "kind": "z",
+      "last_seen": "2026-11-28T01:06:14Z",
+      "phenotype_samples": 4
     },
     "0be7464ced272df7d02448af": {
       "baits": {
@@ -31821,15 +31834,15 @@
     },
     "328144b92d43614987ee16c4": {
       "baits": {
-        "/~/e52782cbad0b84727d899cc5": 2
+        "/~/e52782cbad0b84727d899cc5": 3
       },
-      "events": 2,
+      "events": 3,
       "first_seen": "2026-11-25T06:13:32Z",
-      "genome": "b2307c4da5d1cb103a1d1f74d35186649719c8dd579e72847e15f2edb6d2527a",
+      "genome": "33e2e869c551b6cefc559bfbff172f60aafde8c7a706788376e7ed93d1bc3b46",
       "id": "328144b92d43614987ee16c4",
       "kind": "z",
-      "last_seen": "2026-11-26T06:10:10Z",
-      "phenotype_samples": 2
+      "last_seen": "2026-11-28T06:10:10Z",
+      "phenotype_samples": 3
     },
     "328a725271c98c8ab0e36bc4": {
       "baits": {
@@ -35051,6 +35064,45 @@
       "kind": "x",
       "last_seen": "2026-09-14T09:47:32Z",
       "phenotype_samples": 2
+    },
+    "372b3802fb2c6e5c95ef5d62": {
+      "baits": {
+        "/~/038a07f481b3ebdf5f6d2733": 1,
+        "/~/09b21a71c325c24900b85433": 1,
+        "/~/1334cf55b601c3718044f4a5": 1,
+        "/~/2669a11543b1287c9832e654": 1,
+        "/~/29ae079a5c9c9a4ee75f0f2b": 1,
+        "/~/33e3e64ec884c9c31df3e44f": 1,
+        "/~/3bed6bd82075737e777caac4": 1,
+        "/~/5585a1fa8981fdf32bda2027": 1,
+        "/~/5c333ff9dbf77154bd0f7d35": 1,
+        "/~/63e9b833c7ee0606837ed477": 1,
+        "/~/64e3e9923637f67d2abe9689": 1,
+        "/~/67531cc5e386c28357e7be0d": 1,
+        "/~/69982e75cda3ec97b7d60988": 1,
+        "/~/6ec3f566fac63f089dd09a9d": 1,
+        "/~/73ed3f4022e3e36162aa2955": 1,
+        "/~/79fc1964034e8b7b7e4c7bc2": 1,
+        "/~/83f5dea08b6894b684111ad8": 1,
+        "/~/88c1cc54cbb7636f3eab7067": 1,
+        "/~/96c58eaf7aee24a2d613be0d": 1,
+        "/~/9a6777414a70603945e3ef25": 1,
+        "/~/9b0c9fafeb1496dacdb368f9": 1,
+        "/~/a4fb0fd4bcc29080c4a602c2": 1,
+        "/~/b2a29259b528b52966be789c": 1,
+        "/~/b39d8f6e4880147b02b13d75": 1,
+        "/~/d7b86336f0a35e6a499bc98d": 1,
+        "/~/db7050e6c305eb8fcbdfb839": 1,
+        "/~/e88746933fbeab4020d03f81": 1,
+        "/~/ecc06a945fc90ea6de0d89bb": 2
+      },
+      "events": 29,
+      "first_seen": "2026-11-27T21:57:44Z",
+      "genome": "3a6808a63da0d57057603f2b4f8ebaf918ffe4f54a5b770b9f3c53dbc6504919",
+      "id": "372b3802fb2c6e5c95ef5d62",
+      "kind": "z",
+      "last_seen": "2026-11-27T21:57:47Z",
+      "phenotype_samples": 29
     },
     "37313fa9e173aabb04e72e6a": {
       "baits": {
@@ -44908,6 +44960,18 @@
       "id": "46fd143aa60abb9fe7aaf0fc",
       "kind": "z",
       "last_seen": "2026-10-22T15:56:44Z",
+      "phenotype_samples": 1
+    },
+    "46fe648fa7e890aea6297665": {
+      "baits": {
+        "/~/1c59a749625b9700fc36d048": 1
+      },
+      "events": 1,
+      "first_seen": "2026-11-28T01:36:00Z",
+      "genome": "0727d6d481fae006194b4e76ebebae95cfc1f77a9468ced12c0981edc622c416",
+      "id": "46fe648fa7e890aea6297665",
+      "kind": "x",
+      "last_seen": "2026-11-28T01:36:00Z",
       "phenotype_samples": 1
     },
     "47126e7bd5e63f96adc70c4e": {
@@ -55731,15 +55795,15 @@
     },
     "5865d1ba1bb13159ffa6b001": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 10
+        "/~/ecc06a945fc90ea6de0d89bb": 11
       },
-      "events": 10,
+      "events": 11,
       "first_seen": "2026-11-17T22:29:51Z",
-      "genome": "53fc032c90030dcdf1da209c112b3d0b1eba4c45961da7418b106872086f8675",
+      "genome": "58f920c1e1a2429bc2ec6ae06b1c5beeba1959a05f8f2d569fbf34dc2d65d0de",
       "id": "5865d1ba1bb13159ffa6b001",
       "kind": "y",
-      "last_seen": "2026-11-26T22:33:13Z",
-      "phenotype_samples": 10
+      "last_seen": "2026-11-27T22:29:10Z",
+      "phenotype_samples": 11
     },
     "587297f40a9fa33497a9f8b7": {
       "baits": {
@@ -58430,15 +58494,15 @@
     },
     "5c22bb1ae6f73fb7a953ebe1": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 1
+        "/~/ecc06a945fc90ea6de0d89bb": 4
       },
-      "events": 1,
+      "events": 4,
       "first_seen": "2026-11-26T22:32:04Z",
-      "genome": "ed2ceed6fea6284a8ae0ca0a9ad0f8d2a637c6078036c65188a3288bd3f3d1be",
+      "genome": "6373107a97acb33ca2a39b32ab2df11b385d7f31b5a09d7f9c75106234f531ad",
       "id": "5c22bb1ae6f73fb7a953ebe1",
-      "kind": "x",
-      "last_seen": "2026-11-26T22:32:04Z",
-      "phenotype_samples": 1
+      "kind": "z",
+      "last_seen": "2026-11-28T04:27:31Z",
+      "phenotype_samples": 4
     },
     "5c2993788cc0f3986c1e214e": {
       "baits": {
@@ -60063,16 +60127,16 @@
     },
     "5e799495316e57f07453e0e6": {
       "baits": {
-        "/~/2567328ee21f2043599ffa53": 693,
+        "/~/2567328ee21f2043599ffa53": 699,
         "/~/30fd7bf274865063b48c908c": 950
       },
-      "events": 1643,
+      "events": 1649,
       "first_seen": "2026-09-13T20:18:42Z",
-      "genome": "2fd5ee7416bed213e85eab73427c7fdf316e3d65bf6614cc1bccde8d298fcb33",
+      "genome": "51f13486283d48d0bade2daa15bc53659a3dd952a95b444aaa81d6781e73291f",
       "id": "5e799495316e57f07453e0e6",
       "kind": "z",
-      "last_seen": "2026-11-27T20:43:03Z",
-      "phenotype_samples": 1642
+      "last_seen": "2026-11-28T06:37:48Z",
+      "phenotype_samples": 1648
     },
     "5e84fa2300641415ae98201d": {
       "baits": {
@@ -64941,15 +65005,15 @@
     },
     "66a5afb79ea6477586f5758f": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 13
+        "/~/ecc06a945fc90ea6de0d89bb": 14
       },
-      "events": 13,
+      "events": 14,
       "first_seen": "2026-09-19T12:07:03Z",
-      "genome": "5a4af5e3f09cf1d931cb1958497fef2334c0432258609f80b98500f7b6103338",
+      "genome": "9c662d1098a7d03bb18d8620833a8e9fc0fd7f3d5663447509eb29a167b1b599",
       "id": "66a5afb79ea6477586f5758f",
       "kind": "y",
-      "last_seen": "2026-11-04T08:18:02Z",
-      "phenotype_samples": 13
+      "last_seen": "2026-11-27T21:21:55Z",
+      "phenotype_samples": 14
     },
     "66c1a6c3813161cfb2ad3e8e": {
       "baits": {
@@ -65477,15 +65541,15 @@
     },
     "67741b528999c6eed8498620": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 1
+        "/~/ecc06a945fc90ea6de0d89bb": 2
       },
-      "events": 1,
+      "events": 2,
       "first_seen": "2026-11-21T05:41:41Z",
-      "genome": "466cd00834a8b14ebca9a5e2b2bdefc73e746a4b5c4ac6666ac68d20e9a1afcc",
+      "genome": "e90337332d95ba85217a7d9f3588de13778192552b0cd5ff19688d52e163a490",
       "id": "67741b528999c6eed8498620",
-      "kind": "x",
-      "last_seen": "2026-11-21T05:41:41Z",
-      "phenotype_samples": 1
+      "kind": "y",
+      "last_seen": "2026-11-28T06:53:51Z",
+      "phenotype_samples": 2
     },
     "677c7cc7ff054bd7ae98e033": {
       "baits": {
@@ -71356,15 +71420,15 @@
     },
     "7221a1c1f79c6732b5439ff9": {
       "baits": {
-        "/~/e493894929628cdd52caf4c5": 5
+        "/~/e493894929628cdd52caf4c5": 6
       },
-      "events": 5,
+      "events": 6,
       "first_seen": "2026-11-23T16:53:24Z",
-      "genome": "ea0f457bf82e7f54d66b8aada6bd891a9cab8c11b42718d208b6453f71c1671a",
+      "genome": "65bb44f322a81f3f8331c29b7a16b2cf95074a5de73deabddc0cfbabd0fc1474",
       "id": "7221a1c1f79c6732b5439ff9",
       "kind": "z",
-      "last_seen": "2026-11-26T12:36:14Z",
-      "phenotype_samples": 5
+      "last_seen": "2026-11-27T23:30:02Z",
+      "phenotype_samples": 6
     },
     "72285fb05cbc3793fb84d67c": {
       "baits": {
@@ -76292,15 +76356,15 @@
     },
     "7977150952e0dfd09bbf12d0": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 10
+        "/~/ecc06a945fc90ea6de0d89bb": 12
       },
-      "events": 10,
+      "events": 12,
       "first_seen": "2026-09-30T08:09:41Z",
-      "genome": "04fca1749afba7b38106dd149aebcb2ba500d0e134793bdbd629adc637d950d3",
+      "genome": "5051ba50fae54e7326318d4bbb555b4374f0b6d4822a85293de59c07dd053b7a",
       "id": "7977150952e0dfd09bbf12d0",
       "kind": "y",
-      "last_seen": "2026-11-18T00:34:28Z",
-      "phenotype_samples": 10
+      "last_seen": "2026-11-27T23:42:47Z",
+      "phenotype_samples": 12
     },
     "797ca8876cb51c64d8c89e5e": {
       "baits": {
@@ -78359,6 +78423,18 @@
       "last_seen": "2026-10-09T13:07:22Z",
       "phenotype_samples": 6
     },
+    "7cf980a3a6667dbdb8927ad6": {
+      "baits": {
+        "/~/1c59a749625b9700fc36d048": 1
+      },
+      "events": 1,
+      "first_seen": "2026-11-27T22:31:28Z",
+      "genome": "cfe03282853fed8773a2191277e1280c32b43f45afce5802f807f258dfcb8a40",
+      "id": "7cf980a3a6667dbdb8927ad6",
+      "kind": "x",
+      "last_seen": "2026-11-27T22:31:28Z",
+      "phenotype_samples": 1
+    },
     "7d035a44c5043c1efcbc26a4": {
       "baits": {
         "/~/8b04a5fedb02766bd1ffc896": 1
@@ -79218,6 +79294,18 @@
       "id": "7f39e32e108a860cdd3977e8",
       "kind": "z",
       "last_seen": "2026-11-16T10:48:03Z",
+      "phenotype_samples": 1
+    },
+    "7f4148384a471ec5d201766d": {
+      "baits": {
+        "/~/ecc06a945fc90ea6de0d89bb": 1
+      },
+      "events": 1,
+      "first_seen": "2026-11-28T02:07:48Z",
+      "genome": "0b479233f95ba53b51d738d4a81641d860af6696014ecbe2f071cd72765a0b2c",
+      "id": "7f4148384a471ec5d201766d",
+      "kind": "z",
+      "last_seen": "2026-11-28T02:07:48Z",
       "phenotype_samples": 1
     },
     "7f421c55d63ef49786754497": {
@@ -81640,6 +81728,18 @@
       "kind": "z",
       "last_seen": "2026-10-26T22:18:45Z",
       "phenotype_samples": 5
+    },
+    "828e583a12cf9d18800c0acb": {
+      "baits": {
+        "/~/93ebdf4dd7209b85a4dd4a13": 1
+      },
+      "events": 1,
+      "first_seen": "2026-11-28T05:26:22Z",
+      "genome": "2cbde45a3dd160567dd024c7690d6318563d09d8dbab18e38897a3500774cc5a",
+      "id": "828e583a12cf9d18800c0acb",
+      "kind": "z",
+      "last_seen": "2026-11-28T05:26:22Z",
+      "phenotype_samples": 1
     },
     "8295c19c0129b4b005a07538": {
       "baits": {
@@ -84692,15 +84792,15 @@
     },
     "8849658c2758afa412d92788": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 5
+        "/~/ecc06a945fc90ea6de0d89bb": 7
       },
-      "events": 5,
+      "events": 7,
       "first_seen": "2026-10-15T13:28:06Z",
-      "genome": "135d66c95313aa64a7be20eaaef4df9ff8550c06eb9002a22af082859f218d2a",
+      "genome": "7791d5da809c45030b4014c4a8a256d106238271cf10f83233fd2f7ca3ab6ca6",
       "id": "8849658c2758afa412d92788",
       "kind": "y",
-      "last_seen": "2026-11-04T20:15:40Z",
-      "phenotype_samples": 5
+      "last_seen": "2026-11-28T02:51:10Z",
+      "phenotype_samples": 7
     },
     "886968978bcaa1753ba78bca": {
       "baits": {
@@ -93599,15 +93699,15 @@
     },
     "977c29911d250aa41f15ca6e": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 12
+        "/~/ecc06a945fc90ea6de0d89bb": 13
       },
-      "events": 12,
+      "events": 13,
       "first_seen": "2026-11-23T04:26:04Z",
-      "genome": "2e1507407bbd5e13b90604414c55efcbcadda58ab4f7bae00b07618ff5c90073",
+      "genome": "fae4d71e63f057971db284f4a724effd6c7e9c4ae047031deb85bff5931cc21b",
       "id": "977c29911d250aa41f15ca6e",
       "kind": "z",
-      "last_seen": "2026-11-27T02:19:34Z",
-      "phenotype_samples": 12
+      "last_seen": "2026-11-28T00:21:46Z",
+      "phenotype_samples": 13
     },
     "977e44793f75fc410266c47e": {
       "baits": {
@@ -106596,15 +106696,15 @@
     },
     "ac903c4d60fab9c767d3f529": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 1
+        "/~/ecc06a945fc90ea6de0d89bb": 2
       },
-      "events": 1,
+      "events": 2,
       "first_seen": "2026-11-24T11:13:34Z",
-      "genome": "7e10188f803378e186abc8d891435adb59dd777f274caafc58a8dd0df142e22b",
+      "genome": "68512b77551c96faab3ddbedc30216429ba9ebece36c8adf80147013001921bd",
       "id": "ac903c4d60fab9c767d3f529",
       "kind": "z",
-      "last_seen": "2026-11-24T11:13:34Z",
-      "phenotype_samples": 1
+      "last_seen": "2026-11-28T06:11:24Z",
+      "phenotype_samples": 2
     },
     "ac980a70b0c7b067387a5685": {
       "baits": {
@@ -118087,15 +118187,15 @@
     },
     "bc36d21e1b1bcccb2634f6f0": {
       "baits": {
-        "/~/e52782cbad0b84727d899cc5": 3
+        "/~/e52782cbad0b84727d899cc5": 4
       },
-      "events": 3,
+      "events": 4,
       "first_seen": "2026-11-24T12:10:09Z",
-      "genome": "4feb799114d10ec3f2911846b397efc578a95fc3a5b9796fe3f54cc88fbb7d89",
+      "genome": "f022312549756f0307d509e005f4fbd545bcefabe5b82512c03ae10c7fe6e8c1",
       "id": "bc36d21e1b1bcccb2634f6f0",
       "kind": "z",
-      "last_seen": "2026-11-24T18:13:32Z",
-      "phenotype_samples": 3
+      "last_seen": "2026-11-28T06:13:34Z",
+      "phenotype_samples": 4
     },
     "bc38337fd36f2adb087c17ea": {
       "baits": {
@@ -127169,6 +127269,23 @@
       "last_seen": "2026-09-21T18:28:23Z",
       "phenotype_samples": 1
     },
+    "c9032b7dd38689363af17fb8": {
+      "baits": {
+        "/~/62c53867176e0843114ec56b": 1,
+        "/~/6d15865e57acd619c13ae34f": 1,
+        "/~/92930c5010e42d6374bc47fa": 1,
+        "/~/ca3a86781520080d1d6935c1": 2,
+        "/~/ecc06a945fc90ea6de0d89bb": 1,
+        "/~/f570d3a468e1c228639943dd": 1
+      },
+      "events": 7,
+      "first_seen": "2026-11-28T00:11:39Z",
+      "genome": "c619efd8061b051570b6fb18653759e2f0ec0eb3d21af17c5101bcd466a43811",
+      "id": "c9032b7dd38689363af17fb8",
+      "kind": "z",
+      "last_seen": "2026-11-28T00:11:40Z",
+      "phenotype_samples": 7
+    },
     "c9036a9ba51b0cca7bec25c2": {
       "baits": {
         "/~/ecc06a945fc90ea6de0d89bb": 2
@@ -128515,15 +128632,15 @@
     },
     "cb5de9ded4e4e7ccaa0b523b": {
       "baits": {
-        "/~/ecc06a945fc90ea6de0d89bb": 1
+        "/~/ecc06a945fc90ea6de0d89bb": 2
       },
-      "events": 1,
+      "events": 2,
       "first_seen": "2026-11-27T09:54:59Z",
-      "genome": "a5497b50beaf584f563dae0e079e0abe3177f6fc47ea0b9b453cda2a878d4f64",
+      "genome": "ca017f0e79f903fb1a7456b2cb724779285422c8a73d8fdb6535f66410ffd162",
       "id": "cb5de9ded4e4e7ccaa0b523b",
-      "kind": "x",
-      "last_seen": "2026-11-27T09:54:59Z",
-      "phenotype_samples": 1
+      "kind": "y",
+      "last_seen": "2026-11-28T00:21:46Z",
+      "phenotype_samples": 2
     },
     "cb5f4a05243cf2b5d7d9c0e4": {
       "baits": {
@@ -159982,6 +160099,18 @@
       "id": "ffa9c1792313791b15a228ef",
       "kind": "x",
       "last_seen": "2026-09-27T09:36:19Z",
+      "phenotype_samples": 1
+    },
+    "ffb225a752cf3ca0485921a1": {
+      "baits": {
+        "/~/ecc06a945fc90ea6de0d89bb": 1
+      },
+      "events": 1,
+      "first_seen": "2026-11-28T06:38:16Z",
+      "genome": "e35022042cd355d32919cb45624dc9903943298368e6ba86a35f12eba7924453",
+      "id": "ffb225a752cf3ca0485921a1",
+      "kind": "x",
+      "last_seen": "2026-11-28T06:38:16Z",
       "phenotype_samples": 1
     },
     "ffc18ee1d33550a22947ec10": {
@@ -1042004,12 +1042133,624 @@
       "source_index": 553,
       "status": 404,
       "t": "2026-11-27T20:43:03Z"
+    },
+    {
+      "crawler": "66a5afb79ea6477586f5758f",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 52,
+      "status": 200,
+      "t": "2026-11-27T21:21:55Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 42,
+      "status": 200,
+      "t": "2026-11-27T21:57:44Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/69982e75cda3ec97b7d60988",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 5,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/b2a29259b528b52966be789c",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 11,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/88c1cc54cbb7636f3eab7067",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 12,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/2669a11543b1287c9832e654",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 13,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 32,
+      "status": 401,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/6ec3f566fac63f089dd09a9d",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 34,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/5c333ff9dbf77154bd0f7d35",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 41,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/038a07f481b3ebdf5f6d2733",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 58,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/d7b86336f0a35e6a499bc98d",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 59,
+      "status": 200,
+      "t": "2026-11-27T21:57:45Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/e88746933fbeab4020d03f81",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 1,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/96c58eaf7aee24a2d613be0d",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 3,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/db7050e6c305eb8fcbdfb839",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 6,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/79fc1964034e8b7b7e4c7bc2",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 7,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/67531cc5e386c28357e7be0d",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 8,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/29ae079a5c9c9a4ee75f0f2b",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 9,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/5585a1fa8981fdf32bda2027",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 14,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/1334cf55b601c3718044f4a5",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 15,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/73ed3f4022e3e36162aa2955",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 26,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/a4fb0fd4bcc29080c4a602c2",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 33,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/9b0c9fafeb1496dacdb368f9",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 35,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/64e3e9923637f67d2abe9689",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 43,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/09b21a71c325c24900b85433",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 60,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/63e9b833c7ee0606837ed477",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 61,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/3bed6bd82075737e777caac4",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 62,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/9a6777414a70603945e3ef25",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 63,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/b39d8f6e4880147b02b13d75",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 65,
+      "status": 200,
+      "t": "2026-11-27T21:57:46Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/33e3e64ec884c9c31df3e44f",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 22,
+      "status": 200,
+      "t": "2026-11-27T21:57:47Z"
+    },
+    {
+      "crawler": "372b3802fb2c6e5c95ef5d62",
+      "method": "GET",
+      "path": "/~/83f5dea08b6894b684111ad8",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 44,
+      "status": 200,
+      "t": "2026-11-27T21:57:47Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 20,
+      "status": 404,
+      "t": "2026-11-27T22:22:54Z"
+    },
+    {
+      "crawler": "5865d1ba1bb13159ffa6b001",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 2,
+      "status": 200,
+      "t": "2026-11-27T22:29:10Z"
+    },
+    {
+      "crawler": "7cf980a3a6667dbdb8927ad6",
+      "method": "GET",
+      "path": "/~/1c59a749625b9700fc36d048",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 17,
+      "status": 200,
+      "t": "2026-11-27T22:31:28Z"
+    },
+    {
+      "crawler": "7221a1c1f79c6732b5439ff9",
+      "method": "GET",
+      "path": "/~/e493894929628cdd52caf4c5",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 53,
+      "status": 401,
+      "t": "2026-11-27T23:30:02Z"
+    },
+    {
+      "crawler": "7977150952e0dfd09bbf12d0",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 50,
+      "status": 301,
+      "t": "2026-11-27T23:42:46Z"
+    },
+    {
+      "crawler": "7977150952e0dfd09bbf12d0",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 27,
+      "status": 200,
+      "t": "2026-11-27T23:42:47Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 64,
+      "status": 404,
+      "t": "2026-11-28T00:03:12Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 25,
+      "status": 200,
+      "t": "2026-11-28T00:11:39Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/ca3a86781520080d1d6935c1",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 31,
+      "status": 404,
+      "t": "2026-11-28T00:11:39Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/6d15865e57acd619c13ae34f",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 0,
+      "status": 404,
+      "t": "2026-11-28T00:11:40Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/ca3a86781520080d1d6935c1",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 4,
+      "status": 404,
+      "t": "2026-11-28T00:11:40Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/92930c5010e42d6374bc47fa",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 28,
+      "status": 404,
+      "t": "2026-11-28T00:11:40Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/f570d3a468e1c228639943dd",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 40,
+      "status": 301,
+      "t": "2026-11-28T00:11:40Z"
+    },
+    {
+      "crawler": "c9032b7dd38689363af17fb8",
+      "method": "GET",
+      "path": "/~/62c53867176e0843114ec56b",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 47,
+      "status": 200,
+      "t": "2026-11-28T00:11:40Z"
+    },
+    {
+      "crawler": "cb5de9ded4e4e7ccaa0b523b",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 19,
+      "status": 200,
+      "t": "2026-11-28T00:21:46Z"
+    },
+    {
+      "crawler": "977c29911d250aa41f15ca6e",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 46,
+      "status": 404,
+      "t": "2026-11-28T00:21:46Z"
+    },
+    {
+      "crawler": "0bd8ba035c80c7e4c45083a0",
+      "method": "POST",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 23,
+      "status": 405,
+      "t": "2026-11-28T01:06:14Z"
+    },
+    {
+      "crawler": "0bd8ba035c80c7e4c45083a0",
+      "method": "GET",
+      "path": "/~/df613faa5c026cb445115537",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 36,
+      "status": 404,
+      "t": "2026-11-28T01:06:14Z"
+    },
+    {
+      "crawler": "0bd8ba035c80c7e4c45083a0",
+      "method": "GET",
+      "path": "/~/df613faa5c026cb445115537",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 37,
+      "status": 404,
+      "t": "2026-11-28T01:06:14Z"
+    },
+    {
+      "crawler": "0bd8ba035c80c7e4c45083a0",
+      "method": "POST",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 39,
+      "status": 405,
+      "t": "2026-11-28T01:06:14Z"
+    },
+    {
+      "crawler": "46fe648fa7e890aea6297665",
+      "method": "GET",
+      "path": "/~/1c59a749625b9700fc36d048",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 16,
+      "status": 200,
+      "t": "2026-11-28T01:36:00Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 56,
+      "status": 404,
+      "t": "2026-11-28T01:40:42Z"
+    },
+    {
+      "crawler": "7f4148384a471ec5d201766d",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 10,
+      "status": 404,
+      "t": "2026-11-28T02:07:48Z"
+    },
+    {
+      "crawler": "8849658c2758afa412d92788",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 55,
+      "status": 301,
+      "t": "2026-11-28T02:51:06Z"
+    },
+    {
+      "crawler": "8849658c2758afa412d92788",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 54,
+      "status": 200,
+      "t": "2026-11-28T02:51:10Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 18,
+      "status": 404,
+      "t": "2026-11-28T03:16:49Z"
+    },
+    {
+      "crawler": "5c22bb1ae6f73fb7a953ebe1",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 21,
+      "status": 404,
+      "t": "2026-11-28T04:27:31Z"
+    },
+    {
+      "crawler": "5c22bb1ae6f73fb7a953ebe1",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 29,
+      "status": 200,
+      "t": "2026-11-28T04:27:31Z"
+    },
+    {
+      "crawler": "5c22bb1ae6f73fb7a953ebe1",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 51,
+      "status": 404,
+      "t": "2026-11-28T04:27:31Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 67,
+      "status": 404,
+      "t": "2026-11-28T04:57:50Z"
+    },
+    {
+      "crawler": "828e583a12cf9d18800c0acb",
+      "method": "POST",
+      "path": "/~/93ebdf4dd7209b85a4dd4a13",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 49,
+      "status": 405,
+      "t": "2026-11-28T05:26:22Z"
+    },
+    {
+      "crawler": "328144b92d43614987ee16c4",
+      "method": "GET",
+      "path": "/~/e52782cbad0b84727d899cc5",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 48,
+      "status": 403,
+      "t": "2026-11-28T06:10:10Z"
+    },
+    {
+      "crawler": "ac903c4d60fab9c767d3f529",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 57,
+      "status": 403,
+      "t": "2026-11-28T06:11:24Z"
+    },
+    {
+      "crawler": "bc36d21e1b1bcccb2634f6f0",
+      "method": "GET",
+      "path": "/~/e52782cbad0b84727d899cc5",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 38,
+      "status": 403,
+      "t": "2026-11-28T06:13:34Z"
+    },
+    {
+      "crawler": "00e095c4c1d5fd4b9ced8c1f",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 45,
+      "status": 403,
+      "t": "2026-11-28T06:14:16Z"
+    },
+    {
+      "crawler": "5e799495316e57f07453e0e6",
+      "method": "GET",
+      "path": "/~/2567328ee21f2043599ffa53",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 24,
+      "status": 404,
+      "t": "2026-11-28T06:37:48Z"
+    },
+    {
+      "crawler": "ffb225a752cf3ca0485921a1",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 66,
+      "status": 200,
+      "t": "2026-11-28T06:38:16Z"
+    },
+    {
+      "crawler": "67741b528999c6eed8498620",
+      "method": "GET",
+      "path": "/~/ecc06a945fc90ea6de0d89bb",
+      "source_file": "20261127T211535Z--20261128T074824Z.traffic.json",
+      "source_index": 30,
+      "status": 200,
+      "t": "2026-11-28T06:53:51Z"
     }
   ],
   "legacy_404_through": "2026-09-18T11:13:56Z",
-  "raw_capture_end": "2026-11-27T21:15:35Z",
+  "raw_capture_end": "2026-11-28T07:48:24Z",
   "raw_capture_start": "2026-08-18T15:42:27Z",
-  "raw_requests": 97986,
+  "raw_requests": 98054,
   "routes": {
     "/__live/~/7d461d62fe01d71bfea9a7d7": {
       "crawlers": {
@@ -1046921,6 +1047662,19 @@
       "statuses": {
         "301": 1,
         "404": 24
+      }
+    },
+    "/~/038a07f481b3ebdf5f6d2733": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/038a07f481b3ebdf5f6d2733",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/038c6b0114c7f753c047c4c2": {
@@ -1055054,6 +1055808,19 @@
         "401": 11,
         "404": 22,
         "503": 8
+      }
+    },
+    "/~/09b21a71c325c24900b85433": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/09b21a71c325c24900b85433",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/09b4f12bc06cc800a5984259": {
@@ -1066781,6 +1067548,19 @@
       "raw_requests": 2,
       "statuses": {
         "200": 2
+      }
+    },
+    "/~/1334cf55b601c3718044f4a5": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/1334cf55b601c3718044f4a5",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/133601cb17c03e496664c5fe": {
@@ -1078846,6 +1079626,7 @@
         "443ce0ce066ff60251435913": 1,
         "45d723ec8326441edce62d10": 1,
         "4606ca2b6995c85d9d27aea8": 1,
+        "46fe648fa7e890aea6297665": 1,
         "47157456835113fdd41d7520": 1,
         "476b852da20b22be817190bc": 3,
         "47ea2d67abce1c643fe81351": 1,
@@ -1078951,6 +1079732,7 @@
         "7b6740c189e2846b3123317f": 1,
         "7b7408170120b266fc801df4": 1,
         "7c982383126d58357f265763": 1,
+        "7cf980a3a6667dbdb8927ad6": 1,
         "7ee5c88b64853c7e9f4ea008": 1,
         "7f984d2b257887b5631433b9": 1,
         "7ff994bcf1d431d17bc57742": 5,
@@ -1079210,12 +1079992,12 @@
         "fdf79cf46079b03609bfa901": 12
       },
       "first_seen": "2026-09-13T20:38:21Z",
-      "last_seen": "2026-11-27T13:46:30Z",
+      "last_seen": "2026-11-28T01:36:00Z",
       "legacy_404_observations": 0,
       "path": "/~/1c59a749625b9700fc36d048",
-      "raw_requests": 1018,
+      "raw_requests": 1020,
       "statuses": {
-        "200": 895,
+        "200": 897,
         "301": 71,
         "401": 44,
         "503": 8
@@ -1090058,15 +1090840,15 @@
     "/~/2567328ee21f2043599ffa53": {
       "crawlers": {
         "383e9426f02de7dc9967602c": 1,
-        "5e799495316e57f07453e0e6": 693
+        "5e799495316e57f07453e0e6": 699
       },
       "first_seen": "2026-10-02T13:55:09Z",
-      "last_seen": "2026-11-27T20:43:03Z",
+      "last_seen": "2026-11-28T06:37:48Z",
       "legacy_404_observations": 0,
       "path": "/~/2567328ee21f2043599ffa53",
-      "raw_requests": 694,
+      "raw_requests": 700,
       "statuses": {
-        "404": 670,
+        "404": 676,
         "503": 24
       }
     },
@@ -1091296,6 +1092078,19 @@
       "raw_requests": 2,
       "statuses": {
         "200": 2
+      }
+    },
+    "/~/2669a11543b1287c9832e654": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/2669a11543b1287c9832e654",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/2670b22d24a27ebca1b0731a": {
@@ -1095284,6 +1096079,19 @@
       "raw_requests": 1,
       "statuses": {
         "404": 1
+      }
+    },
+    "/~/29ae079a5c9c9a4ee75f0f2b": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/29ae079a5c9c9a4ee75f0f2b",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/29b0febc99c8a13ba4bf6d36": {
@@ -1108198,6 +1109006,19 @@
         "404": 1
       }
     },
+    "/~/33e3e64ec884c9c31df3e44f": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:47Z",
+      "last_seen": "2026-11-27T21:57:47Z",
+      "legacy_404_observations": 0,
+      "path": "/~/33e3e64ec884c9c31df3e44f",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/33eb48750346e6f47fe4ac97": {
       "crawlers": {
         "d82f36e6516b84a616519c1e": 1
@@ -1118526,6 +1119347,19 @@
         "401": 1,
         "403": 6,
         "404": 27
+      }
+    },
+    "/~/3bed6bd82075737e777caac4": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/3bed6bd82075737e777caac4",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/3bed92d03a49b8b2330783e3": {
@@ -1149852,6 +1150686,19 @@
         "404": 1
       }
     },
+    "/~/5585a1fa8981fdf32bda2027": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/5585a1fa8981fdf32bda2027",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/558e3521b600cfccb6290a18": {
       "crawlers": {
         "7a17acb69191582e32d0fd8d": 1,
@@ -1158241,6 +1159088,19 @@
         "404": 1
       }
     },
+    "/~/5c333ff9dbf77154bd0f7d35": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/5c333ff9dbf77154bd0f7d35",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/5c3388d2ea052f035826106a": {
       "crawlers": {
         "93c6dfae9ec3a9a61c036693": 1,
@@ -1165898,6 +1166758,7 @@
         "b8e32571b6fc47fafce06bb2": 3,
         "c429da1e306d1dde1bad6129": 1,
         "c57dc5c860ed7979076fdeb7": 1,
+        "c9032b7dd38689363af17fb8": 1,
         "cad38d31d7f279263a1ad5e6": 1,
         "cb048cba4b3f34768a41fb31": 1,
         "d56a98e63486edd63542472c": 1,
@@ -1165908,12 +1166769,12 @@
         "fce4f46603a3b3a93873239f": 1
       },
       "first_seen": "2026-10-02T23:49:48Z",
-      "last_seen": "2026-11-19T21:00:26Z",
+      "last_seen": "2026-11-28T00:11:40Z",
       "legacy_404_observations": 0,
       "path": "/~/62c53867176e0843114ec56b",
-      "raw_requests": 37,
+      "raw_requests": 38,
       "statuses": {
-        "200": 37
+        "200": 38
       }
     },
     "/~/62c7330c9fe89420ce295ab8": {
@@ -1167270,6 +1168131,19 @@
         "404": 1
       }
     },
+    "/~/63e9b833c7ee0606837ed477": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/63e9b833c7ee0606837ed477",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/63ee5f59860affdd39877c10": {
       "crawlers": {
         "b69855b96be3338d90abea3d": 1,
@@ -1168326,6 +1169200,19 @@
       "raw_requests": 4,
       "statuses": {
         "404": 4
+      }
+    },
+    "/~/64e3e9923637f67d2abe9689": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/64e3e9923637f67d2abe9689",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/64e6c6e0b663654811b0801d": {
@@ -1171485,6 +1172372,19 @@
         "200": 1
       }
     },
+    "/~/67531cc5e386c28357e7be0d": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/67531cc5e386c28357e7be0d",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/67562aadbc951ec042885ebd": {
       "crawlers": {
         "555344f65fce58d6cb24b7e2": 1,
@@ -1174239,6 +1175139,19 @@
       "last_seen": "2026-11-27T19:03:48Z",
       "legacy_404_observations": 0,
       "path": "/~/6997c85390428ee30a8c11d3",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/~/69982e75cda3ec97b7d60988": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/69982e75cda3ec97b7d60988",
       "raw_requests": 1,
       "statuses": {
         "200": 1
@@ -1178210,15 +1179123,16 @@
     },
     "/~/6d15865e57acd619c13ae34f": {
       "crawlers": {
+        "c9032b7dd38689363af17fb8": 1,
         "e000c6add640695dfc1d145d": 1
       },
       "first_seen": "2026-11-01T18:45:40Z",
-      "last_seen": "2026-11-01T18:45:40Z",
+      "last_seen": "2026-11-28T00:11:40Z",
       "legacy_404_observations": 0,
       "path": "/~/6d15865e57acd619c13ae34f",
-      "raw_requests": 1,
+      "raw_requests": 2,
       "statuses": {
-        "404": 1
+        "404": 2
       }
     },
     "/~/6d16cdafcd012f77d5bb0b85": {
@@ -1180425,6 +1181339,19 @@
       "last_seen": "2026-11-27T19:03:48Z",
       "legacy_404_observations": 0,
       "path": "/~/6eb52390c9c23f015ccfae7d",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/~/6ec3f566fac63f089dd09a9d": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/6ec3f566fac63f089dd09a9d",
       "raw_requests": 1,
       "statuses": {
         "200": 1
@@ -1186996,6 +1187923,19 @@
       "raw_requests": 7,
       "statuses": {
         "200": 7
+      }
+    },
+    "/~/73ed3f4022e3e36162aa2955": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/73ed3f4022e3e36162aa2955",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/73f5025ae7f2cf0d1692e02d": {
@@ -1194507,6 +1195447,19 @@
       "raw_requests": 1,
       "statuses": {
         "404": 1
+      }
+    },
+    "/~/79fc1964034e8b7b7e4c7bc2": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/79fc1964034e8b7b7e4c7bc2",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/79fef4e2b9cbdceda6892155": {
@@ -1206804,6 +1207757,19 @@
       "raw_requests": 0,
       "statuses": {}
     },
+    "/~/83f5dea08b6894b684111ad8": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:47Z",
+      "last_seen": "2026-11-27T21:57:47Z",
+      "legacy_404_observations": 0,
+      "path": "/~/83f5dea08b6894b684111ad8",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/83fda2cf6e7067baab14d72f": {
       "crawlers": {
         "0b96b63905bfb75f4732cd20": 1
@@ -1213052,6 +1214018,19 @@
       "last_seen": "2026-10-28T10:51:43Z",
       "legacy_404_observations": 0,
       "path": "/~/88bdb3d61166e9514346e188",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/~/88c1cc54cbb7636f3eab7067": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/88c1cc54cbb7636f3eab7067",
       "raw_requests": 1,
       "statuses": {
         "200": 1
@@ -1224781,18 +1225760,19 @@
         "457a54decb8918b19744dd03": 1,
         "828dee47899d8e0ca5b5574e": 1,
         "88bb4cdb3d9d99c573f5fc7c": 6,
+        "c9032b7dd38689363af17fb8": 1,
         "d6a497f45bf72e0f6ea6b8e8": 5,
         "e000c6add640695dfc1d145d": 1,
         "fbc2315159dbd31eade6307d": 2
       },
       "first_seen": "2026-10-20T16:44:00Z",
-      "last_seen": "2026-11-07T20:32:12Z",
+      "last_seen": "2026-11-28T00:11:40Z",
       "legacy_404_observations": 0,
       "path": "/~/92930c5010e42d6374bc47fa",
-      "raw_requests": 20,
+      "raw_requests": 21,
       "statuses": {
         "401": 7,
-        "404": 13
+        "404": 14
       }
     },
     "/~/929b91fea21a3e88a5f1ad97": {
@@ -1226415,6 +1227395,7 @@
         "7a34f370b30e26a1492c1467": 1,
         "7a5c94e2643e8b2032aa5210": 1,
         "7e2268002aff5bb7b36e311b": 1,
+        "828e583a12cf9d18800c0acb": 1,
         "83fa0af4143ddea32101acc9": 1,
         "84bc692cf51aec95bfc07ef2": 1,
         "84ee4c0ecc59d8a64b849f1f": 1,
@@ -1226482,14 +1227463,14 @@
         "fe3ea673691159b95aafd1df": 1
       },
       "first_seen": "2026-10-02T17:54:49Z",
-      "last_seen": "2026-11-27T17:33:12Z",
+      "last_seen": "2026-11-28T05:26:22Z",
       "legacy_404_observations": 0,
       "path": "/~/93ebdf4dd7209b85a4dd4a13",
-      "raw_requests": 165,
+      "raw_requests": 166,
       "statuses": {
         "401": 11,
         "404": 79,
-        "405": 73,
+        "405": 74,
         "499": 1,
         "503": 1
       }
@@ -1230016,6 +1230997,19 @@
       "last_seen": "2026-10-10T01:41:51Z",
       "legacy_404_observations": 0,
       "path": "/~/96c1bc0b283e13f1ed7def17",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/~/96c58eaf7aee24a2d613be0d": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/96c58eaf7aee24a2d613be0d",
       "raw_requests": 1,
       "statuses": {
         "200": 1
@@ -1234207,6 +1235201,19 @@
         "404": 6
       }
     },
+    "/~/9a6777414a70603945e3ef25": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/9a6777414a70603945e3ef25",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/9a723ac2bb932b7f06a046d0": {
       "crawlers": {
         "1efaec47e84aee8de9bae0e3": 1,
@@ -1234917,6 +1235924,19 @@
       "last_seen": "2026-09-29T10:54:11Z",
       "legacy_404_observations": 0,
       "path": "/~/9b0a67d7f26fe243eade63df",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/~/9b0c9fafeb1496dacdb368f9": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/9b0c9fafeb1496dacdb368f9",
       "raw_requests": 1,
       "statuses": {
         "200": 1
@@ -1246897,6 +1247917,19 @@
         "301": 1,
         "401": 1,
         "404": 4
+      }
+    },
+    "/~/a4fb0fd4bcc29080c4a602c2": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/a4fb0fd4bcc29080c4a602c2",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/a4fdb67d512d39b47931b6e1": {
@@ -1263102,6 +1264135,19 @@
         "404": 3
       }
     },
+    "/~/b2a29259b528b52966be789c": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/b2a29259b528b52966be789c",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/b2a4115e6e610c3439b9cec8": {
       "crawlers": {
         "5ba36bfbffa5c4a9fb1a265d": 1
@@ -1264254,6 +1265300,19 @@
       "last_seen": "2026-10-10T01:21:55Z",
       "legacy_404_observations": 0,
       "path": "/~/b39d80efeab61404964e8d0b",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
+    "/~/b39d8f6e4880147b02b13d75": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/b39d8f6e4880147b02b13d75",
       "raw_requests": 1,
       "statuses": {
         "200": 1
@@ -1291370,15 +1292429,16 @@
     },
     "/~/ca3a86781520080d1d6935c1": {
       "crawlers": {
-        "9369871b7e69a25ba0352227": 1
+        "9369871b7e69a25ba0352227": 1,
+        "c9032b7dd38689363af17fb8": 2
       },
       "first_seen": "2026-11-07T09:12:44Z",
-      "last_seen": "2026-11-07T09:12:44Z",
+      "last_seen": "2026-11-28T00:11:40Z",
       "legacy_404_observations": 0,
       "path": "/~/ca3a86781520080d1d6935c1",
-      "raw_requests": 1,
+      "raw_requests": 3,
       "statuses": {
-        "404": 1
+        "404": 3
       }
     },
     "/~/ca403729a2a6fffe585a7b4f": {
@@ -1309201,6 +1310261,19 @@
         "404": 1
       }
     },
+    "/~/d7b86336f0a35e6a499bc98d": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:45Z",
+      "last_seen": "2026-11-27T21:57:45Z",
+      "legacy_404_observations": 0,
+      "path": "/~/d7b86336f0a35e6a499bc98d",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/d7b9a4066b1f88dca6352114": {
       "crawlers": {
         "005df3b0dbc7fcfcd08e0b46": 1,
@@ -1314047,6 +1315120,19 @@
         "200": 2
       }
     },
+    "/~/db7050e6c305eb8fcbdfb839": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/db7050e6c305eb8fcbdfb839",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
+      }
+    },
     "/~/db765b9def98a73d7c7e08ec": {
       "crawlers": {
         "e16ce94312456b10d79d26fa": 1
@@ -1318876,6 +1319962,7 @@
         "05e5d73975d453402e70f936": 1,
         "06976ff5c1f3ab183218d3f1": 2,
         "069addbb47e8deba22dbe475": 1,
+        "0bd8ba035c80c7e4c45083a0": 2,
         "0c77e803ab9636f8db029292": 3,
         "0d0cb5f6916abec3f1d1eb1b": 1,
         "0da211410226e5113f5a42e5": 1,
@@ -1319113,15 +1320200,15 @@
         "ffc18ee1d33550a22947ec10": 1
       },
       "first_seen": "2026-10-03T00:23:08Z",
-      "last_seen": "2026-11-27T13:02:19Z",
+      "last_seen": "2026-11-28T01:06:14Z",
       "legacy_404_observations": 0,
       "path": "/~/df613faa5c026cb445115537",
-      "raw_requests": 416,
+      "raw_requests": 418,
       "statuses": {
         "301": 25,
         "401": 73,
         "403": 1,
-        "404": 290,
+        "404": 292,
         "499": 3,
         "503": 24
       }
@@ -1324662,7 +1325749,7 @@
         "6c48d11947a2649ad61cb8c3": 1,
         "6f787d703417b98120e8fd7d": 2,
         "7128768baed39ddf801da672": 1,
-        "7221a1c1f79c6732b5439ff9": 5,
+        "7221a1c1f79c6732b5439ff9": 6,
         "728286c42872c99e2bdb5848": 1,
         "7502437d602c69a8cf9a7c23": 2,
         "7583cdfba25af2704d1ea214": 2,
@@ -1324716,13 +1325803,13 @@
         "ffc18ee1d33550a22947ec10": 1
       },
       "first_seen": "2026-10-03T03:08:06Z",
-      "last_seen": "2026-11-27T08:31:01Z",
+      "last_seen": "2026-11-27T23:30:02Z",
       "legacy_404_observations": 0,
       "path": "/~/e493894929628cdd52caf4c5",
-      "raw_requests": 206,
+      "raw_requests": 207,
       "statuses": {
         "301": 17,
-        "401": 47,
+        "401": 48,
         "403": 12,
         "404": 120,
         "503": 10
@@ -1325478,21 +1326565,21 @@
     "/~/e52782cbad0b84727d899cc5": {
       "crawlers": {
         "17d52e509849d5d4d6aeb831": 2,
-        "328144b92d43614987ee16c4": 2,
+        "328144b92d43614987ee16c4": 3,
         "9e2cfa26e42016475cae2185": 1,
-        "bc36d21e1b1bcccb2634f6f0": 3,
+        "bc36d21e1b1bcccb2634f6f0": 4,
         "be0f91bfa9788f5b75e368dd": 2,
         "cf16e71cbf906642dd628fec": 1,
         "cf4b5d8aae680449bed7b342": 1
       },
       "first_seen": "2026-10-21T03:54:26Z",
-      "last_seen": "2026-11-26T06:10:10Z",
+      "last_seen": "2026-11-28T06:13:34Z",
       "legacy_404_observations": 0,
       "path": "/~/e52782cbad0b84727d899cc5",
-      "raw_requests": 12,
+      "raw_requests": 14,
       "statuses": {
         "301": 1,
-        "403": 9,
+        "403": 11,
         "404": 2
       }
     },
@@ -1329944,6 +1331031,19 @@
       "raw_requests": 7,
       "statuses": {
         "200": 7
+      }
+    },
+    "/~/e88746933fbeab4020d03f81": {
+      "crawlers": {
+        "372b3802fb2c6e5c95ef5d62": 1
+      },
+      "first_seen": "2026-11-27T21:57:46Z",
+      "last_seen": "2026-11-27T21:57:46Z",
+      "legacy_404_observations": 0,
+      "path": "/~/e88746933fbeab4020d03f81",
+      "raw_requests": 1,
+      "statuses": {
+        "200": 1
       }
     },
     "/~/e887ca28b3ed12c777637069": {
@@ -1335109,7 +1336209,7 @@
         "00c082ae8e8d7dec686993e3": 1,
         "00d71ed273a235075c4ce56f": 2,
         "00df1c767e0431727f55ef3f": 1,
-        "00e095c4c1d5fd4b9ced8c1f": 2,
+        "00e095c4c1d5fd4b9ced8c1f": 3,
         "00ee3cf3ea1eb7c61e15efb3": 2,
         "0104e73d30bc89711a380790": 6,
         "011e8984defc908c3576b3da": 1,
@@ -1335301,6 +1336401,7 @@
         "0b96b63905bfb75f4732cd20": 2,
         "0bcffdea78c8de641eefe7c9": 7,
         "0bd5a61f7a4d8852100a3f77": 1,
+        "0bd8ba035c80c7e4c45083a0": 2,
         "0be7464ced272df7d02448af": 1,
         "0c190dacf04a34601b91ac74": 1,
         "0c5bfe4e0f0caa699a5db49b": 3,
@@ -1335985,6 +1337086,7 @@
         "36fd8a32fdc9c57868031f76": 3,
         "370ea8fbca196f193c2841f8": 1,
         "371a650fef41260a5e301404": 2,
+        "372b3802fb2c6e5c95ef5d62": 2,
         "37313fa9e173aabb04e72e6a": 1,
         "37397a28193ab15962e8e0a1": 1,
         "374f0fa86e73fbed125c3da8": 6,
@@ -1336510,7 +1337612,7 @@
         "583189c9d7028dadf679b142": 3,
         "58479bd07aae478ed49c284f": 3,
         "5858dd9cf07de0db3c9e4ca8": 1,
-        "5865d1ba1bb13159ffa6b001": 10,
+        "5865d1ba1bb13159ffa6b001": 11,
         "587c9ffd9a91b84c90ce2e8b": 1,
         "588b5cd0e41f601e7cd05abe": 1,
         "5894065aa08ff855f37f5fe8": 1,
@@ -1336569,7 +1337671,7 @@
         "5c16e615f6f6cc9dd13529a9": 3,
         "5c1e0926ba84973603ea0b0c": 1,
         "5c2259bec861102497172244": 1,
-        "5c22bb1ae6f73fb7a953ebe1": 1,
+        "5c22bb1ae6f73fb7a953ebe1": 4,
         "5c2bf1dc2af13de3407ee397": 4,
         "5c33e58d33a47561c7009cba": 4,
         "5c3d62783b53c82e358ee3b6": 3,
@@ -1336752,7 +1337854,7 @@
         "668169569a8277af039e0ed6": 1,
         "668958e9f380dc006f689014": 11,
         "66a18bd80c8581a312ac76e3": 3,
-        "66a5afb79ea6477586f5758f": 13,
+        "66a5afb79ea6477586f5758f": 14,
         "66c2f3674993b67a204f1d48": 7,
         "66c3bda15a243d7035a0939a": 1,
         "66c4acbc9ba1d8fa10ba5d48": 1,
@@ -1336769,7 +1337871,7 @@
         "674e745f6d4804f16155260c": 1,
         "675ce30eb89d5170cf5f15db": 5,
         "676535484c25d535a3f87eba": 1,
-        "67741b528999c6eed8498620": 1,
+        "67741b528999c6eed8498620": 2,
         "677c7cc7ff054bd7ae98e033": 8,
         "678a8a5385762a7814de2e25": 1,
         "67a7528c0ccca3f9f7a6b137": 2,
@@ -1337079,7 +1338181,7 @@
         "7956548d469d4ec8562b44b4": 1,
         "7965a06a5b6986a50c9b2503": 7,
         "7970274dd03aa49581757b29": 1,
-        "7977150952e0dfd09bbf12d0": 10,
+        "7977150952e0dfd09bbf12d0": 12,
         "797ca8876cb51c64d8c89e5e": 1,
         "7982282faa912f5405f3c494": 1,
         "79a87d9cc6870cbbecf5e455": 1,
@@ -1337174,6 +1338276,7 @@
         "7ee4cce61e825716642a9c26": 2,
         "7f06cd4e415f00408452505c": 1,
         "7f06e31e7078d7dfcedb7ce3": 1,
+        "7f4148384a471ec5d201766d": 1,
         "7f421c55d63ef49786754497": 2,
         "7f479c365c293796b4a33b41": 1,
         "7f6869390649214f05e2a24d": 1,
@@ -1337325,7 +1338428,7 @@
         "883817096590bfd300985fde": 1,
         "883cf15421cb0235e38a4405": 4,
         "8843d90bb1c0285d1992010a": 1,
-        "8849658c2758afa412d92788": 5,
+        "8849658c2758afa412d92788": 7,
         "886968978bcaa1753ba78bca": 1,
         "887053cde29fbe2eeccebb16": 1,
         "8873ac63c17f0da45637fb8a": 1,
@@ -1337556,7 +1338659,7 @@
         "974bdd32e6b973fc9b827130": 14,
         "97536cf3ef827db7d725989a": 2,
         "977457ffe281b80883ad50c5": 1,
-        "977c29911d250aa41f15ca6e": 12,
+        "977c29911d250aa41f15ca6e": 13,
         "977e44793f75fc410266c47e": 1,
         "9782da440c094366517d99cc": 3,
         "97ab5a3d970b7892b3cc39ee": 1,
@@ -1337911,7 +1339014,7 @@
         "ac6b7e6a8e4536f6ab1a1098": 2,
         "ac6b9bad745b7119597ac305": 1,
         "ac6fd5bc09c72c2d6c9f62b1": 5,
-        "ac903c4d60fab9c767d3f529": 1,
+        "ac903c4d60fab9c767d3f529": 2,
         "ac980a70b0c7b067387a5685": 1,
         "acb8ad86af2b33e6f1aa1b5f": 1,
         "ace6f05ef6041da95fbd7069": 3,
@@ -1338428,6 +1339531,7 @@
         "c8f59bd2b397557a5e28549c": 1,
         "c8f7755191baf96db8ed861c": 4,
         "c901c8d97d1f61998b3aa502": 2,
+        "c9032b7dd38689363af17fb8": 1,
         "c9036a9ba51b0cca7bec25c2": 2,
         "c92002007f7b4701a74f4101": 2,
         "c929107f46a7e82230baf9fb": 3,
@@ -1338465,7 +1339569,7 @@
         "cb30d0a0fcd50f1917a081ed": 1,
         "cb336fee031b45193c953065": 1,
         "cb567d506279a835e027ab17": 1,
-        "cb5de9ded4e4e7ccaa0b523b": 1,
+        "cb5de9ded4e4e7ccaa0b523b": 2,
         "cb5f4a05243cf2b5d7d9c0e4": 2,
         "cb84814ebf85b01be7adb936": 1,
         "cb8d4288d52772afed7c9a89": 2,
@@ -1339308,23 +1340412,24 @@
         "ff8d96cdb3ccc64dbbdd9db9": 1,
         "ff9a1b8beff8a80926c668b4": 1,
         "ffa849c261daf744b858ac0e": 6,
+        "ffb225a752cf3ca0485921a1": 1,
         "ffc18ee1d33550a22947ec10": 1,
         "ffe688a941e6119d64d0fb23": 1,
         "fff56c125a2ca76354ba9496": 1
       },
       "first_seen": "2026-09-13T20:02:54Z",
-      "last_seen": "2026-11-27T19:44:48Z",
+      "last_seen": "2026-11-28T06:53:51Z",
       "legacy_404_observations": 0,
       "path": "/~/ecc06a945fc90ea6de0d89bb",
-      "raw_requests": 9347,
+      "raw_requests": 9368,
       "statuses": {
-        "200": 5354,
-        "301": 1162,
+        "200": 5364,
+        "301": 1164,
         "304": 34,
-        "401": 822,
-        "403": 686,
-        "404": 809,
-        "405": 148,
+        "401": 823,
+        "403": 688,
+        "404": 813,
+        "405": 150,
         "499": 202,
         "503": 2,
         "522": 128
@@ -1349754,17 +1350859,18 @@
         "321409de8024409f2afc27ba": 1,
         "4e16b6e11c45431ff6359284": 1,
         "b8e32571b6fc47fafce06bb2": 3,
+        "c9032b7dd38689363af17fb8": 1,
         "d56a98e63486edd63542472c": 1,
         "d7a4a11b99088cdaec2072c0": 1,
         "fce4f46603a3b3a93873239f": 1
       },
       "first_seen": "2026-10-08T11:19:27Z",
-      "last_seen": "2026-11-13T08:55:42Z",
+      "last_seen": "2026-11-28T00:11:40Z",
       "legacy_404_observations": 0,
       "path": "/~/f570d3a468e1c228639943dd",
-      "raw_requests": 8,
+      "raw_requests": 9,
       "statuses": {
-        "301": 8
+        "301": 9
       }
     },
     "/~/f5778b284d7ec2274d914530": {
